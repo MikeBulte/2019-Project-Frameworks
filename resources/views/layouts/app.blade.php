@@ -50,12 +50,14 @@
             <!-- Right Side Of Navbar -->
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link border border-primary bg-primary text-white"
-                       href="{{ route('login') }}">{{ __('Inschrijven') }}</a>
-                </li>
                 <li class="nav-item">
-                    <a class="nav-link border border-primary ml-3 mr-5" href="/login">Inloggen</a>
+                    <a class="nav-link border border-primary"  href="/administer">Inschrijven</a>
                 </li>
+                <li>
+                    <a class="nav-link border border-primary bg-primary text-white ml-3 mr-5"
+                       href="{{ route('login') }}">{{ __('Inloggen') }}</a>
+                </li>
+
             </ul>
             <!-- Authentication Links -->
         </div>

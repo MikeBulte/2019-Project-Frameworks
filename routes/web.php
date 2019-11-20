@@ -37,9 +37,10 @@ Route::get('/login', function()
 
 Route::get('/administer', function()
 {
-    return View::make('pages.administer');
+    return View::make('auth.register');
 });
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
