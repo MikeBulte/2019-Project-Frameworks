@@ -41,7 +41,7 @@
                                 <div class="form-group row">
                                     <div class="col-md-12">
                                         <input id="name" type="text"
-                                               class="form-control @error('name') is-invalid @enderror" name="name"
+                                               class="form-control @error('name') is-invalid @enderror text-center" name="name"
                                                value="{{ old('name') }}" required autocomplete="name" autofocus
                                                placeholder="Voor- en Achternaam">
 
@@ -56,7 +56,7 @@
                                 <div class="form-group row">
                                     <div class="col-md-12">
                                         <input id="email" type="email"
-                                               class="form-control @error('email') is-invalid @enderror" name="email"
+                                               class="form-control @error('email') is-invalid @enderror text-center" name="email"
                                                value="{{ old('email') }}" required autocomplete="email"
                                                placeholder="Emailadres">
 
@@ -71,7 +71,7 @@
                                 <div class="form-group row">
                                     <div class="col-md-12">
                                         <input id="password" type="password"
-                                               class="form-control @error('password') is-invalid @enderror"
+                                               class="form-control @error('password') is-invalid @enderror text-center"
                                                name="password" required autocomplete="new-password"
                                                placeholder="Wachtwoord">
 
@@ -85,7 +85,7 @@
 
                                 <div class="form-group row">
                                     <div class="col-md-12">
-                                        <input id="password-confirm" type="password" class="form-control"
+                                        <input id="password-confirm" type="password" class="form-control text-center"
                                                name="password_confirmation" required autocomplete="new-password"
                                                placeholder="Wachtwoord herhalen">
                                     </div>
