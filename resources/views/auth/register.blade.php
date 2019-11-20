@@ -26,7 +26,7 @@
     <div class="row no-gutter">
         <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image">
             <div>
-                <img src="{{asset('storage/img/carcassonne-nk-logo.png')}}" height="60" width="220" class="mt-4 ml-3">
+                <img src="{{asset('storage/img/carcassonne-nk-logo.png')}}" height="60" width="220" class="mt-4 ml-1" style="object-fit: contain">
             </div>
         </div>
         <div class="col-md-8 col-lg-6 bg-white m-0 p-0">

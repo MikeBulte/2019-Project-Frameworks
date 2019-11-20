@@ -17,13 +17,17 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('css/footer.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('css/home.css') }}" rel="stylesheet" type="text/css">
+
 </head>
 <body>
 <div id="app">
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <a class="navbar-brand ml-5" href="{{ url('/') }}"><img src="{{ asset('storage/img/carcassonne-nk-logo.png') }}"
-                                                                width="220" height="60">
+        <a class="navbar-brand ml-5" href="{{ url('/') }}">
+            <img src="{{ asset('storage/img/carcassonne-nk-logo.png') }}"
+                 width="220" height="60">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -51,7 +55,7 @@
             <ul class="navbar-nav">
                 <li class="nav-item">
                 <li class="nav-item">
-                    <a class="nav-link border border-primary"  href="/administer">Inschrijven</a>
+                    <a class="nav-link border border-primary" href="/administer">Inschrijven</a>
                 </li>
                 <li>
                     <a class="nav-link border border-primary bg-primary text-white ml-3 mr-5"
@@ -63,9 +67,9 @@
         </div>
     </nav>
 
-        @yield('content')
-        @include('includes.footer')
-    </div>
+    @yield('content')
+    @include('includes.footer')
+</div>
 
 </body>
 </html>

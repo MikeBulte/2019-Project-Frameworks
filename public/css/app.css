@@ -1,5 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
 
+.login,
+.image {
+  min-height: 100vh;
+}
+
+.bg-image {
+  background-image: url("/storage/img/casstle2.jpg");
+  background-size: cover;
+  background-position: center;
+  top: 0;
+}
+
+.bg-footer {
+  background-image: url("/storage/img/carcassonne-blue-pattern.jpg");
+  background-size: 200px 200px;
+  background-repeat: repeat;
+  top: 0;
+}
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
