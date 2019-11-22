@@ -25,13 +25,7 @@ class RolesTableSeeder extends Seeder
             [
                 'name'        => 'Jury',
                 'slug'        => 'jury',
-                'description' => 'Jury member Role',
-                'level'       => 4,
-            ],
-            [
-                'name'        => 'Employee',
-                'slug'        => 'employee',
-                'description' => 'Employee Role',
+                'description' => 'Jury Member Role',
                 'level'       => 3,
             ],
             [

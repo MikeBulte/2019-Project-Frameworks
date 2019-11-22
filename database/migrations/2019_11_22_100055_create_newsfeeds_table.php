@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateRoundsTable extends Migration
+class CreateNewsfeedsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,9 @@ class CreateRoundsTable extends Migration
      */
     public function up()
     {
-        Schema::create('rounds', function (Blueprint $table) {
+        Schema::create('newsfeeds', function (Blueprint $table) {
             $table->bigIncrements('id');
-            // Unsure if needed, in case if bracket rounds need to be marked.
-            $table->boolean('bracket_round');
+            $table->text('content');
             $table->timestamps();
         });
     }
@@ -28,6 +27,6 @@ class CreateRoundsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('rounds');
+        Schema::dropIfExists('newsfeeds');
     }
 }

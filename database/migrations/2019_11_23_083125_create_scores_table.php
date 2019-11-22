@@ -24,13 +24,14 @@ class CreateScoresTable extends Migration
             $table->bigInteger('user_id')->unsigned();
             $table->foreign('user_id')->references('id')->on('users');
 
-            $table->bigInteger('game_table_id')->unsigned();
-            $table->foreign('game_table_id')->references('id')->on('game_tables');
+            $table->bigInteger('round_user_id')->unsigned();
+            $table->foreign('round_user_id')->references('id')->on('round_user');
 
 //            Score per round, for each user.
             $table->smallInteger('score')->unsigned();
 //            Player's weight, based on score.
             $table->decimal('weight', 10, 6)->unsigned()->default(0);
+            $table->boolean('validated')->nullable();
             $table->timestamps();
         });
     }
