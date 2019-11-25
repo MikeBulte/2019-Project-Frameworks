@@ -21,10 +21,10 @@
             </li>
         </ul>
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
+            <li class="nav-item buttons-nav">
                 <a class="nav-link border border-primary bg-primary text-white" href="#">Inschrijven</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item buttons-nav">
                 <a class="nav-link border border-primary ml-3 mr-5" href="/login">Inloggen</a>
             </li>
         </ul>
