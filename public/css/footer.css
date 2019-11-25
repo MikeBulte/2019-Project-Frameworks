@@ -1,0 +1,6 @@
+.bg-footer {
+    background-image: url("/storage/img/carcassonne-blue-pattern.jpg");
+    background-size: 100px 100px;
+    background-repeat: repeat;
+    top: 0;
+}
