@@ -18,10 +18,11 @@
     <div class="container my-3">
         <div class="row justify-content-around">
             <div class="col-sm-3 mx-3 bg-perkament">
-                <div class="my-5">
+                <div class="my-5 mx-3 ">
                     <h1 class="font-weight-bold text-center">Plattegrond</h1>
                     <a href="#"><h5 class="text-center">Klik hier!</h5></a>
                 </div>
+                <img src="{{ asset('storage/img/perkament-pattern-bottom222.png') }}">
             </div>
             <div class="col-sm-3 bg-perkament mx-3 d-block">
                 <div class="my-5">
@@ -37,11 +38,11 @@
             </div>
         </div>
         <div class="row justify-content-around">
-            <div class="col-lg-4 bg-rules-1 my-5 shadow-lg">
-                <a href="#" class="text-decoration-none"><h1 class="text-center font-weight-bold m-5">Bekijk de
+            <div class="col-lg-5 bg-rules-1 my-4 shadow-lg">
+                <a href="#" class="text-decoration-none"><h1 class="">Bekijk de
                         toernooiregels</h1></a>
             </div>
-            <div class="col-lg-4 bg-rules-2 my-5 shadow-lg">
+            <div class="col-lg-5 bg-rules-2 my-4 shadow-lg">
                 <a href="#" class="text-decoration-none"><h1 class="text-center font-weight-bold m-5">Bekijk de
                         spelregels</h1></a>
             </div>
