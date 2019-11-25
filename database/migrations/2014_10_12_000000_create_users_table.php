@@ -15,9 +15,14 @@ class CreateUsersTable extends Migration
     {
         Schema::create('users', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('name');
-            $table->string('email')->unique();
+            $table->string('first_name', 40);
+            // English for Tussenvoegsel
+            $table->string('prefix', 10)->nullable();
+            $table->string('last_name', 40);
+            $table->string('email', 50)->unique();
             $table->timestamp('email_verified_at')->nullable();
+            // Cancelled Boolean for if we don't want to drop user records. Consider laravel soft deletes.
+            $table->boolean('cancelled')->nullable();
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();
