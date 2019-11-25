@@ -1,0 +1,31 @@
+.bg-header-home {
+    background-image: url("/storage/img/header-home-background.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-perkament {
+    background-image: url("/storage/img/perkament-pattern.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-rules-1 {
+    background-image: url("/storage/img/casstle2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-rules-2 {
+    background-image: url("/storage/img/casstle3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.top-perkament{
+    background-image: url("storage/img/perkament-pattern-top222.png");
+    background-size: cover;
+    background-position: center;
+    width: 120%;
+}
