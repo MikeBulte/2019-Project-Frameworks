@@ -19,6 +19,91 @@
   top: 0;
 }
 
+.bg-header-home {
+  background-image: url("/storage/img/header-home-background.png");
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.bg-perkament {
+  background-image: url("/storage/img/perkament-pattern.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.bg-rules-1 {
+  background-image: url("/storage/img/casstle2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-rules-2 {
+  background-image: url("/storage/img/casstle3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.perkament-home {
+  margin-top: -70px;
+}
+
+.perkament-home .perkament:first-child {
+  margin: 0 25px 0 0;
+}
+
+.perkament-home .perkament:last-child {
+  margin: 0 0 0 25px;
+}
+
+.perkament-home .perkament {
+  margin: 0 25px 0 25px;
+}
+
+.perkament-home .col-sm {
+  padding: 0 !important;
+}
+
+.perkament-content {
+  width: 100%;
+  padding: 40px 0;
+}
+
+.perkament-content img {
+  width: 30%;
+  margin: 0 auto 20px auto;
+  display: block;
+}
+
+.home-regels a h4 {
+  margin: 20% 0;
+  font-size: 38px;
+  color: white;
+}
+
+.home-regels .regels-block:first-child {
+  margin-right: 25px;
+  padding: 0;
+}
+
+.home-regels .regels-block:last-child {
+  margin-left: 25px;
+  padding: 0;
+}
+
+.c2a {
+  background-image: url("/storage/img/carcassonne-blue-pattern.jpg");
+  background-size: 100px 100px;
+  background-repeat: repeat;
+  top: 0;
+  color: #ffffff;
+}
+
+.c2a .c2a-content {
+  padding: 100px 0px;
+}
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -91,7 +176,7 @@ body {
   line-height: 1.6;
   color: #212529;
   text-align: left;
-  background-color: #ffffff;
+  background-color: #f8fafc;
 }
 
 [tabindex="-1"]:focus {
@@ -11117,19 +11202,5 @@ a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6;
   }
-}
-
-
-
-
-
-
-
-/* zelf toegevoegd */
-
-.shadow-999games {
-    -webkit-box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.16);
-    -moz-box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.16);
-    box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.16);
 }
 

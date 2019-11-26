@@ -1,0 +1,79 @@
+.bg-header-home {
+    background-image: url("/storage/img/header-home-background.png");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.bg-perkament {
+    background-image: url("/storage/img/perkament-pattern.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.bg-rules-1 {
+    background-image: url("/storage/img/casstle2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-rules-2 {
+    background-image: url("/storage/img/casstle3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.perkament-home {
+    margin-top: -70px;
+
+    .perkament:first-child {
+        margin: 0 25px 0 0;
+    }
+
+    .perkament:last-child {
+        margin: 0 0 0 25px;
+    }
+
+    .perkament {
+        margin: 0 25px 0 25px;
+    }
+
+    .col-sm {
+        padding: 0 !important;
+    }
+}
+
+.perkament-content {
+    width: 100%;
+    padding: 40px 0;
+
+    img {
+        width: 30%;
+        margin: 0 auto 20px auto;
+        display: block;
+    }
+}
+
+.home-regels {
+
+    a {
+        h4 {
+            margin: 20% 0;
+            font-size: 38px;
+            color: white;
+        }
+    }
+
+    .regels-block:first-child {
+        margin-right: 25px;
+        padding: 0;
+    }
+
+    .regels-block:last-child {
+        margin-left: 25px;
+        padding: 0;
+    }
+}
+
+
