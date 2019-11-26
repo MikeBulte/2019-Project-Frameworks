@@ -17,7 +17,7 @@ class ScoresTableSeeder extends Seeder
                 'round_id' => 1,
                 'user_id' => 1,
                 'round_user_id' => 1,
-                'score' => 80,
+                'amount' => 80,
                 'weight' => 50,
                 'validated' => true,
             ],
@@ -25,7 +25,7 @@ class ScoresTableSeeder extends Seeder
                 'round_id' => 1,
                 'user_id' => 2,
                 'round_user_id' => 2,
-                'score' => 30,
+                'amount' => 30,
                 'weight' => 20,
                 'validated' => true,
             ]

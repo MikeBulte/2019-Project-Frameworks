@@ -28,7 +28,7 @@ class CreateScoresTable extends Migration
             $table->foreign('round_user_id')->references('id')->on('round_user');
 
 //            Score per round, for each user.
-            $table->smallInteger('score')->unsigned();
+            $table->smallInteger('amount')->unsigned();
 //            Player's weight, based on score.
             $table->decimal('weight', 10, 6)->unsigned()->default(0);
             $table->boolean('validated')->nullable();

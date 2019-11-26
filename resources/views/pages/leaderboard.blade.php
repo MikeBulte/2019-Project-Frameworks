@@ -21,7 +21,7 @@
                 @foreach($scores as $score)
                     <tr>
                         <th scope="row">Bertie</th>
-                        <td>{{ $score->score }} Punten</td>
+                        <td>{{ $score->amount }} Punten</td>
                         <td>4 Rondes</td>
                     </tr>
                 @endforeach
