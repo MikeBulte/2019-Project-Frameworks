@@ -91,7 +91,7 @@ body {
   line-height: 1.6;
   color: #212529;
   text-align: left;
-  background-color: #f8fafc;
+  background-color: #ffffff;
 }
 
 [tabindex="-1"]:focus {
@@ -11117,5 +11117,19 @@ a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+
+
+
+
+
+
+
+/* zelf toegevoegd */
+
+.shadow-999games {
+    -webkit-box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.16);
+    -moz-box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.16);
+    box-shadow: 0px 0px 36px 0px rgba(0,0,0,0.16);
 }
 
