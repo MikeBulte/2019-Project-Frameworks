@@ -3,7 +3,7 @@
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
-class ScoresTableSeeder extends Seeder
+class RoundUserTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -12,23 +12,17 @@ class ScoresTableSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('scores')->insert([
+        DB::table('round_user')->insert([
             [
                 'round_id' => 1,
                 'user_id' => 1,
-                'round_user_id' => 1,
-                'score' => 80,
-                'weight' => 50,
-                'validated' => true,
+                'game_table_id' => 1,
             ],
             [
                 'round_id' => 1,
                 'user_id' => 2,
-                'round_user_id' => 2,
-                'score' => 30,
-                'weight' => 20,
-                'validated' => true,
-            ]
+                'game_table_id' => 1,
+            ],
         ]);
     }
 }
