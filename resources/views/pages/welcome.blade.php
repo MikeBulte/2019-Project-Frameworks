@@ -2,63 +2,65 @@
 
 @section('content')
     <div class="bg-header-home">
-        <div class="container">
-            <div class="row">
+        <div class="container h-100">
+            <div class="row h-100">
                 <div class="col-lg-6 my-auto">
                     <h1 class="text-primary font-weight-bold">Neem deel aan het avontuur!</h1>
                     <p>Interesse in deelnemen aan het NK Carcassonne, met de meest ervaren spelers van Nederland?</p>
                     <a href="/administer" class="btn btn-primary">Schrijf je in!</a>
                 </div>
-                <div class="col-lg-6">
-                    <img src="{{ asset('storage/img/carcassonne-ridder-gespiegeld.png') }}">
+                <div class="col-lg-6 h-100">
+                    <img class="h-100" src="{{ asset('storage/img/carcassonne-ridder-gespiegeld.png') }}">
                 </div>
             </div>
         </div>
     </div>
     <div class="container my-3">
-        <div class="row justify-content-around">
-            <div class="col-sm-3 mx-3 bg-perkament">
-                <div class="my-5 mx-3 ">
-                    <h1 class="font-weight-bold text-center">Plattegrond</h1>
-                    <a href="#"><h5 class="text-center">Klik hier!</h5></a>
+        <div class="row justify-content-between perkament-home">
+            <div class="col-sm perkament">
+                <img class="w-100" src="{{ asset('storage/img/perkament-pattern-top222.png') }}">
+                <div class="bg-perkament d-flex justify-content-center align-items-center">
+                    <div class="perkament-content">
+                        <img src="{{ asset('storage/img/map-icon.png') }}">
+                        <h1 class="font-weight-bold text-center">Plattegrond</h1>
+                        <a href="#"><h5 class="text-center m-0">Klik hier!</h5></a>
+                    </div>
                 </div>
-                <img src="{{ asset('storage/img/perkament-pattern-bottom222.png') }}">
+                <img class="w-100" src="{{ asset('storage/img/perkament-pattern-bottom222.png') }}">
             </div>
-            <div class="col-sm-3 bg-perkament mx-3 d-block">
-                <div class="my-5">
-                    <h1 class="font-weight-bold text-center">Ronde tijd</h1>
-                    <h5 class="text-center">45:00</h5>
+            <div class="col-sm perkament">
+                <img class="w-100" src="{{ asset('storage/img/perkament-pattern-top222.png') }}">
+                <div class="bg-perkament d-flex justify-content-center align-items-center">
+                    <div class="perkament-content">
+                        <img src="{{ asset('storage/img/timer-icon.png') }}">
+                        <h1 class="font-weight-bold text-center">Ronde tijd</h1>
+                        <h5 class="text-center m-0">45:00</h5>
+                    </div>
                 </div>
+                <img class="w-100" src="{{ asset('storage/img/perkament-pattern-bottom222.png') }}">
             </div>
-            <div class="col-sm-3 bg-perkament mx-3 d-block">
-                <div class="my-5">
-                    <h1 class="font-weight-bold text-center">Sterspeler</h1>
-                    <h5 class="text-center">Bertie</h5>
+            <div class="col-sm perkament">
+                <img class="w-100" src="{{ asset('storage/img/perkament-pattern-top222.png') }}">
+                <div class="bg-perkament d-flex justify-content-center align-items-center">
+                    <div class="perkament-content">
+                        <img src="{{ asset('storage/img/star-icon.png') }}">
+                        <h1 class="font-weight-bold text-center">Sterspeler</h1>
+                        <h5 class="text-center m-0">Bertie</h5>
+                    </div>
                 </div>
+                <img class="w-100" src="{{ asset('storage/img/perkament-pattern-bottom222.png') }}">
             </div>
         </div>
-        <div class="row justify-content-around">
-            <div class="col-lg-5 bg-rules-1 my-4 shadow-lg">
-                <a href="#" class="text-decoration-none"><h1 class="">Bekijk de
-                        toernooiregels</h1></a>
+        <div class="row justify-content-between home-regels">
+            <div class="col-lg bg-rules-1 my-4 regels-block">
+                <a href="#" class="text-decoration-none"><h4 class="text-center font-weight-bold">Bekijk de toernooiregels</h4></a>
             </div>
-            <div class="col-lg-5 bg-rules-2 my-4 shadow-lg">
-                <a href="#" class="text-decoration-none"><h1 class="text-center font-weight-bold m-5">Bekijk de
-                        spelregels</h1></a>
+            <div class="col-lg bg-rules-2 my-4 regels-block">
+                <a href="#" class="text-decoration-none"><h4 class="text-center font-weight-bold">Bekijk de spelregels</h4></a>
             </div>
         </div>
-        <div class="row text-center mb-5">
-            <div class="col-lg-12">
-                <div class="text-center">
-                    <h1 class="my-3">Wil jij jezelf ook bewijzen op het NK?</h1>
-                    <button class="btn btn-lg btn-primary my-3"><a href="/administer" class="text-white">Schrijf je
-                            in!</a>
-                    </button>
-                </div>
-            </div>
-        </div>
-
     </div>
+    @include('includes.c2a')
     <div class="bg-rules-1">
         <div class="container">
             <div class="row">
