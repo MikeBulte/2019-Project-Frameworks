@@ -26,7 +26,7 @@
     <div class="row no-gutter">
         <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image">
             <div>
-                <img src="{{asset('storage/img/carcassonne-nk-logo.png')}}" height="60" width="220" class="mt-4 ml-1" style="object-fit: contain">
+                <img src="{{asset('storage/img/carcassonne-main-logo.png')}}" height="80" width="220" class="mt-4" style="object-fit: contain">
             </div>
         </div>
         <div class="col-md-8 col-lg-6 bg-white m-0 p-0">
@@ -72,28 +72,43 @@
                                     </div>
                                 </div>
 
-
                                 <div class="form-group row">
                                     <div class="col-md-12">
-                                        <div class="form-check">
+                                        <div class="form-check text-center">
                                             <input class="form-check-input" type="checkbox" name="remember"
                                                    id="remember" {{ old('remember') ? 'checked' : '' }}>
 
                                             <label class="form-check-label" for="remember">
                                                 {{ __('Onthoud mij') }}
                                             </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-md-12">
+                                        <div class="form-check text-center">
                                             @if (Route::has('password.request'))
-                                                <a class="btn btn-link p-0 float-right"
+                                                Wachtwoord vergeten?
+                                                <a class=""
                                                    href="{{ route('password.request') }}">
-                                                    {{ __('Wachtwoord vergeten? Klik hier!') }}
+                                                    {{ __('Klik hier!') }}
                                                 </a>
                                             @endif
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="form-group row mb-0">
+                                <div class="form-group row">
                                     <div class="col-md-12">
+                                        <div class="form-check text-center">
+                                            Wil je deelnemen? <a href="/administer">Schrijf je in!</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row mb-0">
+                                    <div class="col-md-12 mt-3">
                                         <button type="submit" class="btn btn-primary float-right">
                                             {{ __('Inloggen') }}
                                         </button>
