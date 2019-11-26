@@ -5,7 +5,6 @@
         <div class="container">
             <br>
             <h1>FAQ</h1>
-            <br>
             <!-- Card 1 --->
             <div class="card">
                 <div class="card-header" role="tab" id="headingOne">
@@ -29,7 +28,6 @@
                     </div>
                 </div>
             </div>
-            <br>
             <!-- Card 2 --->
             <div class="card">
                 <div class="card-header" role="tab" id="headingTwo">
@@ -53,7 +51,6 @@
                     </div>
                 </div>
             </div>
-            <br>
             <!-- Card 3 --->
             <div class="card" id="faq-card">
                 <div class="card-header" role="tab" id="headingThree">
@@ -100,7 +97,6 @@
                     </div>
                 </div>
             </div>
-            <br>
             <!-- Card 5 --->
             <div class="card">
                 <div class="card-header" role="tab" id="headingFive">
@@ -124,7 +120,6 @@
                     </div>
                 </div>
             </div>
-            <br>
             <!-- Card 6 --->
             <div class="card">
                 <div class="card-header" role="tab" id="headingSix">
