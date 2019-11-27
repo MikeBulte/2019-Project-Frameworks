@@ -96,6 +96,48 @@
   margin-top: 20px;
 }
 
+.head-faq h1 {
+  color: white;
+}
+
+.arrow_down {
+  position: relative;
+}
+
+.arrow_down img {
+  width: 2%;
+}
+
+.collapsed:active .arrow_select,
+.collapsed:focus .arrow_select {
+  -webkit-transform: rotate(180deg);
+  /* Safari */
+  transform: rotate(180deg);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.collapsed .arrow_select {
+  -webkit-transform: rotate(180deg);
+  /* Safari */
+  transform: rotate(180deg);
+  -webkit-transition: 0s;
+  transition: 0s;
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
 .c2a {
   background-image: url("/storage/img/carcassonne-blue-pattern.jpg");
   background-size: 100px 100px;

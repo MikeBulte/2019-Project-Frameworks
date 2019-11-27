@@ -44,7 +44,7 @@
                     <a class="nav-link" href="#">OVER HET NK</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">FAQ</a>
+                    <a class="nav-link" href="/faq">FAQ</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">CONTACT</a>
@@ -55,10 +55,10 @@
             <ul class="navbar-nav">
                 <li class="nav-item">
                 <li class="nav-item">
-                    <a class="nav-link border border-primary" href="/administer">Inschrijven</a>
+                    <a class="nav-link border border-primary bg-primary text-white" href="/administer">Inschrijven</a>
                 </li>
                 <li>
-                    <a class="nav-link border border-primary bg-primary text-white ml-3 mr-5"
+                    <a class="nav-link border border-primary ml-3 mr-5"
                        href="{{ route('login') }}">{{ __('Inloggen') }}</a>
                 </li>
 
