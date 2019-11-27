@@ -16,11 +16,11 @@
         </div>
     </div>
     <div class="container my-3">
-        <div class="row justify-content-between perkament-home">
-            <div class="col-sm perkament">
+        <div class="row justify-content-between paper-home">
+            <div class="col-sm paper">
                 <img class="w-100" src="{{ asset('storage/img/perkament-pattern-top222.png') }}">
-                <div class="bg-perkament d-flex justify-content-center align-items-center">
-                    <div class="perkament-content">
+                <div class="bg-paper d-flex justify-content-center align-items-center">
+                    <div class="paper-content">
                         <img src="{{ asset('storage/img/map-icon.png') }}">
                         <h1 class="font-weight-bold text-center">Plattegrond</h1>
                         <a href="#"><h5 class="text-center m-0">Klik hier!</h5></a>
@@ -28,10 +28,10 @@
                 </div>
                 <img class="w-100" src="{{ asset('storage/img/perkament-pattern-bottom222.png') }}">
             </div>
-            <div class="col-sm perkament">
+            <div class="col-sm paper">
                 <img class="w-100" src="{{ asset('storage/img/perkament-pattern-top222.png') }}">
-                <div class="bg-perkament d-flex justify-content-center align-items-center">
-                    <div class="perkament-content">
+                <div class="bg-paper d-flex justify-content-center align-items-center">
+                    <div class="paper-content">
                         <img src="{{ asset('storage/img/timer-icon.png') }}">
                         <h1 class="font-weight-bold text-center">Ronde tijd</h1>
                         <h5 class="text-center m-0">45:00</h5>
@@ -39,10 +39,10 @@
                 </div>
                 <img class="w-100" src="{{ asset('storage/img/perkament-pattern-bottom222.png') }}">
             </div>
-            <div class="col-sm perkament">
+            <div class="col-sm paper">
                 <img class="w-100" src="{{ asset('storage/img/perkament-pattern-top222.png') }}">
-                <div class="bg-perkament d-flex justify-content-center align-items-center">
-                    <div class="perkament-content">
+                <div class="bg-paper d-flex justify-content-center align-items-center">
+                    <div class="paper-content">
                         <img src="{{ asset('storage/img/star-icon.png') }}">
                         <h1 class="font-weight-bold text-center">Sterspeler</h1>
                         <h5 class="text-center m-0">Bertie</h5>
@@ -51,11 +51,11 @@
                 <img class="w-100" src="{{ asset('storage/img/perkament-pattern-bottom222.png') }}">
             </div>
         </div>
-        <div class="row justify-content-between home-regels">
-            <div class="col-lg bg-rules-1 my-4 regels-block">
+        <div class="row justify-content-between home-rules">
+            <div class="col-lg bg-rules-1 my-4 rules-block">
                 <a href="#" class="text-decoration-none"><h4 class="text-center font-weight-bold">Bekijk de toernooiregels</h4></a>
             </div>
-            <div class="col-lg bg-rules-2 my-4 regels-block">
+            <div class="col-lg bg-rules-2 my-4 rules-block">
                 <a href="#" class="text-decoration-none"><h4 class="text-center font-weight-bold">Bekijk de spelregels</h4></a>
             </div>
         </div>
@@ -67,9 +67,9 @@
                 <div class="col-lg-12 bg-white my-5">
                     <div class="col-12 mt-5">
                         <div class="text-center">
-                            <button class="btn btn-lg btn-primary m-3"><a href="/administer" class="text-white">Tafelprestaties</a>
+                            <button class="btn btn-lg btn-primary m-3"><a href="/administer" class="text-white">Plattegrond</a>
                             </button>
-                            <button class="btn btn-lg btn-primary m-3"><a href="/administer" class="text-white">Leaderboard</a>
+                            <button class="btn btn-lg btn-primary m-3"><a href="/administer" class="text-white">Ranglijst</a>
                             </button>
                         </div>
                     </div>
@@ -84,37 +84,37 @@
                             </thead>
                             <tbody>
                             <tr>
-                                <th scope="row">Bertie</th>
+                                <th scope="row">Berry Rotunda</th>
                                 <td>50 Punten</td>
                                 <td>4 Rondes</td>
                             </tr>
                             <tr>
-                                <th scope="row">Bertie</th>
+                                <th scope="row">Berry Rotunda</th>
                                 <td>50 Punten</td>
                                 <td>4 Rondes</td>
                             </tr>
                             <tr>
-                                <th scope="row">Bertie</th>
+                                <th scope="row">Berry Rotunda</th>
                                 <td>50 Punten</td>
                                 <td>4 Rondes</td>
                             </tr>
                             <tr>
-                                <th scope="row">Bertie</th>
+                                <th scope="row">Berry Rotunda</th>
                                 <td>50 Punten</td>
                                 <td>4 Rondes</td>
                             </tr>
                             <tr>
-                                <th scope="row">Bertie</th>
+                                <th scope="row">Berry Rotunda</th>
                                 <td>50 Punten</td>
                                 <td>4 Rondes</td>
                             </tr>
                             <tr>
-                                <th scope="row">Bertie</th>
+                                <th scope="row">Berry Rotunda</th>
                                 <td>50 Punten</td>
                                 <td>4 Rondes</td>
                             </tr>
                             <tr>
-                                <th scope="row">Bertie</th>
+                                <th scope="row">Berry Rotunda</th>
                                 <td>50 Punten</td>
                                 <td>4 Rondes</td>
                             </tr>

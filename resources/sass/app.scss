@@ -3,9 +3,12 @@
 
 // Variables
 @import 'variables';
+@import 'general';
 @import 'login';
 @import 'footer';
-@import "home";
-@import "c2a";
+@import 'home';
+@import 'c2a';
+@import 'nav';
+@import 'dashboard';
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';

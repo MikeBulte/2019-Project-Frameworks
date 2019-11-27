@@ -4,3 +4,13 @@
     background-repeat: repeat;
     top: 0;
 }
+
+.dashboard-footer {
+    max-width: 90%;
+    margin: 50px auto 20px auto;
+    opacity: 0.3;
+
+    .col {
+        padding: 0;
+    }
+}

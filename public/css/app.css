@@ -1,5 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
 
+html body {
+  background-color: #ffffff;
+}
+
+html p {
+  margin: 0;
+}
+
 .login,
 .image {
   min-height: 100vh;
@@ -19,6 +27,16 @@
   top: 0;
 }
 
+.dashboard-footer {
+  max-width: 90%;
+  margin: 50px auto 20px auto;
+  opacity: 0.3;
+}
+
+.dashboard-footer .col {
+  padding: 0;
+}
+
 .bg-header-home {
   background-image: url("/storage/img/header-home-background.png");
   background-size: cover;
@@ -26,7 +44,7 @@
   height: 90vh;
 }
 
-.bg-perkament {
+.bg-paper {
   background-image: url("/storage/img/perkament-pattern.jpg");
   background-size: cover;
   background-position: center;
@@ -45,49 +63,49 @@
   background-position: center;
 }
 
-.perkament-home {
+.paper-home {
   margin-top: -70px;
 }
 
-.perkament-home .perkament:first-child {
+.paper-home .paper:first-child {
   margin: 0 25px 0 0;
 }
 
-.perkament-home .perkament:last-child {
+.paper-home .paper:last-child {
   margin: 0 0 0 25px;
 }
 
-.perkament-home .perkament {
+.paper-home .paper {
   margin: 0 25px 0 25px;
 }
 
-.perkament-home .col-sm {
+.paper-home .col-sm {
   padding: 0 !important;
 }
 
-.perkament-content {
+.paper-content {
   width: 100%;
   padding: 40px 0;
 }
 
-.perkament-content img {
+.paper-content img {
   width: 30%;
   margin: 0 auto 20px auto;
   display: block;
 }
 
-.home-regels a h4 {
+.home-rules a h4 {
   margin: 20% 0;
   font-size: 38px;
   color: white;
 }
 
-.home-regels .regels-block:first-child {
+.home-rules .rules-block:first-child {
   margin-right: 25px;
   padding: 0;
 }
 
-.home-regels .regels-block:last-child {
+.home-rules .rules-block:last-child {
   margin-left: 25px;
   padding: 0;
 }
@@ -102,6 +120,105 @@
 
 .c2a .c2a-content {
   padding: 100px 0px;
+}
+
+#app {
+  background-color: #ffffff;
+}
+
+#app .navbar {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+#app .navbar .navbar-brand {
+  width: 10%;
+}
+
+#app .navbar .navbar-brand img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+}
+
+#app .navbar .primary-nav .nav-link {
+  text-transform: uppercase;
+}
+
+.dashboard {
+  max-width: 90%;
+  margin-top: 100px;
+}
+
+.dashboard .col {
+  padding: 0;
+}
+
+.dashboard h1,
+.dashboard h2 {
+  display: block;
+  margin: 0 -15px 0 -15px;
+}
+
+.dashboard .timer-dashboard .timer-currenttime {
+  font-size: 50px;
+  color: blue;
+}
+
+.dashboard .accountoverview-dashboard .block-overview {
+  box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
+  margin: 0 25px 0 25px;
+  padding: 0;
+  text-align: center;
+}
+
+.dashboard .accountoverview-dashboard .block-overview .block-content {
+  padding: 100px 0;
+}
+
+.dashboard .accountoverview-dashboard a:hover {
+  text-decoration: none;
+  color: initial;
+}
+
+.dashboard .accountoverview-dashboard a p.overview-number {
+  font-size: 100px;
+}
+
+.dashboard .accountoverview-dashboard a p.overview-name {
+  font-size: 25px;
+}
+
+.dashboard .accountoverview-dashboard .block-overview:first-child {
+  margin: 0 25px 0 0;
+}
+
+.dashboard .accountoverview-dashboard .block-overview:last-child {
+  margin: 0 0 0 25px;
+}
+
+.dashboard .quickadd-dashboard .quickadd-title {
+  margin: 0;
+}
+
+.dashboard .leaderboard-dashboard .leaderboard-inner {
+  padding: 50px;
+  box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
+}
+
+.dashboard .leaderboard-dashboard .leaderboard-inner .table {
+  margin: 0;
+}
+
+.dashboard .leaderboard-dashboard .leaderboard-inner .table tr:last-child th,
+.dashboard .leaderboard-dashboard .leaderboard-inner .table tr:last-child td {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.dashboard .leaderboard-dashboard .leaderboard-inner .viewleaderboard-dashboard {
+  display: block;
+  width: 100%;
+  text-align: right;
 }
 
 /*!

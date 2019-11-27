@@ -28,7 +28,7 @@
 
     @yield('content')
 
-    @include('includes.footer')
+    @include('includes.dashboard-footer')
 </div>
 
 </body>
