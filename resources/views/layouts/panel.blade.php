@@ -24,10 +24,19 @@
 </head>
 <body>
 <div id="app">
-    @include('includes.header')
-
-    @yield('content')
-
+    <div class="dashboard container-fluid">
+        <div class="row">
+            <div class="col-2">
+                @include('includes.dashboard-sidebar')
+            </div>
+            <div class="col">
+                <div>
+                    @include('includes.dashboard-header')
+                    @yield('content')
+                </div>
+            </div>
+        </div>
+    </div>
     @include('includes.dashboard-footer')
 </div>
 

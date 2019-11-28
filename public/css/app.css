@@ -14,6 +14,66 @@ html h3 {
   color: #206EB8;
 }
 
+html button.prim-btn {
+  color: #ffffff;
+  background-color: #206EB8;
+  border: 2px solid #206EB8;
+  padding: 10px 25px !important;
+  font-weight: 800;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  border-radius: 0;
+}
+
+html button.prim-btn:hover {
+  color: #ffffff;
+  background-color: #195690;
+  border: 2px solid #195690;
+  padding: 10px 25px !important;
+  font-weight: 800;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  border-radius: 0;
+}
+
+html button.scnd-btn {
+  color: #206EB8 !important;
+  border: 2px solid #206EB8;
+  padding: 10px 25px !important;
+  font-weight: 800;
+  border-radius: 0;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+html button.scnd-btn:hover {
+  color: #ffffff !important;
+  border: 2px solid #206EB8;
+  background-color: #206EB8 !important;
+  padding: 10px 25px !important;
+  font-weight: 800;
+  border-radius: 0;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+html button.ter-btn {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 10px 25px;
+  font-weight: 800;
+  border-radius: 0;
+}
+
+html button.ter-btn:hover {
+  color: #206EB8;
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  padding: 10px 25px;
+  font-weight: 800;
+  border-radius: 0;
+}
+
 .login,
 .image {
   min-height: 100vh;
@@ -128,6 +188,11 @@ html h3 {
   padding: 100px 0px;
 }
 
+.c2a h1 {
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
 #app {
   background-color: #ffffff;
 }
@@ -151,99 +216,125 @@ html h3 {
   text-transform: uppercase;
 }
 
-.dashboard {
+#app .dashboard {
   max-width: 90%;
-  margin-top: 100px;
 }
 
-.dashboard .sidebar {
-  line-height: 30px;
-}
-
-.dashboard .sidebar .sidebar-position {
-  position: fixed;
-}
-
-.dashboard .sidebar .sidebar-position .functions-list {
-  margin: 30px 0;
-}
-
-.dashboard .sidebar .sidebar-position .functions-list .functions-title {
-  opacity: 0.5;
-  font-weight: 800;
-}
-
-.dashboard .sidebar .sidebar-position .settings-list .settings-title {
-  opacity: 0.5;
-  font-weight: 800;
-}
-
-.dashboard .col {
+#app .dashboard .navbar {
+  max-width: inherit;
   padding: 0;
 }
 
-.dashboard h1,
-.dashboard h2 {
-  display: block;
-  margin: 0 -15px 0 -15px;
+#app .dashboard .sidebar {
+  line-height: 30px;
 }
 
-.dashboard .timer-dashboard .timer-currenttime {
+#app .dashboard .sidebar .sidebar-position {
+  position: fixed;
+  padding: 0;
+  max-width: 11%;
+}
+
+#app .dashboard .sidebar .sidebar-position .navbar-brand {
+  height: 65px;
+}
+
+#app .dashboard .sidebar .sidebar-position .navbar-brand img {
+  width: 100%;
+}
+
+#app .dashboard .sidebar .sidebar-position .sidebar-inner {
+  margin-top: 80px;
+}
+
+#app .dashboard .sidebar .sidebar-position .sidebar-inner .functions-list {
+  margin: 30px 0;
+}
+
+#app .dashboard .sidebar .sidebar-position .sidebar-inner .functions-list .functions-title {
+  opacity: 0.5;
+  font-weight: 800;
+}
+
+#app .dashboard .sidebar .sidebar-position .sidebar-inner .settings-list .settings-title {
+  opacity: 0.5;
+  font-weight: 800;
+}
+
+#app .dashboard .col {
+  padding: 0;
+}
+
+#app .dashboard .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#app .dashboard h1,
+#app .dashboard h2 {
+  display: block;
+}
+
+#app .dashboard .dashboard-inner {
+  margin-top: 80px;
+}
+
+#app .dashboard .dashboard-inner .timer-dashboard .timer-currenttime {
   font-size: 50px;
   color: #206EB8;
 }
 
-.dashboard .accountoverview-dashboard .block-overview {
+#app .dashboard .dashboard-inner .accountoverview-dashboard .block-overview {
   box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
   margin: 0 25px 0 25px;
   padding: 0;
   text-align: center;
 }
 
-.dashboard .accountoverview-dashboard .block-overview .block-content {
-  padding: 100px 0;
+#app .dashboard .dashboard-inner .accountoverview-dashboard .block-overview .block-content {
+  padding: 40px 0;
 }
 
-.dashboard .accountoverview-dashboard a:hover {
+#app .dashboard .dashboard-inner .accountoverview-dashboard a:hover {
   text-decoration: none;
   color: initial;
 }
 
-.dashboard .accountoverview-dashboard a p.overview-number {
-  font-size: 100px;
+#app .dashboard .dashboard-inner .accountoverview-dashboard a p.overview-number {
+  font-size: 60px;
 }
 
-.dashboard .accountoverview-dashboard a p.overview-name {
+#app .dashboard .dashboard-inner .accountoverview-dashboard a p.overview-name {
   font-size: 25px;
 }
 
-.dashboard .accountoverview-dashboard .block-overview:first-child {
+#app .dashboard .dashboard-inner .accountoverview-dashboard .block-overview:first-child {
   margin: 0 25px 0 0;
 }
 
-.dashboard .accountoverview-dashboard .block-overview:last-child {
+#app .dashboard .dashboard-inner .accountoverview-dashboard .block-overview:last-child {
   margin: 0 0 0 25px;
 }
 
-.dashboard .quickadd-dashboard .quickadd-title {
+#app .dashboard .dashboard-inner .quickadd-dashboard .quickadd-title {
   margin: 0;
 }
 
-.dashboard .leaderboard-dashboard .leaderboard-inner {
+#app .dashboard .dashboard-inner .leaderboard-dashboard .leaderboard-inner {
   padding: 50px;
   box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
 }
 
-.dashboard .leaderboard-dashboard .leaderboard-inner .table {
+#app .dashboard .dashboard-inner .leaderboard-dashboard .leaderboard-inner .table {
   margin: 0;
 }
 
-.dashboard .leaderboard-dashboard .leaderboard-inner .table tr:last-child th,
-.dashboard .leaderboard-dashboard .leaderboard-inner .table tr:last-child td {
+#app .dashboard .dashboard-inner .leaderboard-dashboard .leaderboard-inner .table tr:last-child th,
+#app .dashboard .dashboard-inner .leaderboard-dashboard .leaderboard-inner .table tr:last-child td {
   border-bottom: 1px solid #dee2e6;
 }
 
-.dashboard .leaderboard-dashboard .leaderboard-inner .viewleaderboard-dashboard {
+#app .dashboard .dashboard-inner .leaderboard-dashboard .leaderboard-inner .viewleaderboard-dashboard {
   display: block;
   width: 100%;
   text-align: right;

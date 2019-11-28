@@ -12,4 +12,60 @@ html {
         color: #206EB8;
     }
 
+    button.prim-btn {
+        color: #ffffff;
+        background-color: #206EB8;
+        border: 2px solid #206EB8;
+        padding: 10px 25px !important;
+        font-weight: 800;
+        transition: 0.7s;
+        border-radius: 0;
+    }
+
+    button.prim-btn:hover {
+        color: #ffffff;
+        background-color: #195690;
+        border: 2px solid #195690;
+        padding: 10px 25px !important;
+        font-weight: 800;
+        transition: 0.7s;
+        border-radius: 0;
+    }
+
+    button.scnd-btn {
+        color: #206EB8 !important;
+        border: 2px solid #206EB8;
+        padding: 10px 25px !important;
+        font-weight: 800;
+        border-radius: 0;
+        transition: 0.7s;
+    }
+
+    button.scnd-btn:hover {
+        color: #ffffff !important;
+        border: 2px solid #206EB8;
+        background-color: #206EB8 !important;
+        padding: 10px 25px !important;
+        font-weight: 800;
+        border-radius: 0;
+        transition: 0.7s;
+    }
+
+    button.ter-btn {
+        color: #ffffff;
+        border: 2px solid #ffffff;
+        padding: 10px 25px;
+        font-weight: 800;
+        border-radius: 0;
+    }
+
+    button.ter-btn:hover {
+        color: #206EB8;
+        border: 2px solid #ffffff;
+        background-color: #ffffff;
+        padding: 10px 25px;
+        font-weight: 800;
+        border-radius: 0;
+    }
+
 }

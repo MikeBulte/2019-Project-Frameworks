@@ -22,10 +22,10 @@
             </ul>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item buttons-nav">
-                    <a class="nav-link border border-primary bg-primary text-white" href="#">Inschrijven</a>
+                    <button class="nav-link prim-btn text-white" href="#">Inschrijven</button>
                 </li>
                 <li class="nav-item buttons-nav">
-                    <a class="nav-link border border-primary ml-3" href="/login">Inloggen</a>
+                    <button class="nav-link scnd-btn ml-3" href="/login">Inloggen</button>
                 </li>
             </ul>
         </div>

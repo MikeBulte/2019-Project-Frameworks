@@ -7,7 +7,7 @@
                 <div class="col-lg-6 my-auto">
                     <h1 class="text-primary font-weight-bold">Neem deel aan het avontuur!</h1>
                     <p>Interesse in deelnemen aan het NK Carcassonne, met de meest ervaren spelers van Nederland?</p>
-                    <a href="/administer" class="btn btn-primary">Schrijf je in!</a>
+                    <button class="prim-btn">Schrijf je in!</button>
                 </div>
                 <div class="col-lg-6 h-100">
                     <img class="h-100" src="{{ asset('storage/img/carcassonne-ridder-gespiegeld.png') }}">
