@@ -4,19 +4,21 @@
     <div class="dashboard container-fluid">
         <div class="row">
             <div class="col-2 sidebar">
-                <a class="menu-item-sidebar d-block">Dashboard</a>
-                <div class="functions-list">
-                    <p>Functies</p>
-                    <a class="menu-item-sidebar d-block">Tafelindelingen</a>
-                    <a class="menu-item-sidebar d-block">Scores invoeren</a>
-                    <a class="menu-item-sidebar d-block">Deelnemers</a>
-                    <a class="menu-item-sidebar d-block">Juryleden</a>
-                    <a class="menu-item-sidebar d-block">Privileges</a>
-                    <a class="menu-item-sidebar d-block">Nieuwsfeed</a>
-                </div>
-                <div class="settings-list">
-                    <p>Instellingen</p>
-                    <a class="menu-item-sidebar d-block">Profiel instellingen</a>
+                <div class="sidebar-position">
+                    <a class="menu-item-sidebar d-block">Dashboard</a>
+                    <div class="functions-list">
+                        <p class="functions-title">Functies</p>
+                        <a class="menu-item-sidebar d-block">Tafelindelingen</a>
+                        <a class="menu-item-sidebar d-block">Scores invoeren</a>
+                        <a class="menu-item-sidebar d-block">Deelnemers</a>
+                        <a class="menu-item-sidebar d-block">Juryleden</a>
+                        <a class="menu-item-sidebar d-block">Privileges</a>
+                        <a class="menu-item-sidebar d-block">Nieuwsfeed</a>
+                    </div>
+                    <div class="settings-list">
+                        <p class="settings-title">Instellingen</p>
+                        <a class="menu-item-sidebar d-block">Profiel instellingen</a>
+                    </div>
                 </div>
             </div>
             <div class="col">

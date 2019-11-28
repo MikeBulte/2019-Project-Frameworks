@@ -8,6 +8,12 @@ html p {
   margin: 0;
 }
 
+html h1,
+html h2,
+html h3 {
+  color: #206EB8;
+}
+
 .login,
 .image {
   min-height: 100vh;
@@ -150,6 +156,28 @@ html p {
   margin-top: 100px;
 }
 
+.dashboard .sidebar {
+  line-height: 30px;
+}
+
+.dashboard .sidebar .sidebar-position {
+  position: fixed;
+}
+
+.dashboard .sidebar .sidebar-position .functions-list {
+  margin: 30px 0;
+}
+
+.dashboard .sidebar .sidebar-position .functions-list .functions-title {
+  opacity: 0.5;
+  font-weight: 800;
+}
+
+.dashboard .sidebar .sidebar-position .settings-list .settings-title {
+  opacity: 0.5;
+  font-weight: 800;
+}
+
 .dashboard .col {
   padding: 0;
 }
@@ -162,7 +190,7 @@ html p {
 
 .dashboard .timer-dashboard .timer-currenttime {
   font-size: 50px;
-  color: blue;
+  color: #206EB8;
 }
 
 .dashboard .accountoverview-dashboard .block-overview {

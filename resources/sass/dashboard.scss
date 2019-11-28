@@ -2,6 +2,31 @@
     max-width: 90%;
     margin-top: 100px;
 
+    .sidebar {
+        line-height: 30px;
+
+        .sidebar-position {
+            position: fixed;
+
+            .functions-list {
+                margin: 30px 0;
+
+                .functions-title {
+                    opacity: 0.5;
+                    font-weight: 800;
+                }
+            }
+
+            .settings-list {
+
+                .settings-title {
+                    opacity: 0.5;
+                    font-weight: 800;
+                }
+            }
+        }
+    }
+
     .col {
         padding: 0;
     }
@@ -15,7 +40,7 @@
 
         .timer-currenttime {
             font-size: 50px;
-            color: blue;
+            color: #206EB8;
         }
     }
 
