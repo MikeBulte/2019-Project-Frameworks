@@ -61,6 +61,26 @@
         </div>
     </div>
     @include('includes.c2a')
+    <div class="container my-3">
+        <div class="row my-4 d-inline justify-content-between main_feed align-content-lg-center">
+            <div class="col-7 bg-rules-1 my-4 d-inline-block " style="height: 300px">
+                <a href="#" class="text-decoration-none"><h4 class="text-center font-weight-bold">newsfeed 1</h4></a>
+            </div>
+            <div class="col-5 my-4 d-inline-block">
+                <div class="bg-rules-2 my-2 d-inline-block" style="width: 470px; height: 100px" >
+                <a href="#" class="text-decoration-none"><h4 class="text-center font-weight-bold">news feed 2</h4></a>
+                </div>
+                <div class="bg-rules-2 my-2 d-inline-block" style="width: 300px; height: 100px">
+                <a href="#" class="text-decoration-none"><h4 class="text-center font-weight-bold">Bnews feed 3</h4></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
     <div class="bg-rules-1">
         <div class="container">
             <div class="row">
