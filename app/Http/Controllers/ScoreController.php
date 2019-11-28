@@ -11,12 +11,12 @@ class ScoreController extends Controller
     public function index()
     {
         $scores = Score::all();
+//        $testScore = Score::find(1);
+//        var_dump($testScore->user->first_name);
+        foreach ($scores as $score) {
+            var_dump($score->user_id);
+        }
 
         return view('pages.leaderboard', compact('scores'));
-    }
-
-    public function findUser($id)
-    {
-        return User::all()->where('id', $id);
     }
 }

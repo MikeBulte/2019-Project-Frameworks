@@ -20,7 +20,7 @@
                 <tbody>
                 @foreach($scores as $score)
                     <tr>
-                        <th scope="row">Bertie</th>
+                        <th scope="row">{{ $score->user->first_name }} {{ $score->user->prefix }} {{ $score->user->last_name }}</th>
                         <td>{{ $score->amount }} Punten</td>
                         <td>4 Rondes</td>
                     </tr>
