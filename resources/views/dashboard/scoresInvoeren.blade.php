@@ -27,10 +27,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -51,10 +60,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -75,10 +93,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -99,10 +126,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -123,10 +159,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -147,10 +192,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -171,10 +225,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -195,10 +258,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -219,10 +291,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -243,10 +324,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -267,10 +357,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -291,10 +390,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -315,10 +423,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -339,10 +456,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -363,10 +489,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -387,10 +522,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -411,10 +555,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -435,10 +588,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -459,10 +621,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -483,10 +654,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -507,10 +687,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -531,10 +720,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -555,10 +753,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -579,10 +786,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -603,10 +819,844 @@
                                         <input>
                                     </div>
                                 </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
                             </div>
                             <div class="scores-bg col">
                                 <div class="col">
                                     <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -640,10 +1690,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -664,10 +1723,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -688,10 +1756,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -712,10 +1789,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -736,10 +1822,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -760,10 +1855,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -784,10 +1888,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -808,10 +1921,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -832,10 +1954,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -856,10 +1987,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -880,10 +2020,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -904,10 +2053,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -928,10 +2086,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -952,10 +2119,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -976,10 +2152,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1000,10 +2185,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1024,10 +2218,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1048,10 +2251,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1072,10 +2284,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1096,10 +2317,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1120,10 +2350,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1144,10 +2383,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1168,10 +2416,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1192,10 +2449,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1216,10 +2482,844 @@
                                         <input>
                                     </div>
                                 </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
                             </div>
                             <div class="scores-bg col">
                                 <div class="col">
                                     <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1253,10 +3353,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1277,10 +3386,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1301,10 +3419,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1325,10 +3452,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1349,10 +3485,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1373,10 +3518,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1397,10 +3551,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1421,10 +3584,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1445,10 +3617,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1469,10 +3650,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1493,10 +3683,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1517,10 +3716,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1541,10 +3749,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1565,10 +3782,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1589,10 +3815,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1613,10 +3848,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1637,10 +3881,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1661,10 +3914,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1685,10 +3947,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1709,10 +3980,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1733,10 +4013,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1757,10 +4046,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1781,10 +4079,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1805,10 +4112,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1829,10 +4145,844 @@
                                         <input>
                                     </div>
                                 </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
                             </div>
                             <div class="scores-bg col">
                                 <div class="col">
                                     <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1866,10 +5016,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1890,10 +5049,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1914,10 +5082,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1938,10 +5115,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1962,10 +5148,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -1986,10 +5181,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -2010,10 +5214,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -2034,10 +5247,283 @@
                                         <input>
                                     </div>
                                 </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
                             </div>
                             <div class="scores-bg col">
                                 <div class="col">
                                     <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -2071,10 +5557,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -2095,10 +5590,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -2119,10 +5623,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -2143,10 +5656,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -2167,10 +5689,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -2191,10 +5722,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -2215,10 +5755,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -2239,10 +5788,283 @@
                                         <input>
                                     </div>
                                 </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
                             </div>
                             <div class="scores-bg col">
                                 <div class="col">
                                     <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -2276,10 +6098,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -2300,10 +6131,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -2324,10 +6164,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -2348,10 +6197,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -2372,10 +6230,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -2396,10 +6263,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -2420,10 +6296,19 @@
                                         <input>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="scores-bg col">
-                                <div class="col">
-                                    <h3>Tafel 1</h3>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
@@ -2444,10 +6329,283 @@
                                         <input>
                                     </div>
                                 </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
                             </div>
                             <div class="scores-bg col">
                                 <div class="col">
                                     <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="scores-bg col">
+                                <div class="col">
+                                    <h3>Tafel 1</h3>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
+                                </div>
+                                <div class="col d-flex align-items-center">
+                                    <p class="col-4">Berry Rotunda</p>
+                                    <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                        <p>Aantal punten: </p>
+                                        <input>
+                                    </div>
                                 </div>
                                 <div class="col d-flex align-items-center">
                                     <p class="col-4">Berry Rotunda</p>
