@@ -327,6 +327,10 @@ html input:active {
   /* ----------- scores invoeren ----------- */
 }
 
+#app .dashboard .dashboard-inner .height-inner {
+  min-height: 100vh;
+}
+
 #app .dashboard .dashboard-inner .timer-dashboard {
   margin-bottom: 70px;
 }
@@ -396,8 +400,25 @@ html input:active {
   text-align: right;
 }
 
-#app .dashboard .dashboard-inner .tafelindelingen-inner {
-  min-height: 100vh;
+#app .dashboard .dashboard-inner .scores-invoeren .scores-bg {
+  padding: 20px !important;
+  box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
+  margin-bottom: 20px;
+}
+
+#app .dashboard .dashboard-inner .scores-invoeren .scores-bg.col {
+  padding: 0;
+  width: 33%;
+  display: inline-block;
+}
+
+#app .dashboard .dashboard-inner .scores-invoeren .scores-bg.col .col-4,
+#app .dashboard .dashboard-inner .scores-invoeren .scores-bg.col .col-8 {
+  padding: 0;
+}
+
+#app .dashboard .dashboard-inner .scores-invoeren .scores-bg.col input {
+  width: 30%;
 }
 
 /*!

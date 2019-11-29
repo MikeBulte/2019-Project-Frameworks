@@ -91,6 +91,10 @@
         .dashboard-inner {
             margin-top: 80px;
 
+            .height-inner {
+                min-height: 100vh;
+            }
+
             /* ----------- dashboard ----------- */
 
             .timer-dashboard {
@@ -177,13 +181,34 @@
 
             /* ----------- tafelindelingen ----------- */
 
-            .tafelindelingen-inner {
-                min-height: 100vh;
-            }
+
 
             /* ----------- scores invoeren ----------- */
 
+            .scores-invoeren {
 
+                .scores-bg {
+                    padding: 20px !important;
+                    -webkit-box-shadow: 0 0 36px 0 rgba(0,0,0,0.16);
+                    -moz-box-shadow: 0 0 36px 0 rgba(0,0,0,0.16);
+                    box-shadow: 0 0 36px 0 rgba(0,0,0,0.16);
+                    margin-bottom: 20px;
+                }
+
+                .scores-bg.col {
+                    padding: 0;
+                    width: 33%;
+                    display: inline-block;
+
+                    .col-4, .col-8 {
+                        padding: 0;
+                    }
+
+                    input {
+                        width: 30%;
+                    }
+                }
+            }
         }
     }
 }
