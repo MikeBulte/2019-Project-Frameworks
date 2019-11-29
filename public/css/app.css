@@ -322,6 +322,9 @@ html input:active {
 
 #app .dashboard .dashboard-inner {
   margin-top: 80px;
+  /* ----------- dashboard ----------- */
+  /* ----------- tafelindelingen ----------- */
+  /* ----------- scores invoeren ----------- */
 }
 
 #app .dashboard .dashboard-inner .timer-dashboard {
@@ -391,6 +394,10 @@ html input:active {
   display: block;
   width: 100%;
   text-align: right;
+}
+
+#app .dashboard .dashboard-inner .tafelindelingen-inner {
+  min-height: 100vh;
 }
 
 /*!

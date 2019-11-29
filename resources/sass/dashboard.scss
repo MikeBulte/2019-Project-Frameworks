@@ -91,6 +91,8 @@
         .dashboard-inner {
             margin-top: 80px;
 
+            /* ----------- dashboard ----------- */
+
             .timer-dashboard {
                 margin-bottom: 70px;
 
@@ -172,6 +174,16 @@
                     }
                 }
             }
+
+            /* ----------- tafelindelingen ----------- */
+
+            .tafelindelingen-inner {
+                min-height: 100vh;
+            }
+
+            /* ----------- scores invoeren ----------- */
+
+
         }
     }
 }
