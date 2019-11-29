@@ -14,6 +14,12 @@ html h3 {
   color: #206EB8;
 }
 
+html button,
+html button:focus,
+html button:active {
+  outline: none;
+}
+
 html button.prim-btn {
   color: #ffffff;
   background-color: #206EB8;
@@ -72,6 +78,20 @@ html button.ter-btn:hover {
   padding: 10px 25px;
   font-weight: 800;
   border-radius: 0;
+}
+
+html input {
+  background-color: #ffffff;
+  box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
+  border: none;
+  padding: 10px 0;
+  text-align: center;
+  outline: none;
+}
+
+html input:foucs,
+html input:active {
+  outline: none;
 }
 
 .login,
@@ -247,16 +267,41 @@ html button.ter-btn:hover {
   margin-top: 80px;
 }
 
-#app .dashboard .sidebar .sidebar-position .sidebar-inner .functions-list {
+#app .dashboard .sidebar .sidebar-position .sidebar-inner ul {
+  -webkit-margin-before: 0;
+  margin-block-start: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+#app .dashboard .sidebar .sidebar-position .sidebar-inner ul li.active a,
+#app .dashboard .sidebar .sidebar-position .sidebar-inner ul li.active a:hover {
+  color: #206EB8;
+  opacity: 1;
+  text-decoration: none;
+  text-shadow: 0 0 15px #206eb8;
+}
+
+#app .dashboard .sidebar .sidebar-position .sidebar-inner ul li a {
+  color: #000000;
+  opacity: 0.5;
+}
+
+#app .dashboard .sidebar .sidebar-position .sidebar-inner ul li a:hover {
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+#app .dashboard .sidebar .sidebar-position .sidebar-inner ul .functions-list {
   margin: 30px 0;
 }
 
-#app .dashboard .sidebar .sidebar-position .sidebar-inner .functions-list .functions-title {
+#app .dashboard .sidebar .sidebar-position .sidebar-inner ul .functions-list .functions-title {
   opacity: 0.5;
   font-weight: 800;
 }
 
-#app .dashboard .sidebar .sidebar-position .sidebar-inner .settings-list .settings-title {
+#app .dashboard .sidebar .sidebar-position .sidebar-inner ul .settings-list .settings-title {
   opacity: 0.5;
   font-weight: 800;
 }
@@ -277,6 +322,10 @@ html button.ter-btn:hover {
 
 #app .dashboard .dashboard-inner {
   margin-top: 80px;
+}
+
+#app .dashboard .dashboard-inner .timer-dashboard {
+  margin-bottom: 70px;
 }
 
 #app .dashboard .dashboard-inner .timer-dashboard .timer-currenttime {
@@ -314,6 +363,10 @@ html button.ter-btn:hover {
 
 #app .dashboard .dashboard-inner .accountoverview-dashboard .block-overview:last-child {
   margin: 0 0 0 25px;
+}
+
+#app .dashboard .dashboard-inner .quickadd-dashboard {
+  margin: 80px 0;
 }
 
 #app .dashboard .dashboard-inner .quickadd-dashboard .quickadd-title {

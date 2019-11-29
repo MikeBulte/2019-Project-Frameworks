@@ -45,4 +45,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/register', 'RegisterController@create')->name('register');
 Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
+Route::get('/tafelindelingen', 'TafelindelingenController@index')->name('tafelindelingen');
 
