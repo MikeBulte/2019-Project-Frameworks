@@ -64,7 +64,10 @@
     <div class="container my-3">
         <div class="row my-4 d-inline justify-content-between main_feed align-content-lg-center">
             <div class="col-7 bg-rules-1 my-4 d-inline-block " style="height: 300px">
-                <a href="#" class="text-decoration-none"><h4 class="text-center font-weight-bold">newsfeed 1</h4></a>
+                <div class="news-title">
+                    <h3 class="font-weight-bold">2-12-2019</h3>
+                    <a href="/newsfeed" class="text-decoration-none"><h3 class="font-weight-bold">Interesse in deelnemen aan het NK Carcassonne, met de meest ervaren spelers van Nederland?</h3></a>
+                </div>
             </div>
             <div class="col-5 my-4 d-inline-block">
                 <div class="bg-rules-2 my-2 d-inline-block" style="width: 470px; height: 100px" >
@@ -76,11 +79,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
     <div class="bg-rules-1">
         <div class="container">
             <div class="row">

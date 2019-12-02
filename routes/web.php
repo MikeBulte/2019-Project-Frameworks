@@ -44,4 +44,5 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/register', 'RegisterController@create')->name('register');
+Route::get('/newsfeed', 'NewsfeedController@index')->name('newsfeed');
 
