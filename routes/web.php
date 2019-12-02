@@ -47,4 +47,5 @@ Route::get('/register', 'RegisterController@create')->name('register');
 Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
 Route::get('/tafelindelingen', 'TafelindelingenController@index')->name('tafelindelingen');
 Route::get('/scores-invoeren', 'ScoresInvoerenController@index')->name('scoresinvoeren');
+Route::get('/deelnemers', 'DeelnemersController@index')->name('deelnemers');
 
