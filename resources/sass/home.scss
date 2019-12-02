@@ -5,7 +5,7 @@
     height: 90vh;
 }
 
-.bg-perkament {
+.bg-paper {
     background-image: url("/storage/img/perkament-pattern.jpg");
     background-size: cover;
     background-position: center;
@@ -24,18 +24,18 @@
     background-position: center;
 }
 
-.perkament-home {
+.paper-home {
     margin-top: -70px;
 
-    .perkament:first-child {
+    .paper:first-child {
         margin: 0 25px 0 0;
     }
 
-    .perkament:last-child {
+    .paper:last-child {
         margin: 0 0 0 25px;
     }
 
-    .perkament {
+    .paper {
         margin: 0 25px 0 25px;
     }
 
@@ -44,7 +44,7 @@
     }
 }
 
-.perkament-content {
+.paper-content {
     width: 100%;
     padding: 40px 0;
 
@@ -55,7 +55,7 @@
     }
 }
 
-.home-regels {
+.home-rules {
 
     a {
         h4 {
@@ -65,12 +65,12 @@
         }
     }
 
-    .regels-block:first-child {
+    .rules-block:first-child {
         margin-right: 25px;
         padding: 0;
     }
 
-    .regels-block:last-child {
+    .rules-block:last-child {
         margin-left: 25px;
         padding: 0;
     }

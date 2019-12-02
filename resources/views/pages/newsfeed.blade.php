@@ -3,8 +3,8 @@
 @section('content')
 
     <div class="bg-footer">
-        <div class="container" id="bg-switch">
-
+        <div class="container">
+         <p>hello</p>
         </div>
     </div>
 @endsection
