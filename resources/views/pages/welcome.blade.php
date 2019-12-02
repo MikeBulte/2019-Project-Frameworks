@@ -7,7 +7,7 @@
                 <div class="col-lg-6 my-auto">
                     <h1 class="text-primary font-weight-bold">Neem deel aan het avontuur!</h1>
                     <p>Interesse in deelnemen aan het NK Carcassonne, met de meest ervaren spelers van Nederland?</p>
-                    <button class="prim-btn">Schrijf je in!</button>
+                    <button class="prim-btn"><a href="/administer">Schrijf je in!</a></button>
                 </div>
                 <div class="col-lg-6 h-100">
                     <img class="h-100" src="{{ asset('storage/img/carcassonne-ridder-gespiegeld.png') }}">
@@ -67,9 +67,9 @@
                 <div class="col-lg-12 bg-white my-5">
                     <div class="col-12 mt-5">
                         <div class="text-center">
-                            <button class="btn btn-lg btn-primary m-3"><a href="/administer" class="text-white">Plattegrond</a>
+                            <button class="btn prim-btn m-3"><a href="/administer" class="text-white">Plattegrond</a>
                             </button>
-                            <button class="btn btn-lg btn-primary m-3"><a href="/administer" class="text-white">Ranglijst</a>
+                            <button class="btn prim-btn m-3"><a href="/administer" class="text-white">Ranglijst</a>
                             </button>
                         </div>
                     </div>

@@ -21,63 +21,96 @@ html button:active {
 }
 
 html button.prim-btn {
-  color: #ffffff;
   background-color: #206EB8;
   border: 2px solid #206EB8;
   padding: 10px 25px !important;
-  font-weight: 800;
   -webkit-transition: 0.7s;
   transition: 0.7s;
   border-radius: 0;
+  color: #ffffff;
+  font-weight: 800;
+}
+
+html button.prim-btn a {
+  color: #ffffff;
+  font-weight: 800;
 }
 
 html button.prim-btn:hover {
-  color: #ffffff;
   background-color: #195690;
   border: 2px solid #195690;
   padding: 10px 25px !important;
-  font-weight: 800;
   -webkit-transition: 0.7s;
   transition: 0.7s;
   border-radius: 0;
+  color: #ffffff;
+  font-weight: 800;
+}
+
+html button.prim-btn:hover a {
+  color: #ffffff;
+  font-weight: 800;
+  text-decoration: none;
 }
 
 html button.scnd-btn {
-  color: #206EB8 !important;
   border: 2px solid #206EB8;
   padding: 10px 25px !important;
-  font-weight: 800;
   border-radius: 0;
   -webkit-transition: 0.7s;
   transition: 0.7s;
+  color: #206EB8 !important;
+  font-weight: 800;
+}
+
+html button.scnd-btn a {
+  color: #206EB8 !important;
+  font-weight: 800;
 }
 
 html button.scnd-btn:hover {
-  color: #ffffff !important;
   border: 2px solid #206EB8;
   background-color: #206EB8 !important;
   padding: 10px 25px !important;
-  font-weight: 800;
   border-radius: 0;
   -webkit-transition: 0.7s;
   transition: 0.7s;
+  color: #ffffff !important;
+  font-weight: 800;
+}
+
+html button.scnd-btn:hover a {
+  color: #ffffff !important;
+  font-weight: 800;
+  text-decoration: none;
 }
 
 html button.ter-btn {
-  color: #ffffff;
   border: 2px solid #ffffff;
   padding: 10px 25px;
-  font-weight: 800;
   border-radius: 0;
+  color: #ffffff;
+  font-weight: 800;
+}
+
+html button.ter-btn a {
+  color: #ffffff;
+  font-weight: 800;
 }
 
 html button.ter-btn:hover {
-  color: #206EB8;
   border: 2px solid #ffffff;
   background-color: #ffffff;
   padding: 10px 25px;
-  font-weight: 800;
   border-radius: 0;
+  color: #206EB8;
+  font-weight: 800;
+}
+
+html button.ter-btn:hover a {
+  color: #206EB8;
+  font-weight: 800;
+  text-decoration: none;
 }
 
 html input {
