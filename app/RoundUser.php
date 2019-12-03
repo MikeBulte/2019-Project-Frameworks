@@ -10,12 +10,12 @@ class RoundUser extends Model
 
     public function scores()
     {
-        return $this->hasMany('App\Score');
+        return $this->hasMany(Score::class);
     }
 
     public function gametable()
     {
-        return $this->belongsTo('App\GameTable', 'game_table_id');
+        return $this->belongsTo(GameTable::class, 'game_table_id');
     }
 
     public function round()
