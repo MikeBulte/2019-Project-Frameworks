@@ -4,8 +4,8 @@ namespace App;
 
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use Illuminate\Notifications\Notifiable;
 use jeremykenedy\LaravelRoles\Traits\HasRoleAndPermission;
+use Illuminate\Notifications\Notifiable;
 
 class User extends Authenticatable
 {
@@ -18,7 +18,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'first_name', 'prefix', 'last_name', 'pin_code', 'email', 'password', 'cancelled'
+        'first_name', 'prefix', 'last_name', 'email', 'password', 'cancelled'
     ];
 
     /**
@@ -38,4 +38,9 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function scores()
+    {
+        return $this->hasMany('App\Score');
+    }
 }
