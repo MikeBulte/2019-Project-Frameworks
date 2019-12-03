@@ -18,9 +18,6 @@ class CreateScoresTable extends Migration
         Schema::create('scores', function (Blueprint $table) {
             $table->bigIncrements('id');
 
-            $table->bigInteger('round_id')->unsigned();
-            $table->foreign('round_id')->references('id')->on('rounds');
-
             $table->bigInteger('user_id')->unsigned();
             $table->foreign('user_id')->references('id')->on('users');
 

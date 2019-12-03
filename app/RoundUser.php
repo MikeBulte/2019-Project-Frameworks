@@ -6,9 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class RoundUser extends Model
 {
-    protected $fillable = [
-        ''
-    ];
+    protected $table = 'round_user';
 
     public function scores()
     {
@@ -17,6 +15,11 @@ class RoundUser extends Model
 
     public function gametable()
     {
-        return $this->belongsTo('App\GameTable');
+        return $this->belongsTo('App\GameTable', 'game_table_id');
+    }
+
+    public function round()
+    {
+        return $this->belongsTo(Round::class, 'round_id');
     }
 }

@@ -12,10 +12,15 @@ class RoundsTableSeeder extends Seeder
      */
     public function run()
     {
-        $round = new Round();
+        $round                = new Round();
         $round->bracket_round = true;
         $round->name          = 'Ronde 1';
 
+        $round->save();
+
+        $round                = new Round();
+        $round->bracket_round = true;
+        $round->name          = 'Ronde 2';
         $round->save();
     }
 }

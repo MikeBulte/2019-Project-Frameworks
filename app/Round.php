@@ -10,8 +10,8 @@ class Round extends Model
         'bracket_round', 'name'
     ];
 
-    public function scores()
+    public function roundusers()
     {
-        return $this->hasMany('App\Comment');
+        return $this->hasMany(RoundUser::class);
     }
 }

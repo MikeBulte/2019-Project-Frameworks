@@ -14,20 +14,25 @@ class ScoresTableSeeder extends Seeder
     {
         DB::table('scores')->insert([
             [
-                'round_id' => 1,
-                'user_id' => 1,
+                'user_id'       => 1,
                 'round_user_id' => 1,
-                'amount' => 80,
-                'weight' => 50,
-                'validated' => true,
+                'amount'        => 80,
+                'weight'        => 50,
+                'validated'     => true,
             ],
             [
-                'round_id' => 1,
-                'user_id' => 2,
+                'user_id'       => 2,
                 'round_user_id' => 2,
-                'amount' => 30,
-                'weight' => 20,
-                'validated' => true,
+                'amount'        => 30,
+                'weight'        => 20,
+                'validated'     => true,
+            ],
+            [
+                'user_id'       => 1,
+                'round_user_id' => 3,
+                'amount'        => 60,
+                'weight'        => 40,
+                'validated'     => true,
             ]
         ]);
     }
