@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -10,7 +12,6 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/', function () {
     return view('pages.welcome');
 });
@@ -30,6 +31,8 @@ Route::get('/faq', function()
     return View::make('pages.faq');
 });
 
+Route::get('/leaderboard', 'ScoreController@index')->name('Leaderboard');
+
 Route::get('/login', function()
 {
     return View::make('pages.login');
@@ -48,4 +51,5 @@ Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
 Route::get('/tafelindelingen', 'TafelindelingenController@index')->name('tafelindelingen');
 Route::get('/scores-invoeren', 'ScoresInvoerenController@index')->name('scoresinvoeren');
 Route::get('/deelnemers', 'DeelnemersController@index')->name('deelnemers');
+Route::get('/newsfeed', 'NewsfeedController@index')->name('newsfeed');
 
