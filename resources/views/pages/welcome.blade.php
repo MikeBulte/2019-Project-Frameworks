@@ -61,20 +61,26 @@
         </div>
     </div>
     @include('includes.c2a')
-    <div class="container my-3">
-        <div class="row my-4 d-inline justify-content-between main_feed align-content-lg-center">
-            <div class="col-7 bg-rules-1 my-4 d-inline-block " style="height: 300px">
-                <div class="news-title">
-                    <h3 class="font-weight-bold">2-12-2019</h3>
+    <div class="container">
+        <div class="row d-flex justify-content-between news-feed align-content-lg-center">
+            <div class="col-8 bg-newsfeed-1 d-inline-block main_feed">
+                <div class="news-title-main">
+                    <p class="font-weight-bold">2-12-2019</p>
                     <a href="/newsfeed" class="text-decoration-none"><h3 class="font-weight-bold">Interesse in deelnemen aan het NK Carcassonne, met de meest ervaren spelers van Nederland?</h3></a>
                 </div>
             </div>
-            <div class="col-5 my-4 d-inline-block">
-                <div class="bg-rules-2 my-2 d-inline-block" style="width: 470px; height: 100px" >
-                <a href="#" class="text-decoration-none"><h4 class="text-center font-weight-bold">news feed 2</h4></a>
+            <div class="col-4 d-inline-block">
+                <div class="bg-newsfeed-2 d-inline-block side_feed">
+                    <div class="news-title-side-up">
+                        <p class="font-weight-bold">2-12-2019</p>
+                        <a href="/newsfeed" class="text-decoration-none"><h3 class="font-weight-bold">Interesse in deelnemen aan het NK Carcassonne, met de meest ervaren spelers van Nederland?</h3></a>
+                    </div>
                 </div>
-                <div class="bg-rules-2 my-2 d-inline-block" style="width: 300px; height: 100px">
-                <a href="#" class="text-decoration-none"><h4 class="text-center font-weight-bold">Bnews feed 3</h4></a>
+                    <div class="bg-newsfeed-3 my-2 d-inline-block side_feed">
+                    <div class="news-title-side-down">
+                        <p class="font-weight-bold">2-12-2019</p>
+                        <a href="/newsfeed" class="text-decoration-none"><h3 class="font-weight-bold">Interesse in deelnemen aan het NK Carcassonne, met de meest ervaren spelers van Nederland?</h3></a>
+                    </div>
                 </div>
             </div>
         </div>

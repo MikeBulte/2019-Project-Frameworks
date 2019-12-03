@@ -18,7 +18,6 @@
                             </div>
                         </a>
                     </h5>
-
                 </div>
                 <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
                     <div class="card-body">
