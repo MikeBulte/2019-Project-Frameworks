@@ -2,62 +2,88 @@
 
 @section('content')
     <div class="bg-header-home">
-        <div class="container">
-            <div class="row">
+        <div class="container h-100">
+            <div class="row h-100">
                 <div class="col-lg-6 my-auto">
                     <h1 class="text-primary font-weight-bold">Neem deel aan het avontuur!</h1>
                     <p>Interesse in deelnemen aan het NK Carcassonne, met de meest ervaren spelers van Nederland?</p>
-                    <a href="/administer" class="btn btn-primary">Schrijf je in!</a>
+                    <button class="prim-btn"><a href="/administer">Schrijf je in!</a></button>
                 </div>
-                <div class="col-lg-6">
-                    <img src="{{ asset('storage/img/carcassonne-ridder-gespiegeld.png') }}">
+                <div class="col-lg-6 h-100">
+                    <img class="h-100" src="{{ asset('storage/img/carcassonne-ridder-gespiegeld.png') }}">
                 </div>
             </div>
         </div>
     </div>
     <div class="container my-3">
-        <div class="row justify-content-around">
-            <div class="col-sm-3 mx-3 bg-perkament">
-                <div class="my-5 mx-3 ">
-                    <h1 class="font-weight-bold text-center">Plattegrond</h1>
-                    <a href="#"><h5 class="text-center">Klik hier!</h5></a>
+        <div class="row justify-content-between paper-home">
+            <div class="col-sm paper">
+                <img class="w-100" src="{{ asset('storage/img/perkament-pattern-top222.png') }}">
+                <div class="bg-paper d-flex justify-content-center align-items-center">
+                    <div class="paper-content">
+                        <img src="{{ asset('storage/img/map-icon.png') }}">
+                        <h1 class="font-weight-bold text-center">Plattegrond</h1>
+                        <a href="#"><h5 class="text-center m-0">Klik hier!</h5></a>
+                    </div>
                 </div>
-                <img src="{{ asset('storage/img/perkament-pattern-bottom222.png') }}">
+                <img class="w-100" src="{{ asset('storage/img/perkament-pattern-bottom222.png') }}">
             </div>
-            <div class="col-sm-3 bg-perkament mx-3 d-block">
-                <div class="my-5">
-                    <h1 class="font-weight-bold text-center">Ronde tijd</h1>
-                    <h5 class="text-center">45:00</h5>
+            <div class="col-sm paper">
+                <img class="w-100" src="{{ asset('storage/img/perkament-pattern-top222.png') }}">
+                <div class="bg-paper d-flex justify-content-center align-items-center">
+                    <div class="paper-content">
+                        <img src="{{ asset('storage/img/timer-icon.png') }}">
+                        <h1 class="font-weight-bold text-center">Ronde tijd</h1>
+                        <h5 class="text-center m-0">45:00</h5>
+                    </div>
+                </div>
+                <img class="w-100" src="{{ asset('storage/img/perkament-pattern-bottom222.png') }}">
+            </div>
+            <div class="col-sm paper">
+                <img class="w-100" src="{{ asset('storage/img/perkament-pattern-top222.png') }}">
+                <div class="bg-paper d-flex justify-content-center align-items-center">
+                    <div class="paper-content">
+                        <img src="{{ asset('storage/img/star-icon.png') }}">
+                        <h1 class="font-weight-bold text-center">Sterspeler</h1>
+                        <h5 class="text-center m-0">Bertie</h5>
+                    </div>
+                </div>
+                <img class="w-100" src="{{ asset('storage/img/perkament-pattern-bottom222.png') }}">
+            </div>
+        </div>
+        <div class="row justify-content-between home-rules">
+            <div class="col-lg bg-rules-1 my-4 rules-block">
+                <a href="#" class="text-decoration-none"><h4 class="text-center font-weight-bold">Bekijk de toernooiregels</h4></a>
+            </div>
+            <div class="col-lg bg-rules-2 my-4 rules-block">
+                <a href="#" class="text-decoration-none"><h4 class="text-center font-weight-bold">Bekijk de spelregels</h4></a>
+            </div>
+        </div>
+    </div>
+    @include('includes.c2a')
+    <div class="container">
+        <div class="row d-flex justify-content-between news-feed align-content-lg-center">
+            <div class="col-8 bg-newsfeed-1 d-inline-block main_feed">
+                <div class="news-title-main">
+                    <p class="font-weight-bold">2-12-2019</p>
+                    <a href="/newsfeed" class="text-decoration-none"><h3 class="font-weight-bold">Interesse in deelnemen aan het NK Carcassonne, met de meest ervaren spelers van Nederland?</h3></a>
                 </div>
             </div>
-            <div class="col-sm-3 bg-perkament mx-3 d-block">
-                <div class="my-5">
-                    <h1 class="font-weight-bold text-center">Sterspeler</h1>
-                    <h5 class="text-center">Bertie</h5>
+            <div class="col-4 d-inline-block">
+                <div class="bg-newsfeed-2 d-inline-block side_feed">
+                    <div class="news-title-side-up">
+                        <p class="font-weight-bold">2-12-2019</p>
+                        <a href="/newsfeed" class="text-decoration-none"><h3 class="font-weight-bold">Interesse in deelnemen aan het NK Carcassonne, met de meest ervaren spelers van Nederland?</h3></a>
+                    </div>
+                </div>
+                    <div class="bg-newsfeed-3 my-2 d-inline-block side_feed">
+                    <div class="news-title-side-down">
+                        <p class="font-weight-bold">2-12-2019</p>
+                        <a href="/newsfeed" class="text-decoration-none"><h3 class="font-weight-bold">Interesse in deelnemen aan het NK Carcassonne, met de meest ervaren spelers van Nederland?</h3></a>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row justify-content-around">
-            <div class="col-lg-5 bg-rules-1 my-4 shadow-lg">
-                <a href="#" class="text-decoration-none"><h1 class="">Bekijk de
-                        toernooiregels</h1></a>
-            </div>
-            <div class="col-lg-5 bg-rules-2 my-4 shadow-lg">
-                <a href="#" class="text-decoration-none"><h1 class="text-center font-weight-bold m-5">Bekijk de
-                        spelregels</h1></a>
-            </div>
-        </div>
-        <div class="row text-center mb-5">
-            <div class="col-lg-12">
-                <div class="text-center">
-                    <h1 class="my-3">Wil jij jezelf ook bewijzen op het NK?</h1>
-                    <button class="btn btn-lg btn-primary my-3"><a href="/administer" class="text-white">Schrijf je
-                            in!</a>
-                    </button>
-                </div>
-            </div>
-        </div>
-
     </div>
     <div class="bg-rules-1">
         <div class="container">
@@ -65,7 +91,7 @@
                 <div class="col-lg-12 bg-white my-5">
                     <div class="col-12 mt-5">
                         <div class="text-center">
-                            <button class="btn btn-lg btn-primary m-3"><a href="/administer" class="text-white">Tafelprestaties</a>
+                            <button class="btn prim-btn m-3"><a href="/administer" class="text-white">Plattegrond</a>
                             </button>
                             <button class="btn btn-lg btn-primary m-3"><a href=" {{ route('Leaderboard') }} " class="text-white">Leaderboard</a>
                             </button>
@@ -82,37 +108,37 @@
                             </thead>
                             <tbody>
                             <tr>
-                                <th scope="row">Bertie</th>
+                                <th scope="row">Berry Rotunda</th>
                                 <td>50 Punten</td>
                                 <td>4 Rondes</td>
                             </tr>
                             <tr>
-                                <th scope="row">Bertie</th>
+                                <th scope="row">Berry Rotunda</th>
                                 <td>50 Punten</td>
                                 <td>4 Rondes</td>
                             </tr>
                             <tr>
-                                <th scope="row">Bertie</th>
+                                <th scope="row">Berry Rotunda</th>
                                 <td>50 Punten</td>
                                 <td>4 Rondes</td>
                             </tr>
                             <tr>
-                                <th scope="row">Bertie</th>
+                                <th scope="row">Berry Rotunda</th>
                                 <td>50 Punten</td>
                                 <td>4 Rondes</td>
                             </tr>
                             <tr>
-                                <th scope="row">Bertie</th>
+                                <th scope="row">Berry Rotunda</th>
                                 <td>50 Punten</td>
                                 <td>4 Rondes</td>
                             </tr>
                             <tr>
-                                <th scope="row">Bertie</th>
+                                <th scope="row">Berry Rotunda</th>
                                 <td>50 Punten</td>
                                 <td>4 Rondes</td>
                             </tr>
                             <tr>
-                                <th scope="row">Bertie</th>
+                                <th scope="row">Berry Rotunda</th>
                                 <td>50 Punten</td>
                                 <td>4 Rondes</td>
                             </tr>

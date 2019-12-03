@@ -21,8 +21,6 @@ class CreateUsersTable extends Migration
             $table->string('last_name', 40);
             $table->string('email', 50)->unique();
             $table->timestamp('email_verified_at')->nullable();
-            // Cancelled Boolean for if we don't want to drop user records. Consider laravel soft deletes.
-            $table->boolean('cancelled')->nullable();
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();

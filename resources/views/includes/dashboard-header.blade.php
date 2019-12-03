@@ -1,8 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-white">
-    <a class="navbar-brand ml-5" href="{{ url('/') }}">
-        <img src="{{ asset('storage/img/carcassonne-main-logo.png') }}"
-             width="220" height="60">
-    </a>
+<nav class="navbar navbar-expand-lg navbar-light bg-white" style="height: 65px;">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
         <span class="navbar-toggler-icon"></span>
@@ -18,7 +14,7 @@
                 <a class="nav-link" href="#">OVER HET NK</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/faq">FAQ</a>
+                <a class="nav-link" href="#">FAQ</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">CONTACT</a>
