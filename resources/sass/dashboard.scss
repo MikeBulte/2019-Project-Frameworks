@@ -209,6 +209,25 @@
                     }
                 }
             }
+
+            /* ----------- Deelnemers ----------- */
+
+            .deelnemers-inner {
+                padding: 50px;
+                -webkit-box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
+                -moz-box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
+                box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
+
+                .table {
+                    margin: 0;
+
+                    tr:last-child {
+                        th, td {
+                            border-bottom: 1px solid #dee2e6;
+                        }
+                    }
+                }
+            }
         }
     }
 }

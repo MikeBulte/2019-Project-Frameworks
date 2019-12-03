@@ -358,6 +358,7 @@ html input:active {
   /* ----------- dashboard ----------- */
   /* ----------- tafelindelingen ----------- */
   /* ----------- scores invoeren ----------- */
+  /* ----------- Deelnemers ----------- */
 }
 
 #app .dashboard .dashboard-inner .height-inner {
@@ -452,6 +453,20 @@ html input:active {
 
 #app .dashboard .dashboard-inner .scores-invoeren .scores-bg.col input {
   width: 30%;
+}
+
+#app .dashboard .dashboard-inner .deelnemers-inner {
+  padding: 50px;
+  box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
+}
+
+#app .dashboard .dashboard-inner .deelnemers-inner .table {
+  margin: 0;
+}
+
+#app .dashboard .dashboard-inner .deelnemers-inner .table tr:last-child th,
+#app .dashboard .dashboard-inner .deelnemers-inner .table tr:last-child td {
+  border-bottom: 1px solid #dee2e6;
 }
 
 /*!

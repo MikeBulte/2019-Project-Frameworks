@@ -25,7 +25,7 @@ class DeelnemersController extends Controller
      */
     public function index()
     {
-        $users = DB::table('users')->paginate(5);
+        $users = DB::table('users')->paginate(10);
 
         return view('dashboard.deelnemers', ['users' => $users]);
     }

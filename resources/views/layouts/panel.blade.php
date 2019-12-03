@@ -29,7 +29,7 @@
             <div class="col-2">
                 @include('includes.dashboard-sidebar')
             </div>
-            <div class="col">
+            <div class="col-10">
                 <div>
                     @include('includes.dashboard-header')
                     @yield('content')
