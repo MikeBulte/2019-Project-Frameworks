@@ -26,7 +26,8 @@
     <div class="row no-gutter">
         <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image">
             <div>
-                <img src="{{asset('storage/img/carcassonne-main-logo.png')}}" height="80" width="220" class="mt-4" style="object-fit: contain">
+                <img src="{{asset('storage/img/carcassonne-main-logo.png')}}" height="80" width="220" class="mt-4"
+                     style="object-fit: contain">
             </div>
         </div>
         <div class="col-md-8 col-lg-6 bg-white m-0 p-0">
@@ -41,8 +42,10 @@
                                 <div class="form-group row">
                                     <div class="col-md-12">
                                         <input id="first_name" type="text"
-                                               class="form-control @error('first_name') is-invalid @enderror text-center" name="first_name"
-                                               value="{{ old('first_name') }}" required autocomplete="first_name" autofocus
+                                               class="form-control @error('first_name') is-invalid @enderror text-center"
+                                               name="first_name"
+                                               value="{{ old('first_name') }}" required autocomplete="first_name"
+                                               autofocus
                                                placeholder="Voornaam">
 
                                         @error('name')
@@ -56,8 +59,10 @@
                                 <div class="form-group row">
                                     <div class="col-md-12">
                                         <input id="last_name" type="text"
-                                               class="form-control @error('last_name') is-invalid @enderror text-center" name="last_name"
-                                               value="{{ old('last_name') }}" required autocomplete="last_name" autofocus
+                                               class="form-control @error('last_name') is-invalid @enderror text-center"
+                                               name="last_name"
+                                               value="{{ old('last_name') }}" required autocomplete="last_name"
+                                               autofocus
                                                placeholder="Achternaam">
 
                                         @error('name')
@@ -71,7 +76,8 @@
                                 <div class="form-group row">
                                     <div class="col-md-12">
                                         <input id="email" type="email"
-                                               class="form-control @error('email') is-invalid @enderror text-center" name="email"
+                                               class="form-control @error('email') is-invalid @enderror text-center"
+                                               name="email"
                                                value="{{ old('email') }}" required autocomplete="email"
                                                placeholder="Emailadres">
 
@@ -109,18 +115,19 @@
                                 <div class="form-group row">
                                     <div class="col-md-12">
                                         <input id="tournament_rules" type="checkbox" class=""
-                                               name="tournament_rules" required autofocus> Ik ga akkoord met de toernooiregels
+                                               name="tournament_rules" required autofocus> Ik ga akkoord met de
+                                        toernooiregels
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
                                     <div class="col-md-12">
                                         <input id="game_rules" type="checkbox" class="" name="game_rules"
-                                               required autofocus>Ik ken de spelregels
+                                               required autofocus> Ik ken de spelregels
                                     </div>
                                 </div>
                                 <div class="form-group row mb-0">
-                                    <div class="col-md-12">
+                                    <div class="col-md-12 mt-3">
                                         <button type="submit" class="btn btn-primary float-right">
                                             {{ __('Inschrijven') }}
                                         </button>
