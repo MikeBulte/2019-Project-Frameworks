@@ -19,7 +19,7 @@ class CreateNewsfeedsTable extends Migration
             $table->foreign('user_id')->references('id')->on('users');
             $table->string('title', 120);
             $table->text('content');
-            $table->binary('image');
+            $table->binary('image')->nullable();
             $table->timestamps();
         });
     }
