@@ -48,4 +48,6 @@ Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
 Route::get('/tafelindelingen', 'TafelindelingenController@index')->name('tafelindelingen');
 Route::get('/scores-invoeren', 'ScoresInvoerenController@index')->name('scoresinvoeren');
 Route::get('/deelnemers', 'DeelnemersController@index')->name('deelnemers');
+Route::get('/juryleden', 'JuryledenController@index')->name('juryleden');
+Route::get('/privileges', 'PrivilegesController@index')->name('privileges');
 

@@ -359,6 +359,7 @@ html input:active {
   /* ----------- tafelindelingen ----------- */
   /* ----------- scores invoeren ----------- */
   /* ----------- Deelnemers ----------- */
+  /* ----------- Juryleden ----------- */
 }
 
 #app .dashboard .dashboard-inner .height-inner {
@@ -466,6 +467,20 @@ html input:active {
 
 #app .dashboard .dashboard-inner .deelnemers-inner .table tr:last-child th,
 #app .dashboard .dashboard-inner .deelnemers-inner .table tr:last-child td {
+  border-bottom: 1px solid #dee2e6;
+}
+
+#app .dashboard .dashboard-inner .juryleden-inner {
+  padding: 50px;
+  box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
+}
+
+#app .dashboard .dashboard-inner .juryleden-inner .table {
+  margin: 0;
+}
+
+#app .dashboard .dashboard-inner .juryleden-inner .table tr:last-child th,
+#app .dashboard .dashboard-inner .juryleden-inner .table tr:last-child td {
   border-bottom: 1px solid #dee2e6;
 }
 
