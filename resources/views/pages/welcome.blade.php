@@ -65,8 +65,10 @@
         <div class="row d-flex justify-content-between news-feed align-content-lg-center">
             <div class="col-8 bg-newsfeed-1 d-inline-block main_feed">
                 <div class="news-title-main">
-                    <p class="font-weight-bold">2-12-2019</p>
-                    <a href="/newsfeed" class="text-decoration-none"><h3 class="font-weight-bold">Interesse in deelnemen aan het NK Carcassonne, met de meest ervaren spelers van Nederland?</h3></a>
+                    @foreach($newsfeeds as $newsfeed)
+                    <p class="font-weight-bold">{{$newsfeed->created_at}}</p>
+                    <a href="/newsfeed" class="text-decoration-none"><h3 class="font-weight-bold">{{$newsfeed->title}}</h3></a>
+                    @endforeach
                 </div>
             </div>
             <div class="col-4 d-inline-block">

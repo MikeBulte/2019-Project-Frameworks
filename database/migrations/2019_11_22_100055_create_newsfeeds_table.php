@@ -17,7 +17,7 @@ class CreateNewsfeedsTable extends Migration
             $table->bigIncrements('id');
             $table->bigInteger('user_id')->unsigned();
             $table->foreign('user_id')->references('id')->on('users');
-            $table->string('title', 45);
+            $table->string('title', 120);
             $table->text('content');
             $table->binary('image');
             $table->timestamps();
