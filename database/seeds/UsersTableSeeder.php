@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Hash;
 
 class UsersTableSeeder extends Seeder
 {
@@ -11,8 +12,8 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        $userRole = config('roles.models.role')::where('first_name', '=', 'User')->first();
-        $adminRole = config('roles.models.role')::where('first_name', '=', 'Admin')->first();
+        $userRole = config('roles.models.role')::where('name', '=', 'User')->first();
+        $adminRole = config('roles.models.role')::where('name', '=', 'Admin')->first();
         $permissions = config('roles.models.permission')::all();
 
         /*
@@ -24,7 +25,7 @@ class UsersTableSeeder extends Seeder
                 'first_name'     => 'Admin',
                 'last_name'     => 'Admin',
                 'email'    => 'admin@admin.com',
-                'password' => bcrypt('password'),
+                'password' => Hash::make('password')
             ]);
 
             $newUser->attachRole($adminRole);
@@ -38,11 +39,8 @@ class UsersTableSeeder extends Seeder
                 'first_name'     => 'User',
                 'last_name'     => 'Admin',
                 'email'    => 'user@user.com',
-                'password' => bcrypt('password'),
+                'password' => Hash::make('password')
             ]);
-
-            $newUser;
-            $newUser->attachRole($userRole);
         }
     }
 }
