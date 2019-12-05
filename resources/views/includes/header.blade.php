@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white">
-    <a class="navbar-brand ml-5" href="{{ url('/') }}">
+    <a class="navbar-brand" href="{{ url('/') }}">
         <img src="{{ asset('storage/img/carcassonne-main-logo.png') }}"
              width="220" height="60">
     </a>

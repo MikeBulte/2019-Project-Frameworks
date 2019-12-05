@@ -1,7 +1,7 @@
 @extends('layouts.panel')
 
 @section('content')
-    <div class="dashboard-inner deelnemers-dashboard">
+    <div class="dashboard-inner priviliges-dashboard">
         <div class="height-inner">
             <div class="row d-flex align-items-center">
                 <div class="col d-flex align-items-center">
