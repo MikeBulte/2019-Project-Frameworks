@@ -59,4 +59,3 @@ Route::get('/privileges', 'PrivilegesController@index')->name('privileges');
 Route::get('/userdashboard', 'UserDashboardController@index')->name('userdashboard');
 
 Route::get('/newsfeed', 'NewsfeedController@index')->name('newsfeed');
-

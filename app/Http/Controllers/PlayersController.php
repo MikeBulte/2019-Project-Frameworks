@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\Controller;
 use App\User;
 use Illuminate\Support\Facades\Hash;
+use jeremykenedy\LaravelRoles\Traits\HasRoleAndPermission;
 
 class PlayersController extends Controller
 {
@@ -28,7 +29,7 @@ class PlayersController extends Controller
      */
     public function index()
     {
-        $players = User::paginate(10);
+        $players = config('roles.models.role')::where('slug', 'user')->first()->users;
 
         return view('dashboard.players', compact('players'));
     }
