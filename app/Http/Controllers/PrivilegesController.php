@@ -4,9 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use App\Http\Controllers\Controller;
 
-class DeelnemersController extends Controller
+class PrivilegesController extends Controller
 {
     /**
      * Create a new controller instance.
@@ -27,6 +26,6 @@ class DeelnemersController extends Controller
     {
         $users = DB::table('users')->paginate(10);
 
-        return view('dashboard.deelnemers', ['users' => $users]);
+        return view('dashboard.privileges', ['users' => $users]);
     }
 }

@@ -50,12 +50,15 @@ Auth::routes();
 
 Route::get('/', 'WelcomeController@index');
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/register', 'RegisterController@create')->name('register');
+
 Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
 Route::get('/tafelindelingen', 'TafelindelingenController@index')->name('tafelindelingen');
 Route::get('/scores-invoeren', 'ScoresInvoerenController@index')->name('scoresinvoeren');
-Route::get('/deelnemers', 'DeelnemersController@index')->name('deelnemers');
 Route::get('/newsfeed', 'NewsfeedController@index')->name('newsfeed');
 Route::get('/leaderboard', 'ScoreController@index')->name('Leaderboard');
 Route::get('/faq', 'FaqController@index')->name('faq');
+Route::resource('players', 'PlayersController');
+Route::get('/juryleden', 'JuryledenController@index')->name('juryleden');
+Route::get('/privileges', 'PrivilegesController@index')->name('privileges');
+Route::get('/userdashboard', 'UserDashboardController@index')->name('userdashboard');
 

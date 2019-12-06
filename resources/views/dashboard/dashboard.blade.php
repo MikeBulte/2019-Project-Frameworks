@@ -24,7 +24,7 @@
             <div class="row">
                 <a class="col d-inline-block block-overview" href="#"><div>
                     <div class="block-content">
-                        <p class="overview-number">200</p>
+                        <p class="overview-number">{{ count($users) }}</p>
                         <p class="overview-name">Deelnemers</p>
                     </div>
                 </div></a>
@@ -54,56 +54,24 @@
             <div class="row leaderboard-inner">
                 <table class="table table-hover">
                     <thead>
-                        <tr>
-                            <th scope="col">Id</th>
-                            <th scope="col">Spelernaam</th>
-                            <th scope="col">Aantal Punten</th>
-                            <th scope="col">Aantal Gespeelde Rondes</th>
-                        </tr>
+                    <tr>
+                        <th scope="col">Positie</th>
+                        <th scope="col">Voornaam</th>
+                        <th scope="col">Achternaam</th>
+                        <th scope="col">Aantal punten</th>
+                        <th scope="col">Aantal rondes</th>
+                    </tr>
                     </thead>
                     <tbody>
+                    @foreach ($users as $user)
                         <tr>
-                            <th scope="row">1</th>
-                            <td>Berry Rotunda</td>
-                            <td>50 Punten</td>
-                            <td>4 Rondes</td>
+                            <td scope="row">1</td>
+                            <td>{{ $user->first_name }}</td>
+                            <td>{{ $user->last_name }}</td>
+                            <td>50 punten</td>
+                            <td>4 rondes</td>
                         </tr>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Berry Rotunda</td>
-                            <td>50 Punten</td>
-                            <td>4 Rondes</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Berry Rotunda</td>
-                            <td>50 Punten</td>
-                            <td>4 Rondes</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Berry Rotunda</td>
-                            <td>50 Punten</td>
-                            <td>4 Rondes</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Berry Rotunda</td>
-                            <td>50 Punten</td>
-                            <td>4 Rondes</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Berry Rotunda</td>
-                            <td>50 Punten</td>
-                            <td>4 Rondes</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Berry Rotunda</td>
-                            <td>50 Punten</td>
-                            <td>4 Rondes</td>
-                        </tr>
+                    @endforeach
                     </tbody>
                 </table>
                 <a class="viewleaderboard-dashboard" href="">Bekijk de gehele ranglijst ></a>

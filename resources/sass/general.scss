@@ -29,6 +29,16 @@ html {
             color: #ffffff;
             font-weight: 800;
         }
+
+        input {
+            background-color: transparent;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            padding: 0 0;
+            color: #ffffff;
+            font-weight: 800;
+        }
     }
 
     button.prim-btn:hover {
@@ -41,6 +51,17 @@ html {
         font-weight: 800;
 
         a {
+            color: #ffffff;
+            font-weight: 800;
+            text-decoration: none;
+        }
+
+        input {
+            background-color: transparent;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            padding: 0 0;
             color: #ffffff;
             font-weight: 800;
             text-decoration: none;
@@ -59,6 +80,16 @@ html {
             color: #206EB8 !important;
             font-weight: 800;
         }
+
+        input {
+            background-color: transparent;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            padding: 0 0;
+            color: #206EB8 !important;
+            font-weight: 800;
+        }
     }
 
     button.scnd-btn:hover {
@@ -71,6 +102,17 @@ html {
         font-weight: 800;
 
         a {
+            color: #ffffff !important;
+            font-weight: 800;
+            text-decoration: none;
+        }
+
+        input {
+            background-color: transparent;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            padding: 0 0;
             color: #ffffff !important;
             font-weight: 800;
             text-decoration: none;
@@ -103,6 +145,17 @@ html {
             font-weight: 800;
             text-decoration: none;
         }
+
+        input {
+            background-color: transparent;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            padding: 0 0;
+            color: #206EB8;
+            font-weight: 800;
+            text-decoration: none;
+        }
     }
 
     input {
@@ -120,4 +173,7 @@ html {
         outline: none;
     }
 
+    .dataTables_wrapper {
+        width: 100%;
+    }
 }
