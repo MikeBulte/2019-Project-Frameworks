@@ -3,8 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
-class TafelindelingenController extends Controller
+class JudgesController extends Controller
 {
     /**
      * Create a new controller instance.
@@ -23,6 +24,8 @@ class TafelindelingenController extends Controller
      */
     public function index()
     {
-        return view('dashboard.tafelindelingen');
+        $users = DB::table('users')->paginate(10);
+
+        return view('dashboard.judges', ['users' => $users]);
     }
 }
