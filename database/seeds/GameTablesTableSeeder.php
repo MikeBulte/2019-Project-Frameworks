@@ -12,6 +12,10 @@ class GameTablesTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+        DB::table('game_tables')->insert([
+            ['name' => 'Table 1'],
+            ['name' => 'Table 2'],
+            ['name' => 'Table 3'],
+        ]);
     }
 }

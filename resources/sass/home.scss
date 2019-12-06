@@ -24,6 +24,25 @@
     background-position: center;
 }
 
+.bg-newsfeed-1{
+
+    background-image: url("/storage/img/Carcassonne_spel-1024x576.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-newsfeed-2{
+    background-image: url("/storage/img/DSCF20072.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-newsfeed-3{
+    background-image: url("/storage/img/images-4.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
 .paper-home {
     margin-top: -70px;
 
@@ -75,5 +94,65 @@
         padding: 0;
     }
 }
+
+/*---- News Feed ----*/
+.news-feed {
+    margin: 50px 0;
+
+    .col-4 {
+        padding-right: 0;
+    }
+}
+
+
+.news-title-main{
+    position: absolute;
+    padding: 5px;
+    color: white;
+    bottom: 12px;
+    left: 30px;
+
+    h3{
+        font-size: 22px;
+        color: white;
+    }
+}
+
+.news-title-side-up{
+    position: absolute;
+    padding: 5px;
+    color: white;
+    top: 26%;
+    left: 30px;
+
+    h3{
+        font-size: 18px;
+        color: white;
+    }
+}
+
+.news-title-side-down{
+    position: absolute;
+    padding: 10px;
+    color: white;
+    bottom: 9px;
+    left: 30px;
+
+    h3{
+        font-size: 18px;
+        color: white;
+    }
+}
+
+.main_feed{
+    width: 100%;
+    height: 500px;
+}
+
+.side_feed{
+    width: 100%;
+    height: calc(50% - 0.5rem)
+}
+
 
 

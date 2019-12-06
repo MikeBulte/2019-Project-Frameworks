@@ -61,6 +61,30 @@
         </div>
     </div>
     @include('includes.c2a')
+    <div class="container">
+        <div class="row d-flex justify-content-between news-feed align-content-lg-center">
+            <div class="col-8 bg-newsfeed-1 d-inline-block main_feed">
+                <div class="news-title-main">
+                    <p class="font-weight-bold">2-12-2019</p>
+                    <a href="/newsfeed" class="text-decoration-none"><h3 class="font-weight-bold">Interesse in deelnemen aan het NK Carcassonne, met de meest ervaren spelers van Nederland?</h3></a>
+                </div>
+            </div>
+            <div class="col-4 d-inline-block">
+                <div class="bg-newsfeed-2 d-inline-block side_feed">
+                    <div class="news-title-side-up">
+                        <p class="font-weight-bold">2-12-2019</p>
+                        <a href="/newsfeed" class="text-decoration-none"><h3 class="font-weight-bold">Interesse in deelnemen aan het NK Carcassonne, met de meest ervaren spelers van Nederland?</h3></a>
+                    </div>
+                </div>
+                    <div class="bg-newsfeed-3 my-2 d-inline-block side_feed">
+                    <div class="news-title-side-down">
+                        <p class="font-weight-bold">2-12-2019</p>
+                        <a href="/newsfeed" class="text-decoration-none"><h3 class="font-weight-bold">Interesse in deelnemen aan het NK Carcassonne, met de meest ervaren spelers van Nederland?</h3></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="bg-rules-1">
         <div class="container">
             <div class="row">
@@ -69,7 +93,7 @@
                         <div class="text-center">
                             <button class="btn prim-btn m-3"><a href="/administer" class="text-white">Plattegrond</a>
                             </button>
-                            <button class="btn prim-btn m-3"><a href="/administer" class="text-white">Ranglijst</a>
+                            <button class="btn btn-lg btn-primary m-3"><a href=" {{ route('Leaderboard') }} " class="text-white">Leaderboard</a>
                             </button>
                         </div>
                     </div>

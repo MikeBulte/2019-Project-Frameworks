@@ -20,8 +20,8 @@ class CreateUsersTable extends Migration
             $table->string('prefix', 10)->nullable();
             $table->string('last_name', 40);
             $table->string('email', 50)->unique();
-
             $table->timestamp('email_verified_at')->nullable();
+            $table->boolean('cancelled')->nullable();
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();
