@@ -3,10 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
 
-
-class DashboardController extends Controller
+class TableAssignmentController extends Controller
 {
     /**
      * Create a new controller instance.
@@ -23,14 +21,8 @@ class DashboardController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-
-
     public function index()
     {
-        $users = DB::table('users')->paginate(100);
-
-        return view('dashboard.dashboard', ['users' => $users]);
+        return view('dashboard.tableArrangement');
     }
-
-
 }

@@ -46,10 +46,16 @@ Route::get('/administer', function()
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/register', 'RegisterController@create')->name('register');
-Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
-Route::get('/tafelindelingen', 'TafelindelingenController@index')->name('tafelindelingen');
-Route::get('/scores-invoeren', 'ScoresInvoerenController@index')->name('scoresinvoeren');
-Route::get('/deelnemers', 'DeelnemersController@index')->name('deelnemers');
-Route::get('/newsfeed', 'NewsfeedController@index')->name('newsfeed');
 
+Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
+Route::get('/tafelindelingen', 'TableArrangementController@index')->name('tafelindelingen');
+Route::get('/scores-invoeren', 'ScoresInputController@index')->name('scoresinvoeren');
+
+Route::resource('players', 'PlayersController');
+
+Route::get('/juryleden', 'JudgesController@index')->name('juryleden');
+Route::get('/privileges', 'PrivilegesController@index')->name('privileges');
+
+Route::get('/userdashboard', 'UserDashboardController@index')->name('userdashboard');
+
+Route::get('/newsfeed', 'NewsfeedController@index')->name('newsfeed');
