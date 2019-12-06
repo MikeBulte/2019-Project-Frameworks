@@ -1,0 +1,42 @@
+#app {
+
+    .userdashboard {
+        max-width: 90%;
+
+        .userdashboard-inner {
+            margin-top: 80px;
+
+            .selection-col {
+                height: calc(100%);
+
+                .selection-outer {
+                    -webkit-box-shadow: 0 0 36px 0 rgba(0,0,0,0.16);
+                    -moz-box-shadow: 0 0 36px 0 rgba(0,0,0,0.16);
+                    box-shadow: 0 0 36px 0 rgba(0,0,0,0.16);
+
+                    .selection-inner {
+                        padding: 50px;
+
+                        .selection-img {
+                            margin: 0 auto 20px auto;
+                            display: block;
+
+                            path {
+
+                            }
+                        }
+
+                        .selection-title {
+                            display: block;
+                            margin: 0 auto;
+                            text-align: center;
+                            font-size: 20px;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

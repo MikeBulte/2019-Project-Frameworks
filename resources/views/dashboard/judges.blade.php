@@ -1,25 +1,25 @@
 @extends('layouts.panel')
 
 @section('content')
-    <div class="dashboard-inner deelnemers-dashboard">
+    <div class="dashboard-inner judges-dashboard">
         <div class="height-inner">
             <div class="row d-flex align-items-center">
                 <div class="col d-flex align-items-center">
-                    <h1>Deelnemers</h1>
+                    <h1>Juryleden</h1>
                 </div>
                 <!-- Button trigger modal -->
                 <div class="col d-flex justify-content-end">
-                    <button type="button" class="btn scnd-btn" data-toggle="modal" data-target="#AddDeelnemersModal">
-                        Deelnemer toevoegen
+                    <button type="button" class="btn scnd-btn" data-toggle="modal" data-target="#AddJudgesModal">
+                        Jurylid toevoegen
                     </button>
                 </div>
 
                 <!-- Modal -->
-                <div class="modal" id="AddDeelnemersModal" tabindex="-1" role="dialog" aria-labelledby="AddDeelnemersModalLabel" aria-hidden="true">
+                <div class="modal" id="AddJudgesModal" tabindex="-1" role="dialog" aria-labelledby="AddJudgesModalLabel" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="AddDeelnemersModalLabel">Deelnemer toevoegen</h5>
+                                <h5 class="modal-title" id="AddJudgesModalLabel">Jurylid toevoegen</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
@@ -111,27 +111,27 @@
                     </div>
                 </div>
             </div>
-            <div class="row deelnemers-inner">
+            <div class="row judges-inner">
                 <table class="table table-hover">
                     <thead>
-                        <tr>
-                            <th scope="col">Id</th>
-                            <th scope="col">Voornaam</th>
-                            <th scope="col">Achternaam</th>
-                            <th scope="col">Email</th>
-                            <th scope="col">Verwijderen</th>
-                        </tr>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Voornaam</th>
+                        <th scope="col">Achternaam</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Verwijderen</th>
+                    </tr>
                     </thead>
                     <tbody>
-                        @foreach ($users as $user)
-                            <tr>
-                                <td scope="row">{{ $user->id }}</td>
-                                <td>{{ $user->first_name }}</td>
-                                <td>{{ $user->last_name }}</td>
-                                <td>{{ $user->email }}</td>
-                                <td>Verwijderen</td>
-                            </tr>
-                        @endforeach
+                    @foreach ($users as $user)
+                        <tr>
+                            <td scope="row">{{ $user->id }}</td>
+                            <td>{{ $user->first_name }}</td>
+                            <td>{{ $user->last_name }}</td>
+                            <td>{{ $user->email }}</td>
+                            <td>Verwijderen</td>
+                        </tr>
+                    @endforeach
                     </tbody>
                 </table>
                 <div>

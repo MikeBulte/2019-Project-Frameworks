@@ -498,10 +498,11 @@ html input:active {
 
 #app .dashboard .dashboard-inner {
   margin-top: 80px;
-  /* ----------- dashboard ----------- */
+  /* ----------- Dashboard ----------- */
   /* ----------- tafelindelingen ----------- */
   /* ----------- scores invoeren ----------- */
   /* ----------- Deelnemers ----------- */
+  /* ----------- Juryleden ----------- */
 }
 
 #app .dashboard .dashboard-inner .height-inner {
@@ -598,18 +599,65 @@ html input:active {
   width: 30%;
 }
 
-#app .dashboard .dashboard-inner .deelnemers-inner {
+#app .dashboard .dashboard-inner .players-inner {
   padding: 50px;
   box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
 }
 
-#app .dashboard .dashboard-inner .deelnemers-inner .table {
+#app .dashboard .dashboard-inner .players-inner .table {
   margin: 0;
 }
 
-#app .dashboard .dashboard-inner .deelnemers-inner .table tr:last-child th,
-#app .dashboard .dashboard-inner .deelnemers-inner .table tr:last-child td {
+#app .dashboard .dashboard-inner .players-inner .table tr:last-child th,
+#app .dashboard .dashboard-inner .players-inner .table tr:last-child td {
   border-bottom: 1px solid #dee2e6;
+}
+
+#app .dashboard .dashboard-inner .judges-inner {
+  padding: 50px;
+  box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
+}
+
+#app .dashboard .dashboard-inner .judges-inner .table {
+  margin: 0;
+}
+
+#app .dashboard .dashboard-inner .judges-inner .table tr:last-child th,
+#app .dashboard .dashboard-inner .judges-inner .table tr:last-child td {
+  border-bottom: 1px solid #dee2e6;
+}
+
+#app .userdashboard {
+  max-width: 90%;
+}
+
+#app .userdashboard .userdashboard-inner {
+  margin-top: 80px;
+}
+
+#app .userdashboard .userdashboard-inner .selection-col {
+  height: calc(100%);
+}
+
+#app .userdashboard .userdashboard-inner .selection-col .selection-outer {
+  box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
+}
+
+#app .userdashboard .userdashboard-inner .selection-col .selection-outer .selection-inner {
+  padding: 50px;
+}
+
+#app .userdashboard .userdashboard-inner .selection-col .selection-outer .selection-inner .selection-img {
+  margin: 0 auto 20px auto;
+  display: block;
+}
+
+#app .userdashboard .userdashboard-inner .selection-col .selection-outer .selection-inner .selection-title {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /*!
