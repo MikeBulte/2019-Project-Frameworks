@@ -1,8 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-
-
     <div class="bg-footer">
         <img  class="header-img" src="{{ asset('storage/img/Carcassonne_spel-1024x576.jpg') }}">
         <div class="container">
