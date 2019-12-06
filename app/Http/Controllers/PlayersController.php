@@ -28,9 +28,9 @@ class PlayersController extends Controller
      */
     public function index()
     {
-        $users = DB::table('users')->paginate(10);
+        $players = User::paginate(10);
 
-        return view('dashboard.players', compact('users'));
+        return view('dashboard.players', compact('players'));
     }
 
     public function store(PlayersRequest $request)
@@ -67,6 +67,12 @@ class PlayersController extends Controller
 
         $player->save();
 
+        return redirect()->route('players.index');
+    }
+
+    public function destroy(User $player)
+    {
+        $player->delete();
         return redirect()->route('players.index');
     }
 }

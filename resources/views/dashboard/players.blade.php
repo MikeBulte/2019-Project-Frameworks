@@ -56,19 +56,26 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach ($users as $user)
+                        @foreach ($players as $player)
                             <tr>
-                                <td scope="row">{{ $user->id }}</td>
-                                <td>{{ $user->first_name }}</td>
-                                <td>{{ $user->last_name }}</td>
-                                <td>{{ $user->email }}</td>
-                                <td>Verwijderen</td>
+                                <td scope="row">{{ $player->id }}</td>
+                                <td>{{ $player->first_name }}</td>
+                                <td>{{ $player->last_name }}</td>
+                                <td>{{ $player->email }}</td>
+                                <td>
+                                    <form action="{{ route('players.destroy', ['player' => $player]) }}" method="post">
+                                        @csrf
+                                        @method('DELETE')
+                                        <input class="btn btn-danger d-inline-block float-right" type="submit" value="Delete"
+                                               onclick="return confirm ('Are you sure you want to delete {{ $player->first_name }}?')">
+                                    </form>
+                                </td>
                             </tr>
                         @endforeach
                     </tbody>
                 </table>
                 <div>
-                    {{ $users->links() }}
+                    {{ $players->links() }}
                 </div>
             </div>
         </div>
