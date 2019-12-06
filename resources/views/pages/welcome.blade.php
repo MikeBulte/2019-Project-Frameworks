@@ -63,25 +63,23 @@
     @include('includes.c2a')
     <div class="container">
         <div class="row d-flex justify-content-between news-feed align-content-lg-center">
-            <div class="col-8 bg-newsfeed-1 d-inline-block main_feed">
+                <div class="col-8 bg-newsfeed-1 d-inline-block main_feed">
                 <div class="news-title-main">
-                    @foreach($newsfeeds as $newsfeed)
-                    <p class="font-weight-bold">{{$newsfeed->created_at}}</p>
-                    <a href="/newsfeed" class="text-decoration-none"><h3 class="font-weight-bold">{{$newsfeed->title}}</h3></a>
-                    @endforeach
+                    <p class="font-weight-bold">{{$first->created_at->format('d-m-y')}}</p>
+                    <a class="text-decoration-none" href="{{(route('newsfeed'))}}"><h3 class="font-weight-bold">{{$first->title}} </h3></a>
                 </div>
             </div>
             <div class="col-4 d-inline-block">
                 <div class="bg-newsfeed-2 d-inline-block side_feed">
                     <div class="news-title-side-up">
-                        <p class="font-weight-bold">2-12-2019</p>
-                        <a href="/newsfeed" class="text-decoration-none"><h3 class="font-weight-bold">Interesse in deelnemen aan het NK Carcassonne, met de meest ervaren spelers van Nederland?</h3></a>
+                        <p class="font-weight-bold">{{$second->created_at->format('d-m-y')}}</p>
+                        <a href="{{(route('newsfeed'))}}" class="text-decoration-none"><h3 class="font-weight-bold">{{$second->title}}</h3></a>
                     </div>
                 </div>
-                    <div class="bg-newsfeed-3 my-2 d-inline-block side_feed">
+                <div class="bg-newsfeed-3 my-2 d-inline-block side_feed">
                     <div class="news-title-side-down">
-                        <p class="font-weight-bold">2-12-2019</p>
-                        <a href="/newsfeed" class="text-decoration-none"><h3 class="font-weight-bold">Interesse in deelnemen aan het NK Carcassonne, met de meest ervaren spelers van Nederland?</h3></a>
+                        <p class="font-weight-bold">{{$third->created_at->format('d-m-y')}}</p>
+                        <a href="{{(route('newsfeed'))}}" class="text-decoration-none"><h3 class="font-weight-bold">{{$third->title}}</h3></a>
                     </div>
                 </div>
             </div>

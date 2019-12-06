@@ -170,10 +170,20 @@ html input:active {
 }
 
 .body-newsfeed {
+  padding: 30px 20px 30px 20px;
   width: 100%;
-  margin: 3 0px 0;
+  margin-top: 30px;
   background-color: white;
   background-size: cover;
+}
+
+.body-newsfeed h1 {
+  font-size: 45px;
+}
+
+.content {
+  padding-bottom: 30px;
+  padding-top: 20px;
 }
 
 .card {
@@ -332,7 +342,7 @@ html input:active {
 }
 
 .news-title-main h3 {
-  font-size: 22px;
+  font-size: 28px;
   color: white;
 }
 
@@ -340,7 +350,7 @@ html input:active {
   position: absolute;
   padding: 5px;
   color: white;
-  top: 26%;
+  top: 35%;
   left: 30px;
 }
 
