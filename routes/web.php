@@ -52,8 +52,8 @@ Route::get('/tafelindelingen', 'TableArrangementController@index')->name('tafeli
 Route::get('/scores-invoeren', 'ScoresInputController@index')->name('scoresinvoeren');
 
 Route::resource('players', 'PlayersController');
+Route::resource('judges', 'JudgesController');
 
-Route::get('/juryleden', 'JudgesController@index')->name('juryleden');
 Route::get('/privileges', 'PrivilegesController@index')->name('privileges');
 
 Route::get('/userdashboard', 'UserDashboardController@index')->name('userdashboard');
