@@ -57,8 +57,5 @@ Route::resource('judges', 'JudgesController');
 Route::resource('privileges', 'privilegesController');
 
 Route::get('/newsfeed', 'NewsfeedController@index')->name('newsfeed');
-<<<<<<< HEAD
-=======
 
 Route::resource('usersdashboard', 'UsersDashboardController');
->>>>>>> origin/annemarieke

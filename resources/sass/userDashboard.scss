@@ -6,6 +6,8 @@
         .userdashboard-inner {
             margin-top: 80px;
 
+            /* ----------- UserDashboard ----------- */
+
             .selection-col {
                 height: calc(100%);
 
@@ -37,6 +39,42 @@
                 }
             }
 
+            /* ----------- User Settings ----------- */
+
+            .change-settings {
+                margin: 0;
+
+                .col-12 {
+                    padding: 0;
+                }
+
+                form {
+
+                    .row {
+                        margin: 0;
+
+                        .col-6 {
+                            padding: 0;
+                        }
+
+                        .col-6:first-child {
+                                margin-right: 25px;
+                        }
+
+                        .col-6:last-child {
+                                margin-left: 25px;
+                        }
+                    }
+                }
+            }
+
+            .settings-sign-out {
+                margin: 80px 0;
+
+                .col-12 {
+                    padding: 0;
+                }
+            }
         }
     }
 }

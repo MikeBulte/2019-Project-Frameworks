@@ -5,7 +5,7 @@
 @section('content')
     <div class="container userdashboard">
         <div class="userdashboard-inner">
-            <div class="row">
+            <div class="row change-settings">
                 <div class="col-12">
                     @if(session()->has('msg'))
                         <h6 class="alert alert-success text-center"> {{ session('msg') }}</h6>
@@ -59,14 +59,14 @@
                         </div>
                         <div class="row">
                             <div class="col-12">
-                                <button><input type="submit" value="Wijzigingen opslaan"></button>
+                                <button class="scnd-btn"><input type="submit" value="Wijzigingen opslaan"></button>
                             </div>
                         </div>
 
                     </form>
                 </div>
             </div>
-            <div class="row">
+            <div class="row settings-sign-out">
                 <div class="col-12">
                     <h1>Uitschrijven</h1>
                     <h2>Ik wil mij graag uitschrijven van het NK Carcassonne</h2>

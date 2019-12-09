@@ -49,7 +49,7 @@
                 </div>
             </div>
             <div class="row deelnemers-inner">
-                <table class="table table-hover">
+                <table id="table-pagination" class="table table-hover">
                     <thead>
                     <tr>
                         <th scope="col">Id</th>
