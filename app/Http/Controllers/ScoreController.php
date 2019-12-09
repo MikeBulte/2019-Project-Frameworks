@@ -32,8 +32,10 @@ class ScoreController extends Controller
             if ($first === true) {
                 $combinedResults[$key]['id'] = $score->rounduser->user_id;
                 $combinedResults[$key]['first_name'] = $score->user->first_name;
+                $combinedResults[$key]['prefix'] = (!is_null($score->user->prefix) ? $score->user->prefix : '');
                 $combinedResults[$key]['last_name'] = $score->user->last_name;
                 $combinedResults[$key]['amount'] = $score->amount;
+                $combinedResults[$key]['rounds'] = 1;
 
                 array_push($combinedIds, $score->rounduser->user_id);
                 $first = false;
@@ -41,13 +43,16 @@ class ScoreController extends Controller
             elseif (!in_array($score->rounduser->user_id, $combinedIds)) {
                 $combinedResults[$key]['id'] = $score->rounduser->user_id;
                 $combinedResults[$key]['first_name'] = $score->user->first_name;
+                $combinedResults[$key]['prefix'] = (!is_null($score->user->prefix) ? $score->user->prefix : '');
                 $combinedResults[$key]['last_name'] = $score->user->last_name;
                 $combinedResults[$key]['amount'] = $score->amount;
+                $combinedResults[$key]['rounds'] = 1;
 
                 array_push($combinedIds, $score->rounduser->user_id);
             } else {
                 $id = array_keys($combinedIds, $score->rounduser->user_id);
                 $combinedResults[$id[0]]['amount'] += $score->amount;
+                $combinedResults[$id[0]]['rounds']++;
             }
         }
         return $combinedResults;

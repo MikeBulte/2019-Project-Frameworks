@@ -20,9 +20,9 @@
                 <tbody>
                 @foreach($combinedScores as $score)
                     <tr>
-                        <th scope="row">{{ $score['first_name'] }} {{ $score['last_name'] }}</th>
+                        <th scope="row">{{ $score['first_name'] }} {{ $score['prefix'] }} {{ $score['last_name'] }}</th>
                         <td>{{ $score['amount'] }} Punten</td>
-                        <td>4 Rondes</td>
+                        <td>{{ $score['rounds'] }} Rondes</td>
                     </tr>
                 @endforeach
                 </tbody>
