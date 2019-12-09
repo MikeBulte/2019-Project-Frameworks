@@ -45,7 +45,7 @@
                 </div>
             </div>
             <div class="row players-inner">
-                <table class="table table-hover">
+                <table id="table-pagination" class="table table-hover">
                     <thead>
                         <tr>
                             <th scope="col">Id</th>
@@ -66,21 +66,16 @@
                                     <form action="{{ route('players.destroy', ['player' => $player]) }}" method="post">
                                         @csrf
                                         @method('DELETE')
-                                        <input class="btn btn-danger d-inline-block float-right" type="submit" value="Delete"
-                                               onclick="return confirm ('Are you sure you want to delete {{ $player->first_name }}?')">
+                                        <button class="scnd-btn"><input class="float-right" type="submit" value="Delete"
+                                               onclick="return confirm ('Are you sure you want to delete {{ $player->first_name }}?')"></button>
                                     </form>
                                 </td>
                             </tr>
                         @endforeach
                     </tbody>
                 </table>
-                <div>
-                    {{ $players->links() }}
-                </div>
             </div>
         </div>
     </div>
-
-
 
 @endsection

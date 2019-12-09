@@ -24,19 +24,19 @@
             <div class="row">
                 <a class="col d-inline-block block-overview" href="#"><div>
                     <div class="block-content">
-                        <p class="overview-number">{{ count($users) }}</p>
+                        <p class="overview-number">{{ count($players) }}</p>
                         <p class="overview-name">Deelnemers</p>
                     </div>
                 </div></a>
                 <a class="col d-inline-block block-overview" href="#"><div>
                     <div class="block-content">
-                        <p class="overview-number">10</p>
+                        <p class="overview-number">{{ count($judges) }}</p>
                         <p class="overview-name">Juryleden</p>
                     </div>
                 </div></a>
                 <a class="col d-inline-block block-overview" href="#"><div>
                     <div class="block-content">
-                        <p class="overview-number">2</p>
+                        <p class="overview-number">{{ count($admins) }}</p>
                         <p class="overview-name">Beheerders</p>
                     </div>
                 </div></a>
@@ -63,15 +63,15 @@
                     </tr>
                     </thead>
                     <tbody>
-                    @foreach ($users as $user)
-                        <tr>
-                            <td scope="row">1</td>
-                            <td>{{ $user->first_name }}</td>
-                            <td>{{ $user->last_name }}</td>
-                            <td>50 punten</td>
-                            <td>4 rondes</td>
-                        </tr>
-                    @endforeach
+                        @foreach ($players->slice(0, 5) as $player)
+                            <tr>
+                                <td scope="row">1</td>
+                                <td>{{ $player->first_name }}</td>
+                                <td>{{ $player->last_name }}</td>
+                                <td>50 punten</td>
+                                <td>4 rondes</td>
+                            </tr>
+                        @endforeach
                     </tbody>
                 </table>
                 <a class="viewleaderboard-dashboard" href="">Bekijk de gehele ranglijst ></a>

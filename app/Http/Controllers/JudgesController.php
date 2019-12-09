@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 
-class PrivilegesController extends Controller
+class JudgesController extends Controller
 {
     /**
      * Create a new controller instance.
@@ -28,27 +28,12 @@ class PrivilegesController extends Controller
      */
     public function index()
     {
-        $privileges = config('roles.models.role')::where('slug', 'user')->first()->users;
+        $judges = config('roles.models.role')::where('slug', 'jury')->first()->users;
 
-        return view('dashboard.privileges', compact('privileges'));
+        return view('dashboard.judges', compact('judges'));
     }
 
-    public function store(PlayersRequest $request)
-    {
-        $data = $request->validated();
-
-        $player = new User();
-        $player->first_name = $data['first_name'];
-        $player->last_name = $data['last_name'];
-        $player->email = $data['email'];
-        $player->password = Hash::make($data['password']);
-
-        $player->save();
-
-        return redirect()->route('players.index');
-    }
-
-    public function storeJudge(JudgesRequest $request)
+    public function store(JudgesRequest $request)
     {
         $data = $request->validated();
 
@@ -64,4 +49,33 @@ class PrivilegesController extends Controller
 
         return redirect()->route('judges.index');
     }
+
+    public function show(User $judge)
+    {
+        //
+    }
+
+    public function edit(User $judge)
+    {
+        //
+    }
+
+    public function update(JudgesRequest $request, User $judge)
+    {
+        $judge->first_name = $request->first_name;
+        $judge->last_name = $request->last_name;
+        $judge->email = $request->email;
+        $judge->password = $request->password;
+
+        $judge->save();
+
+        return redirect()->route('judges.index');
+    }
+
+    public function destroy(User $judge)
+    {
+        $judge->delete();
+        return redirect()->route('judges.index');
+    }
+
 }

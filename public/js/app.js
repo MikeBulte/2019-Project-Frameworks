@@ -36942,12 +36942,15 @@ try {
 
   __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.js");
 } catch (e) {}
+
+$(document).ready(function () {
+  $('#table-pagination').DataTable();
+});
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
  * to our Laravel back-end. This library automatically handles sending the
  * CSRF token as a header based on the value of the "XSRF" token cookie.
  */
-
 
 window.axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
@@ -36985,8 +36988,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\2019_ADSD_Project_Frameworks_Team_01\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\2019_ADSD_Project_Frameworks_Team_01\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/jasperagelink/Projecten/2019_ADSD_Project_Frameworks_Team_01/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/jasperagelink/Projecten/2019_ADSD_Project_Frameworks_Team_01/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

@@ -13,6 +13,11 @@ try {
     require('bootstrap');
 } catch (e) {}
 
+
+$(document).ready( function () {
+    $('#table-pagination').DataTable();
+} );
+
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
  * to our Laravel back-end. This library automatically handles sending the

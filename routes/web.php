@@ -48,13 +48,13 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
-Route::get('/tafelindelingen', 'TafelindelingenController@index')->name('tafelindelingen');
-Route::get('/scores-invoeren', 'ScoresInvoerenController@index')->name('scoresinvoeren');
+Route::get('/tafelindelingen', 'TableArrangementController@index')->name('tafelindelingen');
+Route::get('/scores-invoeren', 'ScoresInputController@index')->name('scoresinvoeren');
 
 Route::resource('players', 'PlayersController');
+Route::resource('judges', 'JudgesController');
 
-Route::get('/juryleden', 'JuryledenController@index')->name('juryleden');
-Route::get('/privileges', 'PrivilegesController@index')->name('privileges');
+Route::resource('privileges', 'privilegesController');
 
 Route::get('/newsfeed', 'NewsfeedController@index')->name('newsfeed');
 
