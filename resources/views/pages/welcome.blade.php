@@ -93,7 +93,7 @@
                         <div class="text-center">
                             <button class="btn prim-btn m-3"><a href="/administer" class="text-white">Plattegrond</a>
                             </button>
-                            <button class="btn btn-lg btn-primary m-3"><a href=" {{ route('Leaderboard') }} " class="text-white">Leaderboard</a>
+                            <button class="btn btn-lg btn-primary m-3"><a href=" {{ route('leaderboard') }} " class="text-white">Leaderboard</a>
                             </button>
                         </div>
                     </div>
