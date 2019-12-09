@@ -63,20 +63,23 @@
     @include('includes.c2a')
     <div class="container">
         <div class="row d-flex justify-content-between news-feed align-content-lg-center">
-                <div class="col-8 bg-newsfeed-1 d-inline-block main_feed">
+                <div class="col-8 d-inline-block main_feed">
+                    <img src="{{asset('storage/img/Carcassonne_spel-1024x576.jpg')}}">
                 <div class="news-title-main">
                     <p class="font-weight-bold">{{$first->created_at->format('d-m-y')}}</p>
                     <a class="text-decoration-none" href="{{(route('newsfeed'))}}"><h3 class="font-weight-bold">{{$first->title}} </h3></a>
                 </div>
             </div>
             <div class="col-4 d-inline-block">
-                <div class="bg-newsfeed-2 d-inline-block side_feed">
+                <div class=" d-inline-block side_feed ">
+                    <img src="{{asset('storage/img/DSCF20072.jpg')}}">
                     <div class="news-title-side-up">
                         <p class="font-weight-bold">{{$second->created_at->format('d-m-y')}}</p>
                         <a href="{{(route('newsfeed'))}}" class="text-decoration-none"><h3 class="font-weight-bold">{{$second->title}}</h3></a>
                     </div>
                 </div>
-                <div class="bg-newsfeed-3 my-2 d-inline-block side_feed">
+                <div class=" d-inline-block side_feed my-top-3">
+                    <img src="{{asset('storage/img/images-4.jpeg')}}">
                     <div class="news-title-side-down">
                         <p class="font-weight-bold">{{$third->created_at->format('d-m-y')}}</p>
                         <a href="{{(route('newsfeed'))}}" class="text-decoration-none"><h3 class="font-weight-bold">{{$third->title}}</h3></a>
