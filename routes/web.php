@@ -56,7 +56,6 @@ Route::resource('players', 'PlayersController');
 Route::get('/juryleden', 'JuryledenController@index')->name('juryleden');
 Route::get('/privileges', 'PrivilegesController@index')->name('privileges');
 
-Route::get('/userdashboard', 'UserDashboardController@index')->name('userdashboard');
-
 Route::get('/newsfeed', 'NewsfeedController@index')->name('newsfeed');
 
+Route::resource('usersdashboard', 'UsersDashboardController');
