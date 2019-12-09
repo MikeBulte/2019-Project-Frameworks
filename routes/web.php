@@ -31,7 +31,7 @@ Route::get('/faq', function()
     return View::make('pages.faq');
 });
 
-Route::get('/leaderboard', 'ScoreController@index')->name('Leaderboard');
+Route::get('/leaderboard', 'ScoreController@index')->name('leaderboard');
 
 Route::get('/login', function()
 {

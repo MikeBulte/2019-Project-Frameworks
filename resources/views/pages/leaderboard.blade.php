@@ -18,10 +18,10 @@
                 </tr>
                 </thead>
                 <tbody>
-                @foreach($scores as $score)
+                @foreach($combinedScores as $score)
                     <tr>
-                        <th scope="row">{{ $score->user->first_name }} {{ $score->user->prefix }} {{ $score->user->last_name }}</th>
-                        <td>{{ $score->amount }} Punten</td>
+                        <th scope="row">{{ $score['first_name'] }} {{ $score['last_name'] }}</th>
+                        <td>{{ $score['amount'] }} Punten</td>
                         <td>4 Rondes</td>
                     </tr>
                 @endforeach
