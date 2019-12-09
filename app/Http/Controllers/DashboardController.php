@@ -27,9 +27,11 @@ class DashboardController extends Controller
 
     public function index()
     {
-        $users = DB::table('users')->paginate(100);
+        $players = config('roles.models.role')::where('slug', 'user')->first()->users;
+        $judges = config('roles.models.role')::where('slug', 'jury')->first()->users;
+        $admins = config('roles.models.role')::where('slug', 'admin')->first()->users;
 
-        return view('dashboard.dashboard', ['users' => $users]);
+        return view('dashboard.dashboard', compact('players', 'judges', 'admins'));
     }
 
 

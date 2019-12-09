@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ScoresInvoerenController extends Controller
+class TableArrangementController extends Controller
 {
     /**
      * Create a new controller instance.
@@ -23,6 +23,6 @@ class ScoresInvoerenController extends Controller
      */
     public function index()
     {
-        return view('dashboard.scoresInvoeren');
+        return view('dashboard.tableArrangement');
     }
 }

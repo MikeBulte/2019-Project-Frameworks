@@ -54,7 +54,7 @@ Route::get('/scores-invoeren', 'ScoresInputController@index')->name('scoresinvoe
 Route::resource('players', 'PlayersController');
 Route::resource('judges', 'JudgesController');
 
-Route::get('/privileges', 'PrivilegesController@index')->name('privileges');
+Route::resource('privileges', 'privilegesController');
 
 Route::get('/userdashboard', 'UserDashboardController@index')->name('userdashboard');
 
