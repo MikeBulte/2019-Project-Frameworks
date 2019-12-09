@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 Route::get('/', function () {
     return view('pages.welcome');
-});
+})->name('root');
 
 Route::get('/contact', function()
 {
@@ -59,3 +59,4 @@ Route::get('/privileges', 'PrivilegesController@index')->name('privileges');
 Route::get('/newsfeed', 'NewsfeedController@index')->name('newsfeed');
 
 Route::resource('usersdashboard', 'UsersDashboardController');
+Route::get('/usersLeaderboard', 'UsersDashboardController@leaderboard');

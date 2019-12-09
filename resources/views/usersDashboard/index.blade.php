@@ -32,7 +32,7 @@
                                       d="M73,56H48V81H73ZM68,1V11H28V1H18V11H13A9.955,9.955,0,0,0,3.05,21L3,91a10,10,0,0,0,10,10H83A10.029,10.029,0,0,0,93,91V21A10.029,10.029,0,0,0,83,11H78V1ZM83,91H13V36H83Z"
                                       transform="translate(-3 -1)"/>
                             </svg>
-                            <h2 class="selection-title">Ranglijst</h2>
+                            <a href="/usersLeaderboard"><h2 class="selection-title">Ranglijst</h2></a>
                         </div>
                     </div>
                 </div>
