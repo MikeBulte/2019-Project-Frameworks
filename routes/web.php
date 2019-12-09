@@ -50,7 +50,6 @@ Auth::routes();
 
 Route::get('/', 'WelcomeController@index');
 Route::get('/home', 'HomeController@index')->name('home');
-
 Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
 Route::get('/tafelindelingen', 'TafelindelingenController@index')->name('tafelindelingen');
 Route::get('/scores-invoeren', 'ScoresInvoerenController@index')->name('scoresinvoeren');
@@ -59,6 +58,10 @@ Route::get('/leaderboard', 'ScoreController@index')->name('Leaderboard');
 Route::get('/faq', 'FaqController@index')->name('faq');
 Route::resource('players', 'PlayersController');
 Route::get('/juryleden', 'JuryledenController@index')->name('juryleden');
+Route::get('/tafelindelingen', 'TableArrangementController@index')->name('tafelindelingen');
+Route::get('/scores-invoeren', 'ScoresInputController@index')->name('scoresinvoeren');
+Route::resource('players', 'PlayersController');
+Route::resource('judges', 'JudgesController');
 Route::get('/privileges', 'PrivilegesController@index')->name('privileges');
 Route::get('/userdashboard', 'UserDashboardController@index')->name('userdashboard');
 
