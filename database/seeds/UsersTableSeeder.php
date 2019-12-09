@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Hash;
 
 class UsersTableSeeder extends Seeder
 {
@@ -24,7 +25,7 @@ class UsersTableSeeder extends Seeder
                 'first_name'     => 'Admin',
                 'last_name'     => 'Admin',
                 'email'    => 'admin@admin.com',
-                'password' => bcrypt('password'),
+                'password' => Hash::make('password')
             ]);
 
             $newUser->attachRole($adminRole);
@@ -38,11 +39,8 @@ class UsersTableSeeder extends Seeder
                 'first_name'     => 'User',
                 'last_name'     => 'Admin',
                 'email'    => 'user@user.com',
-                'password' => bcrypt('password'),
+                'password' => Hash::make('password')
             ]);
-
-            $newUser;
-            $newUser->attachRole($userRole);
         }
     }
 }
