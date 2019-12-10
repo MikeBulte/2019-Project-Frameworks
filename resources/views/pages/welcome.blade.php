@@ -7,7 +7,7 @@
                 <div class="col-lg-6 my-auto">
                     <h1 class="text-primary font-weight-bold">Neem deel aan het avontuur!</h1>
                     <p>Interesse in deelnemen aan het NK Carcassonne, met de meest ervaren spelers van Nederland?</p>
-                    <button class="prim-btn"><a href="/administer">Schrijf je in!</a></button>
+                    <button class="prim-btn"><a href="{{ route('register') }}">Schrijf je in!</a></button>
                 </div>
                 <div class="col-lg-6 h-100">
                     <img class="h-100" src="{{ asset('storage/img/carcassonne-ridder-gespiegeld.png') }}">
@@ -96,7 +96,7 @@
                         <div class="text-center">
                             <button class="btn prim-btn m-3"><a href="/administer" class="text-white">Plattegrond</a>
                             </button>
-                            <button class="btn btn-lg btn-primary m-3"><a href=" {{ route('leaderboard') }} " class="text-white">Leaderboard</a>
+                            <button class="btn btn-lg btn-primary m-3"><a href="{{ route('leaderboard') }}" class="text-white">Leaderboard</a>
                             </button>
                         </div>
                     </div>

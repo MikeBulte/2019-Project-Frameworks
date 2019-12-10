@@ -37,7 +37,7 @@
                                       d="M83,11H62.1a14.941,14.941,0,0,0-28.2,0H13A10.029,10.029,0,0,0,3,21V91a10.029,10.029,0,0,0,10,10H83A10.029,10.029,0,0,0,93,91V21A10.029,10.029,0,0,0,83,11ZM48,11a5,5,0,1,1-5,5A5.015,5.015,0,0,1,48,11ZM58,81H23V71H58ZM73,61H23V51H73Zm0-20H23V31H73Z"
                                       transform="translate(-3 -1)"/>
                             </svg>
-                            <a href="/leaderboard"><h2 class="selection-title">Ranglijst</h2></a>
+                            <a href="{{ route('leaderboard') }}"><h2 class="selection-title">Ranglijst</h2></a>
                         </div>
                     </div>
                 </div>
@@ -64,7 +64,7 @@
                             </svg>
 
                             <a href="{{ route('usersdashboard.edit', ['usersdashboard' => $user]) }}"><h2
-                                    class="selection-title">Profiel instellingen</h2></a>
+                                    class="selection-title">Profielinstellingen</h2></a>
                         </div>
                     </div>
                 </div>

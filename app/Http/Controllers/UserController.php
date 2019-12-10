@@ -2,18 +2,15 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\UsersDashboardRequest;
-use App\Score;
+use App\Http\Requests\UserRequest;
 use App\User;
-use App\UsersDashboard;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 
-class UsersDashboardController extends Controller
+class UserController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -50,10 +47,10 @@ class UsersDashboardController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param UsersDashboard $usersDashboard
+     * @param User $user
      * @return void
      */
-    public function show(UsersDashboard $usersDashboard)
+    public function show(User $user)
     {
         //
     }
@@ -61,10 +58,10 @@ class UsersDashboardController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param User $usersDashboard
+     * @param User $user
      * @return Response
      */
-    public function edit(User $usersDashboard)
+    public function edit(User $user)
     {
         $user = Auth::user();
         return view('usersDashboard.edit', compact('user'));
@@ -77,7 +74,7 @@ class UsersDashboardController extends Controller
      * @param User $usersDashboard
      * @return Response
      */
-    public function update(UsersDashboardRequest $request, User $usersDashboard)
+    public function update(UserRequest $request, User $usersDashboard)
     {
         $user = Auth::user();
         $user->first_name = $request->first_name;
@@ -98,13 +95,13 @@ class UsersDashboardController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param UsersDashboard $usersDashboard
+     * @param User $usersDashboard
      * @return void
      * @throws Exception
      */
-    public function destroy($usersDashboard)
+    public function destroy($user)
     {
-        $user = User::find($usersDashboard);
+        $user = User::find($user);
         $user->delete();
         return redirect()->route('root');
     }
