@@ -31,7 +31,7 @@
             @guest
                 <li class="nav-item mr-3">
                     <button class="prim-btn">
-                        <a class="" href="/administer">Inschrijven</a>
+                        <a class="" href="{{ route('register') }}">Inschrijven</a>
                     </button>
                 </li>
                 <li>

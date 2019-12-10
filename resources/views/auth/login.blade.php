@@ -102,7 +102,7 @@
                                 <div class="form-group row">
                                     <div class="col-md-12">
                                         <div class="form-check text-center">
-                                            Wil je deelnemen? <a href="/administer">Schrijf je in!</a>
+                                            Wil je deelnemen? <a href="{{ route('register') }}">Schrijf je in!</a>
                                         </div>
                                     </div>
                                 </div>
