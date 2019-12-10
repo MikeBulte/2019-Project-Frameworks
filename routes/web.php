@@ -14,60 +14,48 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('pages.welcome');
-})->name('root');
-
-
 Route::get('/contact', function()
 {
-    return View::make('pages.contact');
+    return view('pages.contact');
 });
 
 Route::get('/about', function()
 {
-    return View::make('pages.about');
+    return view('pages.about');
 });
 
 Route::get('/faq', function()
 {
-    return View::make('pages.faq');
+    return view('pages.faq');
 });
-
-
-Route::get('/leaderboard', 'ScoreController@index')->name('leaderboard');
-
-
-
 
 Route::get('/login', function()
 {
-    return View::make('pages.login');
+    return view('pages.login');
 });
 
-Route::get('/administer', function()
+Route::get('/register', function()
 {
-    return View::make('auth.register');
-});
+    return view('auth.register');
+})->name('register');
 
 Auth::routes();
 
-Route::get('/', 'WelcomeController@index');
+Route::get('/', 'WelcomeController@index')->name('root');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
 Route::get('/tafelindelingen', 'TafelindelingenController@index')->name('tafelindelingen');
 Route::get('/scores-invoeren', 'ScoresInvoerenController@index')->name('scoresinvoeren');
 Route::get('/newsfeed', 'NewsfeedController@index')->name('newsfeed');
-Route::get('/leaderboard', 'ScoreController@index')->name('Leaderboard');
+Route::get('/leaderboard', 'ScoreController@index')->name('leaderboard');
 Route::get('/faq', 'FaqController@index')->name('faq');
-Route::get('/juryleden', 'JuryledenController@index')->name('juryleden');
 Route::get('/tafelindelingen', 'TableArrangementController@index')->name('tafelindelingen');
 Route::get('/scores-invoeren', 'ScoresInputController@index')->name('scoresinvoeren');
 Route::resource('players', 'PlayersController');
 Route::resource('judges', 'JudgesController');
 Route::resource('privileges', 'privilegesController');
 Route::get('/newsfeed', 'NewsfeedController@index')->name('newsfeed');
-Route::resource('usersdashboard', 'UsersDashboardController');
+Route::resource('usersdashboard', 'UserController');
 Route::resource('nieuwsfeed', 'NewNewsfeedController');
 
 

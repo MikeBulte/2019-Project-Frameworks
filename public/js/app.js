@@ -36988,13 +36988,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD
-__webpack_require__(/*! C:\xampp\htdocs\2019_ADSD_Project_Frameworks_Team_01\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\2019_ADSD_Project_Frameworks_Team_01\resources\sass\app.scss */"./resources/sass/app.scss");
-=======
-__webpack_require__(/*! /Users/Menno/Projecten/999games/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/Menno/Projecten/999games/resources/sass/app.scss */"./resources/sass/app.scss");
->>>>>>> menno
+__webpack_require__(/*! C:\Users\Mike\webDesign\schoolProjects\nk_carcassonne\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Mike\webDesign\schoolProjects\nk_carcassonne\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
