@@ -9,7 +9,7 @@ class ScoreController extends Controller
 {
     public function index()
     {
-        $scores = Score::all();
+        $scores = Score::paginate(20);
         $combinedScores = $this->getCombinedScores($scores);
 
         return view('pages.leaderboard', compact('combinedScores'));

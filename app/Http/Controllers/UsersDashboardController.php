@@ -3,11 +3,14 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\UsersDashboardRequest;
+use App\Score;
 use App\User;
 use App\UsersDashboard;
+use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 
 class UsersDashboardController extends Controller
@@ -47,7 +50,7 @@ class UsersDashboardController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param \App\UsersDashboard $usersDashboard
+     * @param UsersDashboard $usersDashboard
      * @return void
      */
     public function show(UsersDashboard $usersDashboard)
@@ -95,11 +98,14 @@ class UsersDashboardController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param \App\UsersDashboard $usersDashboard
-     * @return Response
+     * @param UsersDashboard $usersDashboard
+     * @return void
+     * @throws Exception
      */
-    public function destroy(UsersDashboard $usersDashboard)
+    public function destroy($usersDashboard)
     {
-        //
+        $user = User::find($usersDashboard);
+        $user->delete();
+        return redirect()->route('root');
     }
 }

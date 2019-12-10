@@ -80,7 +80,7 @@
                           method="post">
                         @csrf
                         @method('DELETE')
-                        <button class="scnd-btn"><input class="" type="submit" value="Uitschrijven"></button>
+                        <button class="scnd-btn"><input class="" type="submit" value="Uitschrijven" onclick="return confirm ('Weet je zeker dat je je wilt uitschrijven voor het NK?')"></button>
                     </form>
                 </div>
             </div>
