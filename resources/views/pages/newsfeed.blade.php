@@ -12,7 +12,7 @@
                 @foreach($newsfeeds as $newsfeed)
                     <p class="font-weight-bold">{{$newsfeed->created_at->format('d-m-y')}}</p>
                     <h3 class="font-weight-bold">{{$newsfeed->title}}</h3>
-                    <p>{{$newsfeed->content}}</p>
+                    <p>{{$newsfeed->article}}</p>
                     <br>
                 @endforeach
                 </div>

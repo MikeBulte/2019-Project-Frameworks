@@ -406,7 +406,7 @@ html .dataTables_wrapper {
   position: absolute;
   padding: 5px;
   color: white;
-  top: 35%;
+  top: 31%;
   left: 30px;
 }
 
@@ -419,7 +419,7 @@ html .dataTables_wrapper {
   position: absolute;
   padding: 10px;
   color: white;
-  bottom: 9px;
+  bottom: 56px;
   left: 30px;
 }
 
@@ -445,18 +445,22 @@ html .dataTables_wrapper {
 }
 
 .side_feed {
-  margin-top: 10px;
   width: 100%;
-  height: calc(50% - 0.5rem);
+  height: calc(47% - 1rem);
   background-color: black;
+  margin-bottom: 1rem;
 }
 
 .side_feed img {
-  opacity: 0.8;
+  opacity: 0.7;
   width: 100%;
-  height: calc(50% - 0.5rem);
+  height: 100%;
   -o-object-fit: cover !important;
      object-fit: cover !important;
+}
+
+.side_feed:hover img {
+  opacity: 0.9;
 }
 
 .c2a {

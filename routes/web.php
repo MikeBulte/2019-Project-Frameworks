@@ -56,12 +56,13 @@ Route::get('/scores-invoeren', 'ScoresInvoerenController@index')->name('scoresin
 Route::get('/newsfeed', 'NewsfeedController@index')->name('newsfeed');
 Route::get('/leaderboard', 'ScoreController@index')->name('Leaderboard');
 Route::get('/faq', 'FaqController@index')->name('faq');
-Route::resource('players', 'PlayersController');
+//Route::resource('players', 'PlayersController');
 Route::get('/juryleden', 'JuryledenController@index')->name('juryleden');
 Route::get('/tafelindelingen', 'TableArrangementController@index')->name('tafelindelingen');
-Route::get('/scores-invoeren', 'ScoresInputController@index')->name('scoresinvoeren');
+//Route::get('/scores-invoeren', 'ScoresInputController@index')->name('scoresinvoeren');
 Route::resource('players', 'PlayersController');
 Route::resource('judges', 'JudgesController');
 Route::get('/privileges', 'PrivilegesController@index')->name('privileges');
 Route::get('/userdashboard', 'UserDashboardController@index')->name('userdashboard');
+Route::resource('nieuwsfeed', 'NewNewsfeedController');
 

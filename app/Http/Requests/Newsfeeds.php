@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class newsfeed extends FormRequest
+class Newsfeeds extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -13,7 +13,7 @@ class newsfeed extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,7 +24,9 @@ class newsfeed extends FormRequest
     public function rules()
     {
         return [
-            //
+            'title'=> 'required|string',
+            'article'=> 'required  ',
+            'image'=> 'binary'
         ];
     }
 }
