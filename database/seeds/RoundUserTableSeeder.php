@@ -25,7 +25,7 @@ class RoundUserTableSeeder extends Seeder
             ],
             [
                 'round'         => 2,
-                'user_id'       => 2,
+                'user_id'       => 1,
                 'game_table_id' => 1,
             ]
         ]);
