@@ -15,7 +15,7 @@ try {
 
 
 $(document).ready( function () {
-    $('#players-dashboard-table').DataTable();
+    $('#table-pagination').DataTable();
 } );
 
 /**

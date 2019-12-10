@@ -45,7 +45,7 @@
                 </div>
             </div>
             <div class="row players-inner">
-                <table id="players-dashboard-table" class="table table-hover">
+                <table id="table-pagination" class="table table-hover">
                     <thead>
                         <tr>
                             <th scope="col">Id</th>

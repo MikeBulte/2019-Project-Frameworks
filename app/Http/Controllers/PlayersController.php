@@ -36,15 +36,18 @@ class PlayersController extends Controller
 
     public function store(PlayersRequest $request)
     {
+
         $data = $request->validated();
 
-        $player = new User();
-        $player->first_name = $data['first_name'];
-        $player->last_name = $data['last_name'];
-        $player->email = $data['email'];
-        $player->password = Hash::make($data['password']);
+        $player = config('roles.models.defaultUser')::create([
+            'first_name' => $data['first_name'],
+            'last_name' => $data['last_name'],
+            'email' => $data['email'],
+            'password' => Hash::make($data['password']),
+        ]);
 
-        $player->save();
+        $role = config('roles.models.role')::where('name', '=', 'User')->first();  //choose the default role upon user creation.
+        $player->attachRole($role);
 
         return redirect()->route('players.index');
     }

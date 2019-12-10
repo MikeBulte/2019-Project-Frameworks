@@ -10,7 +10,7 @@
                 <li class="{{ (request()->segment(1) == 'tafelindelingen') ? 'active' : '' }}"><a href="/tafelindelingen" class="menu-item-sidebar d-block">Tafelindelingen</a></li>
                 <li class="{{ (request()->segment(1) == 'scores-invoeren') ? 'active' : '' }}"><a href="/scores-invoeren" class="menu-item-sidebar d-block">Scores invoeren</a></li>
                 <li class="{{ (request()->segment(1) == 'players') ? 'active' : '' }}"><a href="/players" class="menu-item-sidebar d-block">Deelnemers</a></li>
-                <li class="{{ (request()->segment(1) == 'juryleden') ? 'active' : '' }}"><a href="/juryleden" class="menu-item-sidebar d-block">Juryleden</a></li>
+                <li class="{{ (request()->segment(1) == 'judges') ? 'active' : '' }}"><a href="/judges" class="menu-item-sidebar d-block">Juryleden</a></li>
                 <li class="{{ (request()->segment(1) == 'privileges') ? 'active' : '' }}"><a href="/privileges" class="menu-item-sidebar d-block">Privileges</a></li>
                 <li class="{{ (request()->segment(1) == 'nieuwsfeed') ? 'active' : '' }}"><a href="/nieuwsfeed" class="menu-item-sidebar d-block">Nieuwsfeed</a></li>
             </ul>
