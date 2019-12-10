@@ -680,38 +680,51 @@ html .dataTables_wrapper {
   max-width: 90%;
 }
 
+#app .userdashboard .userdashboard-inner-height {
+  height: 90vh;
+  margin-top: 0 !important;
+}
+
 #app .userdashboard .userdashboard-inner {
   margin-top: 80px;
   /* ----------- UserDashboard ----------- */
   /* ----------- User Settings ----------- */
 }
 
-#app .userdashboard .userdashboard-inner .selection-col {
+#app .userdashboard .userdashboard-inner .user-quickselect-width {
+  width: 100%;
+}
+
+#app .userdashboard .userdashboard-inner .user-quickselect-width .selection-col {
   height: calc(100%);
 }
 
-#app .userdashboard .userdashboard-inner .selection-col .selection-outer {
+#app .userdashboard .userdashboard-inner .user-quickselect-width .selection-col a {
+  text-decoration: none;
+}
+
+#app .userdashboard .userdashboard-inner .user-quickselect-width .selection-col a .selection-outer {
   box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
   -webkit-transition: 0.7s;
   transition: 0.7s;
   background-color: #ffffff;
 }
 
-#app .userdashboard .userdashboard-inner .selection-col .selection-outer .selection-inner {
+#app .userdashboard .userdashboard-inner .user-quickselect-width .selection-col a .selection-outer .selection-inner {
   padding: 50px;
 }
 
-#app .userdashboard .userdashboard-inner .selection-col .selection-outer .selection-inner .selection-img {
+#app .userdashboard .userdashboard-inner .user-quickselect-width .selection-col a .selection-outer .selection-inner .selection-img {
   margin: 0 auto 20px auto;
   display: block;
 }
 
-#app .userdashboard .userdashboard-inner .selection-col .selection-outer .selection-inner .selection-img path {
+#app .userdashboard .userdashboard-inner .user-quickselect-width .selection-col a .selection-outer .selection-inner .selection-img path {
   -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 
-#app .userdashboard .userdashboard-inner .selection-col .selection-outer .selection-inner .selection-title {
+#app .userdashboard .userdashboard-inner .user-quickselect-width .selection-col a .selection-outer .selection-inner .selection-title {
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -721,20 +734,20 @@ html .dataTables_wrapper {
   transition: 0.7s;
 }
 
-#app .userdashboard .userdashboard-inner .selection-col .selection-outer:hover {
+#app .userdashboard .userdashboard-inner .user-quickselect-width .selection-col a .selection-outer:hover {
   -webkit-transition: 0.7s;
   transition: 0.7s;
   background-color: #206EB8;
   box-shadow: 0 0 36px 0 rgba(32, 110, 184, 0.8);
 }
 
-#app .userdashboard .userdashboard-inner .selection-col .selection-outer:hover path {
+#app .userdashboard .userdashboard-inner .user-quickselect-width .selection-col a .selection-outer:hover path {
   fill: #ffffff;
   -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 
-#app .userdashboard .userdashboard-inner .selection-col .selection-outer:hover .selection-title {
+#app .userdashboard .userdashboard-inner .user-quickselect-width .selection-col a .selection-outer:hover .selection-title {
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -743,6 +756,10 @@ html .dataTables_wrapper {
   color: #ffffff;
   -webkit-transition: 0.7s;
   transition: 0.7s;
+}
+
+#app .userdashboard .userdashboard-inner .user-quickselect-width .selection-col a:hover {
+  text-decoration: none;
 }
 
 #app .userdashboard .userdashboard-inner .change-settings {
