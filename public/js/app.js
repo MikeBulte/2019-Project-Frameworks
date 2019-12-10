@@ -36944,7 +36944,7 @@ try {
 } catch (e) {}
 
 $(document).ready(function () {
-  $('#players-dashboard-table').DataTable();
+  $('#table-pagination').DataTable();
 });
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
