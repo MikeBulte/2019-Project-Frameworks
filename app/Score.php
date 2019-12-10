@@ -17,6 +17,6 @@ class Score extends Model
 
     public function rounduser()
     {
-        return $this->belongsTo(RoundUser::class, 'round_user_id');
+        return $this->belongsTo(RoundUser::class, 'round_user_id', 'id');
     }
 }

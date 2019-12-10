@@ -31,7 +31,7 @@
             @guest
                 <li class="nav-item mr-3">
                     <button class="prim-btn">
-                        <a class="" href="/administer">Inschrijven</a>
+                        <a class="" href="{{ route('register') }}">Inschrijven</a>
                     </button>
                 </li>
                 <li>
@@ -47,10 +47,11 @@
                     </a>
 
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="{{ route('usersdashboard.index') }}">Profiel</a>
                         <a class="dropdown-item" href="{{ route('logout') }}"
                            onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                            {{ __('Logout') }}
+                            {{ __('Uitloggen') }}
                         </a>
 
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
