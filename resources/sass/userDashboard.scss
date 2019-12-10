@@ -15,6 +15,8 @@
                     -webkit-box-shadow: 0 0 36px 0 rgba(0,0,0,0.16);
                     -moz-box-shadow: 0 0 36px 0 rgba(0,0,0,0.16);
                     box-shadow: 0 0 36px 0 rgba(0,0,0,0.16);
+                    transition: 0.7s;
+                    background-color: #ffffff;
 
                     .selection-inner {
                         padding: 50px;
@@ -24,7 +26,7 @@
                             display: block;
 
                             path {
-
+                                transition: 0.7s;
                             }
                         }
 
@@ -34,7 +36,31 @@
                             text-align: center;
                             font-size: 20px;
                             font-weight: bold;
+                            transition: 0.7s;
                         }
+                    }
+                }
+
+                .selection-outer:hover {
+                    transition: 0.7s;
+                    background-color: #206EB8;
+                    -webkit-box-shadow: 0 0 36px 0 rgba(32,110,184,0.8);
+                    -moz-box-shadow: 0 0 36px 0 rgba(32,110,184,0.8);
+                    box-shadow: 0 0 36px 0 rgba(32,110,184,0.8);
+
+                    path {
+                        fill: #ffffff;
+                        transition: 0.7s;
+                    }
+
+                    .selection-title {
+                        display: block;
+                        margin: 0 auto;
+                        text-align: center;
+                        font-size: 20px;
+                        font-weight: bold;
+                        color: #ffffff;
+                        transition: 0.7s;
                     }
                 }
             }

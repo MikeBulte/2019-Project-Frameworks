@@ -72,6 +72,7 @@ html button.prim-btn:hover input {
 
 html button.scnd-btn {
   border: 2px solid #206EB8;
+  background-color: #ffffff;
   padding: 10px 25px !important;
   border-radius: 0;
   -webkit-transition: 0.7s;
@@ -121,6 +122,7 @@ html button.scnd-btn:hover input {
 
 html button.ter-btn {
   border: 2px solid #ffffff;
+  background-color: transparent;
   padding: 10px 25px;
   border-radius: 0;
   color: #ffffff;
@@ -690,6 +692,9 @@ html .dataTables_wrapper {
 
 #app .userdashboard .userdashboard-inner .selection-col .selection-outer {
   box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  background-color: #ffffff;
 }
 
 #app .userdashboard .userdashboard-inner .selection-col .selection-outer .selection-inner {
@@ -701,12 +706,43 @@ html .dataTables_wrapper {
   display: block;
 }
 
+#app .userdashboard .userdashboard-inner .selection-col .selection-outer .selection-inner .selection-img path {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
 #app .userdashboard .userdashboard-inner .selection-col .selection-outer .selection-inner .selection-title {
   display: block;
   margin: 0 auto;
   text-align: center;
   font-size: 20px;
   font-weight: bold;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+#app .userdashboard .userdashboard-inner .selection-col .selection-outer:hover {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  background-color: #206EB8;
+  box-shadow: 0 0 36px 0 rgba(32, 110, 184, 0.8);
+}
+
+#app .userdashboard .userdashboard-inner .selection-col .selection-outer:hover path {
+  fill: #ffffff;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+#app .userdashboard .userdashboard-inner .selection-col .selection-outer:hover .selection-title {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
 }
 
 #app .userdashboard .userdashboard-inner .change-settings {
