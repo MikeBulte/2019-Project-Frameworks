@@ -114,16 +114,20 @@
 
                                 <div class="form-group row">
                                     <div class="col-md-12">
-                                        <input id="tournament_rules" type="checkbox" class=""
-                                               name="tournament_rules" required autofocus> Ik ga akkoord met de
-                                        toernooiregels
+                                        <label for="tournament_rules">
+                                            <input id="tournament_rules" type="checkbox" class=""
+                                                   name="tournament_rules" required autofocus> Ik ga akkoord met de
+                                            <a href="#">toernooiregels</a>
+                                        </label>
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
                                     <div class="col-md-12">
-                                        <input id="game_rules" type="checkbox" class="" name="game_rules"
-                                               required autofocus> Ik ken de spelregels
+                                        <label for="game_rules">
+                                            <input id="game_rules" type="checkbox" class="" name="game_rules"
+                                                   required autofocus> Ik ken de <a href="#">spelregels</a>
+                                        </label>
                                     </div>
                                 </div>
                                 <div class="form-group row mb-0">
