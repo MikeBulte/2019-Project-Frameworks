@@ -15,10 +15,11 @@ class CreateNewsfeedsTable extends Migration
     {
         Schema::create('newsfeeds', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->bigInteger('user_id')->unsigned();
+            // TODO: Nullable is tijdelijk aan het einde weghalen
+            $table->bigInteger('user_id')->unsigned()->nullable();;
             $table->foreign('user_id')->references('id')->on('users');
             $table->string('title', 120);
-            $table->text('content');
+            $table->text('article');
             $table->binary('image')->nullable();
             $table->timestamps();
         });
