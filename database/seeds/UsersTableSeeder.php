@@ -41,6 +41,11 @@ class UsersTableSeeder extends Seeder
                 'email'    => 'user@user.com',
                 'password' => Hash::make('password')
             ]);
+
+            $newUser->attachRole($userRole);
+            foreach ($permissions as $permission) {
+                $newUser->attachPermission($permission);
+            }
         }
     }
 }

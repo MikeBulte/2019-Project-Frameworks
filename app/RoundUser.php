@@ -15,11 +15,11 @@ class RoundUser extends Model
 
     public function gametable()
     {
-        return $this->belongsTo(GameTable::class, 'game_table_id');
+        return $this->belongsTo(GameTable::class, 'game_table_id', 'id');
     }
 
     public function round()
     {
-        return $this->belongsTo(Round::class, 'round_id');
+        return $this->belongsTo(Round::class, 'round_id', 'id');
     }
 }

@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class UsersDashboard extends Model
+class Welcome extends Model
 {
-    //
+    protected $dates =['created_at'];
 }

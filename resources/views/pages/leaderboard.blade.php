@@ -9,20 +9,23 @@
     </div>
     <div id="scoresContainer" class="container">
         <div class="row text-center">
-            <table class="table table-hover mx-5">
+            <table class="table table-hover" id="table-pagination">
                 <thead>
                 <tr>
+                    <th scope="col">Positie</th>
                     <th scope="col">Spelernaam</th>
                     <th scope="col">Aantal Punten</th>
                     <th scope="col">Aantal Gespeelde Rondes</th>
                 </tr>
                 </thead>
                 <tbody>
-                @foreach($scores as $score)
+                <?php $pos = 1 ?>
+                @foreach($combinedScores as $score)
                     <tr>
-                        <th scope="row">{{ $score->user->first_name }} {{ $score->user->prefix }} {{ $score->user->last_name }}</th>
-                        <td>{{ $score->amount }} Punten</td>
-                        <td>4 Rondes</td>
+                        <th scope="row">{{ $pos++ }}</th>
+                        <th scope="row"> {{ $score['first_name'] }} {{ $score['prefix'] }} {{ $score['last_name'] }}</th>
+                        <td>{{ $score['amount'] }} Punten</td>
+                        <td>{{ $score['rounds'] }} Rondes</td>
                     </tr>
                 @endforeach
                 </tbody>

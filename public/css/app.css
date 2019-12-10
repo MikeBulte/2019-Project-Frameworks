@@ -219,10 +219,20 @@ html .dataTables_wrapper {
 }
 
 .body-newsfeed {
+  padding: 30px 20px 30px 20px;
   width: 100%;
-  margin: 3 0px 0;
+  margin-top: 30px;
   background-color: white;
   background-size: cover;
+}
+
+.body-newsfeed h1 {
+  font-size: 45px;
+}
+
+.content {
+  padding-bottom: 30px;
+  padding-top: 20px;
 }
 
 .card {
@@ -372,6 +382,10 @@ html .dataTables_wrapper {
   padding-right: 0;
 }
 
+.news-feed .col-8 {
+  padding: 0 0 0 0;
+}
+
 .news-title-main {
   position: absolute;
   padding: 5px;
@@ -381,15 +395,20 @@ html .dataTables_wrapper {
 }
 
 .news-title-main h3 {
-  font-size: 22px;
+  font-size: 28px;
   color: white;
+  margin-right: 10px;
+}
+
+.news-title-main p {
+  font-size: 16px;
 }
 
 .news-title-side-up {
   position: absolute;
   padding: 5px;
   color: white;
-  top: 26%;
+  top: 31%;
   left: 30px;
 }
 
@@ -402,7 +421,7 @@ html .dataTables_wrapper {
   position: absolute;
   padding: 10px;
   color: white;
-  bottom: 9px;
+  bottom: 56px;
   left: 30px;
 }
 
@@ -414,11 +433,36 @@ html .dataTables_wrapper {
 .main_feed {
   width: 100%;
   height: 500px;
+  background-color: black;
+}
+
+.main_feed img {
+  opacity: 0.7;
+  width: 100%;
+  height: 500px;
+}
+
+.main_feed:hover img {
+  opacity: 0.9;
 }
 
 .side_feed {
   width: 100%;
-  height: calc(50% - 0.5rem);
+  height: calc(47% - 1rem);
+  background-color: black;
+  margin-bottom: 1rem;
+}
+
+.side_feed img {
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+}
+
+.side_feed:hover img {
+  opacity: 0.9;
 }
 
 .c2a {
@@ -820,6 +864,10 @@ html .dataTables_wrapper {
 
 #app .userdashboard .userdashboard-inner .settings-sign-out .col-12 h3 {
   margin-bottom: 20px;
+}
+
+#scoresContainer table thead {
+  color: #3490dc;
 }
 
 /*!
