@@ -9,7 +9,7 @@
     </div>
     <div id="scoresContainer" class="container">
         <div class="row text-center">
-            <table class="table table-hover mx-5">
+            <table class="table table-hover" id="table-pagination">
                 <thead>
                 <tr>
                     <th scope="col">Positie</th>

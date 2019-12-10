@@ -108,11 +108,4 @@ class UsersDashboardController extends Controller
         $user->delete();
         return redirect()->route('root');
     }
-
-    public function leaderboard()
-    {
-        $scores = Score::paginate(5);
-
-        return view('usersDashboard.leaderboard', compact('scores'));
-    }
 }
