@@ -205,6 +205,109 @@ html .dataTables_wrapper {
   padding: 0;
 }
 
+/*---------- News Feed ----------*/
+
+.news-feed {
+  margin: 100px 0;
+}
+
+.news-feed .main_feed {
+  height: auto;
+  width: 100%;
+  background-color: black;
+}
+
+.news-feed .main_feed:hover img {
+  opacity: 0.9;
+}
+
+.news-feed .col-8 {
+  padding: 0 0 0 0;
+}
+
+.news-feed .col-8 img {
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+}
+
+.news-feed .col-8 .news-title-main {
+  position: absolute;
+  padding: 5px;
+  color: white;
+  bottom: 12px;
+  left: 30px;
+}
+
+.news-feed .col-8 .news-title-main h3 {
+  font-size: 28px;
+  color: white;
+  margin-right: 10px;
+}
+
+.news-feed .col-8 .news-title-main p {
+  font-size: 16px;
+}
+
+.news-feed .col-4 {
+  padding-right: 0;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.news-feed .col-4 .news-title-side-up {
+  position: absolute;
+  padding: 5px;
+  color: white;
+  bottom: 10px;
+  left: 30px;
+}
+
+.news-feed .col-4 .news-title-side-up h3 {
+  font-size: 18px;
+  color: white;
+}
+
+.news-feed .col-4 .news-title-side-down {
+  position: absolute;
+  padding: 10px;
+  color: white;
+  bottom: 10px;
+  left: 30px;
+}
+
+.news-feed .col-4 .news-title-side-down h3 {
+  font-size: 18px;
+  color: white;
+}
+
+.news-feed .side_feed {
+  position: relative;
+  width: 100%;
+  height: calc(47% - 1rem);
+  background-color: black;
+  margin-bottom: 1rem;
+}
+
+.news-feed .side_feed img {
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+}
+
+.news-feed .side_feed:hover img {
+  opacity: 0.9;
+}
+
+.news-feed .side_feed:last-child {
+  margin-bottom: 0;
+}
+
+/*---------- News page ----------*/
+
 .header-img {
   width: 100%;
   height: 250px;
@@ -219,7 +322,7 @@ html .dataTables_wrapper {
 }
 
 .body-newsfeed {
-  padding: 30px 20px 30px 20px;
+  padding: 30px 20px;
   width: 100%;
   margin-top: 30px;
   background-color: white;
@@ -370,99 +473,6 @@ html .dataTables_wrapper {
 .home-rules .rules-block:last-child {
   margin-left: 25px;
   padding: 0;
-}
-
-/*---- News Feed ----*/
-
-.news-feed {
-  margin: 50px 0;
-}
-
-.news-feed .col-4 {
-  padding-right: 0;
-}
-
-.news-feed .col-8 {
-  padding: 0 0 0 0;
-}
-
-.news-title-main {
-  position: absolute;
-  padding: 5px;
-  color: white;
-  bottom: 12px;
-  left: 30px;
-}
-
-.news-title-main h3 {
-  font-size: 28px;
-  color: white;
-  margin-right: 10px;
-}
-
-.news-title-main p {
-  font-size: 16px;
-}
-
-.news-title-side-up {
-  position: absolute;
-  padding: 5px;
-  color: white;
-  top: 31%;
-  left: 30px;
-}
-
-.news-title-side-up h3 {
-  font-size: 18px;
-  color: white;
-}
-
-.news-title-side-down {
-  position: absolute;
-  padding: 10px;
-  color: white;
-  bottom: 56px;
-  left: 30px;
-}
-
-.news-title-side-down h3 {
-  font-size: 18px;
-  color: white;
-}
-
-.main_feed {
-  width: 100%;
-  height: 500px;
-  background-color: black;
-}
-
-.main_feed img {
-  opacity: 0.7;
-  width: 100%;
-  height: 500px;
-}
-
-.main_feed:hover img {
-  opacity: 0.9;
-}
-
-.side_feed {
-  width: 100%;
-  height: calc(47% - 1rem);
-  background-color: black;
-  margin-bottom: 1rem;
-}
-
-.side_feed img {
-  opacity: 0.7;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover !important;
-     object-fit: cover !important;
-}
-
-.side_feed:hover img {
-  opacity: 0.9;
 }
 
 .c2a {
@@ -864,6 +874,127 @@ html .dataTables_wrapper {
 
 #app .userdashboard .userdashboard-inner .settings-sign-out .col-12 h3 {
   margin-bottom: 20px;
+}
+
+#app .header-about {
+  height: 70vh;
+  z-index: 999;
+  position: relative;
+}
+
+#app .header-about .bg-header-about {
+  background-image: url("/storage/img/perkament-pattern.jpg");
+  background-repeat: repeat;
+  height: 100%;
+}
+
+#app .header-about .bg-header-about .container {
+  height: 100%;
+  margin: 0 auto;
+}
+
+#app .header-about .bg-header-about .container .row {
+  margin: 0;
+}
+
+#app .header-about .bg-header-about .container .row .col-3 {
+  margin: 0;
+}
+
+#app .header-about .bg-header-about .container .row .col-3 img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+}
+
+#app .header-about .bg-header-about .container .row .col-6 {
+  text-align: center;
+  margin: 0;
+}
+
+#app .header-about .bg-header-about .container .row .col-6 h1 {
+  margin-bottom: 15px;
+}
+
+#app .header-about .bg-header-about .container .row .col-6 h5 {
+  margin-bottom: 15px;
+}
+
+#app .header-about .about-header-borderbottom {
+  height: 150px;
+  background-image: url("/storage/img/perkament-pattern-bottom.png");
+  background-repeat: repeat-x;
+}
+
+#app .about-content {
+  height: 100vh;
+  background-image: url("/storage/img/carcassonne-blue-pattern.jpg");
+  background-repeat: repeat;
+  background-size: 100px 100px;
+}
+
+#app .about-content .about-bottomimg {
+  background-image: url("/storage/img/bg-uitbreiding-1-mapped.png");
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+#app .about-content .about-bottomimg .container {
+  height: 100%;
+}
+
+#app .about-content .about-bottomimg .container .row {
+  margin: 0;
+  height: 100%;
+}
+
+#app .about-content .about-bottomimg .container .row .col-6 h2 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+#app .about-content .about-bottomimg .container .row .col-6 p {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+#app .about-content .about-bottomimg .container .row .col-6 img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+#app .vines-devider {
+  background-image: url("/storage/img/begroeiing-top.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+
+#app .nk-regels {
+  margin-bottom: 80px;
+}
+
+#app .nk-regels .about-nk {
+  margin-bottom: 40px;
+}
+
+#app .nk-regels .about-rules a h4 {
+  margin: 20% 0;
+  font-size: 38px;
+  color: white;
+}
+
+#app .nk-regels .about-rules .rules-block:first-child {
+  margin-right: 25px;
+  padding: 0;
+}
+
+#app .nk-regels .about-rules .rules-block:last-child {
+  margin-left: 25px;
+  padding: 0;
 }
 
 #scoresContainer table thead {

@@ -43,9 +43,8 @@ Auth::routes();
 
 Route::get('/', 'WelcomeController@index')->name('root');
 Route::get('/home', 'HomeController@index')->name('home');
+Route::resource('about', 'AboutController');
 Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
-Route::get('/tafelindelingen', 'TafelindelingenController@index')->name('tafelindelingen');
-Route::get('/scores-invoeren', 'ScoresInvoerenController@index')->name('scoresinvoeren');
 Route::get('/newsfeed', 'NewsfeedController@index')->name('newsfeed');
 Route::get('/leaderboard', 'ScoreController@index')->name('leaderboard');
 Route::get('/faq', 'FaqController@index')->name('faq');
