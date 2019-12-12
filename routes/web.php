@@ -56,6 +56,8 @@ Route::resource('judges', 'JudgesController');
 Route::resource('privileges', 'privilegesController');
 Route::get('/newsfeed', 'NewsfeedController@index')->name('newsfeed');
 Route::resource('usersdashboard', 'UserController');
+Route::get('/verify', 'UserController@verify')->name('verify');
+Route::get('/verify_score', 'UserController@verifyScore')->name('verify_score');
 Route::resource('nieuwsfeed', 'NewNewsfeedController');
 
 
