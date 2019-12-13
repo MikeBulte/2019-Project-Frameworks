@@ -1001,6 +1001,61 @@ html .dataTables_wrapper {
   color: #3490dc;
 }
 
+.contact-page {
+  min-height: 70vh;
+  background-image: url("/storage/img/carcassonne-blue-pattern.jpg");
+  background-repeat: repeat;
+  background-size: 100px 100px;
+  padding-bottom: 40px;
+  padding-top: 80px;
+}
+
+.contact-page .container .row {
+  margin: 0;
+}
+
+.contact-page .container .row h1 {
+  color: #ffffff;
+}
+
+.contact-page .container .row .col-8 {
+  padding: 0;
+}
+
+.contact-page .container .row .col-8 .contact-form {
+  margin-right: 25px;
+}
+
+.contact-page .container .row .col-8 .contact-form p {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.contact-page .container .row .col-8 .contact-form input {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.contact-page .container .row .col-8 .contact-form textarea {
+  width: 100%;
+  height: 300px;
+}
+
+.contact-page .container .row .col-4 {
+  padding: 0;
+}
+
+.contact-page .container .row .col-4 .right-col {
+  margin-left: 25px;
+}
+
+.contact-page .container .row .col-4 .right-col .info-bg {
+  padding: 25px;
+  background-color: #ffffff;
+  box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
+  margin-bottom: 50px;
+}
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors

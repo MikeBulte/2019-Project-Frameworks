@@ -3,7 +3,7 @@
         <a class="navbar-brand"> <img src="{{ asset('storage/img/carcassonne-main-logo.png') }}"></a>
         <div class="sidebar-inner">
             <ul>
-                <li class="{{ (request()->segment(1) == 'Dashboard') ? 'active' : '' }}"><a href="/dashboard" class="menu-item-sidebar d-block">Dashboard</a></li>
+                <li class="{{ (request()->segment(1) == 'dashboard') ? 'active' : '' }}"><a href="/dashboard" class="menu-item-sidebar d-block">Dashboard</a></li>
             </ul>
             <ul class="functions-list">
                 <p class="functions-title">Functies</p>
