@@ -11,17 +11,17 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
         <!-- Left Side Of Navbar -->
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link text-primary" href="{{ url('/') }}">Home</a>
+            <li class="nav-item">
+                <a class="{{ (request()->segment(1) == '') ? 'active' : '' }} nav-link" href="{{ url('/') }}">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{ url('about') }}">Over het NK</a>
+                <a class="{{ (request()->segment(1) == 'about') ? 'active' : '' }} nav-link" href="{{ url('about') }}">Over het NK</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{ url('faq') }}">Faq</a>
+                <a class="{{ (request()->segment(1) == 'faq') ? 'active' : '' }} nav-link" href="{{ url('faq') }}">Faq</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{ url('contact') }}">Contact</a>
+                <a class="{{ (request()->segment(1) == 'contact') ? 'active' : '' }} nav-link" href="{{ url('contact') }}">Contact</a>
             </li>
         </ul>
 
