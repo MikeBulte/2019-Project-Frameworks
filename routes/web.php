@@ -14,21 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/contact', function()
-{
-    return view('pages.contact');
-});
-
-Route::get('/about', function()
-{
-    return view('pages.about');
-});
-
-Route::get('/faq', function()
-{
-    return view('pages.faq');
-});
-
 Route::get('/login', function()
 {
     return view('pages.login');
@@ -41,21 +26,26 @@ Route::get('/register', function()
 
 Auth::routes();
 
-Route::get('/', 'WelcomeController@index')->name('root');
-Route::get('/home', 'HomeController@index')->name('home');
+// Main routes
+Route::resource('/', 'WelcomeController');
+Route::resource('home', 'HomeController');
+
+// Page dir routes
 Route::resource('about', 'AboutController');
-Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
+Route::resource('faq', 'FaqController');
 Route::get('/newsfeed', 'NewsfeedController@index')->name('newsfeed');
+Route::get('/newsfeed', 'NewsfeedController@index')->name('newsfeed');
+Route::resource('contact', 'ContactController');
+
+// UserDashboard routes
+Route::resource('usersdashboard', 'UserController');
 Route::get('/leaderboard', 'ScoreController@index')->name('leaderboard');
-Route::get('/faq', 'FaqController@index')->name('faq');
-Route::get('/tafelindelingen', 'TableArrangementController@index')->name('tafelindelingen');
-Route::get('/scores-invoeren', 'ScoresInputController@index')->name('scoresinvoeren');
+
+// Dashboard Routes
+Route::resource('dashboard', 'DashboardController');
+Route::resource('table-arrangement', 'TableArrangementController');
+Route::resource('scores-input', 'ScoresInputController');
 Route::resource('players', 'PlayersController');
 Route::resource('judges', 'JudgesController');
 Route::resource('privileges', 'privilegesController');
-Route::get('/newsfeed', 'NewsfeedController@index')->name('newsfeed');
-Route::resource('usersdashboard', 'UserController');
 Route::resource('nieuwsfeed', 'NewNewsfeedController');
-Route::resource('contact', 'ContactController');
-
-

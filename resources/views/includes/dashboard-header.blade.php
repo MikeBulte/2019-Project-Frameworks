@@ -8,16 +8,16 @@
         <!-- Left Side Of Navbar -->
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link text-primary" href="/">HOME</a>
+                <a class="nav-link text-primary" href="{{ url('/') }}">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/about">OVER HET NK</a>
+                <a class="nav-link" href="{{ url('about') }}">Over het NK</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/faq">FAQ</a>
+                <a class="nav-link" href="{{ url('faq') }}">Faq</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
+                <a class="nav-link" href="{{ url('contact') }}">Contact</a>
             </li>
         </ul>
 

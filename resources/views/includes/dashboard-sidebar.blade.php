@@ -3,11 +3,11 @@
         <a class="navbar-brand"> <img src="{{ asset('storage/img/carcassonne-main-logo.png') }}"></a>
         <div class="sidebar-inner">
             <ul>
-                <li class="{{ (request()->segment(1) == 'dashboard') ? 'active' : '' }}"><a href="/dashboard" class="menu-item-sidebar d-block">Dashboard</a></li>
+                <li class="{{ (request()->segment(1) == 'dashboard') ? 'active' : '' }}"><a href="{{ url('dashboard') }}" class="menu-item-sidebar d-block">Dashboard</a></li>
             </ul>
             <ul class="functions-list">
                 <p class="functions-title">Functies</p>
-                <li class="{{ (request()->segment(1) == 'tafelindelingen') ? 'active' : '' }}"><a href="/tafelindelingen" class="menu-item-sidebar d-block">Tafelindelingen</a></li>
+                <li class="{{ (request()->segment(1) == 'table-arrangement') ? 'active' : '' }}"><a href="{{ url('table-arrangement') }}" class="menu-item-sidebar d-block">Tafelindelingen</a></li>
                 <li class="{{ (request()->segment(1) == 'scores-invoeren') ? 'active' : '' }}"><a href="/scores-invoeren" class="menu-item-sidebar d-block">Scores invoeren</a></li>
                 <li class="{{ (request()->segment(1) == 'players') ? 'active' : '' }}"><a href="/players" class="menu-item-sidebar d-block">Deelnemers</a></li>
                 <li class="{{ (request()->segment(1) == 'judges') ? 'active' : '' }}"><a href="/judges" class="menu-item-sidebar d-block">Juryleden</a></li>
