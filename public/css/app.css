@@ -188,6 +188,14 @@ html .dataTables_wrapper {
   top: 0;
 }
 
+.password-reset-page {
+  min-height: 70vh;
+}
+
+.password-reset-page .row {
+  width: 100%;
+}
+
 .bg-footer {
   background-image: url("/storage/img/carcassonne-blue-pattern.jpg");
   background-size: 200px 200px;
