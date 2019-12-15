@@ -3,6 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\Pivot;
 
 class RoundUser extends Model
 {
@@ -21,5 +22,10 @@ class RoundUser extends Model
     public function round()
     {
         return $this->belongsTo(Round::class, 'round_id', 'id');
+    }
+
+    public function user()
+    {
+        return $this->belongsTo(User::class, 'user_id', 'id');
     }
 }

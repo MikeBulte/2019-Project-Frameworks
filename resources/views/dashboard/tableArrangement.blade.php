@@ -5,6 +5,7 @@
         <div class="height-inner">
             <h1>Tafelindelingen</h1>
             @foreach($rounds as $key => $round)
+                @dd($round->users)
             <div id="accordion" role="tablist">
                 <div class="card voorronde">
                     <div class="card-header" role="tab" id="heading{{ $key }}">
@@ -22,9 +23,9 @@
                                     <tr>
                                         <th scope="col">Tafelnummmer</th>
                                         <th scope="col">Speler 1</th>
-                                        <th scope="col">Speler 1</th>
-                                        <th scope="col">Speler 1</th>
-                                        <th scope="col">Speler 1</th>
+                                        <th scope="col">Speler 2</th>
+                                        <th scope="col">Speler 3</th>
+                                        <th scope="col">Speler 4</th>
                                     </tr>
                                     </thead>
                                     <tbody>
@@ -44,90 +45,6 @@
                                     </tr>
                                     <tr>
                                         <th scope="row">3</th>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">4</th>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">5</th>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">6</th>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">7</th>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">8</th>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">9</th>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">10</th>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">11</th>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">12</th>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">13</th>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">14</th>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">15</th>
                                         <td>Berry Rotunda</td>
                                         <td>Berry Rotunda</td>
                                         <td>Berry Rotunda</td>

@@ -9,7 +9,7 @@ class ScoreController extends Controller
 {
     public function index()
     {
-        $scores = Score::paginate(20);
+        $scores = Score::all();
         $combinedScores = $this->getCombinedScores($scores);
 
         return view('pages.leaderboard', compact('combinedScores'));
@@ -21,13 +21,15 @@ class ScoreController extends Controller
         $combinedResults = [];
         $first = true;
 
+
+
         // Check's if user_id isn't already in array, if so. Combine scores and rounds together to show total score.
         foreach ($scores as $key => $score) {
             if ($first === true) {
                 $combinedResults[$key]['id']         = $score->rounduser->user_id;
-                $combinedResults[$key]['first_name'] = $score->user->first_name;
-                $combinedResults[$key]['prefix']     = (!is_null($score->user->prefix) ? $score->user->prefix : '');
-                $combinedResults[$key]['last_name']  = $score->user->last_name;
+                $combinedResults[$key]['first_name'] = $score->rounduser->user->first_name;
+                $combinedResults[$key]['prefix']     = (!is_null($score->rounduser->user->prefix) ? $score->rounduser->user->prefix : '');
+                $combinedResults[$key]['last_name']  = $score->rounduser->user->last_name;
                 $combinedResults[$key]['amount']     = $score->amount;
                 $combinedResults[$key]['rounds']     = 1;
 
@@ -36,9 +38,9 @@ class ScoreController extends Controller
             }
             elseif (!in_array($score->rounduser->user_id, $combinedIds)) {
                 $combinedResults[$key]['id']         = $score->rounduser->user_id;
-                $combinedResults[$key]['first_name'] = $score->user->first_name;
-                $combinedResults[$key]['prefix']     = (!is_null($score->user->prefix) ? $score->user->prefix : '');
-                $combinedResults[$key]['last_name']  = $score->user->last_name;
+                $combinedResults[$key]['first_name'] = $score->rounduser->user->first_name;
+                $combinedResults[$key]['prefix']     = (!is_null($score->rounduser->user->prefix) ? $score->rounduser->user->prefix : '');
+                $combinedResults[$key]['last_name']  = $score->rounduser->user->last_name;
                 $combinedResults[$key]['amount']     = $score->amount;
                 $combinedResults[$key]['rounds']     = 1;
 

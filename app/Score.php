@@ -15,6 +15,11 @@ class Score extends Model
         return $this->belongsTo('App\User');
     }
 
+//    public function user()
+//    {
+//        return $this->hasManyThrough(User::class, RoundUser::class);
+//    }
+
     public function rounduser()
     {
         return $this->belongsTo(RoundUser::class, 'round_user_id', 'id');

@@ -12,6 +12,6 @@ class GameTable extends Model
 
     public function roundusers()
     {
-        return $this->hasMany('App\RoundUser');
+        return $this->hasMany(RoundUser::class);
     }
 }
