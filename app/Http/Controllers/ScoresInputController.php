@@ -23,7 +23,7 @@ class ScoresInputController extends Controller
      */
     public function index()
     {
-        return view('dashboard.scoresInvoeren');
+        return view('dashboard.scoreInput');
     }
 
     /**
