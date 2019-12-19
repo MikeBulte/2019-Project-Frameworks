@@ -16,7 +16,7 @@ class ScoresTableSeeder extends Seeder
             [
                 'user_id'       => 1,
                 'round_id'      => 1,
-                'table_id'      => 1,
+                'game_table_id' => 1,
                 'amount'        => 80,
                 'weight'        => 50,
                 'validated'     => true,
@@ -24,7 +24,7 @@ class ScoresTableSeeder extends Seeder
             [
                 'user_id'       => 2,
                 'round_id'      => 1,
-                'table_id'      => 1,
+                'game_table_id' => 1,
                 'amount'        => 30,
                 'weight'        => 40,
                 'validated'     => true,
@@ -32,7 +32,7 @@ class ScoresTableSeeder extends Seeder
             [
                 'user_id'       => 3,
                 'round_id'      => 1,
-                'table_id'      => 1,
+                'game_table_id' => 1,
                 'amount'        => 45,
                 'weight'        => 50,
                 'validated'     => true,
@@ -40,7 +40,7 @@ class ScoresTableSeeder extends Seeder
             [
                 'user_id'       => 3,
                 'round_id'      => 2,
-                'table_id'      => 3,
+                'game_table_id' => 3,
                 'amount'        => 20,
                 'weight'        => 30,
                 'validated'     => true,
@@ -48,7 +48,7 @@ class ScoresTableSeeder extends Seeder
             [
                 'user_id'       => 3,
                 'round_id'      => 3,
-                'table_id'      => 5,
+                'game_table_id' => 5,
                 'amount'        => 100,
                 'weight'        => 100,
                 'validated'     => false,
@@ -56,7 +56,7 @@ class ScoresTableSeeder extends Seeder
             [
                 'user_id'       => 1,
                 'round_id'      => 2,
-                'table_id'      => 7,
+                'game_table_id' => 7,
                 'amount'        => 60,
                 'weight'        => 40,
                 'validated'     => true,
