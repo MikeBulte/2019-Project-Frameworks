@@ -25,14 +25,4 @@ class TableArrangementController extends Controller
     {
         return view('dashboard.tableArrangement');
     }
-
-    public function arrangeTables()
-    {
-
-    }
-
-    public function calculateWeight()
-    {
-
-    }
 }
