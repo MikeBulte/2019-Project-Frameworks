@@ -19,13 +19,13 @@ class CreateScoresTable extends Migration
             $table->bigIncrements('id');
 
             $table->unsignedBigInteger('user_id');
-            $table->foreign('user_id')->on('users')->references('id');
+            $table->foreign('user_id')->on('users')->references('id')->onUpdate('cascade')->onDelete('cascade');
 
             $table->unsignedBigInteger('round_id');
-            $table->foreign('round_id')->on('rounds')->references('id');
+            $table->foreign('round_id')->on('rounds')->references('id')->onUpdate('cascade')->onDelete('cascade');
 
             $table->unsignedBigInteger('game_table_id');
-            $table->foreign('game_table_id')->on('game_tables')->references('id');
+            $table->foreign('game_table_id')->on('game_tables')->references('id')->onUpdate('cascade')->onDelete('cascade');
 
 //            Score per round, for each user.
             $table->unsignedSmallInteger('amount')->nullable()->default(null);
