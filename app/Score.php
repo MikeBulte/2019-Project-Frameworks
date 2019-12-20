@@ -12,11 +12,16 @@ class Score extends Model
 
     public function user()
     {
-        return $this->belongsTo('App\User');
+        return $this->belongsTo(User::class);
     }
 
-    public function rounduser()
+    public function round()
     {
-        return $this->belongsTo(RoundUser::class, 'round_user_id', 'id');
+        return $this->belongsTo(Round::class);
+    }
+
+    public function game_table()
+    {
+        return $this->belongsTo(GameTable::class, 'game_table_id');
     }
 }
