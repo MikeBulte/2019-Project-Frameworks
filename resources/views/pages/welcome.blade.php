@@ -15,7 +15,7 @@
             </div>
         </div>
     </div>
-    <div class="container my-3">
+    <div class="container content-home">
         <div class="row justify-content-between paper-home">
             <div class="col-sm paper">
                 <img class="w-100" src="{{ asset('storage/img/perkament-pattern-top222.png') }}">
@@ -52,10 +52,10 @@
             </div>
         </div>
         <div class="row justify-content-between home-rules">
-            <div class="col-lg bg-rules-1 my-4 rules-block">
+            <div class="col-lg bg-rules-1 rules-block">
                 <a href="#" class="text-decoration-none"><h4 class="text-center font-weight-semibold">Bekijk de toernooiregels</h4></a>
             </div>
-            <div class="col-lg bg-rules-2 my-4 rules-block">
+            <div class="col-lg bg-rules-2 rules-block">
                 <a href="#" class="text-decoration-none"><h4 class="text-center font-weight-semibold">Bekijk de spelregels</h4></a>
             </div>
         </div>

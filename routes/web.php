@@ -34,7 +34,6 @@ Route::resource('home', 'HomeController');
 Route::resource('about', 'AboutController');
 Route::resource('faq', 'FaqController');
 Route::get('/newsfeed', 'NewsfeedController@index')->name('newsfeed');
-Route::get('/newsfeed', 'NewsfeedController@index')->name('newsfeed');
 Route::resource('contact', 'ContactController');
 
 // UserDashboard routes
@@ -47,5 +46,5 @@ Route::resource('table-arrangement', 'TableArrangementController');
 Route::resource('score-input', 'ScoresInputController');
 Route::resource('players', 'PlayersController');
 Route::resource('judges', 'JudgesController');
-Route::resource('privileges', 'privilegesController');
+Route::resource('privileges', 'PrivilegesController');
 Route::resource('nieuwsfeed', 'NewNewsfeedController');

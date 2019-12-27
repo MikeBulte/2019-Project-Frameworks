@@ -518,49 +518,57 @@ html .title-margin {
   margin-bottom: 20px;
 }
 
-.paper-home {
+.content-home {
+  margin-bottom: 100px;
+}
+
+.content-home .paper-home {
   margin-top: -70px;
 }
 
-.paper-home .paper:first-child {
+.content-home .paper-home .paper:first-child {
   margin: 0 25px 0 0;
 }
 
-.paper-home .paper:last-child {
+.content-home .paper-home .paper:last-child {
   margin: 0 0 0 25px;
 }
 
-.paper-home .paper {
+.content-home .paper-home .paper {
   margin: 0 25px 0 25px;
 }
 
-.paper-home .col-sm {
+.content-home .paper-home .col-sm {
   padding: 0 !important;
 }
 
-.paper-content {
+.content-home .paper-content {
   width: 100%;
   padding: 40px 0;
 }
 
-.paper-content img {
+.content-home .paper-content img {
   width: 30%;
   margin: 0 auto 20px auto;
   display: block;
 }
 
-.home-rules a h4 {
+.content-home .home-rules {
+  margin-top: 40px;
+}
+
+.content-home .home-rules a h4 {
   margin: 20% 0;
   font-size: 38px;
   color: white;
 }
 
-.home-rules .rules-block:first-child {
+.content-home .home-rules .rules-block:first-child {
   margin-right: 25px;
   padding: 0;
 }
 
-.home-rules .rules-block:last-child {
+.content-home .home-rules .rules-block:last-child {
   margin-left: 25px;
   padding: 0;
 }
