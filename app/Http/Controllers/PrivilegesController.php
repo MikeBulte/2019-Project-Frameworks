@@ -9,6 +9,7 @@ use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
+use jeremykenedy\LaravelRoles\Models\Role;
 
 class PrivilegesController extends Controller
 {
@@ -30,8 +31,9 @@ class PrivilegesController extends Controller
     public function index()
     {
         $privileges = User::all();
+        $roles = Role::all();
 
-        return view('dashboard.privileges', compact('privileges'));
+        return view('dashboard.privileges', compact('privileges', 'roles'));
     }
 
     public function store(PlayersRequest $request)
@@ -49,36 +51,9 @@ class PrivilegesController extends Controller
         return redirect()->route('players.index');
     }
 
-    public function storeJudge(JudgesRequest $request)
+    public function update(PrivilegesRequest $request, User $privilege)
     {
-        $data = $request->validated();
-
-        $judge = config('roles.models.defaultUser')::create([
-            'first_name' => $data['first_name'],
-            'last_name' => $data['last_name'],
-            'email' => $data['email'],
-            'password' => Hash::make($data['password']),
-        ]);
-
-        $role = config('roles.models.role')::where('name', '=', 'Jury')->first();  //choose the default role upon user creation.
-        $judge->attachRole($role);
-
-        return redirect()->route('judges.index');
-    }
-
-    public function update(PrivilegesRequest $request, User $privileges)
-    {
-        $currentRole = $_POST['role'];
-        var_dump($currentRole);
-        die();
-
-        $privileges->first_name = $request->first_name;
-        $privileges->last_name = $request->last_name;
-        $privileges->email = $request->email;
-        $privileges->password = $request->password;
-
-        $privileges->save();
-
-        return redirect()->route('judges.index');
+        $privilege->syncRoles([$request->role]);
+        return redirect()->route('privileges.index');
     }
 }

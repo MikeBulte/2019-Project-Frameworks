@@ -51,56 +51,62 @@
     }
 }
 
-.paper-home {
-    margin-top: -70px;
+.content-home {
+    margin-bottom: 100px;
 
-    .paper:first-child {
-        margin: 0 25px 0 0;
-    }
+    .paper-home {
+        margin-top: -70px;
 
-    .paper:last-child {
-        margin: 0 0 0 25px;
-    }
+        .paper:first-child {
+            margin: 0 25px 0 0;
+        }
 
-    .paper {
-        margin: 0 25px 0 25px;
-    }
+        .paper:last-child {
+            margin: 0 0 0 25px;
+        }
 
-    .col-sm {
-        padding: 0 !important;
-    }
-}
+        .paper {
+            margin: 0 25px 0 25px;
+        }
 
-.paper-content {
-    width: 100%;
-    padding: 40px 0;
-
-    img {
-        width: 30%;
-        margin: 0 auto 20px auto;
-        display: block;
-    }
-}
-
-.home-rules {
-
-    a {
-        h4 {
-            margin: 20% 0;
-            font-size: 38px;
-            color: white;
+        .col-sm {
+            padding: 0 !important;
         }
     }
 
-    .rules-block:first-child {
-        margin-right: 25px;
-        padding: 0;
+    .paper-content {
+        width: 100%;
+        padding: 40px 0;
+
+        img {
+            width: 30%;
+            margin: 0 auto 20px auto;
+            display: block;
+        }
     }
 
-    .rules-block:last-child {
-        margin-left: 25px;
-        padding: 0;
+    .home-rules {
+        margin-top: 40px;
+
+        a {
+            h4 {
+                margin: 20% 0;
+                font-size: 38px;
+                color: white;
+            }
+        }
+
+        .rules-block:first-child {
+            margin-right: 25px;
+            padding: 0;
+        }
+
+        .rules-block:last-child {
+            margin-left: 25px;
+            padding: 0;
+        }
     }
 }
+
 
 
