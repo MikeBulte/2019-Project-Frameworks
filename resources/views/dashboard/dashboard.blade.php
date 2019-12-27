@@ -44,9 +44,9 @@
         </div>
         <div class="quickadd-dashboard">
             <div class="d-flex row align-items-center">
-                <h2 class="quickadd-title col">Snel een deelnemer toevoegen</h2>
+                <h2 class="quickadd-title col">Een deelnemer toevoegen</h2>
                 <div class="col d-flex justify-content-end">
-                    <button class="quickadd-button scnd-btn">Deelnemer toevoegen</button>
+                    <button class="quickadd-button scnd-btn"><a href="{{ url('players') }}">Deelnemer toevoegen</a></button>
                 </div>
             </div>
         </div>
