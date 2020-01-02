@@ -48,3 +48,5 @@ Route::resource('players', 'PlayersController');
 Route::resource('judges', 'JudgesController');
 Route::resource('privileges', 'PrivilegesController');
 Route::resource('nieuwsfeed', 'NewNewsfeedController');
+
+Route::resource('qrscanner', 'QrScannerController');
