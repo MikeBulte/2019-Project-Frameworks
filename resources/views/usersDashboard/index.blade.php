@@ -5,7 +5,7 @@
         <div class="userdashboard-inner d-flex align-items-center userdashboard-inner-height">
             <div class="user-quickselect-width">
                 <div class="row ">
-                    <div class="col">
+                    <div class="col title-margin">
                         <h1>Snel selectie</h1>
                     </div>
                     <div class="col d-flex justify-content-end">

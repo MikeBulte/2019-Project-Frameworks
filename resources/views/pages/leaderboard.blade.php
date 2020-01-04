@@ -13,17 +13,20 @@
                 <thead>
                 <tr>
                     <th scope="col">Positie</th>
-                    <th scope="col">Spelernaam</th>
+                    <th scope="col">Spelaaernaam</th>
                     <th scope="col">Aantal Punten</th>
                     <th scope="col">Aantal Gespeelde Rondes</th>
                 </tr>
                 </thead>
                 <tbody>
+{{--            Replace with $s->where('user_id', 1)->sum('amount')    --}}
                 <?php $pos = 1 ?>
                 @foreach($combinedScores as $score)
+{{--                    @foreach($scores as $score)--}}
                     <tr>
+{{--                        <td>{{ $score->where('user_id', 1)->sum('amount') }}</td>--}}
                         <th scope="row">{{ $pos++ }}</th>
-                        <th scope="row"> {{ $score['first_name'] }} {{ $score['prefix'] }} {{ $score['last_name'] }}</th>
+                        <th scope="row">{{ $score['first_name'] }} {{ $score['prefix'] }} {{ $score['last_name'] }}</th>
                         <td>{{ $score['amount'] }} Punten</td>
                         <td>{{ $score['rounds'] }} Rondes</td>
                     </tr>

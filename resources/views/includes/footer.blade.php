@@ -41,8 +41,8 @@
         </div>
 
         <div class="pb-3">
-            <p class="small d-inline mb-1 text-white font-weight-bold"> Copyright &copy; Team 1c 2019</p>
-            <p class="small d-inline float-right text-white">Made by: Annemarieke, Jasper, Katja, Menno & Mike</p>
+            <p class="small d-inline mb-1 text-white font-weight-bold"> Copyright &copy; Codesign 2019</p>
+            <p class="small d-inline float-right text-white">Made by: Annemarieke, Jasper, Menno & Mike</p>
         </div>
     </div>
 </footer>

@@ -12,7 +12,7 @@
                     @elseif(session()->has('alert'))
                         <h6 class="alert alert-danger text-center"> {{ session('alert') }}</h6>
                     @endif
-                    <h1>Profielinstellingen</h1>
+                    <h1 class="title-margin">Profielinstellingen</h1>
                     <div class="settings">
                         <form action="{{ route('usersdashboard.update', ['usersdashboard' => $user]) }}" method="post">
                             @csrf

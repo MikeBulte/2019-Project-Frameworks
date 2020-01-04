@@ -39,13 +39,8 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-//    public function scores()
-//    {
-//        return $this->hasMany('App\Score');
-//    }
-
-    public function rounds()
+    public function scores()
     {
-        return $this->belongsToMany(Round::class)->using(RoundUser::class);
+        return $this->hasMany(Score::class);
     }
 }

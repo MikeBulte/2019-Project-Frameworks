@@ -17,6 +17,8 @@ class CreateRoundsTable extends Migration
             $table->bigIncrements('id');
             // Unsure if needed, in case if bracket rounds need to be marked.
             $table->boolean('bracket_round');
+            $table->boolean('in_progress');
+            $table->boolean('finished');
             $table->string('name', 45);
             $table->timestamps();
         });

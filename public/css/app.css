@@ -1,11 +1,81 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
 
+/* ---------- FontFace ---------- */
+
+@font-face {
+  font-family: "Barbedor";
+  src: url("/fonts/Barbedor/Barbedor-Bold.eot");
+  src: url("/fonts/Barbedor/Barbedor-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/Barbedor/Barbedor-Bold.woff2") format("woff2"), url("/fonts/Barbedor/Barbedor-Bold.woff") format("woff"), url("/fonts/Barbedor/Barbedor-Bold.ttf") format("truetype"), url("/fonts/Barbedor/Barbedor-Bold.svg#Barbedor-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans/SemiBold/OpenSans-Semibold.eot");
+  src: url("/fonts/OpenSans/SemiBold/OpenSans-Semibold.eot?#iefix") format("embedded-opentype"), url("/fonts/OpenSans/SemiBold/OpenSans-Semibold.woff2") format("woff2"), url("/fonts/OpenSans/SemiBold/OpenSans-Semibold.woff") format("woff"), url("/fonts/OpenSans/SemiBold/OpenSans-Semibold.ttf") format("truetype"), url("/fonts/OpenSans/SemiBold/OpenSans-Semibold.svg#OpenSans-Semibold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans/Bold/OpenSans-Bold.eot");
+  src: url("/fonts/OpenSans/Bold/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/OpenSans/Bold/OpenSans-Bold.woff2") format("woff2"), url("/fonts/OpenSans/Bold/OpenSans-Bold.woff") format("woff"), url("/fonts/OpenSans/Bold/OpenSans-Bold.ttf") format("truetype"), url("/fonts/OpenSans/Bold/OpenSans-Bold.svg#OpenSans-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans/Regular/OpenSans.eot");
+  src: url("/fonts/OpenSans/Regular/OpenSans.eot?#iefix") format("embedded-opentype"), url("/fonts/OpenSans/Regular/OpenSans.woff2") format("woff2"), url("/fonts/OpenSans/Regular/OpenSans.woff") format("woff"), url("/fonts/OpenSans/Regular/OpenSans.ttf") format("truetype"), url("/fonts/OpenSans/Regular/OpenSans.svg#OpenSans") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans/Italic/OpenSans-Italic.eot");
+  src: url("/fonts/OpenSans/Italic/OpenSans-Italic.eot?#iefix") format("embedded-opentype"), url("/fonts/OpenSans/Italic/OpenSans-Italic.woff2") format("woff2"), url("/fonts/OpenSans/Italic/OpenSans-Italic.woff") format("woff"), url("/fonts/OpenSans/Italic/OpenSans-Italic.ttf") format("truetype"), url("/fonts/OpenSans/Italic/OpenSans-Italic.svg#OpenSans-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+
+.font-weight-semibold {
+  font-weight: 600;
+}
+
+/* ---------- General Styling ---------- */
+
 html body {
   background-color: #ffffff;
 }
 
 html p {
   margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+}
+
+html a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+}
+
+html h1,
+html .h1 {
+  font-family: "Barbedor", serif;
+  font-weight: bold;
+}
+
+html h2,
+html h3,
+html h4,
+html h5,
+html h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
 }
 
 html h1,
@@ -28,12 +98,12 @@ html button.prim-btn {
   transition: 0.7s;
   border-radius: 0;
   color: #ffffff;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 html button.prim-btn a {
   color: #ffffff;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 html button.prim-btn input {
@@ -41,7 +111,7 @@ html button.prim-btn input {
   box-shadow: none;
   padding: 0 0;
   color: #ffffff;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 html button.prim-btn:hover {
@@ -52,12 +122,12 @@ html button.prim-btn:hover {
   transition: 0.7s;
   border-radius: 0;
   color: #ffffff;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 html button.prim-btn:hover a {
   color: #ffffff;
-  font-weight: 800;
+  font-weight: 600;
   text-decoration: none;
 }
 
@@ -66,7 +136,7 @@ html button.prim-btn:hover input {
   box-shadow: none;
   padding: 0 0;
   color: #ffffff;
-  font-weight: 800;
+  font-weight: 600;
   text-decoration: none;
 }
 
@@ -78,12 +148,12 @@ html button.scnd-btn {
   -webkit-transition: 0.7s;
   transition: 0.7s;
   color: #206EB8 !important;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 html button.scnd-btn a {
   color: #206EB8 !important;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 html button.scnd-btn input {
@@ -91,7 +161,7 @@ html button.scnd-btn input {
   box-shadow: none;
   padding: 0 0;
   color: #206EB8 !important;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 html button.scnd-btn:hover {
@@ -102,12 +172,12 @@ html button.scnd-btn:hover {
   -webkit-transition: 0.7s;
   transition: 0.7s;
   color: #ffffff !important;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 html button.scnd-btn:hover a {
   color: #ffffff !important;
-  font-weight: 800;
+  font-weight: 600;
   text-decoration: none;
 }
 
@@ -116,7 +186,7 @@ html button.scnd-btn:hover input {
   box-shadow: none;
   padding: 0 0;
   color: #ffffff !important;
-  font-weight: 800;
+  font-weight: 600;
   text-decoration: none;
 }
 
@@ -126,12 +196,12 @@ html button.ter-btn {
   padding: 10px 25px;
   border-radius: 0;
   color: #ffffff;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 html button.ter-btn a {
   color: #ffffff;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 html button.ter-btn:hover {
@@ -140,12 +210,12 @@ html button.ter-btn:hover {
   padding: 10px 25px;
   border-radius: 0;
   color: #206EB8;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 html button.ter-btn:hover a {
   color: #206EB8;
-  font-weight: 800;
+  font-weight: 600;
   text-decoration: none;
 }
 
@@ -154,7 +224,7 @@ html button.ter-btn:hover input {
   box-shadow: none;
   padding: 0 0;
   color: #206EB8;
-  font-weight: 800;
+  font-weight: 600;
   text-decoration: none;
 }
 
@@ -176,6 +246,10 @@ html .dataTables_wrapper {
   width: 100%;
 }
 
+html .title-margin {
+  margin-bottom: 50px;
+}
+
 .login,
 .image {
   min-height: 100vh;
@@ -186,6 +260,14 @@ html .dataTables_wrapper {
   background-size: cover;
   background-position: center;
   top: 0;
+}
+
+.password-reset-page {
+  min-height: 70vh;
+}
+
+.password-reset-page .row {
+  width: 100%;
 }
 
 .bg-footer {
@@ -205,6 +287,109 @@ html .dataTables_wrapper {
   padding: 0;
 }
 
+/*---------- News Feed ----------*/
+
+.news-feed {
+  margin: 100px 0;
+}
+
+.news-feed .main_feed {
+  height: auto;
+  width: 100%;
+  background-color: black;
+}
+
+.news-feed .main_feed:hover img {
+  opacity: 0.9;
+}
+
+.news-feed .col-8 {
+  padding: 0 0 0 0;
+}
+
+.news-feed .col-8 img {
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+}
+
+.news-feed .col-8 .news-title-main {
+  position: absolute;
+  padding: 5px;
+  color: white;
+  bottom: 12px;
+  left: 30px;
+}
+
+.news-feed .col-8 .news-title-main h3 {
+  font-size: 28px;
+  color: white;
+  margin-right: 10px;
+}
+
+.news-feed .col-8 .news-title-main p {
+  font-size: 16px;
+}
+
+.news-feed .col-4 {
+  padding-right: 0;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.news-feed .col-4 .news-title-side-up {
+  position: absolute;
+  padding: 5px;
+  color: white;
+  bottom: 10px;
+  left: 30px;
+}
+
+.news-feed .col-4 .news-title-side-up h3 {
+  font-size: 18px;
+  color: white;
+}
+
+.news-feed .col-4 .news-title-side-down {
+  position: absolute;
+  padding: 10px;
+  color: white;
+  bottom: 10px;
+  left: 30px;
+}
+
+.news-feed .col-4 .news-title-side-down h3 {
+  font-size: 18px;
+  color: white;
+}
+
+.news-feed .side_feed {
+  position: relative;
+  width: 100%;
+  height: calc(47% - 1rem);
+  background-color: black;
+  margin-bottom: 1rem;
+}
+
+.news-feed .side_feed img {
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+}
+
+.news-feed .side_feed:hover img {
+  opacity: 0.9;
+}
+
+.news-feed .side_feed:last-child {
+  margin-bottom: 0;
+}
+
+/*---------- News page ----------*/
+
 .header-img {
   width: 100%;
   height: 250px;
@@ -219,7 +404,7 @@ html .dataTables_wrapper {
 }
 
 .body-newsfeed {
-  padding: 30px 20px 30px 20px;
+  padding: 30px 20px;
   width: 100%;
   margin-top: 30px;
   background-color: white;
@@ -281,13 +466,6 @@ html .dataTables_wrapper {
   }
 }
 
-.bg-header-home {
-  background-image: url("/storage/img/header-home-background.png");
-  background-size: cover;
-  background-position: center;
-  height: 90vh;
-}
-
 .bg-paper {
   background-image: url("/storage/img/perkament-pattern.jpg");
   background-size: cover;
@@ -325,144 +503,74 @@ html .dataTables_wrapper {
   background-position: center;
 }
 
-.paper-home {
+.bg-header-home {
+  background-image: url("/storage/img/header-home-background.png");
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.bg-header-home h1 {
+  font-size: 60px;
+}
+
+.bg-header-home p {
+  margin-bottom: 20px;
+}
+
+.content-home {
+  margin-bottom: 100px;
+}
+
+.content-home .paper-home {
   margin-top: -70px;
 }
 
-.paper-home .paper:first-child {
+.content-home .paper-home .paper:first-child {
   margin: 0 25px 0 0;
 }
 
-.paper-home .paper:last-child {
+.content-home .paper-home .paper:last-child {
   margin: 0 0 0 25px;
 }
 
-.paper-home .paper {
+.content-home .paper-home .paper {
   margin: 0 25px 0 25px;
 }
 
-.paper-home .col-sm {
+.content-home .paper-home .col-sm {
   padding: 0 !important;
 }
 
-.paper-content {
+.content-home .paper-content {
   width: 100%;
   padding: 40px 0;
 }
 
-.paper-content img {
+.content-home .paper-content img {
   width: 30%;
   margin: 0 auto 20px auto;
   display: block;
 }
 
-.home-rules a h4 {
+.content-home .home-rules {
+  margin-top: 40px;
+}
+
+.content-home .home-rules a h4 {
   margin: 20% 0;
   font-size: 38px;
   color: white;
 }
 
-.home-rules .rules-block:first-child {
+.content-home .home-rules .rules-block:first-child {
   margin-right: 25px;
   padding: 0;
 }
 
-.home-rules .rules-block:last-child {
+.content-home .home-rules .rules-block:last-child {
   margin-left: 25px;
   padding: 0;
-}
-
-/*---- News Feed ----*/
-
-.news-feed {
-  margin: 50px 0;
-}
-
-.news-feed .col-4 {
-  padding-right: 0;
-}
-
-.news-feed .col-8 {
-  padding: 0 0 0 0;
-}
-
-.news-title-main {
-  position: absolute;
-  padding: 5px;
-  color: white;
-  bottom: 12px;
-  left: 30px;
-}
-
-.news-title-main h3 {
-  font-size: 28px;
-  color: white;
-  margin-right: 10px;
-}
-
-.news-title-main p {
-  font-size: 16px;
-}
-
-.news-title-side-up {
-  position: absolute;
-  padding: 5px;
-  color: white;
-  top: 31%;
-  left: 30px;
-}
-
-.news-title-side-up h3 {
-  font-size: 18px;
-  color: white;
-}
-
-.news-title-side-down {
-  position: absolute;
-  padding: 10px;
-  color: white;
-  bottom: 56px;
-  left: 30px;
-}
-
-.news-title-side-down h3 {
-  font-size: 18px;
-  color: white;
-}
-
-.main_feed {
-  width: 100%;
-  height: 500px;
-  background-color: black;
-}
-
-.main_feed img {
-  opacity: 0.7;
-  width: 100%;
-  height: 500px;
-}
-
-.main_feed:hover img {
-  opacity: 0.9;
-}
-
-.side_feed {
-  width: 100%;
-  height: calc(47% - 1rem);
-  background-color: black;
-  margin-bottom: 1rem;
-}
-
-.side_feed img {
-  opacity: 0.7;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover !important;
-     object-fit: cover !important;
-}
-
-.side_feed:hover img {
-  opacity: 0.9;
 }
 
 .c2a {
@@ -501,8 +609,17 @@ html .dataTables_wrapper {
   width: 100%;
 }
 
-#app .navbar .primary-nav .nav-link {
+#app .navbar .nav-item .nav-link.active {
+  color: #206EB8;
+}
+
+#app .navbar .nav-item .nav-link {
   text-transform: uppercase;
+  color: #000000;
+}
+
+#app .navbar .nav-item .nav-link:hover {
+  color: #206EB8;
 }
 
 #app .dashboard {
@@ -692,6 +809,11 @@ html .dataTables_wrapper {
   width: 30%;
 }
 
+#app .dashboard .dashboard-inner .modal-content form input {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
 #app .dashboard .dashboard-inner .players-inner {
   padding: 50px;
   box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
@@ -866,8 +988,184 @@ html .dataTables_wrapper {
   margin-bottom: 20px;
 }
 
+#app .header-about {
+  height: 70vh;
+  z-index: 999;
+  position: relative;
+}
+
+#app .header-about .bg-header-about {
+  background-image: url("/storage/img/perkament-pattern.jpg");
+  background-repeat: repeat;
+  height: 100%;
+}
+
+#app .header-about .bg-header-about .container {
+  height: 100%;
+  margin: 0 auto;
+}
+
+#app .header-about .bg-header-about .container .row {
+  margin: 0;
+}
+
+#app .header-about .bg-header-about .container .row .col-3 {
+  margin: 0;
+}
+
+#app .header-about .bg-header-about .container .row .col-3 img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+}
+
+#app .header-about .bg-header-about .container .row .col-6 {
+  text-align: center;
+  margin: 0;
+}
+
+#app .header-about .bg-header-about .container .row .col-6 h1 {
+  margin-bottom: 15px;
+}
+
+#app .header-about .bg-header-about .container .row .col-6 h5 {
+  margin-bottom: 15px;
+}
+
+#app .header-about .about-header-borderbottom {
+  height: 150px;
+  background-image: url("/storage/img/perkament-pattern-bottom.png");
+  background-repeat: repeat-x;
+}
+
+#app .about-content {
+  height: 100vh;
+  background-image: url("/storage/img/carcassonne-blue-pattern.jpg");
+  background-repeat: repeat;
+  background-size: 100px 100px;
+}
+
+#app .about-content .about-bottomimg {
+  background-image: url("/storage/img/bg-uitbreiding-1-mapped.png");
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+#app .about-content .about-bottomimg .container {
+  height: 100%;
+}
+
+#app .about-content .about-bottomimg .container .row {
+  margin: 0;
+  height: 100%;
+}
+
+#app .about-content .about-bottomimg .container .row .col-6 h2 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+#app .about-content .about-bottomimg .container .row .col-6 p {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+#app .about-content .about-bottomimg .container .row .col-6 img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+#app .vines-devider {
+  background-image: url("/storage/img/begroeiing-top.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+
+#app .nk-regels {
+  margin-bottom: 80px;
+}
+
+#app .nk-regels .about-nk {
+  margin-bottom: 40px;
+}
+
+#app .nk-regels .about-rules a h4 {
+  margin: 20% 0;
+  font-size: 38px;
+  color: white;
+}
+
+#app .nk-regels .about-rules .rules-block:first-child {
+  margin-right: 25px;
+  padding: 0;
+}
+
+#app .nk-regels .about-rules .rules-block:last-child {
+  margin-left: 25px;
+  padding: 0;
+}
+
 #scoresContainer table thead {
   color: #3490dc;
+}
+
+.contact-page {
+  min-height: 70vh;
+  background-image: url("/storage/img/carcassonne-blue-pattern.jpg");
+  background-repeat: repeat;
+  background-size: 100px 100px;
+  padding-bottom: 40px;
+  padding-top: 80px;
+}
+
+.contact-page .container .row {
+  margin: 0;
+}
+
+.contact-page .container .row h1 {
+  color: #ffffff;
+}
+
+.contact-page .container .row .col-8 {
+  padding: 0;
+}
+
+.contact-page .container .row .col-8 .contact-form {
+  margin-right: 25px;
+}
+
+.contact-page .container .row .col-8 .contact-form p {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.contact-page .container .row .col-8 .contact-form input {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.contact-page .container .row .col-8 .contact-form textarea {
+  width: 100%;
+  height: 300px;
+}
+
+.contact-page .container .row .col-4 {
+  padding: 0;
+}
+
+.contact-page .container .row .col-4 .right-col {
+  margin-left: 25px;
+}
+
+.contact-page .container .row .col-4 .right-col .info-bg {
+  padding: 25px;
+  background-color: #ffffff;
+  box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
+  margin-bottom: 50px;
 }
 
 /*!
