@@ -5,7 +5,7 @@
         <div class="height-inner">
             <h1>Tafelindelingen</h1>
             @foreach($rounds as $key => $round)
-                @dd($round->users)
+                @dd($round)
             <div id="accordion" role="tablist">
                 <div class="card voorronde">
                     <div class="card-header" role="tab" id="heading{{ $key }}">
