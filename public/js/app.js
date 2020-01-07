@@ -36920,6 +36920,8 @@ module.exports = function(module) {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+__webpack_require__(/*! ./datatable */ "./resources/js/datatable.js");
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
@@ -36942,15 +36944,12 @@ try {
 
   __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.js");
 } catch (e) {}
-
-$(document).ready(function () {
-  $('#table-pagination').DataTable();
-});
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
  * to our Laravel back-end. This library automatically handles sending the
  * CSRF token as a header based on the value of the "XSRF" token cookie.
  */
+
 
 window.axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
@@ -36967,6 +36966,32 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     encrypted: true
 // });
+
+/***/ }),
+
+/***/ "./resources/js/datatable.js":
+/*!***********************************!*\
+  !*** ./resources/js/datatable.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * Here we write the config for all JQuery Data Tables inside our application.
+ * If you want to edit or create new Data Tables, insert the code for it here.
+ */
+$(document).ready(function () {
+  $('#table-pagination').DataTable();
+});
+$(document).ready(function () {
+  $('#table-scores').DataTable({
+    "order": [2, "desc"],
+    "columnDefs": [{
+      "orderable": false,
+      "targets": [1, 3]
+    }]
+  });
+});
 
 /***/ }),
 

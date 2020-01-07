@@ -55,6 +55,14 @@ class ScoreController extends Controller
             }
 
         }
+        /**
+         * Copy all results into a new array so we can sort with it to display the highest score first.
+         */
+        foreach ($combinedResults as $key => $row)
+        {
+            $results[$key] = $row['amount'];
+        }
+        array_multisort($results, SORT_DESC, $combinedResults);
 
         return $combinedResults;
 //        asort(array_column($combinedResults, 'amount'), SORT_DESC);
