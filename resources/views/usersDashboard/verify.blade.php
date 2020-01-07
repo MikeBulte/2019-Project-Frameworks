@@ -13,8 +13,7 @@
                     <thead>
 
                     <tr>
-                        <th scope="col">Rondetype</th>
-                        <th scope="col">Rondenummer</th>
+                        <th scope="col">Ronde</th>
                         <th scope="col">Score</th>
                         <th scope="col">Validatie</th>
                     </tr>
@@ -22,8 +21,7 @@
                     <tbody>
                     @foreach($scores as $score)
                         <tr>
-                            <td>Voorronde</td>
-                            <td>1</td>
+                            <td>{{ $score->round->name }}</td>
                             <td>{{ $score->amount }}</td>
                             <td>
                                 <form action="{{ route('verify_score') }}" method="post">
@@ -31,8 +29,12 @@
                                     @method('PUT')
                                     <input type="hidden" value="{{ $score->id }}" name="score_id">
                                     <input type="hidden" value="1" name="validation">
-                                    <input class="btn @php echo( $score->validated ? 'btn-success' : 'btn-danger' ) @endphp"
-                                        type="submit" value="Validate">
+                                    @if($score->validated)
+                                        <input title="Score is gevalideerd" class="btn btn-success" type="submit"
+                                               value="Valideer" disabled>
+                                    @else
+                                        <input type="submit" class="btn btn-danger" value="Valideer">
+                                    @endif
                                 </form>
                             </td>
                         </tr>
