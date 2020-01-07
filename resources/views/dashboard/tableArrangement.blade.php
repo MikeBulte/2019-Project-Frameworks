@@ -9,10 +9,15 @@
                 <div id="accordion" role="tablist">
                     <div class="card voorronde">
                         <div class="card-header" role="tab" id="heading{{ $key }}">
-                            <h5 class="mb-0">
-                                <a data-toggle="collapse" href="#collapse{{ $key }}" aria-expanded="true"
-                                   aria-controls="collapse{{ $key }}">
-                                    {{ $round->name }}
+                            <h5 class="mb-0 d-inline">
+                                <a data-toggle="collapse" href="#collapse{{ $key }}" aria-expanded="false"
+                                   aria-controls="collapse{{ $key }}" class="collapsed text-decoration-none">
+                                    <div class="col-11 d-inline-block">
+                                        {{ $round->name }}
+                                    </div>
+                                    <div class="col-1 mb-0 d-inline justify-content-end arrow_down">
+                                        <img class="arrow_select" src="{{ asset('storage/icons/arrow_down.svg') }}">
+                                    </div>
                                 </a>
                             </h5>
                         </div>
@@ -47,6 +52,11 @@
                                         </tr>
                                         </tbody>
                                     </table>
+                                    <form action="{{ url('TableArrangementController@store') }}" method="post">
+                                        <button class="prim-btn" type="submit">
+                                            Deel de ronde in
+                                        </button>
+                                    </form>
                                 </div>
                             </div>
                         </div>
