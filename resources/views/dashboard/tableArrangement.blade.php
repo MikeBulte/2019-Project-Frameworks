@@ -23,7 +23,7 @@
                                     <table class="table table-hover">
                                         <thead>
                                         <tr>
-                                            <th scope="col">Tafelnummmer</th>
+                                            <th scope="col">Tafel</th>
                                             <th scope="col">Speler 1</th>
                                             <th scope="col">Speler 2</th>
                                             <th scope="col">Speler 3</th>
@@ -32,15 +32,17 @@
                                         </thead>
                                         <tbody>
                                         <tr>
-                                            <th scope="row"></th>
+                                            @php($idArray = [])
                                             @foreach($round->game_tables as $table)
-                                                {{--                                        @dd($score->user)--}}
-                                                {{--                                        @dd($tables[$score->game_table_id - 1])--}}
-
-                                                    @dd($table->users)
-{{--                                                <td>{{ $score->user->first_name }} {{ $score->user->last_name }}</td>--}}
-
-
+                                                <th scope="row">{{ $table->name }}</th>
+                                                @if(!$table->id == in_array($table->id, $idArray))
+                                                    {{--                                        @dd($score->user)--}}
+                                                    {{--                                        @dd($tables[$score->game_table_id - 1])--}}
+                                                    @foreach($table->users as $user)
+                                                        <td>{{ $user->first_name }} {{ $user->last_name }}</td>
+                                                    @endforeach
+                                                    @php(array_push($idArray, $table->id))
+                                                @endif
                                             @endforeach
                                         </tr>
                                         </tbody>
