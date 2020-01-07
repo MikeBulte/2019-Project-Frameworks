@@ -57,5 +57,6 @@ Route::resource('privileges', 'privilegesController');
 Route::get('/newsfeed', 'NewsfeedController@index')->name('newsfeed');
 Route::resource('usersdashboard', 'UserController');
 Route::resource('nieuwsfeed', 'NewNewsfeedController');
+Route::post('countdown', 'DashboardController@response');
 
 

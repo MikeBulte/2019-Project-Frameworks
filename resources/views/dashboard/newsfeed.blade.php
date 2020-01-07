@@ -12,7 +12,7 @@
                             Nieuwsbericht toevoegen
                         </button>
                     </div>
-
+                    {{--Edit modal--}}
                     @include('includes._error')
                     <div class="modal" id="AddPlayersModal" tabindex="-1" role="dialog"
                          aria-labelledby="AddPlayersModalLabel" aria-hidden="true">
@@ -39,22 +39,22 @@
                                         </button>
 
                                         <div class="modal-footer">
-                                            <button type="button" class="btn scnd-btn" data-dismiss="modal">Close
+                                            <button type="button" class="btn scnd-btn" data-dismiss="modal">Exit
                                             </button>
                                             <button type="submit" name="Submit" value="Add new article"
-                                                    class="btn prim-btn">Save changes
+                                                    class="btn prim-btn">Opslaan
                                             </button>
                                         </div>
                                     </form>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
+                {{--end edit modal--}}
             </div>
             <div class="row players-inner">
-                <table id="players-dashboard-table" class="table table-hover">
+                <table id="table-pagination datatable" class="table table-hover">
                     <thead>
                     <tr>
                         <th scope="col">Id</th>
@@ -70,42 +70,44 @@
                             <td scope="row">{{ $newsfeed->id }}</td>
                             <td style="width: 10%">{{ $newsfeed->created_at->format('d-m-y')}}</td>
                             <td>{{ $newsfeed->title}}</td>
-                            <td><img style="width: 20%" data-toggle="modal" data-target="#UpdateModal" src="{{ asset('storage/icons/ic_edit.png')}}"></td>
-                            <div class="modal" id="UpadateModal" tabindex="-1" role="dialog"
-                                 aria-labelledby="AddPlayersModalLabel" aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="AddNewsArticle">Nieuwsbericht editen</h5>
-                                            <button type="button" class="close" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <form method="post" action="{{ route('nieuwsfeed.store') }}">
-
-                                                @csrf
-                                                <input class="form-control" type="text" name="title" placeholder="Titel"
-                                                       required>
-                                                <br>
-                                                <textarea class="form-control" type="text" name="article" placeholder="Content"
-                                                          required rows="15"></textarea>
-                                                <br>
-                                                <button class="" type="submit" name="image" value="Upload image">Upload hier je
-                                                    afbeelding
+                            <td><img style="width: 20%" data-toggle="modal" data-target="#EditNewsModal" data-id="{{ $newsfeed->id}}" src="{{ asset('storage/icons/ic_edit.png')}}"></td>
+                            <div class="modal" id="EditNewsModal" tabindex="-1" role="dialog">
+                                <div aria-labelledby="EditNewsModalsModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="AddNewsArticle">Nieuwsbericht wijzigen</h5>
+                                                <button type="button" class="close" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
                                                 </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form method="post" action="/nieuwsfeed" id="editform">
+                                                    @csrf
+                                                    @method('PUT')
+                                                    <input class="form-control" type="text" name="title" id="title"
+                                                           value="{{ $newsfeed->title}}"
+                                                           required>
+                                                    <br>
+                                                    <textarea class="form-control" type="text" name="article" id="article"
+                                                              required rows="15">{{ $newsfeed->article}}</textarea>
+                                                    <br>
+                                                    <button class="" type="submit" name="image" value="Upload image" id="image">
+                                                        Upload hier je afbeelding
+                                                    </button>
 
-                                                <div class="modal-footer">
-                                                    <button type="button" class="btn scnd-btn" data-dismiss="modal">Close
-                                                    </button>
-                                                    <button type="submit" name="Submit" value="Add new article"
-                                                            class="btn prim-btn">Save changes
-                                                    </button>
-                                                </div>
-                                            </form>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn scnd-btn" data-dismiss="modal">
+                                                            Exit
+                                                        </button>
+                                                        <button type="submit" name="Submit" value="Add new article"
+                                                                class="btn prim-btn">Wijzig
+                                                        </button>
+                                                    </div>
+                                                </form>
+                                            </div>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                             <td>
@@ -125,5 +127,5 @@
             </div>
         </div>
     </div>
-
+    <script src="/resources/js/edit.js"></script>
 @endsection

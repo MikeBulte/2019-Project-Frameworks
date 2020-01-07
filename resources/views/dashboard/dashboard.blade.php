@@ -7,16 +7,11 @@
             <h2>Timer speelrondes</h2>
             <div class="timer-inner row d-flex">
                 <div class="col d-flex align-items-center">
-                    <form>
-                        <input type="number">
-                    </form>
-                    <p>minuten</p>
-                    <button class="timer-button scnd-btn">Timer starten</button>
+                    <input formmethod="post" formaction=""  name="time" placeholder="Voer ronde tijd in" id="minutes" type="text">
+                    <p class="margin"><strong>Minuten</strong></p>
+                    <button type="button" class="prim-btn js-startcounter"  >Start ronde</button>
                 </div>
-                <div class="timer-current d-flex col align-items-center justify-content-end">
-                    <p>Huidige timer:</p>
-                    <p class="timer-currenttime">23:49</p>
-                </div>
+                    <h2 id="time" class="timer-currenttime">00:00</h2>
             </div>
         </div>
         <div class="accountoverview-dashboard">
