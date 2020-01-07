@@ -3,37 +3,18 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
 
-
-class DashboardController extends Controller
+class NkRulesController extends Controller
 {
     /**
-     * Create a new controller instance.
+     * Display a listing of the resource.
      *
-     * @return void
+     * @return \Illuminate\Http\Response
      */
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
-
-    /**
-     * Show the application dashboard.
-     *
-     * @return \Illuminate\Contracts\Support\Renderable
-     */
-
-
     public function index()
     {
-        $players = config('roles.models.role')::where('slug', 'user')->first()->users;
-        $judges = config('roles.models.role')::where('slug', 'jury')->first()->users;
-        $admins = config('roles.models.role')::where('slug', 'admin')->first()->users;
-
-        return view('dashboard.dashboard', compact('players', 'judges', 'admins'));
+        return view('pages.nkRules');
     }
-
 
     /**
      * Show the form for creating a new resource.

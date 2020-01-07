@@ -10,10 +10,10 @@
                 <div class="text-left p-1 mt-4">
                     <h6 class="mb-5 text-white font-weight-bold">NK Carcassonne</h6>
                     <ul class="list-unstyled small">
-                        <li class="mb-2"><a class="text-decoration-none text-white" href="#">Home</a></li>
-                        <li class="mb-2"><a class="text-decoration-none text-white" href="#">Over het NK</a></li>
-                        <li class="mb-2"><a class="text-decoration-none text-white" href="#">Inschrijven</a></li>
-                        <li class="mb-2"><a class="text-decoration-none text-white" href="#">Inloggen</a></li>
+                        <li class="mb-2"><a class="text-decoration-none text-white" href="{{ url('') }}">Home</a></li>
+                        <li class="mb-2"><a class="text-decoration-none text-white" href="{{ url('about') }}">Over het NK</a></li>
+                        <li class="mb-2"><a class="text-decoration-none text-white" href="{{ url('register') }}">Inschrijven</a></li>
+                        <li class="mb-2"><a class="text-decoration-none text-white" href="{{ url('login') }}">Inloggen</a></li>
                     </ul>
                 </div>
             </div>
@@ -23,9 +23,10 @@
                     <h6 class="mb-5 text-white font-weight-bold">Overig</h6>
                     <ul class="list-unstyled small">
                         <li class="mb-2"><a class="text-decoration-none text-white" href="#">Algemene Voorwaarden</a></li>
-                        <li class="mb-2"><a class="text-decoration-none text-white" href="#">Toernooiregels</a></li>
-                        <li class="mb-2"><a class="text-decoration-none text-white" href="#">FAQ</a></li>
-                        <li class="mb-2"><a class="text-decoration-none text-white" href="#">Contact</a></li>
+                        <li class="mb-2"><a class="text-decoration-none text-white" href="{{ url('nk-rules') }}">Toernooiregels</a></li>
+                        <li class="mb-2"><a class="text-decoration-none text-white" href="{{ url('gamerules') }}">Spelregels</a></li>
+                        <li class="mb-2"><a class="text-decoration-none text-white" href="{{ url('faq') }}">FAQ</a></li>
+                        <li class="mb-2"><a class="text-decoration-none text-white" href="{{ url('contact') }}">Contact</a></li>
                     </ul>
                 </div>
             </div>

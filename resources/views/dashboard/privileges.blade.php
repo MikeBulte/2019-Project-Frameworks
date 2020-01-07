@@ -7,44 +7,8 @@
                 <div class="col d-flex align-items-center">
                     <h1>Privileges</h1>
                 </div>
-                <!-- Button trigger modal -->
-                <div class="col d-flex justify-content-end">
-                    <button type="button" class="btn scnd-btn" data-toggle="modal" data-target="#AddPlayersModal">
-                        Deelnemer toevoegen
-                    </button>
-                </div>
-
-                <!-- Modal -->
-                @include('includes._error')
-                <div class="modal" id="AddPlayersModal" tabindex="-1" role="dialog" aria-labelledby="AddPlayersModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="AddPlayersModalLabel">Deelnemer toevoegen</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <form method="POST" action="{{ route('privileges.store') }}">
-                                    @csrf
-
-                                    <input class="" type="text" name="first_name" placeholder="Voornaam" required>
-                                    <input class="" type="text" name="last_name" placeholder="Achternaam" required>
-                                    <input class="" type="email" name="email" placeholder="email" required>
-                                    <input class="" type="password" name="password" placeholder="wachtwoord" required>
-
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn scnd-btn" data-dismiss="modal">Close</button>
-                                        <button type="submit" name="Submit" value="Add New Player" class="btn prim-btn">Save changes</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
-            <div class="row deelnemers-inner">
+            <div class="row privileges-inner">
                 @include('includes._error')
                 <table id="table-pagination" class="table table-hover">
                     <thead>

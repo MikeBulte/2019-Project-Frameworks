@@ -713,6 +713,7 @@ html .title-margin {
   /* ----------- scores invoeren ----------- */
   /* ----------- Deelnemers ----------- */
   /* ----------- Juryleden ----------- */
+  /* ----------- Privileges ----------- */
 }
 
 #app .dashboard .dashboard-inner .height-inner {
@@ -839,6 +840,20 @@ html .title-margin {
 
 #app .dashboard .dashboard-inner .judges-inner .table tr:last-child th,
 #app .dashboard .dashboard-inner .judges-inner .table tr:last-child td {
+  border-bottom: 1px solid #dee2e6;
+}
+
+#app .dashboard .dashboard-inner .privileges-inner {
+  padding: 50px;
+  box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
+}
+
+#app .dashboard .dashboard-inner .privileges-inner .table {
+  margin: 0;
+}
+
+#app .dashboard .dashboard-inner .privileges-inner .table tr:last-child th,
+#app .dashboard .dashboard-inner .privileges-inner .table tr:last-child td {
   border-bottom: 1px solid #dee2e6;
 }
 
@@ -1166,6 +1181,26 @@ html .title-margin {
   background-color: #ffffff;
   box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
   margin-bottom: 50px;
+}
+
+.rules-outer {
+  background-color: #ffffff;
+  padding: 50px;
+  box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
+}
+
+.rules-outer .rules-inner ul {
+  -webkit-padding-start: 10px;
+          padding-inline-start: 10px;
+  list-style-type: none;
+}
+
+.rules-outer .rules-inner ul li {
+  margin-bottom: 25px;
+}
+
+.rules-outer .rules-inner ul li p {
+  margin-bottom: 10px;
 }
 
 /*!

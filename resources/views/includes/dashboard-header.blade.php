@@ -7,8 +7,8 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
         <!-- Left Side Of Navbar -->
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link text-primary" href="{{ url('/') }}">Home</a>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ url('/') }}">Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="{{ url('about') }}">Over het NK</a>
@@ -43,7 +43,13 @@
                     </a>
 
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                        @role('admin|jury')
+                        <a class="dropdown-item" href="{{ route('usersdashboard.index') }}">Deelnemers dashboard</a>
+                        <a class="dropdown-item" href="{{ url('dashboard') }}">Dashboard</a>
+                        @endrole
+                        @role('deelnemer')
                         <a class="dropdown-item" href="{{ route('usersdashboard.index') }}">Profiel</a>
+                        @endrole
                         <a class="dropdown-item" href="{{ route('logout') }}"
                            onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
