@@ -26,7 +26,7 @@
     <div class="row no-gutter">
         <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image">
             <div>
-                <a href="{{ route('root') }}">
+                <a href="{{ url('/') }}">
                     <img src="{{asset('storage/img/carcassonne-main-logo.png')}}" height="80" width="220" class="mt-4"
                          style="object-fit: contain">
                 </a>

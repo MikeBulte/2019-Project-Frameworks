@@ -18,16 +18,19 @@ class CreateScoresTable extends Migration
         Schema::create('scores', function (Blueprint $table) {
             $table->bigIncrements('id');
 
-            $table->bigInteger('user_id')->unsigned();
-            $table->foreign('user_id')->references('id')->on('users');
+            $table->unsignedBigInteger('user_id');
+            $table->foreign('user_id')->on('users')->references('id')->onUpdate('cascade')->onDelete('cascade');
 
-            $table->bigInteger('round_user_id')->unsigned();
-            $table->foreign('round_user_id')->references('id')->on('round_user');
+            $table->unsignedBigInteger('round_id');
+            $table->foreign('round_id')->on('rounds')->references('id')->onUpdate('cascade')->onDelete('cascade');
+
+            $table->unsignedBigInteger('game_table_id');
+            $table->foreign('game_table_id')->on('game_tables')->references('id')->onUpdate('cascade')->onDelete('cascade');
 
 //            Score per round, for each user.
-            $table->smallInteger('amount')->unsigned();
+            $table->unsignedSmallInteger('amount')->nullable()->default(null);
 //            Player's weight, based on score.
-            $table->decimal('weight', 10, 6)->unsigned()->default(0);
+            $table->decimal('weight', 10, 6)->unsigned()->default(null)->nullable();
             $table->boolean('validated')->nullable();
             $table->timestamps();
         });

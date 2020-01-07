@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Newsfeed;
 use Illuminate\Http\Request;
 
 class AboutController extends Controller
@@ -13,7 +14,10 @@ class AboutController extends Controller
      */
     public function index()
     {
-        return view('pages.about', compact('about'));
+        $newsfeeds = Newsfeed::all()->take(3);
+        //splits $newsfeed in 3 different variables
+        list($first, $second, $third) = $newsfeeds;
+        return view('pages.about', compact('first', 'second', 'third'));
     }
 
     /**

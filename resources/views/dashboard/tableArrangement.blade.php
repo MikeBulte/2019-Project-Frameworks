@@ -3,7 +3,7 @@
 @section('content')
     <div class="dashboard-inner">
         <div class="height-inner">
-            <h1>Tafelindelingen</h1>
+            <h1 class="title-margin">Tafelindelingen</h1>
             <div id="accordion" role="tablist">
                 <div class="card voorronde">
                     <div class="card-header" role="tab" id="headingOne">

@@ -112,14 +112,20 @@ class UserController extends Controller
 
         // $round_name = ;
         // $round_number = ;
-        $score = Score::where('user_id', $user->id)->get();
+        $scores = Score::where('user_id', $user->id)->get();
 
-        dd($score);
-        return view('usersDashboard.verify', compact('score'));
+        //dd($score);
+        return view('usersDashboard.verify', compact('scores'));
     }
 
-    public function verifyScore()
+    public function verifyScore(Request $request)
     {
+        //dd($request->score_id);
+        $score = Score::find($request->score_id);
+        //dd($score);
+        $score->validated = $request->validation;
+        $score->save();
 
+        return redirect()->back();
     }
 }

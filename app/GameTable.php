@@ -10,8 +10,8 @@ class GameTable extends Model
         'name'
     ];
 
-    public function roundusers()
+    public function scores()
     {
-        return $this->hasMany('App\RoundUser');
+        return $this->hasMany(Score::class);
     }
 }

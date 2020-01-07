@@ -3,7 +3,7 @@
 @section('content')
     <div class="dashboard-inner">
         <div class="height-inner scores-invoeren">
-            <h1>Scores invoeren</h1>
+            <h1 class="title-margin">Scores invoeren</h1>
             <form>
                 <div id="accordion" role="tablist">
                     <div class="card voorronde">

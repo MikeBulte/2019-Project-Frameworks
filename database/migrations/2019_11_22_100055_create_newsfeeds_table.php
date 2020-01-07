@@ -15,9 +15,8 @@ class CreateNewsfeedsTable extends Migration
     {
         Schema::create('newsfeeds', function (Blueprint $table) {
             $table->bigIncrements('id');
-            // TODO: Nullable is tijdelijk aan het einde weghalen
-            $table->bigInteger('user_id')->unsigned()->nullable();;
-            $table->foreign('user_id')->references('id')->on('users');
+            $table->bigInteger('user_id')->unsigned()->nullable();
+            $table->foreign('user_id')->references('id')->on('users')->onUpdate('cascade')->onDelete('set null');
             $table->string('title', 120);
             $table->text('article');
             $table->binary('image')->nullable();
