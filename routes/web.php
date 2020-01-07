@@ -1,6 +1,5 @@
 <?php
 
-use App\Newsfeed;
 use Illuminate\Support\Facades\Route;
 
 /*

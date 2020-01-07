@@ -5,7 +5,7 @@
         <div class="height-inner">
             <h1>Tafelindelingen</h1>
             @foreach($rounds as $key => $round)
-                @dd($round)
+{{--                @dd($round->scores[0]->game_table)--}}
             <div id="accordion" role="tablist">
                 <div class="card voorronde">
                     <div class="card-header" role="tab" id="heading{{ $key }}">
@@ -29,27 +29,16 @@
                                     </tr>
                                     </thead>
                                     <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                        <td>Berry Rotunda</td>
-                                    </tr>
+                                    @foreach($round->scores as $score)
+                                        {{ var_dump($tables[$score->game_table_id - 1]) }}
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Berry Rotunda</td>
+                                            <td>Berry Rotunda</td>
+                                            <td>Berry Rotunda</td>
+                                            <td>Berry Rotunda</td>
+                                        </tr>
+                                    @endforeach
                                     </tbody>
                                 </table>
                             </div>

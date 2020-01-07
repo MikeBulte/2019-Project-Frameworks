@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\GameTable;
 use App\Round;
 use Illuminate\Http\Request;
 
@@ -19,8 +20,9 @@ class TableArrangementController extends Controller
     public function index()
     {
         $rounds = Round::all();
+        $tables = GameTable::all();
 
-        return view('dashboard.tableArrangement', compact('rounds'));
+        return view('dashboard.tableArrangement', compact('rounds', 'tables'));
     }
 
     /**
