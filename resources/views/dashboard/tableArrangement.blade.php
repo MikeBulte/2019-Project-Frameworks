@@ -5,7 +5,6 @@
         <div class="height-inner">
             <h1>Tafelindelingen</h1>
             @foreach($rounds as $key => $round)
-                {{--                @dd($round->scores[0]->game_table)--}}
                 <div id="accordion" role="tablist">
                     <div class="card voorronde">
                         <div class="card-header" role="tab" id="heading{{ $key }}">
@@ -36,23 +35,25 @@
                                         </tr>
                                         </thead>
                                         <tbody>
-                                        <tr>
-                                            @php($idArray = [])
-                                            @foreach($round->game_tables as $table)
-                                                <th scope="row">{{ $table->name }}</th>
+                                        @php($idArray = [])
+                                        @foreach($round->game_tables as $table)
+                                            <tr>
+                                                <th scope="row">{{ $table->users->first()->pivot }}</th>
                                                 @if(!$table->id == in_array($table->id, $idArray))
-                                                    {{--                                        @dd($score->user)--}}
-                                                    {{--                                        @dd($tables[$score->game_table_id - 1])--}}
+
+
                                                     @foreach($table->users as $user)
+
                                                         <td>{{ $user->first_name }} {{ $user->last_name }}</td>
                                                     @endforeach
                                                     @php(array_push($idArray, $table->id))
                                                 @endif
-                                            @endforeach
-                                        </tr>
+                                            </tr>
+
+                                        @endforeach
                                         </tbody>
                                     </table>
-                                    <form action="{{ url('TableArrangementController@store') }}" method="post">
+                                    <form action="{{ route('tablearrangement.store') }}" method="post">
                                         <button class="prim-btn" type="submit">
                                             Deel de ronde in
                                         </button>

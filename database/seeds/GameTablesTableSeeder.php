@@ -25,6 +25,9 @@ class GameTablesTableSeeder extends Seeder
             ['name' => 'Tafel 10'],
             ['name' => 'Tafel 11'],
             ['name' => 'Tafel 12'],
+            ['name' => 'Tafel 13'],
+            ['name' => 'Tafel 14'],
+            ['name' => 'Tafel 15'],
         ]);
     }
 }

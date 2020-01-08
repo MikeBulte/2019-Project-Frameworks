@@ -22,6 +22,6 @@ class GameTable extends Model
 
     public function users()
     {
-        return $this->belongsToMany(User::class, 'scores', 'game_table_id', 'user_id');
+        return $this->belongsToMany(User::class, 'scores', 'game_table_id')->using(Score::class)->withPivot(['round_id', 'amount']);
     }
 }

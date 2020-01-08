@@ -41,9 +41,12 @@ class TableArrangementController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(TableArrangementRequest $request)
     {
-        //
+
+        $data = $request->validated();
+
+        return redirect()->route('tablearrangement.index');
     }
 
     /**

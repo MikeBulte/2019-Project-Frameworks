@@ -10,6 +10,11 @@ class Round extends Model
         'bracket_round', 'name'
     ];
 
+    public function gameTablePerRound()
+    {
+        $this->game_tables;
+    }
+
     public function scores()
     {
         return $this->hasMany(Score::class);
