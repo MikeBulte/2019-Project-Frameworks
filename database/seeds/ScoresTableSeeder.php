@@ -106,7 +106,7 @@ class ScoresTableSeeder extends Seeder
             [
                 'user_id'       => 3,
                 'round_id'      => 2,
-                'game_table_id' => 3,
+                'game_table_id' => 51,
                 'amount'        => 20,
                 'weight'        => 30,
                 'validated'     => true,
@@ -114,7 +114,7 @@ class ScoresTableSeeder extends Seeder
             [
                 'user_id'       => 14,
                 'round_id'      => 2,
-                'game_table_id' => 3,
+                'game_table_id' => 51,
                 'amount'        => 15,
                 'weight'        => 10,
                 'validated'     => true,
@@ -122,7 +122,7 @@ class ScoresTableSeeder extends Seeder
             [
                 'user_id'       => 1,
                 'round_id'      => 2,
-                'game_table_id' => 7,
+                'game_table_id' => 51,
                 'amount'        => 60,
                 'weight'        => 40,
                 'validated'     => false,
@@ -130,7 +130,7 @@ class ScoresTableSeeder extends Seeder
             [
                 'user_id'       => 5,
                 'round_id'      => 2,
-                'game_table_id' => 7,
+                'game_table_id' => 54,
                 'amount'        => 35,
                 'weight'        => 20,
                 'validated'     => false,
@@ -138,7 +138,7 @@ class ScoresTableSeeder extends Seeder
             [
                 'user_id'       => 11,
                 'round_id'      => 2,
-                'game_table_id' => 7,
+                'game_table_id' => 54,
                 'amount'        => 65,
                 'weight'        => 40,
                 'validated'     => false,
@@ -146,7 +146,7 @@ class ScoresTableSeeder extends Seeder
             [
                 'user_id'       => 6,
                 'round_id'      => 2,
-                'game_table_id' => 3,
+                'game_table_id' => 54,
                 'amount'        => 15,
                 'weight'        => 10,
                 'validated'     => true,
@@ -155,7 +155,7 @@ class ScoresTableSeeder extends Seeder
             [
                 'user_id'       => 3,
                 'round_id'      => 3,
-                'game_table_id' => 3,
+                'game_table_id' => 123,
                 'amount'        => 50,
                 'weight'        => 33,
                 'validated'     => false,
@@ -163,7 +163,7 @@ class ScoresTableSeeder extends Seeder
             [
                 'user_id'       => 7,
                 'round_id'      => 3,
-                'game_table_id' => 7,
+                'game_table_id' => 123,
                 'amount'        => 50,
                 'weight'        => 33,
                 'validated'     => false,
@@ -171,7 +171,7 @@ class ScoresTableSeeder extends Seeder
             [
                 'user_id'       => 11,
                 'round_id'      => 3,
-                'game_table_id' => 7,
+                'game_table_id' => 123,
                 'amount'        => 50,
                 'weight'        => 33,
                 'validated'     => false,
