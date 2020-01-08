@@ -38,18 +38,17 @@
                                         @php($idArray = [])
                                         @foreach($round->game_tables as $table)
                                             <tr>
-                                                <th scope="row">{{ $table->users->first()->pivot }}</th>
-                                                @if(!$table->id == in_array($table->id, $idArray))
+                                                @if($table->users->first()->pivot->round_id == $round->id)
+                                                    @if(!$table->id == in_array($table->id, $idArray))
+                                                        <th scope="row">{{ $table->name }}</th>
+                                                        @foreach($table->users as $user)
 
-
-                                                    @foreach($table->users as $user)
-
-                                                        <td>{{ $user->first_name }} {{ $user->last_name }}</td>
-                                                    @endforeach
-                                                    @php(array_push($idArray, $table->id))
+                                                            <td>{{ $user->first_name }} {{ $user->last_name }}</td>
+                                                        @endforeach
+                                                        @php(array_push($idArray, $table->id))
+                                                    @endif
                                                 @endif
                                             </tr>
-
                                         @endforeach
                                         </tbody>
                                     </table>
