@@ -43,6 +43,7 @@ Route::get('/leaderboard', 'ScoreController@index')->name('leaderboard');
 Route::resource('dashboard', 'DashboardController');
 Route::resource('tablearrangement', 'TableArrangementController');
 Route::resource('scoreinput', 'ScoresInputController');
+Route::resource('rounds', 'RoundController');
 Route::resource('players', 'PlayersController');
 Route::resource('judges', 'JudgesController');
 Route::resource('privileges', 'PrivilegesController');

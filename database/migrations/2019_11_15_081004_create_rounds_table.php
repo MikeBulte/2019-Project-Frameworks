@@ -16,9 +16,9 @@ class CreateRoundsTable extends Migration
         Schema::create('rounds', function (Blueprint $table) {
             $table->bigIncrements('id');
             // Unsure if needed, in case if bracket rounds need to be marked.
-            $table->boolean('bracket_round');
-            $table->boolean('in_progress');
-            $table->boolean('finished');
+            $table->boolean('bracket_round')->default(0);
+            $table->boolean('in_progress')->default(0);
+            $table->boolean('finished')->default(0);
             $table->string('name', 45);
             $table->timestamps();
         });
