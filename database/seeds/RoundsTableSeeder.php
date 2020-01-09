@@ -14,13 +14,30 @@ class RoundsTableSeeder extends Seeder
     {
         $round                = new Round();
         $round->bracket_round = true;
-        $round->name          = 'Ronde 1';
-
+        $round->name          = 'Voorronde 1';
+        $round->in_progress   = false;
+        $round->finished      = true;
         $round->save();
 
         $round                = new Round();
         $round->bracket_round = true;
-        $round->name          = 'Ronde 2';
+        $round->name          = 'Voorronde 2';
+        $round->in_progress   = true;
+        $round->finished      = false;
+        $round->save();
+
+        $round                = new Round();
+        $round->bracket_round = true;
+        $round->name          = 'Voorronde 3';
+        $round->in_progress   = false;
+        $round->finished      = false;
+        $round->save();
+
+        $round                = new Round();
+        $round->bracket_round = true;
+        $round->name          = 'Bracketronde 1';
+        $round->in_progress   = false;
+        $round->finished      = false;
         $round->save();
     }
 }

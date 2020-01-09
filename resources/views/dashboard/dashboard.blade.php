@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="dashboard-inner">
-        <h1>Beheerder Dashboard</h1>
+        <h1 class="title-margin">Beheerder Dashboard</h1>
         <div class="timer-dashboard">
             <h2>Timer speelrondes</h2>
             <div class="timer-inner row d-flex">
@@ -19,13 +19,13 @@
         <div class="accountoverview-dashboard">
             <h2>Overzicht accounts</h2>
             <div class="row">
-                <a class="col d-inline-block block-overview" href="#"><div>
+                <a class="col d-inline-block block-overview" href="{{ url('players') }}"><div>
                     <div class="block-content">
                         <p class="overview-number">{{ count($players) }}</p>
                         <p class="overview-name">Deelnemers</p>
                     </div>
                 </div></a>
-                <a class="col d-inline-block block-overview" href="#"><div>
+                <a class="col d-inline-block block-overview" href="{{ url('judges') }}"><div>
                     <div class="block-content">
                         <p class="overview-number">{{ count($judges) }}</p>
                         <p class="overview-name">Juryleden</p>
@@ -41,9 +41,9 @@
         </div>
         <div class="quickadd-dashboard">
             <div class="d-flex row align-items-center">
-                <h2 class="quickadd-title col">Snel een deelnemer toevoegen</h2>
+                <h2 class="quickadd-title col">Een deelnemer toevoegen</h2>
                 <div class="col d-flex justify-content-end">
-                    <button class="quickadd-button scnd-btn">Deelnemer toevoegen</button>
+                    <button class="quickadd-button scnd-btn"><a href="{{ url('players') }}">Deelnemer toevoegen</a></button>
                 </div>
             </div>
         </div>

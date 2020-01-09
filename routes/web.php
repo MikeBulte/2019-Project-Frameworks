@@ -14,21 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/contact', function()
-{
-    return view('pages.contact');
-});
-
-Route::get('/about', function()
-{
-    return view('pages.about');
-});
-
-Route::get('/faq', function()
-{
-    return view('pages.faq');
-});
-
 Route::get('/login', function()
 {
     return view('pages.login');
@@ -41,23 +26,35 @@ Route::get('/register', function()
 
 Auth::routes();
 
-Route::get('/', 'WelcomeController@index')->name('root');
-Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
-Route::get('/tafelindelingen', 'TafelindelingenController@index')->name('tafelindelingen');
-Route::get('/scores-invoeren', 'ScoresInvoerenController@index')->name('scoresinvoeren');
+// Main routes
+Route::resource('/', 'WelcomeController');
+Route::resource('home', 'HomeController');
+
+// Page dir routes
+Route::resource('about', 'AboutController');
+Route::resource('faq', 'FaqController');
 Route::get('/newsfeed', 'NewsfeedController@index')->name('newsfeed');
-Route::get('/leaderboard', 'ScoreController@index')->name('leaderboard');
-Route::get('/faq', 'FaqController@index')->name('faq');
-Route::get('/tafelindelingen', 'TableArrangementController@index')->name('tafelindelingen');
-Route::get('/scores-invoeren', 'ScoresInputController@index')->name('scoresinvoeren');
-Route::resource('players', 'PlayersController');
-Route::resource('judges', 'JudgesController');
-Route::resource('privileges', 'privilegesController');
-Route::get('/newsfeed', 'NewsfeedController@index')->name('newsfeed');
+Route::resource('contact', 'ContactController');
+Route::resource('nk-rules', 'NkRulesController');
+Route::resource('gamerules', 'GameRulesController');
+
+// UserDashboard routes
 Route::resource('usersdashboard', 'UserController');
+
 Route::resource('nieuwsfeed', 'NewNewsfeedController');
 Route::post('countdown', 'DashboardController@response');
 
 
+Route::get('/leaderboard', 'ScoreController@index')->name('leaderboard');
 
+
+// Dashboard Routes
+Route::resource('dashboard', 'DashboardController')->middleware('role:admin|jury');
+Route::resource('table-arrangement', 'TableArrangementController')->middleware('role:admin|jury');
+Route::resource('score-input', 'ScoresInputController')->middleware('role:admin|jury');
+Route::resource('players', 'PlayersController')->middleware('role:admin|jury');
+Route::resource('judges', 'JudgesController')->middleware('role:admin|jury');
+Route::resource('privileges', 'PrivilegesController')->middleware('role:admin');
+Route::resource('nieuwsfeed', 'NewNewsfeedController')->middleware('role:admin|jury');
+
+Route::resource('qrscanner', 'QrScannerController');

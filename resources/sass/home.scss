@@ -1,10 +1,3 @@
-.bg-header-home {
-    background-image: url("/storage/img/header-home-background.png");
-    background-size: cover;
-    background-position: center;
-    height: 90vh;
-}
-
 .bg-paper {
     background-image: url("/storage/img/perkament-pattern.jpg");
     background-size: cover;
@@ -24,31 +17,67 @@
     background-position: center;
 }
 
-.bg-newsfeed-1{
+.bg-newsfeed-1 {
 
     background-image: url("/storage/img/Carcassonne_spel-1024x576.jpg");
     background-size: cover;
     background-position: center;
 }
 
-.bg-newsfeed-2{
+.bg-newsfeed-2 {
     background-image: url("/storage/img/DSCF20072.jpg");
     background-size: cover;
     background-position: center;
 }
 
-.bg-newsfeed-3{
+.bg-newsfeed-3 {
     background-image: url("/storage/img/images-4.jpeg");
     background-size: cover;
     background-position: center;
 }
 
-.paper-home {
-    margin-top: -70px;
+.bg-header-home {
+    background-image: url("/storage/img/header-home-background.png");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
 
-    .paper:first-child {
-        margin: 0 25px 0 0;
+    h1 {
+        font-size: 60px;
     }
+
+    p {
+        margin-bottom: 20px;
+    }
+}
+
+.content-home {
+    margin-bottom: 100px;
+
+    .paper-home {
+        margin-top: -70px;
+
+        .paper:first-child {
+            margin: 0 25px 0 0;
+        }
+
+    }
+
+    .rules-block:first-child {
+        margin-right: 25px;
+        padding: 0;
+    }
+
+    .rules-block:last-child {
+        margin-left: 25px;
+        padding: 0;
+    }
+}
+
+/*---- News Feed ----*/
+.news-feed {
+    margin-top: 70px;
+    margin-bottom: 33px;
 
     .paper:last-child {
         margin: 0 0 0 25px;
@@ -75,6 +104,7 @@
 }
 
 .home-rules {
+    margin-top: 40px;
 
     a {
         h4 {
@@ -95,94 +125,5 @@
     }
 }
 
-/*---- News Feed ----*/
-.news-feed {
-    margin-top: 70px;
-    margin-bottom: 33px;
-
-    .col-4 {
-        padding-right: 0;
-    }
-    .col-8 {
-        padding: 0 0 0 0;
-    }
-}
-
-
-.news-title-main{
-    position: absolute;
-    padding: 5px;
-    color: white;
-    bottom: 12px;
-    left: 30px;
-
-    h3{
-        font-size: 28px;
-        color: white;
-        margin-right: 10px;
-    }
-    p{
-        font-size: 16px;
-    }
-}
-
-.news-title-side-up{
-    position: absolute;
-    padding: 5px;
-    color: white;
-    top: 31%;
-    left: 30px;
-
-    h3{
-        font-size: 18px;
-        color: white;
-    }
-}
-
-.news-title-side-down{
-    position: absolute;
-    padding: 10px;
-    color: white;
-    bottom: 56px;
-    left: 30px;
-
-    h3{
-        font-size: 18px;
-        color: white;
-    }
-}
-
-.main_feed{
-    width: 100%;
-    height: 500px;
-    background-color: black;
-
-    img{
-        opacity: 0.7;
-        width: 100%;
-        height: 500px;
-    }
-}
-
-.main_feed:hover img{
-    opacity: 0.9;
-}
-
-.side_feed{
-    width: 100%;
-    height: calc(47% - 1rem);
-    background-color: black;
-    margin-bottom: 1rem;
-    img{
-        opacity: 0.7;
-        width: 100%;
-        height: 100%;
-        object-fit: cover!important;
-    }
-}
-
-.side_feed:hover img{
-    opacity: 0.9;
-}
 
 

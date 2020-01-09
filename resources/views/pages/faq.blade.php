@@ -4,7 +4,7 @@
     <div class="bg-footer">
         <div class="container">
             <br>
-            <div class="head-faq">
+            <div class="head-faq title-margin">
                 <h1>FAQ</h1>
             </div>
             <!-- Card 1 --->

@@ -3,7 +3,7 @@
 @section('content')
     <div class="dashboard-inner players-dashboard">
         <div class="height-inner">
-            <div class="row d-flex align-items-center">
+            <div class="row d-flex align-items-center title-margin">
                 <div class="col d-flex align-items-center">
                     <h1>Nieuwsberichten</h1>
 

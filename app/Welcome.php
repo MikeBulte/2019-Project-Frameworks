@@ -6,5 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Welcome extends Model
 {
-    protected $dates =['created_at'];
+    protected $dates = [
+        'created_at'
+    ];
 }

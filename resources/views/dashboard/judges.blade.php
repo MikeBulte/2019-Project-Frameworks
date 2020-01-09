@@ -3,10 +3,11 @@
 @section('content')
     <div class="dashboard-inner judges-dashboard">
         <div class="height-inner">
-            <div class="row d-flex align-items-center">
+            <div class="row d-flex align-items-center title-margin">
                 <div class="col d-flex align-items-center">
                     <h1>Juryleden</h1>
                 </div>
+                @role('admin')
                 <!-- Button trigger modal -->
                 <div class="col d-flex justify-content-end">
                     <button type="button" class="btn scnd-btn" data-toggle="modal" data-target="#AddJudgesModal">
@@ -42,6 +43,7 @@
                         </div>
                     </div>
                 </div>
+                @endrole
             </div>
             <div class="row judges-inner">
                 <table id="table-pagination" class="table table-hover">
@@ -62,12 +64,14 @@
                             <td>{{ $judge->last_name }}</td>
                             <td>{{ $judge->email }}</td>
                             <td>
+                                @role('admin')
                                 <form action="{{ route('judges.destroy', ['judge' => $judge]) }}" method="post">
                                     @csrf
                                     @method('DELETE')
                                     <button class="scnd-btn"><input class="float-right" type="submit" value="Delete"
                                                                     onclick="return confirm ('Are you sure you want to delete {{ $judge->first_name }}?')"></button>
                                 </form>
+                                @endrole
                             </td>
                         </tr>
                     @endforeach
