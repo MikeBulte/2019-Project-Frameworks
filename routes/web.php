@@ -43,12 +43,12 @@ Route::resource('usersdashboard', 'UserController');
 Route::get('/leaderboard', 'ScoreController@index')->name('leaderboard');
 
 // Dashboard Routes
-Route::resource('dashboard', 'DashboardController')->middleware('role:admin|jury');
-Route::resource('table-arrangement', 'TableArrangementController')->middleware('role:admin|jury');
-Route::resource('score-input', 'ScoresInputController')->middleware('role:admin|jury');
-Route::resource('players', 'PlayersController')->middleware('role:admin|jury');
-Route::resource('judges', 'JudgesController')->middleware('role:admin|jury');
-Route::resource('privileges', 'PrivilegesController')->middleware('role:admin');
-Route::resource('nieuwsfeed', 'NewNewsfeedController')->middleware('role:admin|jury');
+Route::resource('dashboard', 'DashboardController');
+Route::resource('table-arrangement', 'TableArrangementController');
+Route::resource('score-input', 'ScoresInputController');
+Route::resource('players', 'PlayersController');
+Route::resource('judges', 'JudgesController');
+Route::resource('privileges', 'PrivilegesController');
+Route::resource('nieuwsfeed', 'NewNewsfeedController');
 
 Route::resource('qrscanner', 'QrScannerController');
