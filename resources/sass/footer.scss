@@ -3,6 +3,16 @@
     background-size: 200px 200px;
     background-repeat: repeat;
     top: 0;
+
+    .li-footer {
+        width: fit-content;
+        display: inline-block;
+
+        svg {
+            width: 70%;
+            fill: #ffffff;
+        }
+    }
 }
 
 .dashboard-footer {

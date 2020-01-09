@@ -277,6 +277,18 @@ html .title-margin {
   top: 0;
 }
 
+.bg-footer .li-footer {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: inline-block;
+}
+
+.bg-footer .li-footer svg {
+  width: 70%;
+  fill: #ffffff;
+}
+
 .dashboard-footer {
   max-width: 90%;
   margin: 50px auto 20px auto;

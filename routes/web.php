@@ -42,7 +42,7 @@ Route::resource('gamerules', 'GameRulesController');
 Route::resource('usersdashboard', 'UserController');
 Route::get('/leaderboard', 'ScoreController@index')->name('leaderboard');
 
-// Dashboard Routes
+// Dashboard routes
 Route::resource('dashboard', 'DashboardController')->middleware('role:admin|jury');
 Route::resource('table-arrangement', 'TableArrangementController')->middleware('role:admin|jury');
 Route::resource('score-input', 'ScoresInputController')->middleware('role:admin|jury');
