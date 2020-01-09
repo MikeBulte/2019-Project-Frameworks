@@ -25,7 +25,7 @@ class Countdown extends FormRequest
     public function rules()
     {
         return [
-            "time" => "required"
+            "seconds" => "required"
         ];
     }
 }

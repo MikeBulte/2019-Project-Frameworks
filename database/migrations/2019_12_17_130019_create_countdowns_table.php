@@ -14,8 +14,8 @@ class CreateCountdownsTable extends Migration
     public function up()
     {
         Schema::create('countdowns', function (Blueprint $table) {
-            $table->BigIncrements('id');
-            $table->integer('time')->always(0);;
+            $table->bigIncrements('id');
+            $table->unsignedSmallInteger('seconds')->default(0);
             $table->timestamps();
         });
     }

@@ -6,10 +6,12 @@
         <div class="timer-dashboard">
             <h2>Timer speelrondes</h2>
             <div class="timer-inner row d-flex">
-                <div class="col d-flex align-items-center">
-                    <input formmethod="post" formaction=""  name="time" placeholder="Voer ronde tijd in" id="minutes" type="text">
+                <div class="col d-flex align-items-center" id="inputArea">
+                    <form class="d-flex" method="post" action="">
+                    <input  name="time" placeholder="Voer ronde tijd in" id="minutes" type="text" min="0" max="1000">
                     <p class="margin"><strong>Minuten</strong></p>
-                    <button type="button" class="prim-btn js-startcounter"  >Start ronde</button>
+                    <button type="button" class="prim-btn js-startcounter">Start ronde</button>
+                    </form>
                 </div>
                     <h2 id="time" class="timer-currenttime">00:00</h2>
             </div>

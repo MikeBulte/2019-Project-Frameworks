@@ -35,17 +35,4 @@ class DashboardController extends Controller
         return view('dashboard.dashboard', compact('players', 'judges', 'admins'));
     }
 
-
-    public function store(Countdown $request)
-    {
-
-        $data = $request;
-        $tijd = new Countdown();
-        $tijd->time = $request->time;
-
-
-        $tijd->save();
-
-        return redirect()->back();
-    }
 }

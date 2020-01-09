@@ -60,3 +60,4 @@ Route::resource('nieuwsfeed', 'NewNewsfeedController');
 Route::post('countdown', 'DashboardController@response');
 
 
+

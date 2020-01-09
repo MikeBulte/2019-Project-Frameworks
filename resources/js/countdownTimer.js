@@ -1,8 +1,17 @@
 let mySeconds;
 let intervalHandle;
 
+$.ajax({
+    type: 'post',
+    url:  ''
+
+});
+
+
+
 function resetPage(){
     document.getElementById("inputArea").style.display="none";
+
 
 }
 function tick(){
@@ -20,7 +29,7 @@ function tick(){
     timeDisplay.innerHTML=message;
 
     if(mySeconds===0){
-        alert("Ronde is voorbij.");
+        alert("De ronde is voorbij");
         clearInterval(intervalHandle);
         resetPage();
     }
@@ -29,16 +38,21 @@ function tick(){
 
 }
 function startCounter(){
-    let myInput=document.getElementById("minutes").value;
+    var myInput=document.getElementById("minutes").value;
     if (isNaN(myInput)){
-        alert("voor een nummer in.");
+        alert("Voer een mummer in.");
         return;
     }
     mySeconds=myInput*60;
 
     intervalHandle=setInterval(tick, 1000);
+
+    document.getElementById("inputArea").style.display="none";
+
+
 }
 
 document.querySelector(".js-startcounter").addEventListener("click",
-    function () {startCounter()
+    function () {startCounter();
+        console.log(mySeconds);
 });
