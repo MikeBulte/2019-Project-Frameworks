@@ -16,10 +16,11 @@ class JudgesController extends Controller
      *
      * @return void
      */
-//    public function __construct()
-//    {
-//        $this->middleware('auth');
-//    }
+    public function __construct()
+    {
+        $this->middleware('auth');
+        $this->middleware('level:3');
+    }
 
     /**
      * Show the application dashboard.

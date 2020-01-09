@@ -4,7 +4,11 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\RoundsRequest;
 use App\Round;
+use Exception;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Http\Response;
+use Illuminate\View\View;
 
 class RoundController extends Controller
 {
@@ -21,7 +25,7 @@ class RoundController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\View\View
+     * @return View
      */
     public function index()
     {
@@ -34,7 +38,7 @@ class RoundController extends Controller
      * Store a newly created resource in storage.
      *
      * @param  RoundsRequest $request
-     * @return \Illuminate\Http\RedirectResponse
+     * @return RedirectResponse
      */
     public function store(RoundsRequest $request)
     {
@@ -58,7 +62,7 @@ class RoundController extends Controller
      * Display the specified resource.
      *
      * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @return Response
      */
     public function show($id)
     {
@@ -69,7 +73,7 @@ class RoundController extends Controller
      * Show the form for editing the specified resource.
      *
      * @param Round $round
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     * @return View
      */
     public function edit(Round $round)
     {
@@ -81,13 +85,11 @@ class RoundController extends Controller
      *
      * @param RoundsRequest $request
      * @param Round $round
-     * @return \Illuminate\Http\RedirectResponse
+     * @return RedirectResponse
      */
     public function update(RoundsRequest $request, Round $round)
     {
         $data = $request->validated();
-
-//        dd($data);
 
         $round->name = $data['name'];
         if (!empty($data['bracket_round'])) {
@@ -102,6 +104,12 @@ class RoundController extends Controller
             $round->in_progress = 0;
         }
 
+        if (!empty($data['finished'])) {
+            $round->finished = $data['finished'];
+        } else {
+            $round->finished = 0;
+        }
+
         $round->save();
 
         return redirect()->route('rounds.index');
@@ -111,8 +119,8 @@ class RoundController extends Controller
      * Remove the specified resource from storage.
      *
      * @param Round $round
-     * @return \Illuminate\Http\RedirectResponse
-     * @throws \Exception
+     * @return RedirectResponse
+     * @throws Exception
      */
     public function destroy(Round $round)
     {

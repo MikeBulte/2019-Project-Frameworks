@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Round;
+use App\Score;
 use Illuminate\Http\Request;
 
 class ScoresInputController extends Controller
@@ -11,10 +13,11 @@ class ScoresInputController extends Controller
      *
      * @return void
      */
-//    public function __construct()
-//    {
-//        $this->middleware('auth');
-//    }
+    public function __construct()
+    {
+        $this->middleware('auth');
+        $this->middleware('level:3');
+    }
 
     /**
      * Show the application dashboard.
@@ -23,7 +26,10 @@ class ScoresInputController extends Controller
      */
     public function index()
     {
-        return view('dashboard.scoreInput');
+        $rounds = Round::all();
+        $scores = Score::all();
+
+        return view('dashboard.scoreInput', compact('scores', 'rounds'));
     }
 
     /**

@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Relations\Pivot;
 
 class Score extends Pivot
 {
+    protected $table = 'scores';
+
     protected $fillable = [
         'amount', 'weight', 'validated'
     ];

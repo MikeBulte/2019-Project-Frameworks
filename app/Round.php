@@ -4,6 +4,15 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
+/**
+ * Model for a round.
+ *
+ * @property int id
+ * @property string name
+ * @property int bracket_round
+ * @property int in_progress
+ * @property int finished
+ */
 class Round extends Model
 {
     protected $fillable = [

@@ -28,7 +28,7 @@
                             <th scope="row">{{ $pos++ }}</th>
                             <th scope="row">{{ $score['first_name'] }} {{ $score['prefix'] }} {{ $score['last_name'] }}</th>
                             <td>{{ $score['amount'] }}</td>
-                            <td>{{ $score['rounds'] }} Rondes</td>
+                            <td>{{ $score['rounds'] }} {{ ($score['rounds'] > 1 ? 'Rondes' : 'Ronde') }}</td>
                         </tr>
                     @endforeach
                 </tbody>

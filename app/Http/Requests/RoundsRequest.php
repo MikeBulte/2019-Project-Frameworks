@@ -5,6 +5,9 @@ namespace App\Http\Requests;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Support\Facades\Auth;
 
+/**
+ * Handles and validates requests for the create and edit actions in RoundController.
+ */
 class RoundsRequest extends FormRequest
 {
     /**
@@ -28,6 +31,7 @@ class RoundsRequest extends FormRequest
             'name'          => 'required|string|min:5|max:45',
             'bracket_round' => 'nullable|boolean',
             'in_progress'   => 'nullable|boolean',
+            'finished'      => 'nullable|boolean',
         ];
     }
 }
