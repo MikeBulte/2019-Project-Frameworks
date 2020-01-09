@@ -46,7 +46,7 @@
             </div>
             <div class="row deelnemers-inner">
                 @include('includes._error')
-                <table id="table-pagination" class="table table-hover">
+                <table id="table-users" class="table table-hover">
                     <thead>
                     <tr>
                         <th scope="col">Id</th>

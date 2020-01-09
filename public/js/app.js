@@ -36992,6 +36992,22 @@ $(document).ready(function () {
     }]
   });
 });
+$(document).ready(function () {
+  $('#table-users').DataTable({
+    "columnDefs": [{
+      "orderable": false,
+      "targets": [4]
+    }]
+  });
+});
+$(document).ready(function () {
+  $('#table-rounds').DataTable({
+    "columnDefs": [{
+      "orderable": false,
+      "targets": [5, 6]
+    }]
+  });
+});
 
 /***/ }),
 

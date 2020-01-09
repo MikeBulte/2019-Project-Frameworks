@@ -43,7 +43,7 @@
                 </div>
             </div>
             <div class="row rounds-inner">
-                <table id="table-pagination" class="table table-hover">
+                <table id="table-rounds" class="table table-hover">
                     <thead>
                         <tr>
                             <th scope="col">Id</th>
