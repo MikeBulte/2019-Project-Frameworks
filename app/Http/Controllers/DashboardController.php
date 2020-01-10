@@ -16,7 +16,8 @@ class DashboardController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth');
+        $this->middleware('auth')->except('timer');
+        $this->middleware('auth:api')->only('timer');
     }
 
     /**
@@ -100,5 +101,23 @@ class DashboardController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+
+    public function timer(Request $request){
+
+        if ($request->post('action') == 'start'):
+                    $seconds = $request->get('seconds');
+                    $timer = Countdown::find(1);
+                    $timer->seconds=$request->get('seconds');
+
+
+                    $timer->save();;
+            print('OK');
+            return;
+        endif;
+
+        print('NOK');
+
     }
 }

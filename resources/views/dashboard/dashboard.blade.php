@@ -8,9 +8,9 @@
             <div class="timer-inner row d-flex">
                 <div class="col d-flex align-items-center" id="inputArea">
                     <form class="d-flex" method="post" action="">
-                    <input  name="time" placeholder="Voer ronde tijd in" id="minutes" type="text" min="0" max="1000">
+                    <input name="time" placeholder="Voer ronde tijd in" id="minutes" type="text" min="0" max="1000">
                     <p class="margin"><strong>Minuten</strong></p>
-                    <button type="button" class="prim-btn js-startcounter">Start ronde</button>
+                    <button type="button" class="prim-btn" id="js-startcounter" onclick="startButton()">Start ronde</button>
                     </form>
                 </div>
                     <h2 id="time" class="timer-currenttime">00:00</h2>
@@ -75,4 +75,13 @@
             </div>
         </div>
     </div>
+    <script>
+        function startButton() {
+            let min = $("#minutes").val() * 60;
+
+            console.log(min);
+
+            checkTimer("{{ Auth::user()->api_token }}", min);
+        }
+    </script>
 @endsection

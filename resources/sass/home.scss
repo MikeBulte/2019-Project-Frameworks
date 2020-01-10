@@ -1,43 +1,44 @@
+@import "variables";
+
 .bg-paper {
-    background-image: url("/storage/img/perkament-pattern.jpg");
+    background-image: url($prefix +"/storage/img/perkament-pattern.jpg");
     background-size: cover;
     background-position: center;
     width: 100%;
 }
 
 .bg-rules-1 {
-    background-image: url("/storage/img/casstle2.jpg");
+    background-image: url($prefix +"/storage/img/casstle2.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .bg-rules-2 {
-    background-image: url("/storage/img/casstle3.jpg");
+    background-image: url($prefix +"/storage/img/casstle3.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .bg-newsfeed-1 {
-
-    background-image: url("/storage/img/Carcassonne_spel-1024x576.jpg");
+    background-image: url($prefix +"/storage/img/Carcassonne_spel-1024x576.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .bg-newsfeed-2 {
-    background-image: url("/storage/img/DSCF20072.jpg");
+    background-image: url($prefix +"/storage/img/DSCF20072.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .bg-newsfeed-3 {
-    background-image: url("/storage/img/images-4.jpeg");
+    background-image: url($prefix + "/storage/img/images-4.jpeg");
     background-size: cover;
     background-position: center;
 }
 
 .bg-header-home {
-    background-image: url("/storage/img/header-home-background.png");
+    background-image: url($prefix +"/storage/img/header-home-background.png");
     background-size: cover;
     background-position: center;
     height: 90vh;
