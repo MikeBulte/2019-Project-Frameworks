@@ -1,61 +1,61 @@
 /* ---------- FontFace ---------- */
-
+@import "variables";
 @font-face {
     font-family: 'Barbedor';
-    src: url('/fonts/Barbedor/Barbedor-Bold.eot');
-    src: url('/fonts/Barbedor/Barbedor-Bold.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/Barbedor/Barbedor-Bold.woff2') format('woff2'),
-    url('/fonts/Barbedor/Barbedor-Bold.woff') format('woff'),
-    url('/fonts/Barbedor/Barbedor-Bold.ttf') format('truetype'),
-    url('/fonts/Barbedor/Barbedor-Bold.svg#Barbedor-Bold') format('svg');
+    src: url($prefix +'/fonts/Barbedor/Barbedor-Bold.eot');
+    src: url($prefix +'/fonts/Barbedor/Barbedor-Bold.eot?#iefix') format('embedded-opentype'),
+    url($prefix +'/fonts/Barbedor/Barbedor-Bold.woff2') format('woff2'),
+    url($prefix +'/fonts/Barbedor/Barbedor-Bold.woff') format('woff'),
+    url($prefix +'/fonts/Barbedor/Barbedor-Bold.ttf') format('truetype'),
+    url($prefix +'/fonts/Barbedor/Barbedor-Bold.svg#Barbedor-Bold') format('svg');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('/fonts/OpenSans/SemiBold/OpenSans-Semibold.eot');
-    src: url('/fonts/OpenSans/SemiBold/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/OpenSans/SemiBold/OpenSans-Semibold.woff2') format('woff2'),
-    url('/fonts/OpenSans/SemiBold/OpenSans-Semibold.woff') format('woff'),
-    url('/fonts/OpenSans/SemiBold/OpenSans-Semibold.ttf') format('truetype'),
-    url('/fonts/OpenSans/SemiBold/OpenSans-Semibold.svg#OpenSans-Semibold') format('svg');
+    src: url($prefix +'/fonts/OpenSans/SemiBold/OpenSans-Semibold.eot');
+    src: url($prefix +'/fonts/OpenSans/SemiBold/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),
+    url($prefix +'/fonts/OpenSans/SemiBold/OpenSans-Semibold.woff2') format('woff2'),
+    url($prefix +'/fonts/OpenSans/SemiBold/OpenSans-Semibold.woff') format('woff'),
+    url($prefix +'/fonts/OpenSans/SemiBold/OpenSans-Semibold.ttf') format('truetype'),
+    url($prefix +'/fonts/OpenSans/SemiBold/OpenSans-Semibold.svg#OpenSans-Semibold') format('svg');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('/fonts/OpenSans/Bold/OpenSans-Bold.eot');
-    src: url('/fonts/OpenSans/Bold/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/OpenSans/Bold/OpenSans-Bold.woff2') format('woff2'),
-    url('/fonts/OpenSans/Bold/OpenSans-Bold.woff') format('woff'),
-    url('/fonts/OpenSans/Bold/OpenSans-Bold.ttf') format('truetype'),
-    url('/fonts/OpenSans/Bold/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+    src: url($prefix +'/fonts/OpenSans/Bold/OpenSans-Bold.eot');
+    src: url($prefix +'/fonts/OpenSans/Bold/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url($prefix +'/fonts/OpenSans/Bold/OpenSans-Bold.woff2') format('woff2'),
+    url($prefix +'/fonts/OpenSans/Bold/OpenSans-Bold.woff') format('woff'),
+    url($prefix +'/fonts/OpenSans/Bold/OpenSans-Bold.ttf') format('truetype'),
+    url($prefix +'/fonts/OpenSans/Bold/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('/fonts/OpenSans/Regular/OpenSans.eot');
-    src: url('/fonts/OpenSans/Regular/OpenSans.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/OpenSans/Regular/OpenSans.woff2') format('woff2'),
-    url('/fonts/OpenSans/Regular/OpenSans.woff') format('woff'),
-    url('/fonts/OpenSans/Regular/OpenSans.ttf') format('truetype'),
-    url('/fonts/OpenSans/Regular/OpenSans.svg#OpenSans') format('svg');
+    src: url($prefix +'/fonts/OpenSans/Regular/OpenSans.eot');
+    src: url($prefix +'/fonts/OpenSans/Regular/OpenSans.eot?#iefix') format('embedded-opentype'),
+    url($prefix +'/fonts/OpenSans/Regular/OpenSans.woff2') format('woff2'),
+    url($prefix +'/fonts/OpenSans/Regular/OpenSans.woff') format('woff'),
+    url($prefix +'/fonts/OpenSans/Regular/OpenSans.ttf') format('truetype'),
+    url($prefix +'/fonts/OpenSans/Regular/OpenSans.svg#OpenSans') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('/fonts/OpenSans/Italic/OpenSans-Italic.eot');
-    src: url('/fonts/OpenSans/Italic/OpenSans-Italic.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/OpenSans/Italic/OpenSans-Italic.woff2') format('woff2'),
-    url('/fonts/OpenSans/Italic/OpenSans-Italic.woff') format('woff'),
-    url('/fonts/OpenSans/Italic/OpenSans-Italic.ttf') format('truetype'),
-    url('/fonts/OpenSans/Italic/OpenSans-Italic.svg#OpenSans-Italic') format('svg');
+    src: url($prefix +'/fonts/OpenSans/Italic/OpenSans-Italic.eot');
+    src: url($prefix +'/fonts/OpenSans/Italic/OpenSans-Italic.eot?#iefix') format('embedded-opentype'),
+    url($prefix +'/fonts/OpenSans/Italic/OpenSans-Italic.woff2') format('woff2'),
+    url($prefix +'/fonts/OpenSans/Italic/OpenSans-Italic.woff') format('woff'),
+    url($prefix +'/fonts/OpenSans/Italic/OpenSans-Italic.ttf') format('truetype'),
+    url($prefix +'/fonts/OpenSans/Italic/OpenSans-Italic.svg#OpenSans-Italic') format('svg');
     font-weight: normal;
     font-style: italic;
 }
