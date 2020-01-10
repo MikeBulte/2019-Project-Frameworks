@@ -6,6 +6,7 @@ use App\GameTable;
 use App\Round;
 use App\User;
 use Illuminate\Http\Request;
+use function Psy\debug;
 
 class TableArrangementController extends Controller
 {
@@ -102,8 +103,8 @@ class TableArrangementController extends Controller
      */
     public function arrangeStartingRound()
     {
-        $players = User::where('role', '==', 'user');
-        @@dd($players);
+        $players = config('roles.models.role')::where('slug', 'user')->cursor()->first()->users;
+        dd($players[1]->roles);
     }
     /**
      * Arrange the second and third rounds.
