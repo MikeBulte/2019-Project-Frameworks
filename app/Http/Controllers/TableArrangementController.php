@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\GameTable;
 use App\Round;
+use App\User;
 use Illuminate\Http\Request;
 
 class TableArrangementController extends Controller
@@ -93,6 +94,31 @@ class TableArrangementController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+
+    /**
+     * Arrange the starting round.
+     */
+    public function arrangeStartingRound()
+    {
+        $players = User::where('role', '==', 'user');
+        @@dd($players);
+    }
+    /**
+     * Arrange the second and third rounds.
+     */
+    public function arrangeRound()
+    {
+
+    }
+
+    /**
+     * Arrange the bracket rounds (eliminations).
+     */
+    public function arrangeBracketRound()
+    {
+
     }
 }
 

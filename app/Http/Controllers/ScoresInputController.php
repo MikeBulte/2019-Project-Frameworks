@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Round;
 use App\Score;
+use App\User;
 use Illuminate\Http\Request;
 
 class ScoresInputController extends Controller
@@ -77,14 +78,15 @@ class ScoresInputController extends Controller
 
     /**
      * Update the specified resource in storage.
+     * For inputting scores we'll be updating them as the scores already exist to arrange tables.
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, User $user)
     {
-        //
+        @dd($user);
     }
 
     /**

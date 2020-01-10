@@ -52,11 +52,28 @@
                                         @endforeach
                                         </tbody>
                                     </table>
-                                    <form action="{{ route('tablearrangement.store') }}" method="post">
-                                        <button class="prim-btn" type="submit">
-                                            Deel de ronde in
-                                        </button>
-                                    </form>
+                                    @if($key === 0)
+                                        <form action="{{ route('arrangeStartingRound') }}" method="post">
+                                            @csrf
+                                            <button class="prim-btn" type="submit">
+                                                Deel de ronde in
+                                            </button>
+                                        </form>
+                                    @elseif($round->bracket_round)
+                                        <form action="{{ route('arrangeBracketRound') }}" method="post">
+                                            @csrf
+                                            <button class="prim-btn" type="submit">
+                                                Deel de ronde in
+                                            </button>
+                                        </form>
+                                    @else
+                                        <form action="{{ route('arrangeRound') }}" method="post">
+                                            @csrf
+                                            <button class="prim-btn" type="submit">
+                                                Deel de ronde in
+                                            </button>
+                                        </form>
+                                    @endif
                                 </div>
                             </div>
                         </div>
