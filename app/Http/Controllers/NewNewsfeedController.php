@@ -45,11 +45,18 @@ class NewNewsfeedController extends Controller
 
     public function update(Newsfeeds $request, Newsfeed $news)
     {
+        $news = new Newsfeed();
+        $news->first_name = $request->first_name;
         $news->title = $request->title;
-        $news->article = $request->article;
+        $news->acticle = $request->acrticle;
         $news->image = $request->image;
 
-        $news->save();
+
+        if ($news->save()):
+            session()->flash('msg', 'succesvol gewijzigd');
+        else:
+            session()->flash('alert', 'Fout tijdens het wijzigen');
+        endif;
 
         return redirect()->back();
     }

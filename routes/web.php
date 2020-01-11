@@ -40,9 +40,15 @@ Route::resource('gamerules', 'GameRulesController');
 
 // UserDashboard routes
 Route::resource('usersdashboard', 'UserController');
+
+Route::resource('nieuwsfeed', 'NewNewsfeedController');
+Route::post('countdown', 'DashboardController@response');
+
+
 Route::get('/leaderboard', 'ScoreController@index')->name('leaderboard');
 
-// Dashboard Routes
+
+// Dashboard routes
 Route::resource('dashboard', 'DashboardController')->middleware('role:admin|jury');
 Route::resource('table-arrangement', 'TableArrangementController')->middleware('role:admin|jury');
 Route::resource('score-input', 'ScoresInputController')->middleware('role:admin|jury');
@@ -52,3 +58,6 @@ Route::resource('privileges', 'PrivilegesController')->middleware('role:admin');
 Route::resource('nieuwsfeed', 'NewNewsfeedController')->middleware('role:admin|jury');
 
 Route::resource('qrscanner', 'QrScannerController');
+
+
+

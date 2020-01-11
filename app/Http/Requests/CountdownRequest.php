@@ -3,8 +3,9 @@
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Support\Facades\Auth;
 
-class Newsfeeds extends FormRequest
+class Countdown extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -13,7 +14,7 @@ class Newsfeeds extends FormRequest
      */
     public function authorize()
     {
-        return true;
+        return Auth::check();
     }
 
     /**
@@ -24,9 +25,7 @@ class Newsfeeds extends FormRequest
     public function rules()
     {
         return [
-            'title'=> 'required|string',
-            'article'=> 'required ',
-            'image'=> 'binary'
+            "seconds" => "required"
         ];
     }
 }

@@ -118,11 +118,17 @@
     background-color: white;
     background-size: cover;
 
+ .title-newsfeed {
+    position: absolute;
+
     h1 {
-        font-size: 45px;
+        color: white;
+
     }
 }
-.content {
-    padding-bottom: 30px;
-    padding-top: 20px;
+
+    .content {
+        padding-bottom: 30px;
+        padding-top: 20px;
+    }
 }
