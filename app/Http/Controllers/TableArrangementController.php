@@ -9,7 +9,6 @@ use App\User;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
-use mysql_xdevapi\Table;
 use function Psy\debug;
 
 class TableArrangementController extends Controller
@@ -113,6 +112,7 @@ class TableArrangementController extends Controller
         $playersCount = count($players);
         $modulo = $playersCount % 4;
 
+        // Modulo 0
         if ($modulo == 0):
             $numOfTables = $playersCount / 4;
             $tableNum = 1;
@@ -147,15 +147,181 @@ class TableArrangementController extends Controller
                     break;
                 }
             }
+
+        // Modulo 1
+        elseif ($modulo == 1):
+            $numOfTables = (($playersCount - 9) / 4) + 3;
+            $tableNum = 1;
+
+            while ($numOfTables != 0) {
+                $gameTable = new GameTable;
+                $gameTable->name = "Tafel " . $tableNum;
+                $gameTable->save();
+
+                if ($numOfTables < 4 && $numOfTables > 0):
+                    $j = 0;
+                    while ($j != 3) {
+                        foreach ($players as $key => $player) {
+                            $scoreRow = new Score;
+                            $scoreRow->game_table_id = $gameTable->id;
+                            $scoreRow->round_id = $round->id;
+                            $scoreRow->user_id = $player->id;
+                            $scoreRow->save();
+
+                            $j++;
+
+                            unset($players[$key]);
+
+                            if ($j == 3)
+                                break;
+
+                        }
+                    }
+                    $tableNum++;
+                elseif ($numOfTables == 0):
+                    break;
+                else:
+                    $i = 0;
+
+                    while ($i != 4) {
+                        foreach ($players as $key => $player) {
+                            $scoreRow = new Score;
+                            $scoreRow->game_table_id = $gameTable->id;
+                            $scoreRow->round_id = $round->id;
+                            $scoreRow->user_id = $player->id;
+                            $scoreRow->save();
+
+                            $i++;
+
+                            unset($players[$key]);
+
+                            if ($i == 4)
+                                break;
+                        }
+                    }
+                    $tableNum++;
+                endif;
+                $numOfTables--;
+            }
+
+        // Modulo 2
+        elseif ($modulo == 2):
+            $numOfTables = (($playersCount - 6) / 4) + 2;
+            $tableNum = 1;
+
+            while ($numOfTables != 0) {
+                $gameTable = new GameTable;
+                $gameTable->name = "Tafel " . $tableNum;
+                $gameTable->save();
+
+                if ($numOfTables < 3 && $numOfTables > 0):
+                    $j = 0;
+                    while ($j != 3) {
+                        foreach ($players as $key => $player) {
+                            $scoreRow = new Score;
+                            $scoreRow->game_table_id = $gameTable->id;
+                            $scoreRow->round_id = $round->id;
+                            $scoreRow->user_id = $player->id;
+                            $scoreRow->save();
+
+                            $j++;
+
+                            unset($players[$key]);
+
+                            if ($j == 3)
+                                break;
+                        }
+                    }
+                    $tableNum++;
+                elseif ($numOfTables == 0):
+                    break;
+                else:
+                    $i = 0;
+
+                    while ($i != 4) {
+                        foreach ($players as $key => $player) {
+                            $scoreRow = new Score;
+                            $scoreRow->game_table_id = $gameTable->id;
+                            $scoreRow->round_id = $round->id;
+                            $scoreRow->user_id = $player->id;
+                            $scoreRow->save();
+
+                            $i++;
+
+                            unset($players[$key]);
+
+                            if ($i == 4)
+                                break;
+                        }
+                    }
+                    $tableNum++;
+                endif;
+                $numOfTables--;
+            }
+
+        // Modulo 3
+        elseif ($modulo == 3):
+            $numOfTables = (($playersCount - 3) / 4) + 1;
+            $tableNum = 1;
+
+            while ($numOfTables != 0) {
+                $gameTable = new GameTable;
+                $gameTable->name = "Tafel " . $tableNum;
+                $gameTable->save();
+
+                if ($numOfTables < 2 && $numOfTables > 0):
+                    $j = 0;
+                    while ($j != 3) {
+                        foreach ($players as $key => $player) {
+                            $scoreRow = new Score;
+                            $scoreRow->game_table_id = $gameTable->id;
+                            $scoreRow->round_id = $round->id;
+                            $scoreRow->user_id = $player->id;
+                            $scoreRow->save();
+
+                            $j++;
+
+                            unset($players[$key]);
+
+                            if ($j == 3)
+                                break;
+                        }
+                    }
+                    $tableNum++;
+                elseif ($numOfTables == 0):
+                    break;
+                else:
+                    $i = 0;
+
+                    while ($i != 4) {
+                        foreach ($players as $key => $player) {
+                            $scoreRow = new Score;
+                            $scoreRow->game_table_id = $gameTable->id;
+                            $scoreRow->round_id = $round->id;
+                            $scoreRow->user_id = $player->id;
+                            $scoreRow->save();
+
+                            $i++;
+
+                            unset($players[$key]);
+
+                            if ($i == 4)
+                                break;
+                        }
+                    }
+                    $tableNum++;
+                endif;
+                $numOfTables--;
+            }
         endif;
+
         return redirect()->back();
     }
 
     /**
      * Arrange the second and third rounds.
      */
-    public
-    function arrangeRound()
+    public function arrangeRound()
     {
 
     }
@@ -163,10 +329,18 @@ class TableArrangementController extends Controller
     /**
      * Arrange the bracket rounds (eliminations).
      */
-    public
-    function arrangeBracketRound()
+    public function arrangeBracketRound()
     {
 
+    }
+
+    public function deleteAllTables(Round $round)
+    {
+        $tables = Score::where('round_id', $round->id)->get();
+        foreach ($tables as $table):
+            $table->delete();
+        endforeach;
+        return redirect()->back();
     }
 }
 
