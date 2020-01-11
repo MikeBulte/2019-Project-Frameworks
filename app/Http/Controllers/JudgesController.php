@@ -19,6 +19,7 @@ class JudgesController extends Controller
     public function __construct()
     {
         $this->middleware('auth');
+        $this->middleware('level:3');
     }
 
     /**
@@ -44,7 +45,7 @@ class JudgesController extends Controller
             'password' => Hash::make($data['password']),
         ]);
 
-        $role = config('roles.models.role')::where('name', '=', 'Jury')->first();  //choose the default role upon user creation.
+        $role = config('roles.models.role')::where('slug', '=', 'jury')->first();  //choose the default role upon user creation.
         $judge->attachRole($role);
 
         return redirect()->route('judges.index');

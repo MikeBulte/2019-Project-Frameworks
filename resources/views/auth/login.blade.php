@@ -26,7 +26,10 @@
     <div class="row no-gutter">
         <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image">
             <div>
-                <img src="{{asset('storage/img/carcassonne-main-logo.png')}}" height="80" width="220" class="mt-4" style="object-fit: contain">
+                <a href="{{ url('/') }}">
+                    <img src="{{asset('storage/img/carcassonne-main-logo.png')}}" height="80" width="220" class="mt-4"
+                         style="object-fit: contain">
+                </a>
             </div>
         </div>
         <div class="col-md-8 col-lg-6 bg-white m-0 p-0">
@@ -112,8 +115,7 @@
                                         <button type="submit" class="btn btn-primary float-right">
                                             {{ __('Inloggen') }}
                                         </button>
-                                        <a href="/" class="mt-1">Terug naar home</a>
-
+                                        <a href="{{ url('/') }}" class="mt-1">Terug naar home</a>
                                     </div>
                                 </div>
                             </form>

@@ -13,7 +13,7 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        $userRole = config('roles.models.role')::where('name', '=', 'User')->first();
+        $userRole = config('roles.models.role')::where('name', '=', 'Unverified')->first();
         $adminRole = config('roles.models.role')::where('name', '=', 'Admin')->first();
         $permissions = config('roles.models.permission')::all();
 
@@ -21,13 +21,14 @@ class UsersTableSeeder extends Seeder
          * Add Users
          *
          */
-        if (config('roles.models.defaultUser')::where('email', '=', 'admin@admin.com')->first() === null) {
+        if (config('roles.models.defaultUser')::where('email', '=', 'carcassonne@999games.com')->first() === null) {
             $newUser = config('roles.models.defaultUser')::create([
-                'first_name'     => 'Admin',
-                'last_name'     => 'Admin',
-                'email'    => 'admin@admin.com',
+
+                'first_name'     => 'Carcassonne',
+                'last_name'     => '999games',
+                'email'    => 'carcassonne@999games.com',
                 'password' => Hash::make('password'),
-                "api_token" => Str::random(60),
+                 "api_token" => Str::random(60)
             ]);
 
             $newUser->attachRole($adminRole);
@@ -36,13 +37,15 @@ class UsersTableSeeder extends Seeder
             }
         }
 
-        if (config('roles.models.defaultUser')::where('email', '=', 'user@user.com')->first() === null) {
+        if (config('roles.models.defaultUser')::where('email', '=', 's.hoeksema@windesheim.nl')->first() === null) {
             $newUser = config('roles.models.defaultUser')::create([
-                'first_name'     => 'User',
-                'last_name'     => 'Admin',
-                'email'    => 'user@user.com',
+
+                'first_name'     => 'Stephan',
+                'last_name'     => 'Hoeksema',
+                'email'    => 's.hoeksema@windesheim.nl',
                 'password' => Hash::make('password'),
                 "api_token" => Str::random(60),
+
             ]);
 
             $newUser->attachRole($userRole);

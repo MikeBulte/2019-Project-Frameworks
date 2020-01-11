@@ -46,7 +46,7 @@
                 @endrole
             </div>
             <div class="row judges-inner">
-                <table id="table-pagination" class="table table-hover">
+                <table id="table-users" class="table table-hover">
                     <thead>
                     <tr>
                         <th scope="col">Id</th>

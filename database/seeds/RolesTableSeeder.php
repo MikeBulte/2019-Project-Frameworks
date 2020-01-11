@@ -29,9 +29,15 @@ class RolesTableSeeder extends Seeder
                 'level'       => 3,
             ],
             [
-                'name'        => 'User',
+                'name'        => 'Player',
                 'slug'        => 'user',
                 'description' => 'User Role',
+                'level'       => 1,
+            ],
+            [
+                'name'        => 'Unverified',
+                'slug'        => 'unverified',
+                'description' => 'unverified account',
                 'level'       => 1,
             ],
 //            [

@@ -1,6 +1,5 @@
 <?php
 
-use App\Newsfeed;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,13 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/login', function()
-{
+Route::get('/login', function () {
     return view('pages.login');
 });
 
-Route::get('/register', function()
-{
+Route::get('/register', function () {
     return view('auth.register');
 })->name('register');
 
@@ -44,20 +41,34 @@ Route::resource('usersdashboard', 'UserController');
 Route::resource('nieuwsfeed', 'NewNewsfeedController');
 Route::post('countdown', 'DashboardController@response');
 
-
 Route::get('/leaderboard', 'ScoreController@index')->name('leaderboard');
 
+// Dashboard Routes
+Route::resource('dashboard', 'DashboardController');
 
-// Dashboard routes
-Route::resource('dashboard', 'DashboardController')->middleware('role:admin|jury');
-Route::resource('table-arrangement', 'TableArrangementController')->middleware('role:admin|jury');
-Route::resource('score-input', 'ScoresInputController')->middleware('role:admin|jury');
-Route::resource('players', 'PlayersController')->middleware('role:admin|jury');
-Route::resource('judges', 'JudgesController')->middleware('role:admin|jury');
-Route::resource('privileges', 'PrivilegesController')->middleware('role:admin');
-Route::resource('nieuwsfeed', 'NewNewsfeedController')->middleware('role:admin|jury');
+Route::resource('tablearrangement', 'TableArrangementController');
+Route::resource('scoreinput', 'ScoresInputController');
+Route::resource('rounds', 'RoundController');
+Route::resource('players', 'PlayersController');
+Route::resource('judges', 'JudgesController');
 
-Route::resource('qrscanner', 'QrScannerController');
+Route::get('/newsfeed', 'NewsfeedController@index')->name('newsfeed');
+Route::resource('usersdashboard', 'UserController');
+Route::get('/verify', 'UserController@verify')->name('verify');
+Route::put('/verify_score', 'UserController@verifyScore')->name('verify_score');
+
+Route::resource('privileges', 'PrivilegesController');
+
+Route::resource('nieuwsfeed', 'NewNewsfeedController');
+Route::resource('checkin', 'CheckInController');
+
+// Table arrangement Routes
+Route::group(['prefix' => '{round}'], function () {
+    Route::post('/arrangefirstround', 'TableArrangementController@arrangeStartingRound')->name('arrangeStartingRound');
+    Route::delete('/deleteAllTables', 'TableArrangementController@deleteAllTables')->name('deleteAllTables');
+    Route::post('/arrangeround', 'TableArrangementController@arrangeRound')->name('arrangeRound');
+});
 
 
+Route::post('/arrangebracketround', 'TableArrangementController@arrangeBracketRound')->name('arrangeBracketRound');
 

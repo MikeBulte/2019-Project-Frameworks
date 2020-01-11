@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\UserRequest;
+use App\Score;
 use App\User;
 use Exception;
 use Illuminate\Http\Request;
@@ -12,6 +13,18 @@ use Illuminate\Support\Facades\Hash;
 
 class UserController extends Controller
 {
+
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('auth');
+        $this->middleware('level:1');
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -36,10 +49,10 @@ class UserController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param \Illuminate\Http\Request $request
+     * @param UserRequest $request
      * @return Response
      */
-    public function store(Request $request)
+    public function store(UserRequest $request)
     {
         //
     }
@@ -70,7 +83,7 @@ class UserController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param \Illuminate\Http\Request $request
+     * @param UserRequest $request
      * @param User $usersDashboard
      * @return Response
      */
@@ -79,7 +92,7 @@ class UserController extends Controller
         $user = Auth::user();
         $user->first_name = $request->first_name;
         $user->last_name = $request->last_name;
-        if(!empty($request->password)):
+        if (!empty($request->password)):
             $user->password = Hash::make($request->password);
         endif;
 
@@ -95,14 +108,36 @@ class UserController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param User $usersDashboard
+     * @param $user
      * @return void
-     * @throws Exception
      */
     public function destroy($user)
     {
         $user = User::find($user);
         $user->delete();
         return redirect()->route('root');
+    }
+
+    public function verify()
+    {
+        $user = Auth::user();
+
+        // $round_name = ;
+        // $round_number = ;
+        $scores = Score::where('user_id', $user->id)->get();
+
+        //dd($score);
+        return view('usersDashboard.verify', compact('scores'));
+    }
+
+    public function verifyScore(Request $request)
+    {
+        //dd($request->score_id);
+        $score = Score::find($request->score_id);
+        //dd($score);
+        $score->validated = $request->validation;
+        $score->save();
+
+        return redirect()->back();
     }
 }
