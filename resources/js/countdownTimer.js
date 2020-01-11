@@ -7,7 +7,7 @@ function resetPage() {
 }
 
 
-window.tick = function (second.getValue($timer->seconds)) {
+window.tick = function (min) {
 
     let minute = Math.floor(min / 60);
     let second = min - (minute * 60);
