@@ -21,6 +21,7 @@ class RoundController extends Controller
     public function __construct()
     {
         $this->middleware('auth');
+        $this->middleware('level:3');
     }
     /**
      * Display a listing of the resource.

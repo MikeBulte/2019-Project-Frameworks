@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\GameTable;
+use App\Http\Requests\ScoreInputRequest;
 use App\Round;
 use App\Score;
 use App\User;
@@ -46,7 +48,7 @@ class ScoresInputController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param \Illuminate\Http\Request $request
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
@@ -57,7 +59,7 @@ class ScoresInputController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function show($id)
@@ -68,7 +70,7 @@ class ScoresInputController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
@@ -80,19 +82,39 @@ class ScoresInputController extends Controller
      * Update the specified resource in storage.
      * For inputting scores we'll be updating them as the scores already exist to arrange tables.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @param \Illuminate\Http\Request $request
+     * @param int $id
+     * @return \Illuminate\Http\RedirectResponse
      */
-    public function update(Request $request, User $user)
+    public function update(ScoreInputRequest $request, $id)
     {
-        @dd($user);
+        // Scores contains the scores that need to be updated.
+        $scores = Score::where('game_table_id', $id)->get();
+
+
+        foreach ($scores as $key => $score) {
+//            @dd($request->score1);
+            if ($key === 0) {
+                $score->amount = $request->score0;
+            } elseif ($key === 1) {
+                $score->amount = $request->score1;
+            } elseif ($key === 2) {
+                $score->amount = $request->score2;
+            } else {
+                $score->amount = $request->score3;
+            }
+            $score->save();
+        }
+
+        return redirect()->route('scoreinput.index');
+
+//        @dd($request->score);
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)

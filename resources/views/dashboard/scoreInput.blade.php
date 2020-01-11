@@ -4,7 +4,6 @@
     <div class="dashboard-inner">
         <div class="height-inner scores-invoeren">
             <h1 class="title-margin">Scores invoeren</h1>
-            <form>
                 <div id="accordion" role="tablist">
                     @foreach($rounds as $keyR => $round)
                     <div class="card voorronde">
@@ -25,9 +24,10 @@
                                                 <div class="col">
                                                     <h3>{{ $table->name }}</h3>
                                                 </div>
-                                                <form action="{{ route('scoreinput.update', ['scores' => $table->id]) }}" method="post">
+                                                <form action="{{ route('scoreinput.update', ['scoreinput' => $table->id]) }}" method="post">
                                                     @csrf
                                                     @method('PUT')
+
                                                     @foreach($table->users as $keyU => $user)
                                                         <div class="col d-flex align-items-center">
                                                             <p class="col-4">{{ $user->first_name }} {{ $user->last_name }}</p>
@@ -49,7 +49,6 @@
                     </div>
                     @endforeach
                 </div>
-            </form>
         </div>
     </div>
 
