@@ -31,9 +31,12 @@
                                                     @foreach($table->users as $keyU => $user)
                                                         <div class="col d-flex align-items-center">
                                                             <p class="col-4">{{ $user->first_name }} {{ $user->last_name }}</p>
-                                                            <div class="score-input d-flex align-items-center justify-content-end col-8">
+                                                            <div class="score-input d-flex align-items-center justify-content-end col-5">
                                                                 <label for="round{{ $keyR }}Table{{ $keyT }}User{{ $keyU }}">Aantal punten: </label>
                                                                 <input type="number" min="0" max="1000" name="score{{ $keyU }}" value="{{ (!empty($user->scores[$round->id - 1]->amount) ? $user->scores[$round->id - 1]->amount : '') }}" id="round{{ $keyR }}Table{{ $keyT }}User{{ $keyU }}">
+                                                            </div>
+                                                            <div class="col-3">
+                                                                <p>{{ (!empty($user->scores[$round->id - 1]->weight) ? 'Gewicht: ' . round($user->scores[$round->id - 1]->weight, 2) : '') }}</p>
                                                             </div>
                                                         </div>
                                                     @endforeach

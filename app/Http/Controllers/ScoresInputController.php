@@ -132,7 +132,7 @@ class ScoresInputController extends Controller
         }
 
         return redirect()->route('scoreinput.index');
-        
+
     }
 
     /**

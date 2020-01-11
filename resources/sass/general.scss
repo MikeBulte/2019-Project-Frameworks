@@ -256,7 +256,11 @@ html {
         outline: none;
     }
 
-    input:foucs, input:active {
+    input[type="checkbox"] {
+        width: auto;
+    }
+
+    input:focus, input:active {
         outline: none;
     }
 
