@@ -8,7 +8,8 @@
             <div class="timer-inner row d-flex">
                 <div class="col d-flex align-items-center" id="inputArea">
                     <form class="d-flex" method="post" action="">
-                    <input name="time" placeholder="Voer ronde tijd in" id="minutes" type="text" min="0" max="1000">
+                    <input  placeholder="Voer ronde tijd in" id="minutes" type="text" min="0" max="1000">
+                        <input name="time" id="minutes"  value=" " type="hidden" min="0" max="1000">
                     <p class="margin"><strong>Minuten</strong></p>
                     <button type="button" class="prim-btn" id="js-startcounter" onclick="startButton()">Start ronde</button>
                     </form>
@@ -71,7 +72,7 @@
                         @endforeach
                     </tbody>
                 </table>
-                <a class="viewleaderboard-dashboard" href="">Bekijk de gehele ranglijst ></a>
+                <a class="viewleaderboard-dashboard" href="{{ route('leaderboard') }}">Bekijk de gehele ranglijst ></a>
             </div>
         </div>
     </div>
@@ -80,6 +81,7 @@
             let min = $("#minutes").val() * 60;
 
             console.log(min);
+
 
             checkTimer("{{ Auth::user()->api_token }}", min);
         }

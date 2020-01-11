@@ -4,7 +4,7 @@
             <p>Copyright © Team 1c 2019</p>
         </div>
         <div class="col d-flex justify-content-end">
-            <p>Made by: Annemarieke, Jasper, Katja, Menno & Mike</p>
+            <p>Made by: Annemarieke, Jasper, Menno & Mike</p>
         </div>
     </div>
 </footer>

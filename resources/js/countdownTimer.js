@@ -2,56 +2,54 @@ let mySeconds;
 let intervalHandle;
 
 
-    window.resetPage = function () {
-        document.getElementById("inputArea").style.display = "none";
-    };
+function resetPage() {
+    document.getElementById("inputArea").style.display = "none";
 
-    window.tick =function () {
-        let timeDisplay = document.getElementById("time");
+}
 
-        let min = Math.floor(mySeconds / 60);
-        let sec = mySeconds - (min * 60);
 
-        if (sec < 10) {
-            sec = "0" + sec;
-        }
+function tick() {
+    let timeDisplay = document.getElementById("time");
 
-        let message = min.toString() + ":" + sec;
+    let min = Math.floor(mySeconds / 60);
+    let sec = mySeconds - (min * 60);
 
-        timeDisplay.innerHTML = message;
-
-        if (mySeconds === 0) {
-            alert("De ronde is voorbij");
-            clearInterval(intervalHandle);
-            resetPage();
-        }
-        mySeconds--;
-    };
-
-    window.startCounter  = function () {
-        let myInput = document.getElementById("minutes").value;
-        if (isNaN(myInput)) {
-            alert("Voer een mummer in.");
-            return;
-        }
-        mySeconds = myInput * 60;
-
-        intervalHandle = setInterval(tick, 1000);
+    if (sec < 10) {
+        sec = "0" + sec;
     }
 
+    let message = min.toString() + ":" + sec;
 
-    document.querySelector("#js-startcounter").addEventListener("click",
-        function () {
-            startCounter();
-    });
+    timeDisplay.innerHTML = message;
+
+    if (mySeconds === 0) {
+        alert("Done");
+        clearInterval(intervalHandle);
+        resetPage();
+    }
+    mySeconds--;
+}
+
+window.startCounter = function (min) {
+
+    let myInput = min;
+    if (isNaN(myInput)) {
+        alert("Type a valid number please");
+        return;
+    }
+    intervalHandle = setInterval(tick, 1000);
+}
+
+
+
 
 window.checkTimer = function (token, sec) {
     $.ajax({
         type: 'post',
-        url: '/api/timer',
+        url: '/~menno/999games/api/timer',
         headers: {
             'Accept': 'application/json',
-            'Authorization': 'Bearer '+token
+            'Authorization': 'Bearer ' + token
         },
         data: {
             action: 'start',
@@ -64,7 +62,6 @@ window.checkTimer = function (token, sec) {
     }).fail(function (ctx) {
         alert(ctx.responseText);
         console.log(ctx.responseText);
-        console.log('error')
+        console.log('no error')
     });
-}
-
+};
