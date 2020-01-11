@@ -18,6 +18,10 @@
                 <li class="{{ (request()->segment(1) == 'nieuwsfeed') ? 'active' : '' }}"><a href="{{ url('nieuwsfeed') }}" class="menu-item-sidebar d-block">Nieuwsfeed</a></li>
             </ul>
             <ul class="settings-list">
+                <p class="settings-title">Start NK</p>
+                <li class="{{ (request()->segment(1) == 'checkin') ? 'active' : '' }}"><a href="{{ url('checkin') }}" class="menu-item-sidebar d-block">Check-in</a></li>
+            </ul>
+            <ul class="settings-list">
                 <p class="settings-title">Instellingen</p>
                 <li class="{{ (request()->segment(1) == 'profiel-instellingen') ? 'active' : '' }}"><a href="{{ url('usersdashboard') }}" class="menu-item-sidebar d-block">Profiel instellingen</a></li>
             </ul>

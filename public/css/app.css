@@ -4,40 +4,40 @@
 
 @font-face {
   font-family: "Barbedor";
-  src: url("/fonts/Barbedor/Barbedor-Bold.eot");
-  src: url("/fonts/Barbedor/Barbedor-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/Barbedor/Barbedor-Bold.woff2") format("woff2"), url("/fonts/Barbedor/Barbedor-Bold.woff") format("woff"), url("/fonts/Barbedor/Barbedor-Bold.ttf") format("truetype"), url("/fonts/Barbedor/Barbedor-Bold.svg#Barbedor-Bold") format("svg");
+  src: url("/~jasper/999games/fonts/Barbedor/Barbedor-Bold.eot");
+  src: url("/~jasper/999games/fonts/Barbedor/Barbedor-Bold.eot?#iefix") format("embedded-opentype"), url("/~jasper/999games/fonts/Barbedor/Barbedor-Bold.woff2") format("woff2"), url("/~jasper/999games/fonts/Barbedor/Barbedor-Bold.woff") format("woff"), url("/~jasper/999games/fonts/Barbedor/Barbedor-Bold.ttf") format("truetype"), url("/~jasper/999games/fonts/Barbedor/Barbedor-Bold.svg#Barbedor-Bold") format("svg");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Open Sans";
-  src: url("/fonts/OpenSans/SemiBold/OpenSans-Semibold.eot");
-  src: url("/fonts/OpenSans/SemiBold/OpenSans-Semibold.eot?#iefix") format("embedded-opentype"), url("/fonts/OpenSans/SemiBold/OpenSans-Semibold.woff2") format("woff2"), url("/fonts/OpenSans/SemiBold/OpenSans-Semibold.woff") format("woff"), url("/fonts/OpenSans/SemiBold/OpenSans-Semibold.ttf") format("truetype"), url("/fonts/OpenSans/SemiBold/OpenSans-Semibold.svg#OpenSans-Semibold") format("svg");
+  src: url("/~jasper/999games/fonts/OpenSans/SemiBold/OpenSans-Semibold.eot");
+  src: url("/~jasper/999games/fonts/OpenSans/SemiBold/OpenSans-Semibold.eot?#iefix") format("embedded-opentype"), url("/~jasper/999games/fonts/OpenSans/SemiBold/OpenSans-Semibold.woff2") format("woff2"), url("/~jasper/999games/fonts/OpenSans/SemiBold/OpenSans-Semibold.woff") format("woff"), url("/~jasper/999games/fonts/OpenSans/SemiBold/OpenSans-Semibold.ttf") format("truetype"), url("/~jasper/999games/fonts/OpenSans/SemiBold/OpenSans-Semibold.svg#OpenSans-Semibold") format("svg");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Open Sans";
-  src: url("/fonts/OpenSans/Bold/OpenSans-Bold.eot");
-  src: url("/fonts/OpenSans/Bold/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/OpenSans/Bold/OpenSans-Bold.woff2") format("woff2"), url("/fonts/OpenSans/Bold/OpenSans-Bold.woff") format("woff"), url("/fonts/OpenSans/Bold/OpenSans-Bold.ttf") format("truetype"), url("/fonts/OpenSans/Bold/OpenSans-Bold.svg#OpenSans-Bold") format("svg");
+  src: url("/~jasper/999games/fonts/OpenSans/Bold/OpenSans-Bold.eot");
+  src: url("/~jasper/999games/fonts/OpenSans/Bold/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("/~jasper/999games/fonts/OpenSans/Bold/OpenSans-Bold.woff2") format("woff2"), url("/~jasper/999games/fonts/OpenSans/Bold/OpenSans-Bold.woff") format("woff"), url("/~jasper/999games/fonts/OpenSans/Bold/OpenSans-Bold.ttf") format("truetype"), url("/~jasper/999games/fonts/OpenSans/Bold/OpenSans-Bold.svg#OpenSans-Bold") format("svg");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Open Sans";
-  src: url("/fonts/OpenSans/Regular/OpenSans.eot");
-  src: url("/fonts/OpenSans/Regular/OpenSans.eot?#iefix") format("embedded-opentype"), url("/fonts/OpenSans/Regular/OpenSans.woff2") format("woff2"), url("/fonts/OpenSans/Regular/OpenSans.woff") format("woff"), url("/fonts/OpenSans/Regular/OpenSans.ttf") format("truetype"), url("/fonts/OpenSans/Regular/OpenSans.svg#OpenSans") format("svg");
+  src: url("/~jasper/999games/fonts/OpenSans/Regular/OpenSans.eot");
+  src: url("/~jasper/999games/fonts/OpenSans/Regular/OpenSans.eot?#iefix") format("embedded-opentype"), url("/~jasper/999games/fonts/OpenSans/Regular/OpenSans.woff2") format("woff2"), url("/~jasper/999games/fonts/OpenSans/Regular/OpenSans.woff") format("woff"), url("/~jasper/999games/fonts/OpenSans/Regular/OpenSans.ttf") format("truetype"), url("/~jasper/999games/fonts/OpenSans/Regular/OpenSans.svg#OpenSans") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Open Sans";
-  src: url("/fonts/OpenSans/Italic/OpenSans-Italic.eot");
-  src: url("/fonts/OpenSans/Italic/OpenSans-Italic.eot?#iefix") format("embedded-opentype"), url("/fonts/OpenSans/Italic/OpenSans-Italic.woff2") format("woff2"), url("/fonts/OpenSans/Italic/OpenSans-Italic.woff") format("woff"), url("/fonts/OpenSans/Italic/OpenSans-Italic.ttf") format("truetype"), url("/fonts/OpenSans/Italic/OpenSans-Italic.svg#OpenSans-Italic") format("svg");
+  src: url("/~jasper/999games/fonts/OpenSans/Italic/OpenSans-Italic.eot");
+  src: url("/~jasper/999games/fonts/OpenSans/Italic/OpenSans-Italic.eot?#iefix") format("embedded-opentype"), url("/~jasper/999games/fonts/OpenSans/Italic/OpenSans-Italic.woff2") format("woff2"), url("/~jasper/999games/fonts/OpenSans/Italic/OpenSans-Italic.woff") format("woff"), url("/~jasper/999games/fonts/OpenSans/Italic/OpenSans-Italic.ttf") format("truetype"), url("/~jasper/999games/fonts/OpenSans/Italic/OpenSans-Italic.svg#OpenSans-Italic") format("svg");
   font-weight: normal;
   font-style: italic;
 }
@@ -47,6 +47,12 @@
 }
 
 /* ---------- General Styling ---------- */
+
+html {
+  /* ---------- Buttons ---------- */
+  /* revamp buttons */
+  /* ---------- End buttons ---------- */
+}
 
 html body {
   background-color: #ffffff;
@@ -228,6 +234,144 @@ html button.ter-btn:hover input {
   text-decoration: none;
 }
 
+html a.a-btn {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+html a.a-btn button.prim-btn {
+  background-color: #206EB8;
+  border: 2px solid #206EB8;
+  padding: 10px 25px !important;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  border-radius: 0;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+html a.a-btn button.prim-btn input {
+  background-color: transparent;
+  box-shadow: none;
+  padding: 0 0;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+html a.a-btn:hover {
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+html a.a-btn:hover button.prim-btn {
+  background-color: #195690;
+  border: 2px solid #195690;
+  padding: 10px 25px !important;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  border-radius: 0;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+html a.a-btn:hover button.prim-btn input {
+  background-color: transparent;
+  box-shadow: none;
+  padding: 0 0;
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+html a.a-btn {
+  color: #206EB8 !important;
+  font-weight: 600;
+}
+
+html a.a-btn button.scnd-btn {
+  border: 2px solid #206EB8;
+  background-color: #ffffff;
+  padding: 10px 25px !important;
+  border-radius: 0;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  color: #206EB8 !important;
+  font-weight: 600;
+}
+
+html a.a-btn button.scnd-btn input {
+  background-color: transparent;
+  box-shadow: none;
+  padding: 0 0;
+  color: #206EB8 !important;
+  font-weight: 600;
+}
+
+html a.a-btn:hover {
+  color: #ffffff !important;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+html a.a-btn:hover button.scnd-btn {
+  border: 2px solid #206EB8;
+  background-color: #206EB8 !important;
+  padding: 10px 25px !important;
+  border-radius: 0;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+html a.a-btn:hover button.scnd-btn input {
+  background-color: transparent;
+  box-shadow: none;
+  padding: 0 0;
+  color: #ffffff !important;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+html a.a-btn {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+html a.a-btn button.ter-btn {
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  padding: 10px 25px;
+  border-radius: 0;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+html a.a-btn:hover {
+  color: #206EB8;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+html a.a-btn:hover button.ter-btn {
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  padding: 10px 25px;
+  border-radius: 0;
+  color: #206EB8;
+  font-weight: 600;
+}
+
+html a.a-btn:hover button.ter-btn input {
+  background-color: transparent;
+  box-shadow: none;
+  padding: 0 0;
+  color: #206EB8;
+  font-weight: 600;
+  text-decoration: none;
+}
+
 html input {
   background-color: #ffffff;
   box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
@@ -256,7 +400,7 @@ html .title-margin {
 }
 
 .bg-image {
-  background-image: url("/storage/img/casstle2.jpg");
+  background-image: url("/~jasper/999games/storage/img/casstle2.jpg");
   background-size: cover;
   background-position: center;
   top: 0;
@@ -271,7 +415,7 @@ html .title-margin {
 }
 
 .bg-footer {
-  background-image: url("/storage/img/carcassonne-blue-pattern.jpg");
+  background-image: url("/~jasper/999games/storage/img/carcassonne-blue-pattern.jpg");
   background-size: 200px 200px;
   background-repeat: repeat;
   top: 0;
@@ -483,44 +627,44 @@ html .title-margin {
 }
 
 .bg-paper {
-  background-image: url("/storage/img/perkament-pattern.jpg");
+  background-image: url("/~jasper/999games/storage/img/perkament-pattern.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
 }
 
 .bg-rules-1 {
-  background-image: url("/storage/img/casstle2.jpg");
+  background-image: url("/~jasper/999games/storage/img/casstle2.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .bg-rules-2 {
-  background-image: url("/storage/img/casstle3.jpg");
+  background-image: url("/~jasper/999games/storage/img/casstle3.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .bg-newsfeed-1 {
-  background-image: url("/storage/img/Carcassonne_spel-1024x576.jpg");
+  background-image: url("/~jasper/999games/storage/img/Carcassonne_spel-1024x576.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .bg-newsfeed-2 {
-  background-image: url("/storage/img/DSCF20072.jpg");
+  background-image: url("/~jasper/999games/storage/img/DSCF20072.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .bg-newsfeed-3 {
-  background-image: url("/storage/img/images-4.jpeg");
+  background-image: url("/~jasper/999games/storage/img/images-4.jpeg");
   background-size: cover;
   background-position: center;
 }
 
 .bg-header-home {
-  background-image: url("/storage/img/header-home-background.png");
+  background-image: url("/~jasper/999games/storage/img/header-home-background.png");
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -607,7 +751,7 @@ html .title-margin {
 }
 
 .c2a {
-  background-image: url("/storage/img/carcassonne-blue-pattern.jpg");
+  background-image: url("/~jasper/999games/storage/img/carcassonne-blue-pattern.jpg");
   background-size: 100px 100px;
   background-repeat: repeat;
   top: 0;
@@ -898,15 +1042,11 @@ html .title-margin {
   max-width: 90%;
 }
 
-#app .userdashboard .userdashboard-inner-height {
-  height: 90vh;
-  margin-top: 0 !important;
-}
-
 #app .userdashboard .userdashboard-inner {
   margin-top: 80px;
   /* ----------- UserDashboard ----------- */
   /* ----------- User Settings ----------- */
+  /* ----------- Validation page ----------- */
 }
 
 #app .userdashboard .userdashboard-inner .user-quickselect-width {
@@ -1040,6 +1180,23 @@ html .title-margin {
   margin-bottom: 20px;
 }
 
+#app .userdashboard .userdashboard-inner .verify-title {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#app .userdashboard .userdashboard-inner .block-verify {
+  box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.16);
+  margin: 0 15px 0 15px;
+  padding: 0;
+  text-align: center;
+}
+
+.userdashboard-inner-height {
+  min-height: 90vh;
+  margin-top: 0 !important;
+}
+
 #app .header-about {
   height: 70vh;
   z-index: 999;
@@ -1047,7 +1204,7 @@ html .title-margin {
 }
 
 #app .header-about .bg-header-about {
-  background-image: url("/storage/img/perkament-pattern.jpg");
+  background-image: url("/~jasper/999games/storage/img/perkament-pattern.jpg");
   background-repeat: repeat;
   height: 100%;
 }
@@ -1086,19 +1243,19 @@ html .title-margin {
 
 #app .header-about .about-header-borderbottom {
   height: 150px;
-  background-image: url("/storage/img/perkament-pattern-bottom.png");
+  background-image: url("/~jasper/999games/storage/img/perkament-pattern-bottom.png");
   background-repeat: repeat-x;
 }
 
 #app .about-content {
   height: 100vh;
-  background-image: url("/storage/img/carcassonne-blue-pattern.jpg");
+  background-image: url("/~jasper/999games/storage/img/carcassonne-blue-pattern.jpg");
   background-repeat: repeat;
   background-size: 100px 100px;
 }
 
 #app .about-content .about-bottomimg {
-  background-image: url("/storage/img/bg-uitbreiding-1-mapped.png");
+  background-image: url("/~jasper/999games/storage/img/bg-uitbreiding-1-mapped.png");
   background-size: contain;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -1131,7 +1288,7 @@ html .title-margin {
 }
 
 #app .vines-devider {
-  background-image: url("/storage/img/begroeiing-top.png");
+  background-image: url("/~jasper/999games/storage/img/begroeiing-top.png");
   background-size: contain;
   background-repeat: no-repeat;
   height: 150px;
@@ -1167,7 +1324,7 @@ html .title-margin {
 
 .contact-page {
   min-height: 70vh;
-  background-image: url("/storage/img/carcassonne-blue-pattern.jpg");
+  background-image: url("/~jasper/999games/storage/img/carcassonne-blue-pattern.jpg");
   background-repeat: repeat;
   background-size: 100px 100px;
   padding-bottom: 40px;

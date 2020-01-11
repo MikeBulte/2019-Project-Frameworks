@@ -112,7 +112,7 @@
 
                                 <div class="form-group row mb-0">
                                     <div class="col-md-12 mt-3">
-                                        <button type="submit" class="btn btn-primary float-right">
+                                        <button type="submit" class="prim-btn float-right">
                                             {{ __('Inloggen') }}
                                         </button>
                                         <a href="{{ url('/') }}" class="mt-1">Terug naar home</a>

@@ -26,14 +26,14 @@
             <!-- Authentication Links -->
             @guest
                 <li class="nav-item mr-3">
-                    <button class="prim-btn">
-                        <a class="" href="{{ route('register') }}">Inschrijven</a>
-                    </button>
+                    <a class="a-btn" href="{{ route('register') }}">
+                        <button class="prim-btn">Inschrijven</button>
+                    </a>
                 </li>
                 <li>
-                    <button class="scnd-btn">
-                        <a class="" href="{{ route('login') }}">{{ __('Inloggen') }}</a>
-                    </button>
+                    <a class="a-btn" href="{{ route('login') }}">
+                        <button class="scnd-btn">{{ __('Inloggen') }}</button>
+                    </a>
                 </li>
             @else
                 <li class="nav-item dropdown">
@@ -45,7 +45,7 @@
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                         @role('admin|jury')
                         <a class="dropdown-item" href="{{ route('usersdashboard.index') }}">Deelnemers dashboard</a>
-                        <a class="dropdown-item" href="{{ url('dashboard') }}">Tournament Dashboard</a>
+                        <a class="dropdown-item" href="{{ url('dashboard') }}">Dashboard</a>
                         @endrole
 
                         @role('user|unverified')

@@ -34,8 +34,10 @@
                                 </button>
 
                                 @if (Route::has('password.request'))
-                                    <a class="btn btn-link" href="{{ route('password.request') }}">
-                                        {{ __('Forgot Your Password?') }}
+                                    <a class="btn a-btn" href="{{ route('password.request') }}">
+                                        <button class="prim-btn">
+                                            {{ __('Forgot Your Password?') }}
+                                        </button>
                                     </a>
                                 @endif
                             </div>
