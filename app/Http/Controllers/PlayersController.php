@@ -46,7 +46,7 @@ class PlayersController extends Controller
             'password' => Hash::make($data['password']),
         ]);
 
-        $role = config('roles.models.role')::where('name', '=', 'User')->first();  //choose the default role upon user creation.
+        $role = config('roles.models.role')::where('slug', '=', 'user')->first();  //choose the default role upon user creation.
         $player->attachRole($role);
 
         return redirect()->route('players.index');
