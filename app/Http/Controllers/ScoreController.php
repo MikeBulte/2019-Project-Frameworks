@@ -29,7 +29,7 @@ class ScoreController extends Controller
         // Check's if user_id isn't already in array, if so. Combine scores and rounds together to show total score.
         foreach ($scores as $key => $score) {
             // Only validated scores should be shown to the user.
-            if ($score->validated == true) {
+            if ($score->validated == true && $score->amount != null) {
                 if (!in_array($score->user_id, $combinedIds)) {
                     $combinedResults[$key]['id'] = $score->user_id;
                     $combinedResults[$key]['first_name'] = $score->user->first_name;
@@ -46,17 +46,17 @@ class ScoreController extends Controller
                 }
             }
         }
+
         /**
          * Copy all results into a new array so we can sort with it on the existing array to display the highest score first.
          */
-        foreach ($combinedResults as $key => $row)
-        {
-            $results[$key] = $row['amount'];
+        if ($combinedResults != null) {
+            foreach ($combinedResults as $key => $row) {
+                $results[$key] = $row['amount'];
+            }
+            array_multisort($results, SORT_DESC, $combinedResults);
         }
-        array_multisort($results, SORT_DESC, $combinedResults);
-
         return $combinedResults;
-//        asort(array_column($combinedResults, 'amount'), SORT_DESC);
     }
 
     /**
