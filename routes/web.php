@@ -58,7 +58,11 @@ Route::resource('nieuwsfeed', 'NewNewsfeedController');
 Route::resource('checkin', 'CheckInController');
 
 // Table arrangement Routes
-Route::post('/arrangefirstround', 'TableArrangementController@arrangeStartingRound')->name('arrangeStartingRound');
+Route::group(['prefix' => '{round}'], function() {
+    Route::post('/arrangefirstround', 'TableArrangementController@arrangeStartingRound')->name('arrangeStartingRound');
+    Route::delete('/deleteAllTables', 'TableArrangementController@deleteAllTables')->name('deleteAllTables');
+});
+
 Route::post('/arrangeround', 'TableArrangementController@arrangeRound')->name('arrangeRound');
 Route::post('/arrangebracketround', 'TableArrangementController@arrangeBracketRound')->name('arrangeBracketRound');
 

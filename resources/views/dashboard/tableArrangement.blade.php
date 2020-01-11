@@ -42,7 +42,6 @@
                                                     @if(!$table->id == in_array($table->id, $idArray))
                                                         <th scope="row">{{ $table->name }}</th>
                                                         @foreach($table->users as $user)
-
                                                             <td>{{ $user->first_name }} {{ $user->last_name }}</td>
                                                         @endforeach
                                                         @php(array_push($idArray, $table->id))
@@ -53,7 +52,8 @@
                                         </tbody>
                                     </table>
                                     @if($key === 0)
-                                        <form action="{{ route('arrangeStartingRound') }}" method="post">
+                                        <form action="{{ route('arrangeStartingRound', ['round' => $round]) }}"
+                                              method="post">
                                             @csrf
                                             <button class="prim-btn" type="submit">
                                                 Deel de ronde in
@@ -74,6 +74,14 @@
                                             </button>
                                         </form>
                                     @endif
+                                    <form action="{{ route('deleteAllTables', ['round' => $round]) }}" method="post">
+                                        @csrf
+                                        @method('DELETE')
+                                        <button class="prim-btn float-right" type="submit"
+                                                onclick="return confirm ('Weet je zeker dat je alle tafels van {{ $round->name }} wil verwijderen?')">
+                                            Verwijder alle tafels
+                                        </button>
+                                    </form>
                                 </div>
                             </div>
                         </div>
