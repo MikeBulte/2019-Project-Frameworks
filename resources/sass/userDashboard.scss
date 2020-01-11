@@ -3,11 +3,6 @@
     .userdashboard {
         max-width: 90%;
 
-        .userdashboard-inner-height {
-            height: 90vh;
-            margin-top: 0!important;
-        }
-
         .userdashboard-inner {
             margin-top: 80px;
 
@@ -149,6 +144,27 @@
                     }
                 }
             }
+
+            /* ----------- Validation page ----------- */
+
+            .verify-title{
+                margin-left: 0;
+                margin-right: 0;
+            }
+
+            .block-verify {
+                -webkit-box-shadow: 0 0 36px 0 rgba(0,0,0,0.16);
+                -moz-box-shadow: 0 0 36px 0 rgba(0,0,0,0.16);
+                box-shadow: 0 0 36px 0 rgba(0,0,0,0.16);
+                margin: 0 15px 0 15px;
+                padding: 0;
+                text-align: center;
+            }
         }
     }
+}
+
+.userdashboard-inner-height {
+    min-height: 90vh;
+    margin-top: 0!important;
 }

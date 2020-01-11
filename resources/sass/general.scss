@@ -97,6 +97,8 @@ html {
         color: #206EB8;
     }
 
+    /* ---------- Buttons ---------- */
+
     button, button:focus, button:active {
         outline: none;
     }
@@ -244,6 +246,154 @@ html {
             text-decoration: none;
         }
     }
+
+    /* revamp buttons */
+
+    a.a-btn {
+        color: #ffffff;
+        font-weight: 600;
+
+        button.prim-btn {
+            background-color: #206EB8;
+            border: 2px solid #206EB8;
+            padding: 10px 25px !important;
+            transition: 0.7s;
+            border-radius: 0;
+            color: #ffffff;
+            font-weight: 600;
+
+            input {
+                background-color: transparent;
+                -webkit-box-shadow: none;
+                -moz-box-shadow: none;
+                box-shadow: none;
+                padding: 0 0;
+                color: #ffffff;
+                font-weight: 600;
+            }
+        }
+    }
+
+    a.a-btn:hover {
+        color: #ffffff;
+        font-weight: 600;
+        text-decoration: none;
+
+        button.prim-btn {
+            background-color: #195690;
+            border: 2px solid #195690;
+            padding: 10px 25px !important;
+            transition: 0.7s;
+            border-radius: 0;
+            color: #ffffff;
+            font-weight: 600;
+
+            input {
+                background-color: transparent;
+                -webkit-box-shadow: none;
+                -moz-box-shadow: none;
+                box-shadow: none;
+                padding: 0 0;
+                color: #ffffff;
+                font-weight: 600;
+                text-decoration: none;
+            }
+        }
+    }
+
+    a.a-btn {
+        color: #206EB8 !important;
+        font-weight: 600;
+
+        button.scnd-btn {
+            border: 2px solid #206EB8;
+            background-color: #ffffff;
+            padding: 10px 25px !important;
+            border-radius: 0;
+            transition: 0.7s;
+            color: #206EB8 !important;
+            font-weight: 600;
+
+            input {
+                background-color: transparent;
+                -webkit-box-shadow: none;
+                -moz-box-shadow: none;
+                box-shadow: none;
+                padding: 0 0;
+                color: #206EB8 !important;
+                font-weight: 600;
+            }
+        }
+    }
+
+    a.a-btn:hover {
+        color: #ffffff !important;
+        font-weight: 600;
+        text-decoration: none;
+
+        button.scnd-btn {
+            border: 2px solid #206EB8;
+            background-color: #206EB8 !important;
+            padding: 10px 25px !important;
+            border-radius: 0;
+            transition: 0.7s;
+            color: #ffffff !important;
+            font-weight: 600;
+
+            input {
+                background-color: transparent;
+                -webkit-box-shadow: none;
+                -moz-box-shadow: none;
+                box-shadow: none;
+                padding: 0 0;
+                color: #ffffff !important;
+                font-weight: 600;
+                text-decoration: none;
+            }
+        }
+    }
+
+    a.a-btn {
+        color: #ffffff;
+        font-weight: 600;
+
+        button.ter-btn {
+            border: 2px solid #ffffff;
+            background-color: transparent;
+            padding: 10px 25px;
+            border-radius: 0;
+            color: #ffffff;
+            font-weight: 600;
+        }
+    }
+
+    a.a-btn:hover {
+        color: #206EB8;
+        font-weight: 600;
+        text-decoration: none;
+
+        button.ter-btn {
+            border: 2px solid #ffffff;
+            background-color: #ffffff;
+            padding: 10px 25px;
+            border-radius: 0;
+            color: #206EB8;
+            font-weight: 600;
+
+            input {
+                background-color: transparent;
+                -webkit-box-shadow: none;
+                -moz-box-shadow: none;
+                box-shadow: none;
+                padding: 0 0;
+                color: #206EB8;
+                font-weight: 600;
+                text-decoration: none;
+            }
+        }
+    }
+
+    /* ---------- End buttons ---------- */
 
     input {
         background-color: #ffffff;

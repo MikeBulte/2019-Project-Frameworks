@@ -13,11 +13,11 @@
             <div class="row block-verify text-center">
                 <table class="table table-hover">
                     <thead>
-                        <tr>
-                            <th scope="col">Ronde</th>
-                            <th scope="col">Score</th>
-                            <th scope="col">Validatie</th>
-                        </tr>
+                    <tr>
+                        <th scope="col">Ronde</th>
+                        <th scope="col">Score</th>
+                        <th scope="col">Validatie</th>
+                    </tr>
                     </thead>
                     <tbody>
                     @foreach($scores as $score)
