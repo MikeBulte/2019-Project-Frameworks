@@ -112,7 +112,7 @@
                                         <button type="submit" class="btn btn-primary float-right">
                                             {{ __('Inloggen') }}
                                         </button>
-                                        <a href="/" class="mt-1">Terug naar home</a>
+                                        <a href="{{ url('/') }}" class="mt-1">Terug naar home</a>
 
                                     </div>
                                 </div>

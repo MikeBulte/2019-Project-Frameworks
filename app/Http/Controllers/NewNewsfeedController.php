@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\Newsfeeds;
+use App\Http\Requests\NewsfeedsRequest;
 use App\Newsfeed;
 use Illuminate\Http\Request;
 
@@ -16,6 +16,7 @@ class NewNewsfeedController extends Controller
     public function __construct()
     {
         $this->middleware('auth');
+        $this->middleware('level:3');
     }
 
     /**
@@ -29,7 +30,7 @@ class NewNewsfeedController extends Controller
         return view('dashboard.newsfeed', compact('newsfeeds'));
     }
 
-    public function store (Newsfeeds $request)
+    public function store (NewsfeedsRequest $request)
     {
 
         $data = $request;
@@ -43,13 +44,20 @@ class NewNewsfeedController extends Controller
         return redirect()->back();
     }
 
-    public function update(Newsfeeds $request, Newsfeed $news)
+    public function update(NewsfeedsRequest $request, Newsfeed $news)
     {
+        $news = new Newsfeed();
+        $news->first_name = $request->first_name;
         $news->title = $request->title;
-        $news->article = $request->article;
+        $news->acticle = $request->acrticle;
         $news->image = $request->image;
 
-        $news->save();
+
+        if ($news->save()):
+            session()->flash('msg', 'succesvol gewijzigd');
+        else:
+            session()->flash('alert', 'Fout tijdens het wijzigen');
+        endif;
 
         return redirect()->back();
     }

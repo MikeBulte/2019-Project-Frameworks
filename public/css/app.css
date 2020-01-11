@@ -237,7 +237,7 @@ html input {
   outline: none;
 }
 
-html input:foucs,
+html input:focus,
 html input:active {
   outline: none;
 }
@@ -275,6 +275,18 @@ html .title-margin {
   background-size: 200px 200px;
   background-repeat: repeat;
   top: 0;
+}
+
+.bg-footer .li-footer {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: inline-block;
+}
+
+.bg-footer .li-footer svg {
+  width: 70%;
+  fill: #ffffff;
 }
 
 .dashboard-footer {
@@ -411,11 +423,15 @@ html .title-margin {
   background-size: cover;
 }
 
-.body-newsfeed h1 {
-  font-size: 45px;
+.body-newsfeed .title-newsfeed {
+  position: absolute;
 }
 
-.content {
+.body-newsfeed .title-newsfeed h1 {
+  color: white;
+}
+
+.body-newsfeed .content {
   padding-bottom: 30px;
   padding-top: 20px;
 }
@@ -530,45 +546,62 @@ html .title-margin {
   margin: 0 25px 0 0;
 }
 
-.content-home .paper-home .paper:last-child {
+.content-home .rules-block:first-child {
+  margin-right: 25px;
+  padding: 0;
+}
+
+.content-home .rules-block:last-child {
+  margin-left: 25px;
+  padding: 0;
+}
+
+/*---- News Feed ----*/
+
+.news-feed {
+  margin-top: 70px;
+  margin-bottom: 33px;
+}
+
+.news-feed .paper:last-child {
   margin: 0 0 0 25px;
 }
 
-.content-home .paper-home .paper {
+.news-feed .paper {
   margin: 0 25px 0 25px;
 }
 
-.content-home .paper-home .col-sm {
+.news-feed .col-sm {
   padding: 0 !important;
 }
 
-.content-home .paper-content {
+.paper-content {
   width: 100%;
   padding: 40px 0;
 }
 
-.content-home .paper-content img {
+.paper-content img {
   width: 30%;
   margin: 0 auto 20px auto;
   display: block;
 }
 
-.content-home .home-rules {
+.home-rules {
   margin-top: 40px;
 }
 
-.content-home .home-rules a h4 {
+.home-rules a h4 {
   margin: 20% 0;
   font-size: 38px;
   color: white;
 }
 
-.content-home .home-rules .rules-block:first-child {
+.home-rules .rules-block:first-child {
   margin-right: 25px;
   padding: 0;
 }
 
-.content-home .home-rules .rules-block:last-child {
+.home-rules .rules-block:last-child {
   margin-left: 25px;
   padding: 0;
 }
@@ -722,6 +755,10 @@ html .title-margin {
 
 #app .dashboard .dashboard-inner .timer-dashboard {
   margin-bottom: 70px;
+}
+
+#app .dashboard .dashboard-inner .timer-dashboard .margin {
+  margin: 0 10px;
 }
 
 #app .dashboard .dashboard-inner .timer-dashboard .timer-currenttime {

@@ -6,7 +6,7 @@
             <div class="container d-flex align-items-center">
                 <div class="row d-flex align-items-center">
                     <div class="col-3">
-                        <img src="/storage/img/main-meeples.png">
+                        <img src="{{ asset('storage/img/main-meeples.png') }}">
                     </div>
                     <div class="col-6">
                         <h1>Neem deel aan het avontuur!</h1>
@@ -18,7 +18,7 @@
                         </button>
                     </div>
                     <div class="col-3">
-                        <img src="/storage/img/main-meeples2.png">
+                        <img src="{{ asset('storage/img/main-meeples2.png') }}">
                     </div>
                 </div>
             </div>
@@ -35,7 +35,7 @@
                         <button class="ter-btn"><a>Koop Carcassonne</a></button>
                     </div>
                     <div class="col-6">
-                        <img src="/storage/img/basisspel-main-img.png">
+                        <img src="{{ asset('storage/img/basisspel-main-img.png') }}">
                     </div>
                 </div>
             </div>
@@ -46,7 +46,7 @@
         <div class="container">
             <div class="row about-nk">
                 <div class="col-6 d-flex align-items-center">
-                    <img src="/storage/img/meeples-kaarten.png">
+                    <img src="{{ asset('storage/img/meeples-kaarten.png') }}">
                 </div>
                 <div class="col-6 d-flex align-items-center">
                     <div>

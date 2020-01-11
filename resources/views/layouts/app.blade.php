@@ -9,6 +9,10 @@
 
     <title>NK Carcassonne</title>
 
+    <!-- Favicon -->
+
+    <link href="{{ asset('storage/icons/favicon.ico') }}" rel="shortcut icon" type="image/x-icon"/>
+
     <!-- Styles -->
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">

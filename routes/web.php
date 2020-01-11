@@ -1,6 +1,5 @@
 <?php
 
-use App\Newsfeed;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -40,15 +39,26 @@ Route::resource('gamerules', 'GameRulesController');
 
 // UserDashboard routes
 Route::resource('usersdashboard', 'UserController');
+
+Route::resource('nieuwsfeed', 'NewNewsfeedController');
+Route::post('countdown', 'DashboardController@response');
+
 Route::get('/leaderboard', 'ScoreController@index')->name('leaderboard');
 
 // Dashboard Routes
 Route::resource('dashboard', 'DashboardController');
-Route::resource('table-arrangement', 'TableArrangementController');
-Route::resource('score-input', 'ScoresInputController');
+
+Route::resource('tablearrangement', 'TableArrangementController');
+Route::resource('scoreinput', 'ScoresInputController');
+Route::resource('rounds', 'RoundController');
 Route::resource('players', 'PlayersController');
 Route::resource('judges', 'JudgesController');
 Route::resource('privileges', 'PrivilegesController');
 Route::resource('nieuwsfeed', 'NewNewsfeedController');
+Route::resource('checkin', 'CheckInController');
 
-Route::resource('qrscanner', 'QrScannerController');
+// Table arrangement Routes
+Route::post('/arrangefirstround', 'TableArrangementController@arrangeStartingRound')->name('arrangeStartingRound');
+Route::post('/arrangeround', 'TableArrangementController@arrangeRound')->name('arrangeRound');
+Route::post('/arrangebracketround', 'TableArrangementController@arrangeBracketRound')->name('arrangeBracketRound');
+

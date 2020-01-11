@@ -12,7 +12,8 @@ class ScoreController extends Controller
         $scores = Score::paginate(20);
         $combinedScores = $this->getCombinedScores($scores);
 
-//        Correct way, fixing later so using old method until more time is available to redo function
+//        Correct way below, using old method until more time is available to redo the entire function
+
 //        $scores = Score::orderBy('amount', 'desc')->get();
 //        return view('pages.leaderboard', compact('scores'));
 
@@ -24,41 +25,38 @@ class ScoreController extends Controller
     {
         $combinedIds     = [];
         $combinedResults = [];
-        $first = true;
 
         // Check's if user_id isn't already in array, if so. Combine scores and rounds together to show total score.
         foreach ($scores as $key => $score) {
-            if ($first === true) {
-                $combinedResults[$key]['id']         = $score->user_id;
-                $combinedResults[$key]['first_name'] = $score->user->first_name;
-                $combinedResults[$key]['prefix']     = (!is_null($score->user->prefix) ? $score->user->prefix : '');
-                $combinedResults[$key]['last_name']  = $score->user->last_name;
-                $combinedResults[$key]['amount']     = $score->amount;
-                $combinedResults[$key]['rounds']     = 1;
+            // Only validated scores should be shown to the user.
+            if ($score->validated == true) {
+                if (!in_array($score->user_id, $combinedIds)) {
+                    $combinedResults[$key]['id'] = $score->user_id;
+                    $combinedResults[$key]['first_name'] = $score->user->first_name;
+                    $combinedResults[$key]['prefix'] = (!is_null($score->user->prefix) ? $score->user->prefix : '');
+                    $combinedResults[$key]['last_name'] = $score->user->last_name;
+                    $combinedResults[$key]['amount'] = $score->amount;
+                    $combinedResults[$key]['rounds'] = 1;
 
-                array_push($combinedIds, $score->user_id);
-                $first = false;
+                    array_push($combinedIds, $score->user_id);
+                } else {
+                    $id = array_keys($combinedIds, $score->user_id);
+                    $combinedResults[$id[0]]['amount'] += $score->amount;
+                    $combinedResults[$id[0]]['rounds']++;
+                }
             }
-            elseif (!in_array($score->user_id, $combinedIds)) {
-                $combinedResults[$key]['id']         = $score->user_id;
-                $combinedResults[$key]['first_name'] = $score->user->first_name;
-                $combinedResults[$key]['prefix']     = (!is_null($score->user->prefix) ? $score->user->prefix : '');
-                $combinedResults[$key]['last_name']  = $score->user->last_name;
-                $combinedResults[$key]['amount']     = $score->amount;
-                $combinedResults[$key]['rounds']     = 1;
-
-                array_push($combinedIds, $score->user_id);
-            } else {
-                $id = array_keys($combinedIds, $score->user_id);
-                $combinedResults[$id[0]]['amount'] += $score->amount;
-                $combinedResults[$id[0]]['rounds']++;
-            }
-
         }
+        /**
+         * Copy all results into a new array so we can sort with it on the existing array to display the highest score first.
+         */
+        foreach ($combinedResults as $key => $row)
+        {
+            $results[$key] = $row['amount'];
+        }
+        array_multisort($results, SORT_DESC, $combinedResults);
 
         return $combinedResults;
 //        asort(array_column($combinedResults, 'amount'), SORT_DESC);
-//        dd($combinedResults);
     }
 
     /**

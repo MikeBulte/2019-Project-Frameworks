@@ -2,10 +2,12 @@
 
 namespace App;
 
-use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\Pivot;
 
-class Score extends Model
+class Score extends Pivot
 {
+    protected $table = 'scores';
+
     protected $fillable = [
         'amount', 'weight', 'validated'
     ];

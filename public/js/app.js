@@ -36920,6 +36920,12 @@ module.exports = function(module) {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+__webpack_require__(/*! ./datatable */ "./resources/js/datatable.js");
+
+__webpack_require__(/*! ./countdownTimer */ "./resources/js/countdownTimer.js"); // import ("./countdownTimer.js").then(module =>{
+//     module.default();
+// });
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
@@ -36942,15 +36948,12 @@ try {
 
   __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.js");
 } catch (e) {}
-
-$(document).ready(function () {
-  $('#table-pagination').DataTable();
-});
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
  * to our Laravel back-end. This library automatically handles sending the
  * CSRF token as a header based on the value of the "XSRF" token cookie.
  */
+
 
 window.axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
@@ -36967,6 +36970,124 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     encrypted: true
 // });
+
+/***/ }),
+
+/***/ "./resources/js/countdownTimer.js":
+/*!****************************************!*\
+  !*** ./resources/js/countdownTimer.js ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var mySeconds;
+var intervalHandle;
+
+window.resetPage = function () {
+  document.getElementById("inputArea").style.display = "none";
+};
+
+window.tick = function () {
+  var timeDisplay = document.getElementById("time");
+  var min = Math.floor(mySeconds / 60);
+  var sec = mySeconds - min * 60;
+
+  if (sec < 10) {
+    sec = "0" + sec;
+  }
+
+  var message = min.toString() + ":" + sec;
+  timeDisplay.innerHTML = message;
+
+  if (mySeconds === 0) {
+    alert("De ronde is voorbij");
+    clearInterval(intervalHandle);
+    resetPage();
+  }
+
+  mySeconds--;
+};
+
+window.startCounter = function () {
+  var myInput = document.getElementById("minutes").value;
+
+  if (isNaN(myInput)) {
+    alert("Voer een mummer in.");
+    return;
+  }
+
+  mySeconds = myInput * 60;
+  intervalHandle = setInterval(tick, 1000);
+};
+
+document.querySelector("#js-startcounter").addEventListener("click", function () {
+  startCounter();
+});
+
+window.checkTimer = function (token, sec) {
+  $.ajax({
+    type: 'post',
+    url: '/api/timer',
+    headers: {
+      'Accept': 'application/json',
+      'Authorization': 'Bearer ' + token
+    },
+    data: {
+      action: 'start',
+      seconds: sec
+    }
+  }).done(function (data) {
+    if (data === "OK") {
+      console.log('OK');
+    }
+  }).fail(function (ctx) {
+    alert(ctx.responseText);
+    console.log(ctx.responseText);
+    console.log('error');
+  });
+};
+
+/***/ }),
+
+/***/ "./resources/js/datatable.js":
+/*!***********************************!*\
+  !*** ./resources/js/datatable.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * Here we write the config for all JQuery Data Tables inside our application.
+ * If you want to edit or create new Data Tables, insert the code for it here.
+ */
+$(document).ready(function () {
+  $('#table-pagination').DataTable();
+});
+$(document).ready(function () {
+  $('#table-scores').DataTable({
+    "order": [2, "desc"],
+    "columnDefs": [{
+      "orderable": false,
+      "targets": [1, 3]
+    }]
+  });
+});
+$(document).ready(function () {
+  $('#table-users').DataTable({
+    "columnDefs": [{
+      "orderable": false,
+      "targets": [4]
+    }]
+  });
+});
+$(document).ready(function () {
+  $('#table-rounds').DataTable({
+    "columnDefs": [{
+      "orderable": false,
+      "targets": [5, 6]
+    }]
+  });
+});
 
 /***/ }),
 
@@ -36988,8 +37109,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/jasperagelink/Projecten/2019_ADSD_Project_Frameworks_Team_01/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/jasperagelink/Projecten/2019_ADSD_Project_Frameworks_Team_01/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\Mike\webDesign\schoolProjects\nk_carcassonne\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Mike\webDesign\schoolProjects\nk_carcassonne\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

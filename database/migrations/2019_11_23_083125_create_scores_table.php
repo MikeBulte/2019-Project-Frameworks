@@ -30,7 +30,7 @@ class CreateScoresTable extends Migration
 //            Score per round, for each user.
             $table->unsignedSmallInteger('amount')->nullable()->default(null);
 //            Player's weight, based on score.
-            $table->decimal('weight', 10, 6)->unsigned()->default(null)->nullable();
+            $table->unsignedDecimal('weight', 10, 6)->default(null)->nullable();
             $table->boolean('validated')->nullable();
             $table->timestamps();
         });

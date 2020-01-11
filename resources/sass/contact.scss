@@ -1,6 +1,7 @@
+@import "variables";
 .contact-page {
     min-height: 70vh;
-    background-image: url("/storage/img/carcassonne-blue-pattern.jpg");
+    background-image: url($prefix + "/storage/img/carcassonne-blue-pattern.jpg");
     background-repeat: repeat;
     background-size: 100px 100px;
     padding-bottom: 40px;

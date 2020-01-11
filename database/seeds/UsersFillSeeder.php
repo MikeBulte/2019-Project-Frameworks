@@ -18,11 +18,13 @@ class UsersFillSeeder extends Seeder
         $userRole = config('roles.models.role')::where('name', '=', 'User')->first();
         $adminRole = config('roles.models.role')::where('name', '=', 'Admin')->first();
         $juryRole = config('roles.models.role')::where('name', '=', 'Jury')->first();
+        $unverifiedRole = config('roles.models.role')::where('name', '=', 'Unverified')->first();
 
 
         $createAdmin = $this->command->ask('Hoeveel admins wil je?');
         $createJury = $this->command->ask('Hoeveel juryleden wil je?');
         $createUser = $this->command->ask('Hoeveel deelnemers wil je?');
+        $createUnverified = $this->command->ask('Hoeveel niet-geverifieerde deelnemers wil je?');
 
         $users = factory(App\User::class, (int) $createAdmin)->create();
         foreach ($users as $user)
@@ -40,6 +42,12 @@ class UsersFillSeeder extends Seeder
         foreach ($users as $user)
         {
             $user->attachRole($userRole);
+        }
+
+        $users = factory(App\User::class, (int) $createUnverified)->create();
+        foreach ($users as $user)
+        {
+            $user->attachRole($unverifiedRole);
         }
     }
 }

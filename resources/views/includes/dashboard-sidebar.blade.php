@@ -7,8 +7,9 @@
             </ul>
             <ul class="functions-list">
                 <p class="functions-title">Functies</p>
-                <li class="{{ (request()->segment(1) == 'table-arrangement') ? 'active' : '' }}"><a href="{{ url('table-arrangement') }}" class="menu-item-sidebar d-block">Tafelindelingen</a></li>
-                <li class="{{ (request()->segment(1) == 'score-input') ? 'active' : '' }}"><a href="{{ url('score-input') }}" class="menu-item-sidebar d-block">Scores invoeren</a></li>
+                <li class="{{ (request()->segment(1) == 'tablearrangement') ? 'active' : '' }}"><a href="{{ url('tablearrangement') }}" class="menu-item-sidebar d-block">Tafel indelingen</a></li>
+                <li class="{{ (request()->segment(1) == 'scoreinput') ? 'active' : '' }}"><a href="{{ url('scoreinput') }}" class="menu-item-sidebar d-block">Scores invoeren</a></li>
+                <li class="{{ (request()->segment(1) == 'rounds') ? 'active' : '' }}"><a href="{{ url('rounds') }}" class="menu-item-sidebar d-block">Rondes bewerken</a></li>
                 <li class="{{ (request()->segment(1) == 'players') ? 'active' : '' }}"><a href="{{ url('players') }}" class="menu-item-sidebar d-block">Deelnemers</a></li>
                 <li class="{{ (request()->segment(1) == 'judges') ? 'active' : '' }}"><a href="{{ url('judges') }}" class="menu-item-sidebar d-block">Juryleden</a></li>
                 @role('admin')
