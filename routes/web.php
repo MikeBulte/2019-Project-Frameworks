@@ -56,6 +56,7 @@ Route::resource('players', 'PlayersController')->middleware('role:admin|jury');
 Route::resource('judges', 'JudgesController')->middleware('role:admin|jury');
 Route::resource('privileges', 'PrivilegesController')->middleware('role:admin');
 Route::resource('nieuwsfeed', 'NewNewsfeedController')->middleware('role:admin|jury');
+Route::resource('checkin', 'CheckInController')->middleware('role:admin|jury');
 
 Route::resource('qrscanner', 'QrScannerController');
 
