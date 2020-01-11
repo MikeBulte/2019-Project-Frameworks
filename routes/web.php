@@ -50,6 +50,9 @@ Route::resource('privileges', 'PrivilegesController');
 Route::resource('nieuwsfeed', 'NewNewsfeedController');
 
 // Table arrangement Routes
-Route::post('/arrangefirstround', 'TableArrangementController@arrangeStartingRound')->name('arrangeStartingRound');
+Route::group(['prefix' => '{round}'], function() {
+    Route::post('/arrangefirstround', 'TableArrangementController@arrangeStartingRound')->name('arrangeStartingRound');
+});
+
 Route::post('/arrangeround', 'TableArrangementController@arrangeRound')->name('arrangeRound');
 Route::post('/arrangebracketround', 'TableArrangementController@arrangeBracketRound')->name('arrangeBracketRound');

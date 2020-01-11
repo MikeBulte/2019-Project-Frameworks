@@ -4,8 +4,12 @@ namespace App\Http\Controllers;
 
 use App\GameTable;
 use App\Round;
+use App\Score;
 use App\User;
+use Illuminate\Contracts\View\Factory;
 use Illuminate\Http\Request;
+use Illuminate\View\View;
+use mysql_xdevapi\Table;
 use function Psy\debug;
 
 class TableArrangementController extends Controller
@@ -15,6 +19,7 @@ class TableArrangementController extends Controller
         $this->middleware('auth');
         $this->middleware('level:3');
     }
+
     /**
      * Display a listing of the resource.
      *
@@ -41,7 +46,7 @@ class TableArrangementController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param \Illuminate\Http\Request $request
      * @return \Illuminate\Http\Response
      */
     public function store(TableArrangementRequest $request)
@@ -55,7 +60,7 @@ class TableArrangementController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function show($id)
@@ -66,7 +71,7 @@ class TableArrangementController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
@@ -77,8 +82,8 @@ class TableArrangementController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param \Illuminate\Http\Request $request
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
@@ -89,7 +94,7 @@ class TableArrangementController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)
@@ -97,19 +102,60 @@ class TableArrangementController extends Controller
         //
     }
 
-
     /**
      * Arrange the starting round.
+     * @param Round $round
+     * @return Factory|View
      */
-    public function arrangeStartingRound()
+    public function arrangeStartingRound(Round $round)
     {
         $players = config('roles.models.role')::where('slug', 'user')->cursor()->first()->users;
-        dd($players[1]->roles);
+        $playersCount = count($players);
+        $modulo = $playersCount % 4;
+
+        if ($modulo == 0):
+            $numOfTables = $playersCount / 4;
+            $tableNum = 1;
+
+            while ($numOfTables != 0) {
+                $gameTable = new GameTable;
+                $gameTable->name = "Tafel " . $tableNum;
+                $gameTable->save();
+
+                $i = 0;
+
+                while ($i != 4) {
+                    foreach ($players as $key => $player) {
+                        $scoreRow = new Score;
+                        $scoreRow->game_table_id = $gameTable->id;
+                        $scoreRow->round_id = $round->id;
+                        $scoreRow->user_id = $player->id;
+                        $scoreRow->save();
+
+                        $i++;
+
+                        unset($players[$key]);
+
+                        if ($i == 4)
+                            break;
+                    }
+                }
+                $tableNum++;
+                $numOfTables--;
+
+                if ($numOfTables == 0) {
+                    break;
+                }
+            }
+        endif;
+        return redirect()->back();
     }
+
     /**
      * Arrange the second and third rounds.
      */
-    public function arrangeRound()
+    public
+    function arrangeRound()
     {
 
     }
@@ -117,7 +163,8 @@ class TableArrangementController extends Controller
     /**
      * Arrange the bracket rounds (eliminations).
      */
-    public function arrangeBracketRound()
+    public
+    function arrangeBracketRound()
     {
 
     }
