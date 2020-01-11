@@ -13,13 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/login', function()
-{
+Route::get('/login', function () {
     return view('pages.login');
 });
 
-Route::get('/register', function()
-{
+Route::get('/register', function () {
     return view('auth.register');
 })->name('register');
 
@@ -50,10 +48,11 @@ Route::resource('privileges', 'PrivilegesController');
 Route::resource('nieuwsfeed', 'NewNewsfeedController');
 
 // Table arrangement Routes
-Route::group(['prefix' => '{round}'], function() {
+Route::group(['prefix' => '{round}'], function () {
     Route::post('/arrangefirstround', 'TableArrangementController@arrangeStartingRound')->name('arrangeStartingRound');
     Route::delete('/deleteAllTables', 'TableArrangementController@deleteAllTables')->name('deleteAllTables');
+    Route::post('/arrangeround', 'TableArrangementController@arrangeRound')->name('arrangeRound');
 });
 
-Route::post('/arrangeround', 'TableArrangementController@arrangeRound')->name('arrangeRound');
+
 Route::post('/arrangebracketround', 'TableArrangementController@arrangeBracketRound')->name('arrangeBracketRound');

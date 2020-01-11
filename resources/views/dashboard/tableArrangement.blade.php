@@ -67,7 +67,7 @@
                                             </button>
                                         </form>
                                     @else
-                                        <form action="{{ route('arrangeRound') }}" method="post">
+                                        <form action="{{ route('arrangeRound', ['round' => $round]) }}" method="post">
                                             @csrf
                                             <button class="prim-btn" type="submit">
                                                 Deel de ronde in
