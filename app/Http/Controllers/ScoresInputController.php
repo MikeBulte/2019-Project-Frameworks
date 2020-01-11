@@ -93,7 +93,6 @@ class ScoresInputController extends Controller
 
         // Loop to get all scores, looping early for this since it can either be 3 or 4 scores.
         foreach ($scores as $key => $score) {
-//            @dd($request->score1);
             if ($key === 0) {
                 $score0 = $request->score0;
             } elseif ($key === 1) {
@@ -106,18 +105,15 @@ class ScoresInputController extends Controller
         }
 
         foreach ($scores as $key => $score) {
-//            @dd($request->score1);
             if (!isset($score3)) {
                 $totalScore = $score0 + $score1 + $score2;
             } else {
                 $totalScore = $score0 + $score1 + $score2 + $score3;
             }
-//            dd($totalScore);
 
             if ($key === 0) {
                 $score->amount = $score0;
                 $score->weight = round(($score0 / $totalScore) * 100, 2, PHP_ROUND_HALF_DOWN);
-//                dd($score->weight);
             } elseif ($key === 1) {
                 $score->amount = $score1;
                 $score->weight = round(($score1 / $totalScore) * 100, 2, PHP_ROUND_HALF_DOWN);
