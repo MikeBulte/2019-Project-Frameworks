@@ -237,7 +237,11 @@ html input {
   outline: none;
 }
 
-html input:foucs,
+html input[type=checkbox] {
+  width: auto;
+}
+
+html input:focus,
 html input:active {
   outline: none;
 }

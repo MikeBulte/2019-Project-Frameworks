@@ -19,7 +19,12 @@ class DatabaseSeeder extends Seeder
         $this->call(UsersFillSeeder::class);
 
         $this->call(RoundsTableSeeder::class);
+        // Quick table mode, when you fix reusable tables from bugging feel free to tone this back to one call.
         $this->call(GameTablesTableSeeder::class);
+        $this->call(GameTablesTableSeeder::class);
+        $this->call(GameTablesTableSeeder::class);
+        $this->call(GameTablesTableSeeder::class);
+
         $this->call(ScoresTableSeeder::class);
         $this->call(NewsfeedsTableSeeder::class);
     }

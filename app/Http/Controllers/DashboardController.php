@@ -18,6 +18,8 @@ class DashboardController extends Controller
     {
         $this->middleware('auth')->except('timer');
         $this->middleware('auth:api')->only('timer');
+        $this->middleware('auth');
+        $this->middleware('level:3');
     }
 
     /**

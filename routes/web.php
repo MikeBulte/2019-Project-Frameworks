@@ -1,6 +1,5 @@
 <?php
 
-use App\Newsfeed;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -44,19 +43,20 @@ Route::resource('usersdashboard', 'UserController');
 Route::resource('nieuwsfeed', 'NewNewsfeedController');
 Route::post('countdown', 'DashboardController@response');
 
-
 Route::get('/leaderboard', 'ScoreController@index')->name('leaderboard');
 
+// Dashboard Routes
+Route::resource('dashboard', 'DashboardController');
+Route::resource('tablearrangement', 'TableArrangementController');
+Route::resource('scoreinput', 'ScoresInputController');
+Route::resource('rounds', 'RoundController');
+Route::resource('players', 'PlayersController');
+Route::resource('judges', 'JudgesController');
+Route::resource('privileges', 'PrivilegesController');
+Route::resource('nieuwsfeed', 'NewNewsfeedController');
+Route::resource('checkin', 'CheckInController');
 
-// Dashboard routes
-Route::resource('dashboard', 'DashboardController')->middleware('role:admin|jury');
-Route::resource('table-arrangement', 'TableArrangementController')->middleware('role:admin|jury');
-Route::resource('score-input', 'ScoresInputController')->middleware('role:admin|jury');
-Route::resource('players', 'PlayersController')->middleware('role:admin|jury');
-Route::resource('judges', 'JudgesController')->middleware('role:admin|jury');
-Route::resource('privileges', 'PrivilegesController')->middleware('role:admin');
-Route::resource('nieuwsfeed', 'NewNewsfeedController')->middleware('role:admin|jury');
-Route::resource('checkin', 'CheckInController')->middleware('role:admin|jury');
-
-
-
+// Table arrangement Routes
+Route::post('/arrangefirstround', 'TableArrangementController@arrangeStartingRound')->name('arrangeStartingRound');
+Route::post('/arrangeround', 'TableArrangementController@arrangeRound')->name('arrangeRound');
+Route::post('/arrangebracketround', 'TableArrangementController@arrangeBracketRound')->name('arrangeBracketRound');

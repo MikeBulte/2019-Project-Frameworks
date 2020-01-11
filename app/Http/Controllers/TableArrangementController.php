@@ -2,28 +2,30 @@
 
 namespace App\Http\Controllers;
 
+use App\GameTable;
+use App\Round;
+use App\User;
 use Illuminate\Http\Request;
+use function Psy\debug;
 
 class TableArrangementController extends Controller
 {
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
     public function __construct()
     {
         $this->middleware('auth');
+        $this->middleware('level:3');
     }
-
     /**
-     * Show the application dashboard.
+     * Display a listing of the resource.
      *
-     * @return \Illuminate\Contracts\Support\Renderable
+     * @return \Illuminate\Http\Response
      */
     public function index()
     {
-        return view('dashboard.tableArrangement');
+        $rounds = Round::all();
+        $tables = GameTable::all();
+
+        return view('dashboard.tableArrangement', compact('rounds', 'tables'));
     }
 
     /**
@@ -42,9 +44,12 @@ class TableArrangementController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(TableArrangementRequest $request)
     {
-        //
+
+        $data = $request->validated();
+
+        return redirect()->route('tablearrangement.index');
     }
 
     /**
@@ -90,6 +95,31 @@ class TableArrangementController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+
+    /**
+     * Arrange the starting round.
+     */
+    public function arrangeStartingRound()
+    {
+        $players = config('roles.models.role')::where('slug', 'user')->cursor()->first()->users;
+        dd($players[1]->roles);
+    }
+    /**
+     * Arrange the second and third rounds.
+     */
+    public function arrangeRound()
+    {
+
+    }
+
+    /**
+     * Arrange the bracket rounds (eliminations).
+     */
+    public function arrangeBracketRound()
+    {
+
     }
 }
 

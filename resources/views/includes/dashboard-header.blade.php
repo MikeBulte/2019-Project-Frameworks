@@ -45,13 +45,12 @@
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                         @role('admin|jury')
                         <a class="dropdown-item" href="{{ route('usersdashboard.index') }}">Deelnemers dashboard</a>
-                        <a class="dropdown-item" href="{{ url('dashboard') }}">Dashboard</a>
+                        <a class="dropdown-item" href="{{ url('dashboard') }}">Tournament Dashboard</a>
                         @endrole
 
                         @role('user|unverified')
                         <a class="dropdown-item" href="{{ route('usersdashboard.index') }}">Profiel</a>
                         @endrole
-
                         <a class="dropdown-item" href="{{ route('logout') }}"
                            onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
