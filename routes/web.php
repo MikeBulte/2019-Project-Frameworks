@@ -53,7 +53,14 @@ Route::resource('scoreinput', 'ScoresInputController');
 Route::resource('rounds', 'RoundController');
 Route::resource('players', 'PlayersController');
 Route::resource('judges', 'JudgesController');
+
+Route::get('/newsfeed', 'NewsfeedController@index')->name('newsfeed');
+Route::resource('usersdashboard', 'UserController');
+Route::get('/verify', 'UserController@verify')->name('verify');
+Route::put('/verify_score', 'UserController@verifyScore')->name('verify_score');
+
 Route::resource('privileges', 'PrivilegesController');
+
 Route::resource('nieuwsfeed', 'NewNewsfeedController');
 Route::resource('checkin', 'CheckInController');
 
