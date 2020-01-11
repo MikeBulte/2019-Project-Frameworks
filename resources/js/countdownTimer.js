@@ -1,4 +1,3 @@
-let mySeconds;
 let intervalHandle;
 
 
@@ -8,37 +7,44 @@ function resetPage() {
 }
 
 
-function tick() {
-    let timeDisplay = document.getElementById("time");
+window.tick = function (second.getValue($timer->seconds)) {
 
-    let min = Math.floor(mySeconds / 60);
-    let sec = mySeconds - (min * 60);
+    let minute = Math.floor(min / 60);
+    let second = min - (minute * 60);
 
-    if (sec < 10) {
-        sec = "0" + sec;
+    if (second < 10) {
+        second = "0" + second;
     }
+    let message = minute.toString() + ":" + second;
 
-    let message = min.toString() + ":" + sec;
-
-    timeDisplay.innerHTML = message;
-
-    if (mySeconds === 0) {
-        alert("Done");
+    if (min === 0) {
+        alert("Ronde is voorbij");
         clearInterval(intervalHandle);
         resetPage();
     }
-    mySeconds--;
-}
+    min--;
+};
+
+window.display = function(min){
+    startCounter.getElementById("time")
+};
 
 window.startCounter = function (min) {
 
-    let myInput = min;
-    if (isNaN(myInput)) {
+    if (isNaN(min)) {
         alert("Type a valid number please");
-        return;
-    }
-    intervalHandle = setInterval(tick, 1000);
-}
+
+    }else {
+        alert("Ronde wordt gestart");
+
+        intervalHandle = setInterval(tick, 1000);
+    }};
+
+window.onload=function() {
+    let myInput = document.createElement("input");
+    myInput.setAttribute("type", "text");
+    myInput.setAttribute("id", "minutes");
+};
 
 
 
@@ -56,8 +62,8 @@ window.checkTimer = function (token, sec) {
             seconds: sec
         }
     }).done(function (data) {
-        if (data === "OK") {
-            console.log('OK')
+        if (data) {
+            console.log('input ok')
         }
     }).fail(function (ctx) {
         alert(ctx.responseText);

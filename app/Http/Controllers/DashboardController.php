@@ -32,8 +32,9 @@ class DashboardController extends Controller
         $players = config('roles.models.role')::where('slug', 'user')->first()->users;
         $judges = config('roles.models.role')::where('slug', 'jury')->first()->users;
         $admins = config('roles.models.role')::where('slug', 'admin')->first()->users;
+        $timer =  Countdown::find(1);
 
-        return view('dashboard.dashboard', compact('players', 'judges', 'admins'));
+        return view('dashboard.dashboard', compact('players', 'judges', 'admins', 'timer'));
     }
 
 
@@ -113,11 +114,11 @@ class DashboardController extends Controller
 
 
                     $timer->save();;
-            print('OK');
+            print('Wil je de ronde starten?');
             return;
         endif;
 
-        print('NOK');
+        print('ronde is niet gestart');
 
     }
 }
