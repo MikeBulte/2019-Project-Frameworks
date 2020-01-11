@@ -15,7 +15,7 @@ class UsersFillSeeder extends Seeder
      */
     public function run()
     {
-        $userRole = config('roles.models.role')::where('name', '=', 'User')->first();
+        $userRole = config('roles.models.role')::where('name', '=', 'Player')->first();
         $adminRole = config('roles.models.role')::where('name', '=', 'Admin')->first();
         $juryRole = config('roles.models.role')::where('name', '=', 'Jury')->first();
         $unverifiedRole = config('roles.models.role')::where('name', '=', 'Unverified')->first();
