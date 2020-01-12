@@ -90,7 +90,4 @@
             @endforeach
         </div>
     </div>
-
-
-
 @endsection

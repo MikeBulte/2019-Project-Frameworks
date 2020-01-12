@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\UserRequest;
+use App\Round;
 use App\Score;
 use App\User;
 use Exception;
@@ -139,5 +140,13 @@ class UserController extends Controller
         $score->save();
 
         return redirect()->back();
+    }
+
+    public function gameSchedule()
+    {
+        $user = User::find(Auth::id());
+        //dd($user->game_tables);
+
+        return view('usersDashboard.schedule', compact('user'));
     }
 }
