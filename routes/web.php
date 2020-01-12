@@ -37,6 +37,9 @@ Route::resource('gamerules', 'GameRulesController');
 
 // UserDashboard routes
 Route::resource('usersdashboard', 'UserController');
+Route::get('/verify', 'UserController@verify')->name('verify');
+Route::put('/verify_score', 'UserController@verifyScore')->name('verify_score');
+Route::get('/gameSchedule', 'UserController@gameSchedule')->name('gameSchedule');
 
 Route::resource('nieuwsfeed', 'NewNewsfeedController');
 Route::post('countdown', 'DashboardController@response');
@@ -45,30 +48,21 @@ Route::get('/leaderboard', 'ScoreController@index')->name('leaderboard');
 
 // Dashboard Routes
 Route::resource('dashboard', 'DashboardController');
-
-Route::resource('tablearrangement', 'TableArrangementController');
 Route::resource('scoreinput', 'ScoresInputController');
 Route::resource('rounds', 'RoundController');
 Route::resource('players', 'PlayersController');
 Route::resource('judges', 'JudgesController');
-
-Route::get('/newsfeed', 'NewsfeedController@index')->name('newsfeed');
-Route::resource('usersdashboard', 'UserController');
-Route::get('/verify', 'UserController@verify')->name('verify');
-Route::put('/verify_score', 'UserController@verifyScore')->name('verify_score');
-
 Route::resource('privileges', 'PrivilegesController');
-
-Route::resource('nieuwsfeed', 'NewNewsfeedController');
 Route::resource('checkin', 'CheckInController');
 
 // Table arrangement Routes
+Route::resource('tablearrangement', 'TableArrangementController');
+
 Route::group(['prefix' => '{round}'], function () {
     Route::post('/arrangefirstround', 'TableArrangementController@arrangeStartingRound')->name('arrangeStartingRound');
     Route::delete('/deleteAllTables', 'TableArrangementController@deleteAllTables')->name('deleteAllTables');
     Route::post('/arrangeround', 'TableArrangementController@arrangeRound')->name('arrangeRound');
 });
-
 
 Route::post('/arrangebracketround', 'TableArrangementController@arrangeBracketRound')->name('arrangeBracketRound');
 

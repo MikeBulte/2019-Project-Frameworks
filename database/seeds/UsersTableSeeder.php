@@ -26,9 +26,10 @@ class UsersTableSeeder extends Seeder
 
                 'first_name'     => 'Carcassonne',
                 'last_name'     => '999games',
-                'email'    => 'carcassonne@999games.com',
-                'password' => Hash::make('password'),
-                 "api_token" => Str::random(60)
+                'email'    => 'carcassonne@999games.nl',
+                'password' => Hash::make('20Bordspel20'),
+                'api_token' => Str::random(60)
+
             ]);
 
             $newUser->attachRole($adminRole);
@@ -43,8 +44,8 @@ class UsersTableSeeder extends Seeder
                 'first_name'     => 'Stephan',
                 'last_name'     => 'Hoeksema',
                 'email'    => 's.hoeksema@windesheim.nl',
-                'password' => Hash::make('password'),
-                "api_token" => Str::random(60),
+                'password' => Hash::make('Steph1290'),
+                        "api_token" => Str::random(60),
 
             ]);
 

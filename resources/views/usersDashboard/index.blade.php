@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.userpanel')
 
 @section('content')
     <div class="container userdashboard">
@@ -21,7 +21,7 @@
                 </div>
                 <div class="row">
                     <div class="col selection-col">
-                        <a>
+                        <a href="{{ route('gameSchedule') }}">
                             <div class="selection-outer">
                                 <div class="selection-inner">
                                     <svg class="selection-img" width="90" height="100">

@@ -109,23 +109,35 @@ class TableArrangementController extends Controller
      */
     public function arrangeStartingRound(Round $round)
     {
+        // Get all the players with the correct role
         $players = config('roles.models.role')::where('slug', 'user')->cursor()->first()->users;
+
+        // Count the players in the array
         $playersCount = count($players);
+
+        // Calculate the modulo of the amount of players
         $modulo = $playersCount % 4;
 
         // Modulo 0
         if ($modulo == 0):
+            // Calculate the number of tables
             $numOfTables = $playersCount / 4;
+            // Set the number for the table name
             $tableNum = 1;
 
+            // Loop while there are still tables to arrange
             while ($numOfTables != 0) {
+                // Create a new game table
                 $gameTable = new GameTable;
                 $gameTable->name = "Tafel " . $tableNum;
                 $gameTable->save();
 
+                // Set a counter for the number of players on the table
                 $i = 0;
 
+                // For modulo 0 all tables will have 4 players
                 while ($i != 4) {
+                    // Create a new Score, which is also the pivot table
                     foreach ($players as $key => $player) {
                         $scoreRow = new Score;
                         $scoreRow->game_table_id = $gameTable->id;
@@ -135,8 +147,10 @@ class TableArrangementController extends Controller
 
                         $i++;
 
+                        // Remove the just assigned player from the array of players
                         unset($players[$key]);
 
+                        // If a table has been assigned to 4 players, stop the loop
                         if ($i == 4)
                             break;
                     }
@@ -144,6 +158,7 @@ class TableArrangementController extends Controller
                 $tableNum++;
                 $numOfTables--;
 
+                // If there are no tables left to assign, stop the loop
                 if ($numOfTables == 0) {
                     break;
                 }
@@ -151,18 +166,26 @@ class TableArrangementController extends Controller
 
         // Modulo 1
         elseif ($modulo == 1):
+            // Calculate the number of tables
             $numOfTables = (($playersCount - 9) / 4) + 3;
+            // Set the number for the table name
             $tableNum = 1;
 
+            // Loop while there are still tables to arrange
             while ($numOfTables != 0) {
                 $gameTable = new GameTable;
                 $gameTable->name = "Tafel " . $tableNum;
                 $gameTable->save();
 
+                // Check if there are 3 tables left, so these will be assigned with 3 players per table
                 if ($numOfTables < 4 && $numOfTables > 0):
+                    // Set a counter for the number of players on the table
                     $j = 0;
+
+                    // For modulo 1 3 tables will have 3 players
                     while ($j != 3) {
                         foreach ($players as $key => $player) {
+                            // Create a new Score, which is also the pivot table
                             $scoreRow = new Score;
                             $scoreRow->game_table_id = $gameTable->id;
                             $scoreRow->round_id = $round->id;
@@ -171,21 +194,27 @@ class TableArrangementController extends Controller
 
                             $j++;
 
+                            // Remove the just assigned player from the array of players
                             unset($players[$key]);
 
+                            // If a table has been assigned to 3 players, stop the loop
                             if ($j == 3)
                                 break;
 
                         }
                     }
                     $tableNum++;
+                // If there are no tables left to assign, stop the loop
                 elseif ($numOfTables == 0):
                     break;
                 else:
+                    // Set a counter for the number of players on the table
                     $i = 0;
 
+                    // The other tables will have 4 players
                     while ($i != 4) {
                         foreach ($players as $key => $player) {
+                            // Create a new Score, which is also the pivot table
                             $scoreRow = new Score;
                             $scoreRow->game_table_id = $gameTable->id;
                             $scoreRow->round_id = $round->id;
@@ -194,8 +223,10 @@ class TableArrangementController extends Controller
 
                             $i++;
 
+                            // Remove the just assigned player from the array of players
                             unset($players[$key]);
 
+                            // If a table has been assigned to 4 players, stop the loop
                             if ($i == 4)
                                 break;
                         }
@@ -207,18 +238,26 @@ class TableArrangementController extends Controller
 
         // Modulo 2
         elseif ($modulo == 2):
+            // Calculate the number of tables
             $numOfTables = (($playersCount - 6) / 4) + 2;
+            // Set the number for the table name
             $tableNum = 1;
 
+            // Loop while there are still tables to arrange
             while ($numOfTables != 0) {
                 $gameTable = new GameTable;
                 $gameTable->name = "Tafel " . $tableNum;
                 $gameTable->save();
 
+                // Check if there are 2 tables left, so these will be assigned with 3 players per table
                 if ($numOfTables < 3 && $numOfTables > 0):
+                    // Set a counter for the number of players on the table
                     $j = 0;
+
+                    // For modulo 2 2 tables will have 3 players
                     while ($j != 3) {
                         foreach ($players as $key => $player) {
+                            // Create a new Score, which is also the pivot table
                             $scoreRow = new Score;
                             $scoreRow->game_table_id = $gameTable->id;
                             $scoreRow->round_id = $round->id;
@@ -227,20 +266,26 @@ class TableArrangementController extends Controller
 
                             $j++;
 
+                            // Remove the just assigned player from the array of players
                             unset($players[$key]);
 
+                            // If a table has been assigned to 3 players, stop the loop
                             if ($j == 3)
                                 break;
                         }
                     }
                     $tableNum++;
+                // If there are no tables left to assign, stop the loop
                 elseif ($numOfTables == 0):
                     break;
                 else:
+                    // Set a counter for the number of players on the table
                     $i = 0;
 
+                    // The other tables will have 4 players
                     while ($i != 4) {
                         foreach ($players as $key => $player) {
+                            // Create a new Score, which is also the pivot table
                             $scoreRow = new Score;
                             $scoreRow->game_table_id = $gameTable->id;
                             $scoreRow->round_id = $round->id;
@@ -249,8 +294,10 @@ class TableArrangementController extends Controller
 
                             $i++;
 
+                            // Remove the just assigned player from the array of players
                             unset($players[$key]);
 
+                            // If a table has been assigned to 4 players, stop the loop
                             if ($i == 4)
                                 break;
                         }
@@ -262,18 +309,26 @@ class TableArrangementController extends Controller
 
         // Modulo 3
         elseif ($modulo == 3):
+            // Calculate the number of tables
             $numOfTables = (($playersCount - 3) / 4) + 1;
+            // Set the number for the table name
             $tableNum = 1;
 
+            // Loop while there are still tables to arrange
             while ($numOfTables != 0) {
                 $gameTable = new GameTable;
                 $gameTable->name = "Tafel " . $tableNum;
                 $gameTable->save();
 
+                // Check if there is 1 table left, so these will be assigned with 3 players on the table
                 if ($numOfTables < 2 && $numOfTables > 0):
+                    // Set a counter for the number of players on the table
                     $j = 0;
+
+                    // For modulo 1 3 tables will have 3 players
                     while ($j != 3) {
                         foreach ($players as $key => $player) {
+                            // Create a new Score, which is also the pivot table
                             $scoreRow = new Score;
                             $scoreRow->game_table_id = $gameTable->id;
                             $scoreRow->round_id = $round->id;
@@ -282,20 +337,26 @@ class TableArrangementController extends Controller
 
                             $j++;
 
+                            // Remove the just assigned player from the array of players
                             unset($players[$key]);
 
+                            // If a table has been assigned to 3 players, stop the loop
                             if ($j == 3)
                                 break;
                         }
                     }
                     $tableNum++;
+                // If there are no tables left to assign, stop the loop
                 elseif ($numOfTables == 0):
                     break;
                 else:
+                    // Set a counter for the number of players on the table
                     $i = 0;
 
+                    // The other tables will have 4 players
                     while ($i != 4) {
                         foreach ($players as $key => $player) {
+                            // Create a new Score, which is also the pivot table
                             $scoreRow = new Score;
                             $scoreRow->game_table_id = $gameTable->id;
                             $scoreRow->round_id = $round->id;
@@ -304,8 +365,10 @@ class TableArrangementController extends Controller
 
                             $i++;
 
+                            // Remove the just assigned player from the array of players
                             unset($players[$key]);
 
+                            // If a table has been assigned to 4 players, stop the loop
                             if ($i == 4)
                                 break;
                         }
@@ -326,28 +389,45 @@ class TableArrangementController extends Controller
      */
     public function arrangeRound(Round $round)
     {
-        $players = Score::where('round_id', 1)->orderBy('weight', 'desc')->get();
-        //dd($players);
+        /**
+         * Check if the round_id is not 1 so, the model can get
+         * the rows of the previous round and sort them by weight.
+         * Else use round_id 1
+         */
+        if ($round->id != 1)
+            $players = Score::where('round_id', ($round->id - 1))->orderBy('weight', 'desc')->get();
+        else
+            $players = Score::where('round_id', 1)->orderBy('weight', 'desc')->get();
 
+        // Count the players in the array
         $playersCount = count($players);
+
+        // Calculate the modulo of the amount of players
         $modulo = $playersCount % 4;
 
         // Modulo 0
         if ($modulo == 0):
+            // Calculate the number of tables
             $numOfTables = $playersCount / 4;
+            // Set the number for the table name
             $tableNum = 1;
 
+            // Loop while there are still tables to arrange
             while ($numOfTables != 0) {
+                // Create a new game table
                 $gameTable = new GameTable;
                 $gameTable->name = "Tafel " . $tableNum;
                 $gameTable->save();
 
+                // Set a counter for the number of players on the table
                 $i = 0;
 
+                // For modulo 0 all tables will have 4 players
                 while ($i != 4) {
                     foreach ($players as $key => $player) {
                         $user = User::find($player->user_id);
                         if ($user->hasRole('user')):
+                            // Create a new Score, which is also the pivot table
                             $scoreRow = new Score;
                             $scoreRow->game_table_id = $gameTable->id;
                             $scoreRow->round_id = $round->id;
@@ -356,8 +436,10 @@ class TableArrangementController extends Controller
 
                             $i++;
 
+                            // Remove the just assigned player from the array of players
                             unset($players[$key]);
 
+                            // If a table has been assigned to 4 players, stop the loop
                             if ($i == 4)
                                 break;
                         endif;
@@ -366,6 +448,7 @@ class TableArrangementController extends Controller
                 $tableNum++;
                 $numOfTables--;
 
+                // If there are no tables left to assign, stop the loop
                 if ($numOfTables == 0) {
                     break;
                 }
@@ -373,20 +456,28 @@ class TableArrangementController extends Controller
 
         // Modulo 1
         elseif ($modulo == 1):
+            // Calculate the number of tables
             $numOfTables = (($playersCount - 9) / 4) + 3;
+            // Set the number for the table name
             $tableNum = 1;
 
+            // Loop while there are still tables to arrange
             while ($numOfTables != 0) {
                 $gameTable = new GameTable;
                 $gameTable->name = "Tafel " . $tableNum;
                 $gameTable->save();
 
+                // Check if there are 3 tables left, so these will be assigned with 3 players per table
                 if ($numOfTables < 4 && $numOfTables > 0):
+                    // Set a counter for the number of players on the table
                     $j = 0;
+
+                    // For modulo 1 3 tables will have 3 players
                     while ($j != 3) {
                         foreach ($players as $key => $player) {
                             $user = User::find($player->user_id);
                             if ($user->hasRole('user')):
+                                // Create a new Score, which is also the pivot table
                                 $scoreRow = new Score;
                                 $scoreRow->game_table_id = $gameTable->id;
                                 $scoreRow->round_id = $round->id;
@@ -395,23 +486,29 @@ class TableArrangementController extends Controller
 
                                 $j++;
 
+                                // Remove the just assigned player from the array of players
                                 unset($players[$key]);
 
+                                // If a table has been assigned to 3 players, stop the loop
                                 if ($j == 3)
                                     break;
                             endif;
                         }
                     }
                     $tableNum++;
+                // If there are no tables left to assign, stop the loop
                 elseif ($numOfTables == 0):
                     break;
                 else:
+                    // Set a counter for the number of players on the table
                     $i = 0;
 
+                    // The other tables will have 4 players
                     while ($i != 4) {
                         foreach ($players as $key => $player) {
                             $user = User::find($player->user_id);
                             if ($user->hasRole('user')):
+                                // Create a new Score, which is also the pivot table
                                 $scoreRow = new Score;
                                 $scoreRow->game_table_id = $gameTable->id;
                                 $scoreRow->round_id = $round->id;
@@ -420,8 +517,10 @@ class TableArrangementController extends Controller
 
                                 $i++;
 
+                                // Remove the just assigned player from the array of players
                                 unset($players[$key]);
 
+                                // If a table has been assigned to 4 players, stop the loop
                                 if ($i == 4)
                                     break;
                             endif;
@@ -434,20 +533,28 @@ class TableArrangementController extends Controller
 
         // Modulo 2
         elseif ($modulo == 2):
+            // Calculate the number of tables
             $numOfTables = (($playersCount - 6) / 4) + 2;
+            // Set the number for the table name
             $tableNum = 1;
 
+            // Loop while there are still tables to arrange
             while ($numOfTables != 0) {
                 $gameTable = new GameTable;
                 $gameTable->name = "Tafel " . $tableNum;
                 $gameTable->save();
 
+                // Check if there are 2 tables left, so these will be assigned with 3 players per table
                 if ($numOfTables < 3 && $numOfTables > 0):
+                    // Set a counter for the number of players on the table
                     $j = 0;
+
+                    // For modulo 2 2 tables will have 3 players
                     while ($j != 3) {
                         foreach ($players as $key => $player) {
                             $user = User::find($player->user_id);
                             if ($user->hasRole('user')):
+                                // Create a new Score, which is also the pivot table
                                 $scoreRow = new Score;
                                 $scoreRow->game_table_id = $gameTable->id;
                                 $scoreRow->round_id = $round->id;
@@ -456,23 +563,29 @@ class TableArrangementController extends Controller
 
                                 $j++;
 
+                                // Remove the just assigned player from the array of players
                                 unset($players[$key]);
 
+                                // If a table has been assigned to 3 players, stop the loop
                                 if ($j == 3)
                                     break;
                             endif;
                         }
                     }
                     $tableNum++;
+                // If there are no tables left to assign, stop the loop
                 elseif ($numOfTables == 0):
                     break;
                 else:
+                    // Set a counter for the number of players on the table
                     $i = 0;
 
+                    // The other tables will have 4 players
                     while ($i != 4) {
                         foreach ($players as $key => $player) {
                             $user = User::find($player->user_id);
                             if ($user->hasRole('user')):
+                                // Create a new Score, which is also the pivot table
                                 $scoreRow = new Score;
                                 $scoreRow->game_table_id = $gameTable->id;
                                 $scoreRow->round_id = $round->id;
@@ -481,8 +594,10 @@ class TableArrangementController extends Controller
 
                                 $i++;
 
+                                // Remove the just assigned player from the array of players
                                 unset($players[$key]);
 
+                                // If a table has been assigned to 4 players, stop the loop
                                 if ($i == 4)
                                     break;
                             endif;
@@ -495,20 +610,28 @@ class TableArrangementController extends Controller
 
         // Modulo 3
         elseif ($modulo == 3):
+            // Calculate the number of tables
             $numOfTables = (($playersCount - 3) / 4) + 1;
+            // Set the number for the table name
             $tableNum = 1;
 
+            // Loop while there are still tables to arrange
             while ($numOfTables != 0) {
                 $gameTable = new GameTable;
                 $gameTable->name = "Tafel " . $tableNum;
                 $gameTable->save();
 
+                // Check if there is 1 table left, so these will be assigned with 3 players on the table
                 if ($numOfTables < 2 && $numOfTables > 0):
+                    // Set a counter for the number of players on the table
                     $j = 0;
+
+                    // For modulo 1 3 tables will have 3 players
                     while ($j != 3) {
                         foreach ($players as $key => $player) {
                             $user = User::find($player->user_id);
                             if ($user->hasRole('user')):
+                                // Create a new Score, which is also the pivot table
                                 $scoreRow = new Score;
                                 $scoreRow->game_table_id = $gameTable->id;
                                 $scoreRow->round_id = $round->id;
@@ -517,23 +640,29 @@ class TableArrangementController extends Controller
 
                                 $j++;
 
+                                // Remove the just assigned player from the array of players
                                 unset($players[$key]);
 
+                                // If a table has been assigned to 3 players, stop the loop
                                 if ($j == 3)
                                     break;
                             endif;
                         }
                     }
                     $tableNum++;
+                // If there are no tables left to assign, stop the loop
                 elseif ($numOfTables == 0):
                     break;
                 else:
+                    // Set a counter for the number of players on the table
                     $i = 0;
 
+                    // The other tables will have 4 players
                     while ($i != 4) {
                         foreach ($players as $key => $player) {
                             $user = User::find($player->user_id);
                             if ($user->hasRole('user')):
+                                // Create a new Score, which is also the pivot table
                                 $scoreRow = new Score;
                                 $scoreRow->game_table_id = $gameTable->id;
                                 $scoreRow->round_id = $round->id;
@@ -542,8 +671,10 @@ class TableArrangementController extends Controller
 
                                 $i++;
 
+                                // Remove the just assigned player from the array of players
                                 unset($players[$key]);
 
+                                // If a table has been assigned to 4 players, stop the loop
                                 if ($i == 4)
                                     break;
                             endif;

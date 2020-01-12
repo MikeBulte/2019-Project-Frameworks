@@ -1,22 +1,23 @@
-@extends('layouts.app')
+@extends('layouts.userpanel')
 
 @include('includes._error')
 
 @section('content')
-    <div class="container">
-        <div class="row">
-            <h2>Valideren</h2>
-        </div>
-        <div id="" class="container">
-            <div class="row text-center">
+    <div class="container userdashboard">
+        <div class="userdashboard-inner userdashboard-inner-height">
+            <div class="row verify-title title-margin mt-5">
+                <div class="col-12">
+                    <h2>Valideren</h2>
+                </div>
+            </div>
+            <div class="row block-verify text-center">
                 <table class="table table-hover">
                     <thead>
-
-                    <tr>
-                        <th scope="col">Ronde</th>
-                        <th scope="col">Score</th>
-                        <th scope="col">Validatie</th>
-                    </tr>
+                        <tr>
+                            <th scope="col">Ronde</th>
+                            <th scope="col">Score</th>
+                            <th scope="col">Validatie</th>
+                        </tr>
                     </thead>
                     <tbody>
                     @foreach($scores as $score)
@@ -30,10 +31,11 @@
                                     <input type="hidden" value="{{ $score->id }}" name="score_id">
                                     <input type="hidden" value="1" name="validation">
                                     @if($score->validated)
-                                        <input title="Score is gevalideerd" class="btn btn-success" type="submit"
-                                               value="Valideer" disabled>
+                                        <input title="Score is gevalideerd" class="btn btn-success" type="submit" value="Valideer" disabled>
                                     @else
-                                        <input type="submit" class="btn btn-danger" value="Valideer">
+                                        <button class="prim-btn">
+                                            <input type="submit" value="Valideer">
+                                        </button>
                                     @endif
                                 </form>
                             </td>
@@ -44,6 +46,5 @@
             </div>
         </div>
     </div>
-
 @endsection
 
