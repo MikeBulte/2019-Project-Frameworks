@@ -9,7 +9,7 @@ class ScoreController extends Controller
 {
     public function index()
     {
-        $scores = Score::paginate(20);
+        $scores = Score::paginate(500);
         $combinedScores = $this->getCombinedScores($scores);
 
 //        Correct way below, using old method until more time is available to redo the entire function

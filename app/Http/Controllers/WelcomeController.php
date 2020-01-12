@@ -13,7 +13,7 @@ class WelcomeController extends Controller
         //splits $newsfeed in 3 different variables
         list($first, $second, $third) = $newsfeeds;
 
-        $scores = Score::paginate(5);
+        $scores = Score::paginate(500);
         $combinedScores = $this->getCombinedScores($scores);
 
         return view('pages.welcome', compact('first', 'second', 'third', 'combinedScores'));

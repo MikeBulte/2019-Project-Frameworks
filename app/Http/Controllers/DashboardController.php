@@ -36,7 +36,7 @@ class DashboardController extends Controller
         $judges = config('roles.models.role')::where('slug', 'jury')->first()->users;
         $admins = config('roles.models.role')::where('slug', 'admin')->first()->users;
 
-        $scores = Score::paginate(5);
+        $scores = Score::paginate(500);
         $combinedScores = $this->getCombinedScores($scores);
 
         return view('dashboard.dashboard', compact('players', 'judges', 'admins', 'combinedScores'));

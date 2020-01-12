@@ -117,10 +117,14 @@
                                 {{--                    @foreach($scores as $score)--}}
                                 <tr>
                                     {{--                        <td>{{ $score->where('user_id', 1)->sum('amount') }}</td>--}}
+
                                     <th scope="row">{{ $pos++ }}</th>
                                     <th scope="row">{{ $score['first_name'] }} {{ $score['prefix'] }} {{ $score['last_name'] }}</th>
                                     <td>{{ $score['amount'] }}</td>
                                     <td>{{ $score['rounds'] }} {{ ($score['rounds'] > 1 ? 'Rondes' : 'Ronde') }}</td>
+                                    @if($loop->iteration == 5)
+                                        @break
+                                    @endif
                                 </tr>
                             @endforeach
                             </tbody>

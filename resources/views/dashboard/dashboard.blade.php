@@ -72,6 +72,9 @@
                                 <td>{{ $score['amount'] }}</td>
                                 <td>{{ $score['rounds'] }} {{ ($score['rounds'] > 1 ? 'Rondes' : 'Ronde') }}</td>
                             </tr>
+                            @if($loop->iteration == 5)
+                                @break
+                            @endif
                         @endforeach
                     </tbody>
                 </table>
