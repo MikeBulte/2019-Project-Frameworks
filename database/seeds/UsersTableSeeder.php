@@ -24,7 +24,7 @@ class UsersTableSeeder extends Seeder
             $newUser = config('roles.models.defaultUser')::create([
                 'first_name'     => 'Carcassonne',
                 'last_name'     => '999games',
-                'email'    => 'carcassonne@999games.com',
+                'email'    => 'carcassonne@999games.nl',
                 'password' => Hash::make('20Bordspel20')
             ]);
 
