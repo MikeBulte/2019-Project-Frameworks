@@ -690,21 +690,31 @@ html .title-margin {
   margin: 0 25px 0 0;
 }
 
+.content-home .rules-block:hover {
+  box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.3);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
 .content-home .rules-block:first-child {
   margin-right: 25px;
   padding: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .content-home .rules-block:last-child {
   margin-left: 25px;
   padding: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 /*---- News Feed ----*/
 
 .news-feed {
   margin-top: 70px;
-  margin-bottom: 33px;
+  margin-bottom: 70px;
 }
 
 .news-feed .paper:last-child {
