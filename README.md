@@ -18,6 +18,12 @@
     Factory Users: ShowcaseAcc2020 <br>
 </p>
 
+<p style="color: red;">
+    Vanwege een probleem met de permissions konden wij geen seeder voor de timer maken. Door: <br><br>
+    INSERT INTO `countdowns`(`id`, `seconds`) VALUES (1, 2700) <br><br>
+    te inserten in de database, werkt het dashboard.
+</p>
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
