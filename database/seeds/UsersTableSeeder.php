@@ -20,7 +20,7 @@ class UsersTableSeeder extends Seeder
          * Add Users
          *
          */
-        if (config('roles.models.defaultUser')::where('email', '=', 'carcassonne@999games.com')->first() === null) {
+        if (config('roles.models.defaultUser')::where('email', '=', 'carcassonne@999games.nl')->first() === null) {
             $newUser = config('roles.models.defaultUser')::create([
                 'first_name'     => 'Carcassonne',
                 'last_name'     => '999games',

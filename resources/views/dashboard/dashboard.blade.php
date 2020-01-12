@@ -54,19 +54,21 @@
                     <tr>
                         <th scope="col">Positie</th>
                         <th scope="col">Voornaam</th>
-                        <th scope="col">Achternaam</th>
                         <th scope="col">Aantal punten</th>
                         <th scope="col">Aantal rondes</th>
                     </tr>
                     </thead>
                     <tbody>
-                        @foreach ($players->slice(0, 5) as $player)
+                        {{--            Replace with $s->where('user_id', 1)->sum('amount')    --}}
+                        <?php $pos = 1 ?>
+                        @foreach($combinedScores as $score)
+                            {{--                    @foreach($scores as $score)--}}
                             <tr>
-                                <td scope="row">1</td>
-                                <td>{{ $player->first_name }}</td>
-                                <td>{{ $player->last_name }}</td>
-                                <td>50 punten</td>
-                                <td>4 rondes</td>
+                                {{--                        <td>{{ $score->where('user_id', 1)->sum('amount') }}</td>--}}
+                                <th scope="row">{{ $pos++ }}</th>
+                                <th scope="row">{{ $score['first_name'] }} {{ $score['prefix'] }} {{ $score['last_name'] }}</th>
+                                <td>{{ $score['amount'] }}</td>
+                                <td>{{ $score['rounds'] }} {{ ($score['rounds'] > 1 ? 'Rondes' : 'Ronde') }}</td>
                             </tr>
                         @endforeach
                     </tbody>
