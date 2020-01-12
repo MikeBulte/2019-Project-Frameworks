@@ -199,10 +199,13 @@
                     margin-bottom: 20px;
                 }
 
-                .scores-bg.col {
+                .scores-bg.col-6 {
                     padding: 0;
-                    width: 33%;
+                    width: 45%;
                     display: inline-block;
+                    height: 300px;
+                    border-right: solid #195690 2px;
+                    border-left: solid #195690 2px;
 
                     .col-4, .col-8 {
                         padding: 0;

@@ -15,12 +15,12 @@
                             </h5>
                         </div>
                         <div id="collapse{{ $keyR }}" class="collapse" role="tabpanel" aria-labelledby="heading{{ $keyR }}">
-                            <div class="card-body">
+                            <div class="card-body d-flex flex-wrap">
                                 @php($idArray = [])
                                 @foreach($round->game_tables as $keyT => $table)
                                     @if($table->users->first()->pivot->round_id == $round->id)
                                         @if(!$table->id == in_array($table->id, $idArray))
-                                            <div class="scores-bg col">
+                                            <div class="scores-bg col-6 p-3">
                                                 <div class="col">
                                                     <h3>{{ $table->name }}</h3>
                                                 </div>
