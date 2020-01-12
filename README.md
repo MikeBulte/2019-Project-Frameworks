@@ -18,6 +18,9 @@
     Factory Users: ShowcaseAcc2020 <br>
 </p>
 
+<p>Prefix timer: resources/js/countdownTimer.js, line:50 <br>
+Prefix bg-images: resources/sas/_variables.scss, line:22</p><br>
+
 <p style="color: red;">
     Vanwege een probleem met de permissions konden wij geen seeder voor de timer maken. Door: <br><br>
     INSERT INTO `countdowns`(`id`, `seconds`) VALUES (1, 2700) <br><br>
