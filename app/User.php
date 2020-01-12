@@ -46,7 +46,7 @@ class User extends Authenticatable
 
     public function rounds()
     {
-        return $this->belongsToMany(User::class, 'scores', 'user_id', 'round_id');
+        return $this->belongsToMany(User::class, 'scores', 'round_id', 'user_id');
     }
 
     public function game_tables()

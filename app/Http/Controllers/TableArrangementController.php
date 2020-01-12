@@ -326,8 +326,10 @@ class TableArrangementController extends Controller
      */
     public function arrangeRound(Round $round)
     {
-        $players = Score::where('round_id', 1)->orderBy('weight', 'desc')->get();
-        //dd($players);
+        if ($round->id != 1)
+            $players = Score::where('round_id', ($round->id - 1))->orderBy('weight', 'desc')->get();
+        else
+            $players = Score::where('round_id', 1)->orderBy('weight', 'desc')->get();
 
         $playersCount = count($players);
         $modulo = $playersCount % 4;

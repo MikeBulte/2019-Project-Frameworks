@@ -56,6 +56,7 @@ Route::get('/newsfeed', 'NewsfeedController@index')->name('newsfeed');
 Route::resource('usersdashboard', 'UserController');
 Route::get('/verify', 'UserController@verify')->name('verify');
 Route::put('/verify_score', 'UserController@verifyScore')->name('verify_score');
+Route::get('/gameSchedule', 'UserController@gameSchedule')->name('gameSchedule');
 
 Route::resource('privileges', 'PrivilegesController');
 
