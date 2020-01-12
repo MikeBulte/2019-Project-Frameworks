@@ -52,12 +52,12 @@
             </div>
         </div>
         <div class="row justify-content-between home-rules">
-            <div class="col-lg bg-rules-1 rules-block">
-                <a href="#" class="text-decoration-none"><h4 class="text-center font-weight-semibold">Bekijk de toernooiregels</h4></a>
-            </div>
-            <div class="col-lg bg-rules-2 rules-block">
-                <a href="#" class="text-decoration-none"><h4 class="text-center font-weight-semibold">Bekijk de spelregels</h4></a>
-            </div>
+            <a href="{{ url('nk-rules') }}" class="text-decoration-none col-lg rules-block bg-rules-1">
+                    <h4 class="text-center font-weight-semibold">Bekijk de toernooiregels</h4>
+            </a>
+            <a href="{{ url('gamerules') }}" class="text-decoration-none col-lg rules-block bg-rules-2">
+                    <h4 class="text-center font-weight-semibold">Bekijk de spelregels</h4>
+            </a>
         </div>
     </div>
     @include('includes.c2a')
