@@ -43,7 +43,9 @@
             <div class="d-flex row align-items-center">
                 <h2 class="quickadd-title col">Een deelnemer toevoegen</h2>
                 <div class="col d-flex justify-content-end">
-                    <button class="quickadd-button scnd-btn"><a href="{{ url('players') }}">Deelnemer toevoegen</a></button>
+                    <a class="a-btn" href="{{ url('players') }}">
+                        <button class="quickadd-button scnd-btn">Deelnemer toevoegen</button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -73,7 +75,7 @@
                         @endforeach
                     </tbody>
                 </table>
-                <a class="viewleaderboard-dashboard" href="">Bekijk de gehele ranglijst ></a>
+                <a class="viewleaderboard-dashboard" href="{{ url('gameSchedule') }}">Bekijk de gehele ranglijst ></a>
             </div>
         </div>
     </div>
