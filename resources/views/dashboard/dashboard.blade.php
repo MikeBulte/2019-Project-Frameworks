@@ -9,7 +9,7 @@
                 <div class="col d-flex align-items-center" id="inputArea">
                     <form class="d-flex" method="post" action="">
                     <input  placeholder="Voer ronde tijd in" id="minutes" type="text" min="0" max="1000">
-                        <input id="seconds"  value="{{ $timer->seconds }} " type="hidden" min="0" max="1000">
+                        <input id="seconds"  type="hidden" min="0" max="1000">
                     <p class="margin"><strong>Minuten</strong></p>
                     <button type="button" class="prim-btn" id="js-startcounter" onclick="startButton()">Start ronde</button>
                     </form>
