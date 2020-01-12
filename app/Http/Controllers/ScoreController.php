@@ -17,7 +17,7 @@ class ScoreController extends Controller
 //        $scores = Score::orderBy('amount', 'desc')->get();
 //        return view('pages.leaderboard', compact('scores'));
 
-        return view('pages.leaderboard', compact('combinedScores'));
+        return view('usersDashboard.leaderboard', compact('combinedScores'));
 
     }
 

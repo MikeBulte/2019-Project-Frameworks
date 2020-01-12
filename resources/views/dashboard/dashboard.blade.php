@@ -9,7 +9,7 @@
                 <div class="col d-flex align-items-center" id="inputArea">
                     <form class="d-flex" method="post" action="">
                     <input  placeholder="Voer ronde tijd in" id="minutes" type="text" min="0" max="1000">
-                        <input id="seconds"  type="hidden" min="0" max="1000">
+                        <input id="seconds" value="{{ $timer->seconds }}" type="hidden" min="0" max="1000">
                     <p class="margin"><strong>Minuten</strong></p>
                     <button type="button" class="prim-btn" id="js-startcounter" onclick="startButton()">Start ronde</button>
                     </form>
@@ -55,19 +55,21 @@
                     <tr>
                         <th scope="col">Positie</th>
                         <th scope="col">Voornaam</th>
-                        <th scope="col">Achternaam</th>
                         <th scope="col">Aantal punten</th>
                         <th scope="col">Aantal rondes</th>
                     </tr>
                     </thead>
                     <tbody>
-                        @foreach ($players->slice(0, 5) as $player)
+                        {{--            Replace with $s->where('user_id', 1)->sum('amount')    --}}
+                        <?php $pos = 1 ?>
+                        @foreach($combinedScores as $score)
+                            {{--                    @foreach($scores as $score)--}}
                             <tr>
-                                <td scope="row">1</td>
-                                <td>{{ $player->first_name }}</td>
-                                <td>{{ $player->last_name }}</td>
-                                <td>50 punten</td>
-                                <td>4 rondes</td>
+                                {{--                        <td>{{ $score->where('user_id', 1)->sum('amount') }}</td>--}}
+                                <th scope="row">{{ $pos++ }}</th>
+                                <th scope="row">{{ $score['first_name'] }} {{ $score['prefix'] }} {{ $score['last_name'] }}</th>
+                                <td>{{ $score['amount'] }}</td>
+                                <td>{{ $score['rounds'] }} {{ ($score['rounds'] > 1 ? 'Rondes' : 'Ronde') }}</td>
                             </tr>
                         @endforeach
                     </tbody>

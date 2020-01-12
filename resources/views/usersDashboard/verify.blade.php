@@ -11,7 +11,7 @@
                 </div>
             </div>
             <div class="row block-verify text-center">
-                <table class="table table-hover">
+                <table class="table m-5 table-hover">
                     <thead>
                         <tr>
                             <th scope="col">Ronde</th>
@@ -31,7 +31,7 @@
                                     <input type="hidden" value="{{ $score->id }}" name="score_id">
                                     <input type="hidden" value="1" name="validation">
                                     @if($score->validated)
-                                        <input title="Score is gevalideerd" class="btn btn-success" type="submit" value="Valideer" disabled>
+                                        <input title="Score is gevalideerd" class="disable-btn" type="submit" value="Valideer" disabled>
                                     @else
                                         <button class="prim-btn">
                                             <input type="submit" value="Valideer">
