@@ -7,10 +7,13 @@ use App\Round;
 use App\Score;
 use App\User;
 use Exception;
+use Illuminate\Contracts\View\Factory;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\View\View;
 
 class UserController extends Controller
 {
@@ -119,33 +122,43 @@ class UserController extends Controller
         return redirect()->route('root');
     }
 
+    /**
+     * Show the view to verify the achieved scores
+     * @return Factory|View
+     */
     public function verify()
     {
         $user = Auth::user();
 
-        // $round_name = ;
-        // $round_number = ;
         $scores = Score::where('user_id', $user->id)->get();
 
-        //dd($score);
         return view('usersDashboard.verify', compact('scores'));
     }
 
+    /**
+     * Verify the score foreach round played by the player himself
+     *
+     * @param Request $request
+     * @return RedirectResponse
+     */
     public function verifyScore(Request $request)
     {
-        //dd($request->score_id);
         $score = Score::find($request->score_id);
-        //dd($score);
+
         $score->validated = $request->validation;
         $score->save();
 
         return redirect()->back();
     }
 
+    /**
+     * Show the view with the personal game schedule
+     *
+     * @return Factory|View
+     */
     public function gameSchedule()
     {
         $user = User::find(Auth::id());
-        //dd($user->game_tables);
 
         return view('usersDashboard.schedule', compact('user'));
     }
