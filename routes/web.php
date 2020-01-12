@@ -35,6 +35,7 @@ Route::resource('contact', 'ContactController');
 Route::resource('nk-rules', 'NkRulesController');
 Route::resource('gamerules', 'GameRulesController');
 
+
 // UserDashboard routes
 Route::resource('usersdashboard', 'UserController');
 Route::get('/verify', 'UserController@verify')->name('verify');
@@ -54,6 +55,10 @@ Route::resource('players', 'PlayersController');
 Route::resource('judges', 'JudgesController');
 Route::resource('privileges', 'PrivilegesController');
 Route::resource('checkin', 'CheckInController');
+
+// News/Blog Routes
+Route::resource('nieuwsfeed', 'NewNewsfeedController');
+Route::get('/newsfeed', 'NewsfeedController@index')->name('newsfeed');
 
 // Table arrangement Routes
 Route::resource('tablearrangement', 'TableArrangementController');
