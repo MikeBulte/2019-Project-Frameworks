@@ -104,47 +104,29 @@
                         <table class="table table-hover mx-5">
                             <thead>
                             <tr>
+                                <th scope="col">Positie</th>
                                 <th scope="col">Spelernaam</th>
                                 <th scope="col">Aantal Punten</th>
                                 <th scope="col">Aantal Gespeelde Rondes</th>
                             </tr>
                             </thead>
                             <tbody>
-                            <tr>
-                                <th scope="row">Berry Rotunda</th>
-                                <td>50 Punten</td>
-                                <td>4 Rondes</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Berry Rotunda</th>
-                                <td>50 Punten</td>
-                                <td>4 Rondes</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Berry Rotunda</th>
-                                <td>50 Punten</td>
-                                <td>4 Rondes</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Berry Rotunda</th>
-                                <td>50 Punten</td>
-                                <td>4 Rondes</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Berry Rotunda</th>
-                                <td>50 Punten</td>
-                                <td>4 Rondes</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Berry Rotunda</th>
-                                <td>50 Punten</td>
-                                <td>4 Rondes</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Berry Rotunda</th>
-                                <td>50 Punten</td>
-                                <td>4 Rondes</td>
-                            </tr>
+                            {{--            Replace with $s->where('user_id', 1)->sum('amount')    --}}
+                            <?php $pos = 1 ?>
+                            @foreach($combinedScores as $score)
+                                {{--                    @foreach($scores as $score)--}}
+                                <tr>
+                                    {{--                        <td>{{ $score->where('user_id', 1)->sum('amount') }}</td>--}}
+
+                                    <th scope="row">{{ $pos++ }}</th>
+                                    <th scope="row">{{ $score['first_name'] }} {{ $score['prefix'] }} {{ $score['last_name'] }}</th>
+                                    <td>{{ $score['amount'] }}</td>
+                                    <td>{{ $score['rounds'] }} {{ ($score['rounds'] > 1 ? 'Rondes' : 'Ronde') }}</td>
+                                    @if($loop->iteration == 5)
+                                        @break
+                                    @endif
+                                </tr>
+                            @endforeach
                             </tbody>
                         </table>
                     </div>

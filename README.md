@@ -4,6 +4,13 @@
 <p>
     Deze app is gemaakt voor 999 games met laravel 6.x
 </p>
+
+<p>
+    Emails <br>
+    Admin: carcassonne@999games.nl <br>
+    Stephan: Steph1290 <br>
+</p>
+
 <p>
     Wachtwoorden <br>
     Admin: 20Bordspel20 <br>
@@ -19,3 +26,5 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
+
+<p>Copyright © Codesign 2019</p>

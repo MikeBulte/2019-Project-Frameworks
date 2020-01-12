@@ -997,18 +997,21 @@ html .title-margin {
   margin-bottom: 20px;
 }
 
-#app .dashboard .dashboard-inner .scores-invoeren .scores-bg.col {
+#app .dashboard .dashboard-inner .scores-invoeren .scores-bg.col-6 {
   padding: 0;
-  width: 33%;
+  width: 45%;
   display: inline-block;
+  height: 300px;
+  border-right: solid #195690 2px;
+  border-left: solid #195690 2px;
 }
 
-#app .dashboard .dashboard-inner .scores-invoeren .scores-bg.col .col-4,
-#app .dashboard .dashboard-inner .scores-invoeren .scores-bg.col .col-8 {
+#app .dashboard .dashboard-inner .scores-invoeren .scores-bg.col-6 .col-4,
+#app .dashboard .dashboard-inner .scores-invoeren .scores-bg.col-6 .col-8 {
   padding: 0;
 }
 
-#app .dashboard .dashboard-inner .scores-invoeren .scores-bg.col input {
+#app .dashboard .dashboard-inner .scores-invoeren .scores-bg.col-6 input {
   width: 30%;
 }
 

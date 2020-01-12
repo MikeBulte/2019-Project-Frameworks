@@ -3,10 +3,14 @@
 @include('includes._error')
 
 @section('content')
-    <div class="container">
-        <div class="dashboard-inner">
-            <div class="height-inner">
-                <h1>Persoonlijk Spelschema</h1>
+    <div class="container userdashboard">
+        <div class="userdashboard-inner userdashboard-inner-height">
+            <div class="row verify-title title-margin mt-5">
+                <div class="col-12">
+                    <h1>Jouw spelschema</h1>
+                </div>
+            </div>
+            <div>
                 @foreach($user->game_tables as $game_table)
                     <div id="accordion" role="tablist">
                         <div class="card voorronde">
@@ -57,6 +61,7 @@
                         </div>
                     </div>
                 @endforeach
+            </div>
             </div>
         </div>
     </div>

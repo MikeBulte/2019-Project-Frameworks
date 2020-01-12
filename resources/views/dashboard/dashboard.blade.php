@@ -44,7 +44,9 @@
             <div class="d-flex row align-items-center">
                 <h2 class="quickadd-title col">Een deelnemer toevoegen</h2>
                 <div class="col d-flex justify-content-end">
-                    <button class="quickadd-button scnd-btn"><a href="{{ url('players') }}">Deelnemer toevoegen</a></button>
+                    <a class="a-btn" href="{{ url('players') }}">
+                        <button class="quickadd-button scnd-btn">Deelnemer toevoegen</button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -71,6 +73,9 @@
                                 <td>{{ $score['amount'] }}</td>
                                 <td>{{ $score['rounds'] }} {{ ($score['rounds'] > 1 ? 'Rondes' : 'Ronde') }}</td>
                             </tr>
+                            @if($loop->iteration == 5)
+                                @break
+                            @endif
                         @endforeach
                     </tbody>
                 </table>

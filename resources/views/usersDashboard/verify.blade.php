@@ -7,7 +7,7 @@
         <div class="userdashboard-inner userdashboard-inner-height">
             <div class="row verify-title title-margin mt-5">
                 <div class="col-12">
-                    <h2>Valideren</h2>
+                    <h1>Valideren</h1>
                 </div>
             </div>
             <div class="row block-verify text-center">
