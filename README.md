@@ -1,8 +1,8 @@
 # Nk Carcassonne app
-## Gemaakt voor 999 games
+## Gemaakt voor 999 Games
 
 <p>
-    Deze app is gemaakt voor 999 games met laravel 6.x
+    Deze app is gemaakt voor 999 Games met laravel 6.x
 </p>
 
 <p>
@@ -22,7 +22,7 @@
 Prefix bg-images: resources/sas/_variables.scss, line:22</p><br>
 
 <p style="color: red;">
-    Vanwege een probleem met de permissions konden wij geen seeder voor de timer maken. Door: <br><br>
+    Vanwege een probleem met de database permissions is er geen seeder voor de timer maken. Door: <br><br>
     INSERT INTO `countdowns`(`id`, `seconds`) VALUES (1, 2700) <br><br>
     te inserten in de database, werkt het dashboard.
 </p>
@@ -37,3 +37,4 @@ Prefix bg-images: resources/sas/_variables.scss, line:22</p><br>
 </p>
 
 <p>Copyright © Codesign 2019</p>
+<p>Annemarieke van Veen, Jasper Agelink, Menno Vreman, Mike Bulte</p>
